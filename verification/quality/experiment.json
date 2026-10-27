@@ -1,0 +1,43 @@
+{
+  "stage": "experiment",
+  "backend": "software WebGL2",
+  "cases": {
+    "character": {
+      "time": 0,
+      "skill": 2,
+      "fps": 2,
+      "drawCalls": 128,
+      "renderer": "WebGL2",
+      "software": true,
+      "errors": []
+    },
+    "skill1": {
+      "time": 2.45,
+      "skill": 1,
+      "fps": 2,
+      "drawCalls": 202,
+      "renderer": "WebGL2",
+      "software": true,
+      "errors": []
+    },
+    "skill2": {
+      "time": 3.8,
+      "skill": 2,
+      "fps": 2,
+      "drawCalls": 236,
+      "renderer": "WebGL2",
+      "software": true,
+      "errors": []
+    },
+    "skill3": {
+      "time": 3,
+      "skill": 3,
+      "fps": 2,
+      "drawCalls": 198,
+      "renderer": "WebGL2",
+      "software": true,
+      "errors": []
+    }
+  },
+  "errors": []
+}

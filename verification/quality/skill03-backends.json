@@ -1,0 +1,42 @@
+{
+  "webgpu": {
+    "ready": true,
+    "renderer": "WebGPU",
+    "software": true,
+    "bloom": false,
+    "bloomError": "",
+    "fps": 1,
+    "drawCalls": 138,
+    "errors": []
+  },
+  "webgpu_bloom": {
+    "ready": true,
+    "renderer": "WebGPU",
+    "software": true,
+    "bloom": true,
+    "bloomError": "",
+    "fps": 1,
+    "drawCalls": 150,
+    "errors": []
+  },
+  "webgl_bloom": {
+    "ready": true,
+    "renderer": "WebGL2",
+    "software": true,
+    "bloom": true,
+    "bloomError": "",
+    "fps": 1,
+    "drawCalls": 150,
+    "errors": []
+  },
+  "webgl_auto": {
+    "ready": true,
+    "renderer": "WebGL2",
+    "software": true,
+    "bloom": false,
+    "bloomError": "",
+    "fps": 2,
+    "drawCalls": 138,
+    "errors": []
+  }
+}

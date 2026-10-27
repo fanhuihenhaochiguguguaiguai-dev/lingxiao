@@ -1,0 +1,432 @@
+{
+  "status": "PASS_STRUCTURAL_METADATA_ONLY",
+  "lods": [
+    {
+      "lod": 0,
+      "meshes": 57,
+      "skins": 1,
+      "animations": [
+        "idle",
+        "turn_left",
+        "turn_right",
+        "walk"
+      ],
+      "materials": [
+        {
+          "name": "墨黑衣甲",
+          "metallic": 0.11999999731779099,
+          "roughness": 0.4000000059604645,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "蓝玉",
+          "metallic": 0.44999998807907104,
+          "roughness": 0.2199999988079071,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "暖金雕饰",
+          "metallic": 0.8299999833106995,
+          "roughness": 0.2800000011920929,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "Eye porcelain",
+          "metallic": 0,
+          "roughness": 0.5,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "Iris edge",
+          "metallic": 0,
+          "roughness": 0.25999999046325684,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "Eye reflections",
+          "metallic": 0,
+          "roughness": 0.11999999731779099,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "Lid edge",
+          "metallic": 0,
+          "roughness": 0.47999998927116394,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "hair deep",
+          "metallic": 0.029999999329447746,
+          "roughness": 0.3799999952316284,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "hair dark brown",
+          "metallic": 0.029999999329447746,
+          "roughness": 0.3799999952316284,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "hair blue-black",
+          "metallic": 0.029999999329447746,
+          "roughness": 0.3799999952316284,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "Iris blue-gray",
+          "metallic": 0,
+          "roughness": 0.5,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "Skin PBR study",
+          "metallic": 0,
+          "roughness": 0.4699999988079071,
+          "base_color_texture": true,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "PoXiao_Face_Fabric_PBR_v082",
+          "metallic": 1,
+          "roughness": 1,
+          "base_color_texture": true,
+          "metal_roughness_texture": true,
+          "normal_texture": true
+        },
+        {
+          "name": "云白丝绸",
+          "metallic": 0,
+          "roughness": 0.4300000071525574,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "Pupil",
+          "metallic": 0,
+          "roughness": 0.5,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "深蓝丝绸",
+          "metallic": 0,
+          "roughness": 0.46000000834465027,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        }
+      ],
+      "texture_count": 4
+    },
+    {
+      "lod": 1,
+      "meshes": 57,
+      "skins": 1,
+      "animations": [
+        "idle",
+        "turn_left",
+        "turn_right",
+        "walk"
+      ],
+      "materials": [
+        {
+          "name": "墨黑衣甲",
+          "metallic": 0.11999999731779099,
+          "roughness": 0.4000000059604645,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "蓝玉",
+          "metallic": 0.44999998807907104,
+          "roughness": 0.2199999988079071,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "暖金雕饰",
+          "metallic": 0.8299999833106995,
+          "roughness": 0.2800000011920929,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "Eye porcelain",
+          "metallic": 0,
+          "roughness": 0.5,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "Iris edge",
+          "metallic": 0,
+          "roughness": 0.25999999046325684,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "Eye reflections",
+          "metallic": 0,
+          "roughness": 0.11999999731779099,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "Lid edge",
+          "metallic": 0,
+          "roughness": 0.47999998927116394,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "hair deep",
+          "metallic": 0.029999999329447746,
+          "roughness": 0.3799999952316284,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "hair dark brown",
+          "metallic": 0.029999999329447746,
+          "roughness": 0.3799999952316284,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "hair blue-black",
+          "metallic": 0.029999999329447746,
+          "roughness": 0.3799999952316284,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "Iris blue-gray",
+          "metallic": 0,
+          "roughness": 0.5,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "Skin PBR study",
+          "metallic": 0,
+          "roughness": 0.4699999988079071,
+          "base_color_texture": true,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "PoXiao_Face_Fabric_PBR_v082",
+          "metallic": 1,
+          "roughness": 1,
+          "base_color_texture": true,
+          "metal_roughness_texture": true,
+          "normal_texture": true
+        },
+        {
+          "name": "云白丝绸",
+          "metallic": 0,
+          "roughness": 0.4300000071525574,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "Pupil",
+          "metallic": 0,
+          "roughness": 0.5,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "深蓝丝绸",
+          "metallic": 0,
+          "roughness": 0.46000000834465027,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        }
+      ],
+      "texture_count": 4
+    },
+    {
+      "lod": 2,
+      "meshes": 57,
+      "skins": 1,
+      "animations": [
+        "idle",
+        "turn_left",
+        "turn_right",
+        "walk"
+      ],
+      "materials": [
+        {
+          "name": "墨黑衣甲",
+          "metallic": 0.11999999731779099,
+          "roughness": 0.4000000059604645,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "蓝玉",
+          "metallic": 0.44999998807907104,
+          "roughness": 0.2199999988079071,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "暖金雕饰",
+          "metallic": 0.8299999833106995,
+          "roughness": 0.2800000011920929,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "Eye porcelain",
+          "metallic": 0,
+          "roughness": 0.5,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "Iris edge",
+          "metallic": 0,
+          "roughness": 0.25999999046325684,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "Eye reflections",
+          "metallic": 0,
+          "roughness": 0.11999999731779099,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "Lid edge",
+          "metallic": 0,
+          "roughness": 0.47999998927116394,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "hair deep",
+          "metallic": 0.029999999329447746,
+          "roughness": 0.3799999952316284,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "hair dark brown",
+          "metallic": 0.029999999329447746,
+          "roughness": 0.3799999952316284,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "hair blue-black",
+          "metallic": 0.029999999329447746,
+          "roughness": 0.3799999952316284,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "Iris blue-gray",
+          "metallic": 0,
+          "roughness": 0.5,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "Skin PBR study",
+          "metallic": 0,
+          "roughness": 0.4699999988079071,
+          "base_color_texture": true,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "PoXiao_Face_Fabric_PBR_v082",
+          "metallic": 1,
+          "roughness": 1,
+          "base_color_texture": true,
+          "metal_roughness_texture": true,
+          "normal_texture": true
+        },
+        {
+          "name": "云白丝绸",
+          "metallic": 0,
+          "roughness": 0.4300000071525574,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "Pupil",
+          "metallic": 0,
+          "roughness": 0.5,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        },
+        {
+          "name": "深蓝丝绸",
+          "metallic": 0,
+          "roughness": 0.46000000834465027,
+          "base_color_texture": false,
+          "metal_roughness_texture": false,
+          "normal_texture": false
+        }
+      ],
+      "texture_count": 4
+    }
+  ],
+  "note": "Valid references do not prove texture appearance, deformation quality or artistic acceptance."
+}

@@ -1,4 +1,5 @@
 import * as THREE from 'three/webgpu';
+import { EnergyRibbons } from './energy-ribbons';
 import { color, mix, positionLocal, sin, uniform } from 'three/tsl';
 
 const V = THREE.Vector3;
@@ -23,7 +24,7 @@ function path(t:number):THREE.Vector3 {
 }
 export class DragonEffect {
  readonly group=new THREE.Group(); readonly head=new THREE.Group();
- private readonly body:THREE.Mesh; private readonly positions:THREE.BufferAttribute;
+ private readonly body:THREE.Mesh; private readonly positions:THREE.BufferAttribute; private readonly ribbons=new EnergyRibbons({color:0x77ccff,opacity:.18,width:.055,count:4});
  private readonly rings:THREE.Mesh[]=[]; private readonly shards:THREE.InstancedMesh; private readonly scales:THREE.InstancedMesh;
  private readonly dummy=new THREE.Object3D(); private readonly segmentCount=64; private readonly sides=10;
  private readonly tmp=new V(); private readonly axis=new V(1,0,0); private readonly dir=new V(); private readonly quat=new THREE.Quaternion();
@@ -32,7 +33,7 @@ export class DragonEffect {
   this.group.name='3D Dragon skill';scene.add(this.group);
   const positions=new Float32Array((this.segmentCount+1)*(this.sides+1)*3),idx:number[]=[];
   for(let i=0;i<this.segmentCount;i++)for(let j=0;j<this.sides;j++){const a=i*(this.sides+1)+j,b=a+this.sides+1;idx.push(a,b,a+1,b,b+1,a+1)}
-  const geo=new THREE.BufferGeometry();this.positions=new THREE.BufferAttribute(positions,3);this.positions.setUsage(THREE.DynamicDrawUsage);geo.setAttribute('position',this.positions);geo.setIndex(idx);geo.computeVertexNormals();this.body=new THREE.Mesh(geo,bodyMaterial);this.body.frustumCulled=false;this.group.add(this.body);
+  const geo=new THREE.BufferGeometry();this.positions=new THREE.BufferAttribute(positions,3);this.positions.setUsage(THREE.DynamicDrawUsage);geo.setAttribute('position',this.positions);geo.setIndex(idx);geo.computeVertexNormals();this.body=new THREE.Mesh(geo,bodyMaterial);this.body.frustumCulled=false;this.group.add(this.body);this.body.add(this.ribbons.mesh);
   this.makeHead();this.group.add(this.head);
   const scaleGeo=new THREE.OctahedronGeometry(.065,0);this.scales=new THREE.InstancedMesh(scaleGeo,core,72);this.scales.frustumCulled=false;this.group.add(this.scales);
   const shardGeo=new THREE.OctahedronGeometry(.045,0);this.shards=new THREE.InstancedMesh(shardGeo,luminous,160);this.shards.frustumCulled=false;this.group.add(this.shards);
@@ -70,7 +71,7 @@ export class DragonEffect {
    const radius=(.20*(1-u)+.016)*(.85+.15*Math.sin(t*9-u*12));
    for(let j=0;j<=this.sides;j++){const a=j/this.sides*Math.PI*2;this.tmp.copy(center).addScaledVector(normal,Math.cos(a)*radius).addScaledVector(binormal,Math.sin(a)*radius*.75);this.positions.setXYZ(i*(this.sides+1)+j,this.tmp.x,this.tmp.y,this.tmp.z)}
   }
-  this.positions.needsUpdate=true;this.body.geometry.computeVertexNormals();
+  this.positions.needsUpdate=true;this.body.geometry.computeVertexNormals();this.ribbons.update(u=>path(Math.max(0,t-u*.65)).add(new V(-u*.55,.15*Math.sin(t*7-u*7)*u,.20*Math.sin(t*5-u*8)*u)),t,phase);
   for(let i=0;i<this.scales.count;i++){
    const u=(i%36)/36,side=i<36?-1:1;const centerP=path(Math.max(0,t-u*.65));this.dummy.position.copy(centerP).add(new V(-u*.55,.13+(.2*(1-u))*side*.4,.14*side));this.dummy.rotation.set(0,u*4+t*2,side*.4);this.dummy.scale.set(.22,.34,.50);this.dummy.updateMatrix();this.scales.setMatrixAt(i,this.dummy.matrix);
   }this.scales.instanceMatrix.needsUpdate=true;

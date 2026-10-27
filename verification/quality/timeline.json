@@ -1,0 +1,150 @@
+{
+  "tests": [
+    {
+      "skill": 1,
+      "samples": [
+        {
+          "time": 0.2,
+          "stage": "蓄力 · 龙魂初现",
+          "dragonVisible": true,
+          "bone": -0.05623943545678288,
+          "drawCalls": 108
+        },
+        {
+          "time": 0.7,
+          "stage": "蓄力 · 龙魂初现",
+          "dragonVisible": true,
+          "bone": -0.2484630483829333,
+          "drawCalls": 108
+        },
+        {
+          "time": 1.3,
+          "stage": "突进 · 龙影随枪",
+          "dragonVisible": true,
+          "bone": -0.4153967932270471,
+          "drawCalls": 108
+        },
+        {
+          "time": 2.45,
+          "stage": "挥击 · 回旋龙影",
+          "dragonVisible": true,
+          "bone": -0.3445695294673525,
+          "drawCalls": 142
+        },
+        {
+          "time": 3.45,
+          "stage": "终结 · 能量消散",
+          "dragonVisible": true,
+          "bone": -0.02759781666100029,
+          "drawCalls": 142
+        },
+        {
+          "time": 4.35,
+          "stage": "动作结束",
+          "dragonVisible": false,
+          "bone": -0.02759781666100029,
+          "drawCalls": 67
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "skill": 2,
+      "samples": [
+        {
+          "time": 0.2,
+          "stage": "聚灵 · 龙魂初现",
+          "dragonVisible": true,
+          "bone": -0.061091622734714864,
+          "drawCalls": 166
+        },
+        {
+          "time": 0.9,
+          "stage": "法阵 · 星轨展开",
+          "dragonVisible": true,
+          "bone": -0.3814422311580724,
+          "drawCalls": 166
+        },
+        {
+          "time": 1.8,
+          "stage": "法阵 · 星轨展开",
+          "dragonVisible": true,
+          "bone": -0.3814422311580724,
+          "drawCalls": 166
+        },
+        {
+          "time": 3.8,
+          "stage": "缚星 · 阵域禁锢",
+          "dragonVisible": true,
+          "bone": -0.3814422311580724,
+          "drawCalls": 176
+        },
+        {
+          "time": 5.5,
+          "stage": "灵力 · 消散",
+          "dragonVisible": true,
+          "bone": -0.37808932493922215,
+          "drawCalls": 175
+        },
+        {
+          "time": 6.3,
+          "stage": "动作结束",
+          "dragonVisible": false,
+          "bone": -0.027597816661000252,
+          "drawCalls": 67
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "skill": 3,
+      "samples": [
+        {
+          "time": 0.2,
+          "stage": "觉醒 · 星辰汇聚",
+          "dragonVisible": false,
+          "bone": -0.04974345718764631,
+          "drawCalls": 98
+        },
+        {
+          "time": 1.3,
+          "stage": "龙魂 · 显现",
+          "dragonVisible": true,
+          "bone": -0.3814422311580724,
+          "drawCalls": 138
+        },
+        {
+          "time": 3,
+          "stage": "龙卷 · 星环盘旋",
+          "dragonVisible": true,
+          "bone": -0.3814422311580724,
+          "drawCalls": 138
+        },
+        {
+          "time": 4.65,
+          "stage": "引力 · 核心压缩",
+          "dragonVisible": true,
+          "bone": -0.3814422311580724,
+          "drawCalls": 138
+        },
+        {
+          "time": 5.15,
+          "stage": "爆发 · 金蓝冲击",
+          "dragonVisible": true,
+          "bone": -0.3814422311580724,
+          "drawCalls": 141
+        },
+        {
+          "time": 6.9,
+          "stage": "余波 · 星渊消散",
+          "dragonVisible": false,
+          "bone": -0.20834624312721856,
+          "drawCalls": 98
+        }
+      ],
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "status": "PASS_TIMELINE_SAMPLES_ONLY"
+}
