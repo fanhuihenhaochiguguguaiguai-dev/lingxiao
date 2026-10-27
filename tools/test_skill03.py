@@ -25,7 +25,7 @@ with display() as env:
   seek(7.35);page.locator('#loop').click();page.locator('#pause').click();page.wait_for_function('window.__lingSkill.time < 1 && window.__lingSkill.playing',timeout=40000);page.locator('#pause').click();page.locator('#loop').click()
   seek(7.4);assert not page.evaluate('window.__lingSkill.starVisible')
   for button,t in [('cast',2.45),('cast2',3.8)]:
-   page.locator('#'+button).click();page.locator('#pause').click();seek(t);s=page.evaluate('window.__lingSkill');assert s['dragonVisible'] and not s['starVisible'],s
+   page.locator('#'+button).click();page.locator('#pause').click();seek(t);s=page.evaluate('window.__lingSkill');assert s['dragonVisible'] and not s['starVisible'] and abs(s['actorY'])<.001,s
   page.locator('#cast3').click();page.locator('#pause').click();seek(3);final=page.evaluate('window.__lingSkill');assert not any(final['layerRendered'].values()) and not final['errors'] and not errors
   result={'stages':states,'final':final,'pageerrors':errors};(out/'skill03-controls.json').write_text(json.dumps(result,ensure_ascii=False,indent=2));print(json.dumps({'status':'PASS','stages':states,'fps':final['fps'],'drawCalls':final['drawCalls'],'errors':errors},ensure_ascii=False),flush=True)
   page.close()

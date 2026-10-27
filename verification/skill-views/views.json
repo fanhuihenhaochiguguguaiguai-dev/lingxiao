@@ -1,0 +1,45 @@
+{
+  "skills": {
+    "skill1": {
+      "time": 2.45,
+      "views": {
+        "front": "bebbe711cbe788b185e3a431b34fe241881ff00e4edf17c5b7aa155312cc9c84",
+        "side": "e47fe185bcbcfc2446b7a8ab0f962f67868c65239494f901b1e4f9a6e01be51f",
+        "right": "72a165fc96e73d0a8fd42906c2cd443748c7e74ab8d7f3a444926b68a1d0d42a",
+        "back": "043c5ae8a1b7e2010a99a3269ca5c7ab495c7b7c817d2c74e216563feac2dcbf",
+        "angle": "1650d49000bb64a8d5ab5fdd62037e6d8028ceab42507adcc764e0794ae16754",
+        "top": "ceff12ba6db9527d069ee921197838ebf054f239f337f676ce6d82ad3b33cfd5",
+        "up": "4b3a3859f4a9b03806945a40cdff3a2272b8073a5c26a30b49aa0dee73a1f080"
+      },
+      "drawCalls": 142
+    },
+    "skill2": {
+      "time": 3.8,
+      "views": {
+        "front": "36c6df103cb700d0cfe74766ded3166afe195319ac57d5cb9faef7233a5dc579",
+        "side": "0e6c8099f11b264e3669b6a15fda260562cafee017406b9237de1813fcde7d4c",
+        "right": "1608a5acf65c2ebe28b69f8947fca50a494f525d2b5d594a352ebb8ea1083051",
+        "back": "39e993aaa410b13a0f7518d7894f98fbdfd6b7d4e027643ee090e993928eabb4",
+        "angle": "3428ac2a5093a15776ec1f18d194acbd420ebbf242a36f023a75fc928ac99dae",
+        "top": "20cd94e105d2b61b65f11143ab08941dc32908f0a76f2f7e43390ca6e290f5b0",
+        "up": "675d5c6d35b3b6df852c4a80c91bee69f61ede22b69e480e1245176182d5a0ee"
+      },
+      "drawCalls": 176
+    },
+    "ultimate": {
+      "time": 3.1,
+      "views": {
+        "front": "4f570e9e5879d448e02123e677263f4f72dfe057ec438d097d995210f7c9c503",
+        "side": "bde27c9ef2e75f4808e9ea83cad9bd5e58408403faf860b5f1faf13b744ebd40",
+        "right": "10639b7f39b38583befb038be23fa086f1c44e9ae664fea8ca79ffc4a21e11dc",
+        "back": "bc151487c5b91fbdbbac1150a16780af808d384b65a52176b21873d529d27ddb",
+        "angle": "5650542a7e5fa4ca311f4de5121ee1ea576188f063f10d659cf7d228f301d50c",
+        "top": "3a3bda6b55ceaf7ccac98d4670488575742db73a11e119f5d4b3ab5f848bac77",
+        "up": "1133de510172d0ff64104cee1db734ed4b584824c531efedef2d852ce733af34"
+      },
+      "drawCalls": 138
+    }
+  },
+  "errors": [],
+  "status": "PASS_SOFTWARE_VIEW_CAPTURE_ONLY"
+}

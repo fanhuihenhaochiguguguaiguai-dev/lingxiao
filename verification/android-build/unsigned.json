@@ -1,0 +1,52 @@
+{
+  "status": "PASS_UNSIGNED_STRUCTURE_ONLY",
+  "application_id": "com.yaojing.lingyuan",
+  "version_code": 1,
+  "version_name": "0.1.0",
+  "min_sdk": 26,
+  "target_sdk": 35,
+  "signature": "UNSIGNED",
+  "android_install_tested": false,
+  "hardware_tested": false,
+  "can_update_old_version": false,
+  "runtime": "Bundled 3D viewer served on loopback to an installed browser",
+  "scope": "Character and three skill viewer, unfinished art, no full game match",
+  "unsigned_apk": "android-app/build/unsigned-aligned.apk",
+  "sha256": "619307dc213f5fabcf185f2f289ad7dbf05c71819881329562cbe73fd94e4eb5",
+  "bytes": 7774107,
+  "files": [
+    {
+      "path": "lingyuan-lod1.glb",
+      "bytes": 7470876,
+      "sha256": "f49d57834dca12818ce40fd41ae5f61691b6e5d94c823fa9185ad7e07a460f34"
+    },
+    {
+      "path": "skill/THREE-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "path": "skill/app.js",
+      "bytes": 1067516,
+      "sha256": "37d2651e5af3d46c8df25569501d68b345d5a17c3120c3f9b3c7bb54f38662bf"
+    },
+    {
+      "path": "skill/app.js.LEGAL.txt",
+      "bytes": 243,
+      "sha256": "8cc8c3b45708027ea840ab406c2977ab834f6c0155e1d0113aadad808dad8e5d"
+    },
+    {
+      "path": "skill/index.html",
+      "bytes": 3979,
+      "sha256": "b2e6659a5469860a11a3f485c95c4a480ed39581e9c08555a3bfa5d153f83f62"
+    },
+    {
+      "path": "skill/style.css",
+      "bytes": 5635,
+      "sha256": "4dc6e890ed20980971bb723a81a7798b248fffb1c29da38ac7bdb49c22676654"
+    }
+  ],
+  "zipalign": "PASS",
+  "manifest": "PASS",
+  "assets": "PASS"
+}

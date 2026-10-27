@@ -47,7 +47,7 @@ export class StarVortex {
    for(let i=0;i<4;i++){const tooth=m(new THREE.ConeGeometry(.018,.07,5),this.glow,.08+i*.08,-.16,side*.11);tooth.rotation.z=Math.PI;}
   }
  }
- setQuality(q:'high'|'ultra'){this.particles.count=q==='ultra'?180:90;this.rocks.count=q==='ultra'?36:18;this.scales.count=q==='ultra'?120:70;this.flows.forEach((m,i)=>m.visible=q==='ultra'||i<6)}
+ setQuality(q:'standard'|'high'|'ultra'){this.particles.count=q==='ultra'?180:q==='standard'?45:90;this.rocks.count=q==='ultra'?36:q==='standard'?9:18;this.scales.count=q==='ultra'?120:q==='standard'?35:70;this.flows.forEach((m,i)=>m.visible=q==='ultra'||i<(q==='standard'?4:6))}
  update(t:number,active:boolean){
   this.group.visible=active&&t<7.4;if(!this.group.visible)return;
   this.flowTime.value=t;const start=smooth(.02,.9,t),fade=1-smooth(6.1,7.35,t),grow=start*fade, dragonFade=smooth(.6,1.65,t)*(1-smooth(5.7,6.7,t));

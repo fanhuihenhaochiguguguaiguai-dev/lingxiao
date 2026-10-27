@@ -1,0 +1,56 @@
+{
+  "stage": "after",
+  "samples": [
+    {
+      "time": 0.2,
+      "height": 0,
+      "arm": -0.06279096930811376,
+      "dragon": false,
+      "errors": []
+    },
+    {
+      "time": 1.2,
+      "height": 0.1996719638431258,
+      "arm": -0.4399681202615953,
+      "dragon": true,
+      "errors": []
+    },
+    {
+      "time": 2.2,
+      "height": 0.65,
+      "arm": -0.4399681202615953,
+      "dragon": true,
+      "errors": []
+    },
+    {
+      "time": 3.1,
+      "height": 0.65,
+      "arm": -0.4399681202615953,
+      "dragon": true,
+      "errors": []
+    },
+    {
+      "time": 5.4,
+      "height": 0.6220703124999999,
+      "arm": -0.4399681202615953,
+      "dragon": true,
+      "errors": []
+    },
+    {
+      "time": 6.8,
+      "height": 0,
+      "arm": -0.21080418772536066,
+      "dragon": false,
+      "errors": []
+    },
+    {
+      "time": 7.3,
+      "height": 0,
+      "arm": -0.027597816661000266,
+      "dragon": false,
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "status": "PASS"
+}

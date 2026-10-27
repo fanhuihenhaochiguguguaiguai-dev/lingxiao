@@ -1,0 +1,53 @@
+{
+  "status": "PASS_PACKAGED_DESKTOP_SOFTWARE_ONLY",
+  "apk_sha256": "619307dc213f5fabcf185f2f289ad7dbf05c71819881329562cbe73fd94e4eb5",
+  "android_install_tested": false,
+  "android_webview_tested": false,
+  "android_browser_gpu_tested": false,
+  "http": [
+    {
+      "name": "exact HTML",
+      "status": "PASS",
+      "http_status": 200
+    },
+    {
+      "name": "GLB header",
+      "status": "PASS",
+      "http_status": 206
+    },
+    {
+      "name": "read only",
+      "status": "PASS",
+      "http_status": 405
+    },
+    {
+      "name": "missing asset",
+      "status": "PASS",
+      "http_status": 404
+    },
+    {
+      "name": "foreign host",
+      "status": "PASS",
+      "http_status": 403
+    },
+    {
+      "name": "path traversal",
+      "status": "PASS",
+      "http_status": 400
+    }
+  ],
+  "browsers": [
+    {
+      "backend": "WebGPU",
+      "software": true,
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "backend": "WebGL2",
+      "software": true,
+      "status": "PASS",
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+
+> lingyuan-skill-preview@0.1.0 build
+> npm run check && node build.mjs
+
+
+> lingyuan-skill-preview@0.1.0 check
+> tsc --noEmit
+

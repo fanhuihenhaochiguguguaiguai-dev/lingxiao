@@ -28,7 +28,7 @@ export class DragonEffect {
  private readonly rings:THREE.Mesh[]=[]; private readonly shards:THREE.InstancedMesh; private readonly scales:THREE.InstancedMesh;
  private readonly dummy=new THREE.Object3D(); private readonly segmentCount=64; private readonly sides=10;
  private readonly tmp=new V(); private readonly axis=new V(1,0,0); private readonly dir=new V(); private readonly quat=new THREE.Quaternion();
- private readonly windBands:THREE.Mesh[]=[]; private readonly sweepArcs=new THREE.Group(); private quality:'high'|'ultra'='high';
+ private readonly windBands:THREE.Mesh[]=[]; private readonly sweepArcs=new THREE.Group(); private quality:'standard'|'high'|'ultra'='high';
  constructor(scene:THREE.Scene){
   this.group.name='3D Dragon skill';scene.add(this.group);
   const positions=new Float32Array((this.segmentCount+1)*(this.sides+1)*3),idx:number[]=[];
@@ -58,7 +58,7 @@ export class DragonEffect {
   }
   skull.userData.actual3D=true;
  }
- setQuality(q:'high'|'ultra'){this.quality=q;this.shards.count=q==='ultra'?160:80;this.scales.count=q==='ultra'?72:48;}
+ setQuality(q:'standard'|'high'|'ultra'){this.quality=q;this.shards.count=q==='ultra'?160:q==='standard'?40:80;this.scales.count=q==='ultra'?72:q==='standard'?24:48;}
  update(t:number,active:boolean,orbit?:{sample:(u:number)=>THREE.Vector3;phase:number}){
   const phase=orbit?orbit.phase:smooth(.05,.60,t)*(1-smooth(3.65,4.35,t));this.group.visible=active&&phase>.001;if(!this.group.visible)return;
   flowTime.value=t;bodyMaterial.opacity=.64*phase;core.opacity=.80*phase;luminous.opacity=.70*phase;dimBlue.opacity=.36*phase;
@@ -75,11 +75,12 @@ export class DragonEffect {
   for(let i=0;i<this.scales.count;i++){
    const u=(i%36)/36,side=i<36?-1:1;const centerP=orbit?sample(u):path(Math.max(0,t-u*.65));this.dummy.position.copy(centerP).add(orbit?new V(0,.12,.12*side):new V(-u*.55,.13+(.2*(1-u))*side*.4,.14*side));this.dummy.rotation.set(0,u*4+t*2,side*.4);this.dummy.scale.set(.22,.34,.50);this.dummy.updateMatrix();this.scales.setMatrixAt(i,this.dummy.matrix);
   }this.scales.instanceMatrix.needsUpdate=true;
+  const maxShards=this.quality==='ultra'?160:this.quality==='standard'?40:80;this.shards.count=orbit?Math.ceil(maxShards*.55):t<1.5?Math.min(maxShards,28):maxShards;
   const burst=smooth(2.95,3.35,t);for(let i=0;i<this.shards.count;i++){
-   const a=i*2.399+t*.9,r=(.30+(i%19)*.075)*(0.3+burst);this.dummy.position.set(headP.x+Math.cos(a)*r,Math.max(.06,headP.y+Math.sin(a*1.7)*r*.55),headP.z+Math.sin(a)*r);const sz=(.4+(i%5)*.14)*phase;this.dummy.scale.setScalar(sz);this.dummy.rotation.set(a,t*2,a*.4);this.dummy.updateMatrix();this.shards.setMatrixAt(i,this.dummy.matrix);
+   const a=i*2.399+t*.9,r=(.30+(i%19)*.075)*(0.3+burst);this.dummy.position.set(headP.x+Math.cos(a)*r,Math.max(.06,headP.y+Math.sin(a*1.7)*r*.55),headP.z+Math.sin(a)*r);const sz=(.4+(i%5)*.14)*phase*(orbit?.65:1);this.dummy.scale.setScalar(sz);this.dummy.rotation.set(a,t*2,a*.4);this.dummy.updateMatrix();this.shards.setMatrixAt(i,this.dummy.matrix);
   }this.shards.instanceMatrix.needsUpdate=true;
   const sweep=smooth(1.60,1.98,t)*(1-smooth(3.5,4.05,t));this.rings.forEach((m,i)=>{m.visible=sweep>.01;const size=(.55+i*.22+1.25*sweep);m.scale.set(size,size,size);m.position.x=1.25;m.rotation.z=t*(i%2?-.75:.55)});
   this.sweepArcs.visible=sweep>.01;this.sweepArcs.position.set(1.25,0,0);this.sweepArcs.rotation.y=t*.55;this.sweepArcs.scale.setScalar(.45+.55*sweep);
-  this.windBands.forEach((m,i)=>{m.visible=t<3.8;m.position.set(headP.x,.85+i*.10,headP.z);m.rotation.z=t*(i%2?1:-1)+i;const k=.5+i*.12;m.scale.set(k,k,k)});
+  this.windBands.forEach((m,i)=>{m.visible=t<3.8&&(!!orbit||t>=1.5);m.position.set(headP.x,.85+i*.10,headP.z);m.rotation.z=t*(i%2?1:-1)+i;const k=.5+i*.12;m.scale.set(k,k,k)});
  }
 }

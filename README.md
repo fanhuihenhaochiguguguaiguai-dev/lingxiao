@@ -23,3 +23,5 @@
 人物与三技能质量对照及本轮增量修复见 `verification/quality/REPORT.md`；当前仅完成共享流光的有限改进，人物精修和真机验收仍未完成。
 
 本轮二技能龙身盘旋修复与人物候选记录见 `verification/character-refine/REPORT.md`；参考图对应见 `reference/detail174/部件对应.md`。候选人物未通过视觉采纳，正式模型仍为原工作稿。
+
+本轮优先修复一技能龙首与枪尖同步、二技能晶体结构和大招腾空落地，并增加三个画质档与七种观察角度。339 张参考裁图见 `reference/skillboards/`；真实截图、测量与限制见 `verification/SKILL_UPGRADE_REPORT.md`。安卓构建位于 `android-app/`，现有 APK 尚未签名且不能安装，没有安卓真机验证。人物和三个技能仍是未达到原画验收的工作稿。

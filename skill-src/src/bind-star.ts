@@ -19,7 +19,7 @@ function mergeStatic(group:THREE.Group){
 export class BindStar {
  readonly dragon:DragonEffect;
  readonly layers:Record<Layer,THREE.Group>;
- private circles:THREE.Group[]=[]; private crystals:THREE.Group[]=[]; private beams:THREE.Mesh[]=[];private chainLinks:THREE.InstancedMesh;private particles:THREE.InstancedMesh;private stones:THREE.InstancedMesh;private dummy=new THREE.Object3D();private quality:'high'|'ultra'='high';
+ private circles:THREE.Group[]=[]; private crystals:THREE.Group[]=[]; private beams:THREE.Mesh[]=[];private chainLinks:THREE.InstancedMesh;private particles:THREE.InstancedMesh;private stones:THREE.InstancedMesh;private dummy=new THREE.Object3D();private quality:'standard'|'high'|'ultra'='high';
  constructor(scene:THREE.Scene){
   this.dragon=new DragonEffect(scene);this.dragon.group.name='Bind Star dragon';
   // The first-skill dragon's sweep rings are detached from this instance only.
@@ -34,7 +34,7 @@ export class BindStar {
    for(let i=0;i<n;i++){const a=i*TAU/n,r=radius*.91;const symbol=new THREE.Group();symbol.position.set(Math.cos(a)*r,.01,Math.sin(a)*r);symbol.rotation.y=-a;symbol.add(tube([new THREE.Vector3(-.05,0,-.07),new THREE.Vector3(0,0,.07),new THREE.Vector3(.05,0,-.07)],.006,k===1?goldMat:lineMat));g.add(symbol)}
    mergeStatic(g);
   }
-  const crystalGeo=new THREE.ConeGeometry(.19,1,5,1);crystalGeo.translate(0,.5,0);
+  const crystalGeo=new THREE.OctahedronGeometry(1,0);crystalGeo.scale(.18,.55,.16);crystalGeo.translate(0,.55,0);
   for(let i=0;i<10;i++){const a=i*TAU/10;const g=new THREE.Group();g.position.set(Math.cos(a)*2.95,.03,Math.sin(a)*2.95);g.rotation.z=(i%2?-.12:.12);const main=new THREE.Mesh(crystalGeo,crystalMat);main.scale.set(1,1.15+(i%3)*.16,1);g.add(main);const small=new THREE.Mesh(crystalGeo,crystalMat);small.position.set(.22,0,.1);small.scale.set(.48,.55,.48);g.add(small);g.add(ring(.23,.012,goldMat));this.layers.crystals.add(g);this.crystals.push(g);
    const beam=new THREE.Mesh(new THREE.CylinderGeometry(.04,.15,1.9,12,1,true),beamMat);beam.position.set(Math.cos(a)*2.94,.95,Math.sin(a)*2.94);this.layers.beams.add(beam);this.beams.push(beam);
   }
@@ -42,7 +42,7 @@ export class BindStar {
   this.particles=new THREE.InstancedMesh(new THREE.OctahedronGeometry(.045,0),lineMat,120);this.particles.frustumCulled=false;this.layers.particles.add(this.particles);
   this.stones=new THREE.InstancedMesh(new THREE.DodecahedronGeometry(.09,0),new THREE.MeshStandardMaterial({color:0x293c53,metalness:.15,roughness:.8}),24);this.stones.frustumCulled=false;this.layers.particles.add(this.stones);
  }
- setQuality(q:'high'|'ultra'){this.quality=q;this.dragon.setQuality(q);this.chainLinks.count=q==='ultra'?100:70;this.particles.count=q==='ultra'?120:65;this.stones.count=q==='ultra'?24:12;}
+ setQuality(q:'standard'|'high'|'ultra'){this.quality=q;this.dragon.setQuality(q);this.chainLinks.count=q==='ultra'?100:q==='standard'?48:70;this.particles.count=q==='ultra'?120:q==='standard'?35:65;this.stones.count=q==='ultra'?24:q==='standard'?6:12;}
  update(t:number,active:boolean,visibility:Record<Layer,boolean>){
   const envelope=smooth(.08,.6,t)*(1-smooth(5.45,6.25,t));const expand=smooth(.32,1.7,t);const bind=smooth(2.25,3.4,t)*(1-smooth(4.9,5.9,t));
   for(const [name,g] of Object.entries(this.layers))g.visible=active&&envelope>.001&&visibility[name as Layer];

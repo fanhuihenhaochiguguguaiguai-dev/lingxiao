@@ -2,3 +2,6 @@ verification/*.log
 .cache/
 
 skill-src/node_modules/
+
+android-app/build/
+*.apk

@@ -1,0 +1,6 @@
+{
+  "expected": "unsigned APK must fail signature verification",
+  "exit_code": 1,
+  "output": "DOES NOT VERIFY\nERROR: Missing META-INF/MANIFEST.MF\n",
+  "signature_status": "UNSIGNED"
+}
