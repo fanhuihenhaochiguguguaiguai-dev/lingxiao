@@ -31,7 +31,7 @@ export class DragonEffect {
  private readonly dummy=new THREE.Object3D(); private readonly segmentCount=64; private readonly sides=10;
  private readonly tmp=new V(); private readonly axis=new V(1,0,0); private readonly dir=new V(); private readonly quat=new THREE.Quaternion();
  private readonly windBands:THREE.Mesh[]=[]; private readonly sweepArcs=new THREE.Group(); private quality:'high'|'ultra'='high';
- constructor(scene:THREE.Scene){
+ constructor(scene:THREE.Object3D){
   this.group.name='3D Dragon skill';scene.add(this.group);
   const positions=new Float32Array((this.segmentCount+1)*(this.sides+1)*3),idx:number[]=[];
   for(let i=0;i<this.segmentCount;i++)for(let j=0;j<this.sides;j++){const a=i*(this.sides+1)+j,b=a+this.sides+1;idx.push(a,b,a+1,b,b+1,a+1)}

@@ -15,7 +15,7 @@ export class StarVortex {
  private readonly glow=new THREE.MeshBasicMaterial({color:0x9ce4ff,transparent:true,opacity:.57,blending:THREE.AdditiveBlending,depthWrite:false});
  private readonly goldGlow=new THREE.MeshBasicMaterial({color:0xffc970,transparent:true,opacity:.65,blending:THREE.AdditiveBlending,depthWrite:false});
  private readonly rockMat=new THREE.MeshStandardMaterial({color:0x41424b,metalness:.2,roughness:.85});
- constructor(scene:THREE.Scene){
+ constructor(scene:THREE.Object3D){
   const wave=sin(positionLocal.y.mul(7).sub(this.flowTime.mul(5))).mul(.5).add(.5);this.blue.colorNode=mix(color(0x1353aa),color(0x76cfff),wave.mul(.65));this.blue.emissiveNode=mix(color(0x063675),color(0x2285dc),wave.mul(.6));
   this.group.name='星渊龙卷 · real 3D';scene.add(this.group);this.group.visible=false;this.group.add(this.dragon);
   const seg=80,sides=10,pos=new Float32Array((seg+1)*(sides+1)*3),index:number[]=[];

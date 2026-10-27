@@ -1,0 +1,16 @@
+{
+  "status": "PASS_SOFTWARE_ONLY",
+  "first_skill_actor": [
+    -6.273191674130923,
+    0,
+    -7.1342179823449765
+  ],
+  "ultimate_actor": [
+    -6.273191674130923,
+    0,
+    -7.1342179823449765
+  ],
+  "platform_radius": 17,
+  "ultimate_ground_effect_radius": 3.5,
+  "errors": []
+}
