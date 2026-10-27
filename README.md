@@ -21,3 +21,5 @@
 大招「星渊龙卷」已加入同一技能展示页作为第三个演示按钮；质量状态、截图和未完成项见 `verification/SKILL03_REPORT.md`。展示页不含伤害与冷却系统，未宣称正式对局接入。
 
 人物与三技能质量对照及本轮增量修复见 `verification/quality/REPORT.md`；当前仅完成共享流光的有限改进，人物精修和真机验收仍未完成。
+
+本轮二技能龙身盘旋修复与人物候选记录见 `verification/character-refine/REPORT.md`；参考图对应见 `reference/detail174/部件对应.md`。候选人物未通过视觉采纳，正式模型仍为原工作稿。

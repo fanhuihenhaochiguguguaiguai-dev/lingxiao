@@ -47,9 +47,14 @@ export class BindStar {
   const envelope=smooth(.08,.6,t)*(1-smooth(5.45,6.25,t));const expand=smooth(.32,1.7,t);const bind=smooth(2.25,3.4,t)*(1-smooth(4.9,5.9,t));
   for(const [name,g] of Object.entries(this.layers))g.visible=active&&envelope>.001&&visibility[name as Layer];
   if(!active){this.dragon.update(0,false);return;}
-  this.dragon.update(2.30+.25*Math.sin(t*.65),active&&visibility.dragon&&envelope>.01);if(this.dragon.group.visible){
-   const angle=t*1.05,r=1.35+1.0*expand;this.dragon.group.rotation.y=-angle;this.dragon.group.scale.setScalar((.75+.25*envelope)*envelope);const p=this.dragon.head.position.clone().multiplyScalar(this.dragon.group.scale.x).applyAxisAngle(new THREE.Vector3(0,1,0),-angle);this.dragon.group.position.set(Math.cos(angle)*r-p.x,1.05+.24*Math.sin(t*1.5)-p.y,Math.sin(angle)*r-p.z);
-  }
+  // Each body segment follows the same continuous orbit at an earlier angle.
+  // This avoids rotating a frozen dragon as a rigid prop around the center.
+  const angle=t*(TAU/3.5),rad=1.45+.8*expand;
+  this.dragon.group.position.set(0,0,0);this.dragon.group.rotation.set(0,0,0);this.dragon.group.scale.setScalar(1);
+  this.dragon.update(t,active&&visibility.dragon&&envelope>.01,{phase:envelope,sample:(u:number)=>{
+   const a=angle-u*2.7,r=rad-(u*.16)+.045*Math.sin(t*3-u*8);
+   return new THREE.Vector3(Math.cos(a)*r,1.18+.16*Math.sin(a*2+t*.4)+.12*Math.sin(t*4-u*8)*u,Math.sin(a)*r);
+  }});
   for(let i=0;i<this.circles.length;i++){const g=this.circles[i];g.rotation.y=t*(i%2?-.35:.24);g.scale.setScalar((.12+.88*expand)*envelope);}
   this.crystals.forEach((g,i)=>{const k=bind*(.75+(i%3)*.12);g.scale.set(k,k,k)});this.beams.forEach((m,i)=>{m.scale.setScalar(bind*(.8+.2*Math.sin(t*5+i)));});
   for(let i=0;i<this.chainLinks.count;i++){const a=i*TAU/this.chainLinks.count+t*.55;this.dummy.position.set(2.5*Math.cos(a),.35+.16*Math.sin(a*6+t*2),2.5*Math.sin(a));this.dummy.rotation.set(Math.PI/2+(i%2)*Math.PI/2,0,-a);this.dummy.scale.setScalar(bind);this.dummy.updateMatrix();this.chainLinks.setMatrixAt(i,this.dummy.matrix)}this.chainLinks.instanceMatrix.needsUpdate=true;

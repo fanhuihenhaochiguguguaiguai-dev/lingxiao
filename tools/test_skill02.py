@@ -1,8 +1,8 @@
-import sys,json,time
+import sys,json,time,os
 from pathlib import Path
 from browser_display import display,ARGS
 from playwright.sync_api import sync_playwright
-out=str(Path(__file__).resolve().parents[1]/'verification')
+out=str(Path(os.environ.get('LING_TEST_OUT',Path(__file__).resolve().parents[1]/'verification')));Path(out).mkdir(parents=True,exist_ok=True)
 with display() as env:
  with sync_playwright() as p:
   b=p.chromium.launch(headless=False,args=ARGS,env=env,executable_path='/usr/bin/chromium')

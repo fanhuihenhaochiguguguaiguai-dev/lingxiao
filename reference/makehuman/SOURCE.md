@@ -5,3 +5,5 @@
 - 图形资产许可：本目录 `LICENSE.ASSETS.md`（CC0）。保留原作者与许可信息。
 
 - 本轮新增 `chin_*`、`cheek_*` 形变目标，同样来自 MakeHuman 官方 `makehuman/data/targets/chin` 与 `cheek` 目录，按 CC0 资产许可使用。
+
+- 鼻唇候选使用 `nose-width1-decr`、`nose-width2-decr`、`nose-flaring-decr`、`mouth-lowerlip-volume-decr` 和 `mouth-scale-vert-decr`，同样来自官方 `makehuman/data/targets/nose` 与 `mouth` 的 CC0 图形资产；该候选未应用于正式母版。

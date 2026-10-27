@@ -59,21 +59,21 @@ export class DragonEffect {
   skull.userData.actual3D=true;
  }
  setQuality(q:'high'|'ultra'){this.quality=q;this.shards.count=q==='ultra'?160:80;this.scales.count=q==='ultra'?72:48;}
- update(t:number,active:boolean){
-  const phase=smooth(.05,.60,t)*(1-smooth(3.65,4.35,t));this.group.visible=active&&phase>.001;if(!this.group.visible)return;
+ update(t:number,active:boolean,orbit?:{sample:(u:number)=>THREE.Vector3;phase:number}){
+  const phase=orbit?orbit.phase:smooth(.05,.60,t)*(1-smooth(3.65,4.35,t));this.group.visible=active&&phase>.001;if(!this.group.visible)return;
   flowTime.value=t;bodyMaterial.opacity=.64*phase;core.opacity=.80*phase;luminous.opacity=.70*phase;dimBlue.opacity=.36*phase;
-  const headP=path(t);this.head.position.copy(headP);this.dir.copy(path(Math.min(t+.025,3.2))).sub(path(Math.max(.0,t-.025)));if(this.dir.lengthSq()<.00001)this.dir.set(1,0,0);this.dir.normalize();this.quat.setFromUnitVectors(this.axis,this.dir);this.head.quaternion.copy(this.quat);this.head.scale.setScalar(.88+.12*Math.sin(t*4));
+  const sample=(u:number)=>orbit?orbit.sample(Math.max(0,Math.min(1,u))):path(Math.max(0,t-u*.65)).add(new V(-u*.55,.15*Math.sin(t*7-u*7)*u,.20*Math.sin(t*5-u*8)*u));
+  const headP=orbit?sample(0):path(t);this.head.position.copy(headP);if(orbit)this.dir.copy(sample(0)).sub(sample(.02));else this.dir.copy(path(Math.min(t+.025,3.2))).sub(path(Math.max(.0,t-.025)));if(this.dir.lengthSq()<.00001)this.dir.set(1,0,0);this.dir.normalize();this.quat.setFromUnitVectors(this.axis,this.dir);this.head.quaternion.copy(this.quat);this.head.scale.setScalar(.88+.12*Math.sin(t*4));
   const center=new V(),next=new V(),tangent=new V(),normal=new V(),binormal=new V();
   for(let i=0;i<=this.segmentCount;i++){
-   const u=i/this.segmentCount,lag=u*.65;center.copy(path(Math.max(0,t-lag))).add(new V(-u*.55,.15*Math.sin(t*7-u*7)*u,.20*Math.sin(t*5-u*8)*u));
-   next.copy(path(Math.max(0,t-lag-.012))).add(new V(-(u+.006)*.55,.15*Math.sin(t*7-(u+.006)*7)*(u+.006),.20*Math.sin(t*5-(u+.006)*8)*(u+.006)));
+   const u=i/this.segmentCount,lag=u*.65;if(orbit){center.copy(sample(u));next.copy(sample(u+.018))}else{center.copy(path(Math.max(0,t-lag))).add(new V(-u*.55,.15*Math.sin(t*7-u*7)*u,.20*Math.sin(t*5-u*8)*u));next.copy(path(Math.max(0,t-lag-.012))).add(new V(-(u+.006)*.55,.15*Math.sin(t*7-(u+.006)*7)*(u+.006),.20*Math.sin(t*5-(u+.006)*8)*(u+.006)))}
    tangent.copy(center).sub(next).normalize();if(tangent.lengthSq()<.1)tangent.set(1,0,0);normal.crossVectors(tangent,new V(0,1,0)).normalize();if(normal.lengthSq()<.1)normal.set(0,0,1);binormal.crossVectors(tangent,normal).normalize();
    const radius=(.20*(1-u)+.016)*(.85+.15*Math.sin(t*9-u*12));
    for(let j=0;j<=this.sides;j++){const a=j/this.sides*Math.PI*2;this.tmp.copy(center).addScaledVector(normal,Math.cos(a)*radius).addScaledVector(binormal,Math.sin(a)*radius*.75);this.positions.setXYZ(i*(this.sides+1)+j,this.tmp.x,this.tmp.y,this.tmp.z)}
   }
-  this.positions.needsUpdate=true;this.body.geometry.computeVertexNormals();this.ribbons.update(u=>path(Math.max(0,t-u*.65)).add(new V(-u*.55,.15*Math.sin(t*7-u*7)*u,.20*Math.sin(t*5-u*8)*u)),t,phase);
+  this.positions.needsUpdate=true;this.body.geometry.computeVertexNormals();this.ribbons.update(sample,t,phase);
   for(let i=0;i<this.scales.count;i++){
-   const u=(i%36)/36,side=i<36?-1:1;const centerP=path(Math.max(0,t-u*.65));this.dummy.position.copy(centerP).add(new V(-u*.55,.13+(.2*(1-u))*side*.4,.14*side));this.dummy.rotation.set(0,u*4+t*2,side*.4);this.dummy.scale.set(.22,.34,.50);this.dummy.updateMatrix();this.scales.setMatrixAt(i,this.dummy.matrix);
+   const u=(i%36)/36,side=i<36?-1:1;const centerP=orbit?sample(u):path(Math.max(0,t-u*.65));this.dummy.position.copy(centerP).add(orbit?new V(0,.12,.12*side):new V(-u*.55,.13+(.2*(1-u))*side*.4,.14*side));this.dummy.rotation.set(0,u*4+t*2,side*.4);this.dummy.scale.set(.22,.34,.50);this.dummy.updateMatrix();this.scales.setMatrixAt(i,this.dummy.matrix);
   }this.scales.instanceMatrix.needsUpdate=true;
   const burst=smooth(2.95,3.35,t);for(let i=0;i<this.shards.count;i++){
    const a=i*2.399+t*.9,r=(.30+(i%19)*.075)*(0.3+burst);this.dummy.position.set(headP.x+Math.cos(a)*r,Math.max(.06,headP.y+Math.sin(a*1.7)*r*.55),headP.z+Math.sin(a)*r);const sz=(.4+(i%5)*.14)*phase;this.dummy.scale.setScalar(sz);this.dummy.rotation.set(a,t*2,a*.4);this.dummy.updateMatrix();this.shards.setMatrixAt(i,this.dummy.matrix);
