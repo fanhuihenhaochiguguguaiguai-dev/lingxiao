@@ -1,0 +1,57 @@
+{
+  "backends": {
+    "webgl2": {
+      "actual": "WebGL2",
+      "software": true,
+      "skills": {
+        "skill1": {
+          "headMoved": 1.503,
+          "drawCalls": 119
+        },
+        "skill2": {
+          "headMoved": 4.442,
+          "drawCalls": 153
+        },
+        "ultimate": {
+          "headMoved": 1.878,
+          "drawCalls": 111
+        }
+      },
+      "dragonCameraMoved": 3.384,
+      "errors": []
+    },
+    "webgpu": {
+      "actual": "WebGPU",
+      "software": true,
+      "skills": {
+        "skill1": {
+          "headMoved": 1.503,
+          "drawCalls": 119
+        },
+        "skill2": {
+          "headMoved": 4.442,
+          "drawCalls": 153
+        },
+        "ultimate": {
+          "headMoved": 1.878,
+          "drawCalls": 111
+        }
+      },
+      "dragonCameraMoved": 3.308,
+      "errors": []
+    }
+  },
+  "character": {
+    "movingSpeed": 1.0617108501894228,
+    "stoppedSpeed": 0.05315848854841519,
+    "headingAfterTurn": -203.3822973963927,
+    "cameraTarget": {
+      "x": 0.12653920669820506,
+      "y": 1,
+      "z": -0.5304036892749802
+    },
+    "errors": []
+  },
+  "note": "Desktop software renderer only; no Android or art acceptance",
+  "status": "PASS_DESKTOP_SOFTWARE_ONLY"
+}

@@ -1,5 +1,6 @@
 import * as THREE from 'three/webgpu';
 import {EnergyRibbons} from './energy-ribbons';
+import {makeDragonHead,orientDragonHead} from './dragon-head';
 import {color,mix,positionLocal,sin,uniform} from 'three/tsl';
 const V=THREE.Vector3, TAU=Math.PI*2;
 const smooth=(a:number,b:number,t:number)=>{const x=THREE.MathUtils.clamp((t-a)/(b-a),0,1);return x*x*(3-2*x)};
@@ -8,7 +9,7 @@ function tube(points:THREE.Vector3[],radius:number,mat:THREE.Material,segments=7
 function torus(r:number,thick:number,material:THREE.Material){const m=new THREE.Mesh(new THREE.TorusGeometry(r,thick,7,96),material);m.rotation.x=Math.PI/2;return m}
 export class StarVortex {
  readonly group=new THREE.Group(); readonly dragon=new THREE.Group();readonly head=new THREE.Group();
- private readonly rails:THREE.Group[]=[];private readonly flows:THREE.Mesh[]=[];private readonly dragonWisps:THREE.Mesh[]=[];private readonly flowTime=uniform(0);private readonly ground:THREE.Group;private readonly shock:THREE.Mesh[]=[];private readonly body:THREE.Mesh;private readonly positions:THREE.BufferAttribute;private readonly ribbons=new EnergyRibbons({color:0x89cfff,opacity:.12,width:.045,count:3,segments:64});private readonly scales:THREE.InstancedMesh;private readonly particles:THREE.InstancedMesh;private readonly rocks:THREE.InstancedMesh;private readonly dummy=new THREE.Object3D();
+ private readonly rails:THREE.Group[]=[];private readonly flows:THREE.Mesh[]=[];private readonly dragonWisps:THREE.Mesh[]=[];private readonly flowTime=uniform(0);private readonly ground:THREE.Group;private readonly shock:THREE.Mesh[]=[];private readonly body:THREE.Mesh;private readonly positions:THREE.BufferAttribute;private readonly ribbons=new EnergyRibbons({color:0x89cfff,opacity:.12,width:.045,count:3,segments:64});private readonly scales:THREE.InstancedMesh;private readonly dorsal:THREE.InstancedMesh;private readonly particles:THREE.InstancedMesh;private readonly rocks:THREE.InstancedMesh;private readonly dummy=new THREE.Object3D();
  private readonly gold=new THREE.MeshStandardMaterial({color:0xc4954d,metalness:.85,roughness:.3,emissive:0x9a5313,emissiveIntensity:.28});
  private readonly blue=new THREE.MeshStandardNodeMaterial({color:0x236ec7,metalness:.25,roughness:.3,emissive:0x1053a0,emissiveIntensity:.8,transparent:true,opacity:.62,depthWrite:false,side:THREE.DoubleSide});
  private readonly glow=new THREE.MeshBasicMaterial({color:0x9ce4ff,transparent:true,opacity:.57,blending:THREE.AdditiveBlending,depthWrite:false});
@@ -20,6 +21,7 @@ export class StarVortex {
   const seg=80,sides=10,pos=new Float32Array((seg+1)*(sides+1)*3),index:number[]=[];
   for(let i=0;i<seg;i++)for(let j=0;j<sides;j++){const a=i*(sides+1)+j,b=a+sides+1;index.push(a,b,a+1,b,b+1,a+1)}
   const geo=new THREE.BufferGeometry();this.positions=new THREE.BufferAttribute(pos,3);this.positions.setUsage(THREE.DynamicDrawUsage);geo.setAttribute('position',this.positions);geo.setIndex(index);this.body=new THREE.Mesh(geo,this.blue);this.body.frustumCulled=false;this.dragon.add(this.body);this.dragon.add(this.ribbons.mesh);this.makeHead();this.dragon.add(this.head);
+  this.dorsal=new THREE.InstancedMesh(new THREE.ConeGeometry(.07,.25,5),this.glow,28);this.dorsal.frustumCulled=false;this.dragon.add(this.dorsal);
   this.scales=new THREE.InstancedMesh(new THREE.ConeGeometry(.075,.18,5),this.glow,120);this.scales.frustumCulled=false;this.dragon.add(this.scales);
   for(let k=0;k<3;k++){
    const g=new THREE.Group();g.position.y=.75+k*1.38;g.rotation.z=(k%2?-.11:.11);this.group.add(g);this.rails.push(g);const r=2.1+k*.43;
@@ -37,17 +39,9 @@ export class StarVortex {
   this.rocks=new THREE.InstancedMesh(new THREE.DodecahedronGeometry(.12,0),this.rockMat,36);this.rocks.frustumCulled=false;this.group.add(this.rocks);
  }
  private makeHead(){
-  const m=(g:THREE.BufferGeometry,mat:THREE.Material,x:number,y:number,z:number,sx=1,sy=1,sz=1)=>{const a=new THREE.Mesh(g,mat);a.position.set(x,y,z);a.scale.set(sx,sy,sz);this.head.add(a);return a};
-  m(new THREE.SphereGeometry(.28,24,16),this.blue,0,0,0,1.25,.8,.85);m(new THREE.SphereGeometry(.18,20,12),this.glow,.25,-.07,0,1.55,.54,.7);m(new THREE.SphereGeometry(.16,20,12),this.blue,.22,-.20,0,1.5,.35,.65);
-  for(const side of [-1,1]){
-   m(new THREE.SphereGeometry(.04,12,8),this.glow,.09,.06,side*.20,1,.8,.5);
-   for(let k=0;k<2;k++){const horn=tube([new V(-.14,.13,side*.13),new V(-.23,.30+k*.05,side*.22),new V(-.45,.38+k*.09,side*.31),new V(-.60,.34+k*.09,side*.36)],.018-k*.004,this.gold,24);this.head.add(horn)}
-   this.head.add(tube([new V(.28,-.09,side*.12),new V(.38,-.12,side*.27),new V(.55,-.03,side*.4)],.008,this.glow,24));
-   for(let i=0;i<5;i++){const mane=tube([new V(-.18,.12-i*.05,side*.15),new V(-.40,.24-i*.05,side*.24),new V(-.75,.18-i*.08,side*(.3+i*.04))],.008,i%2?this.goldGlow:this.glow,24);this.head.add(mane)}
-   for(let i=0;i<4;i++){const tooth=m(new THREE.ConeGeometry(.018,.07,5),this.glow,.08+i*.08,-.16,side*.11);tooth.rotation.z=Math.PI;}
-  }
+  this.head.add(makeDragonHead({shell:new THREE.MeshStandardMaterial({color:0x104682,emissive:0x06244f,emissiveIntensity:.48,metalness:.35,roughness:.32}),light:this.glow,gold:this.gold,dark:new THREE.MeshStandardMaterial({color:0x07152b,roughness:.6}),eye:new THREE.MeshBasicMaterial({color:0xe7faff})}));
  }
- setQuality(q:'standard'|'high'|'ultra'){this.particles.count=q==='ultra'?180:q==='standard'?45:90;this.rocks.count=q==='ultra'?36:q==='standard'?9:18;this.scales.count=q==='ultra'?120:q==='standard'?35:70;this.flows.forEach((m,i)=>m.visible=q==='ultra'||i<(q==='standard'?4:6))}
+ setQuality(q:'high'|'ultra'){this.particles.count=q==='ultra'?180:90;this.rocks.count=q==='ultra'?36:18;this.scales.count=q==='ultra'?120:70;this.flows.forEach((m,i)=>m.visible=q==='ultra'||i<(6))}
  update(t:number,active:boolean){
   this.group.visible=active&&t<7.4;if(!this.group.visible)return;
   this.flowTime.value=t;const start=smooth(.02,.9,t),fade=1-smooth(6.1,7.35,t),grow=start*fade, dragonFade=smooth(.6,1.65,t)*(1-smooth(5.7,6.7,t));
@@ -56,7 +50,8 @@ export class StarVortex {
   for(let i=0;i<=seg;i++){
    const u=i/seg;center.copy(path(u,t));center.x*=compress;center.z*=compress;next.copy(path(Math.min(1,u+.002),t));next.x*=compress;next.z*=compress;tangent.copy(next).sub(center).normalize();if(tangent.lengthSq()<.1)tangent.set(1,0,0);normal.crossVectors(tangent,new V(0,1,0)).normalize();if(normal.lengthSq()<.1)normal.set(0,0,1);binormal.crossVectors(tangent,normal).normalize();const r=(.04+.24*u)*dragonFade;
    for(let j=0;j<=sides;j++){const a=j/sides*TAU;temp.copy(center).addScaledVector(normal,Math.cos(a)*r).addScaledVector(binormal,Math.sin(a)*r);this.positions.setXYZ(i*(sides+1)+j,temp.x,temp.y,temp.z)}
-  }this.positions.needsUpdate=true;this.body.geometry.computeVertexNormals();this.ribbons.update(u=>{const p=path(u,t);p.x*=compress;p.z*=compress;return p},t,dragonFade);const hp=path(1,t);hp.x*=compress;hp.z*=compress;this.head.position.copy(hp);this.head.scale.setScalar(dragonFade);const forward=path(.99,t);forward.x*=compress;forward.z*=compress;this.head.quaternion.setFromUnitVectors(new V(1,0,0),hp.clone().sub(forward).normalize());
+  }this.positions.needsUpdate=true;this.body.geometry.computeVertexNormals();this.ribbons.update(u=>{const p=path(u,t);p.x*=compress;p.z*=compress;return p},t,dragonFade);const hp=path(1,t);hp.x*=compress;hp.z*=compress;this.head.position.copy(hp);this.head.scale.setScalar(1.45*dragonFade);const forward=path(.99,t);forward.x*=compress;forward.z*=compress;orientDragonHead(this.head,hp.clone().sub(forward));
+  for(let i=0;i<28;i++){const u=.05+i/30,p=path(u,t);this.dummy.position.set(p.x*compress,p.y+(.04+.24*u)*dragonFade,p.z*compress);this.dummy.rotation.set(0,0,-.35);this.dummy.scale.set(.65,dragonFade*(.4+.6*u),.65);this.dummy.updateMatrix();this.dorsal.setMatrixAt(i,this.dummy.matrix)}this.dorsal.instanceMatrix.needsUpdate=true;
   for(let i=0;i<this.scales.count;i++){const u=i/this.scales.count,p=path(u,t);this.dummy.position.set(p.x*compress,p.y+.15,p.z*compress);this.dummy.rotation.set(0,t+u*8,.5);this.dummy.scale.set(.45,dragonFade*.8,.45);this.dummy.updateMatrix();this.scales.setMatrixAt(i,this.dummy.matrix)}this.scales.instanceMatrix.needsUpdate=true;
   this.dragonWisps.forEach((w,i)=>{w.rotation.y=-t*.68;w.scale.set(compress,dragonFade,compress);w.visible=dragonFade>.01&&(this.particles.count>90||i<5)});
   this.rails.forEach((g,i)=>{g.rotation.y=t*(i%2?-.7:.45);g.scale.setScalar((.1+.9*start)*fade);g.position.y=(.30+i*1.38)*smooth(.15,1.4,t)});

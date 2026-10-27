@@ -19,11 +19,11 @@ function mergeStatic(group:THREE.Group){
 export class BindStar {
  readonly dragon:DragonEffect;
  readonly layers:Record<Layer,THREE.Group>;
- private circles:THREE.Group[]=[]; private crystals:THREE.Group[]=[]; private beams:THREE.Mesh[]=[];private chainLinks:THREE.InstancedMesh;private particles:THREE.InstancedMesh;private stones:THREE.InstancedMesh;private dummy=new THREE.Object3D();private quality:'standard'|'high'|'ultra'='high';
+ private circles:THREE.Group[]=[]; private crystals:THREE.Group[]=[]; private beams:THREE.Mesh[]=[];private chainLinks:THREE.InstancedMesh;private particles:THREE.InstancedMesh;private stones:THREE.InstancedMesh;private dummy=new THREE.Object3D();private quality:'high'|'ultra'='high';
  constructor(scene:THREE.Scene){
   this.dragon=new DragonEffect(scene);this.dragon.group.name='Bind Star dragon';
   // The first-skill dragon's sweep rings are detached from this instance only.
-  for(const child of [...this.dragon.group.children].slice(4))this.dragon.group.remove(child);
+  for(const child of [...this.dragon.group.children].slice(5))this.dragon.group.remove(child);
   this.layers={dragon:this.dragon.group,circle:new THREE.Group(),crystals:new THREE.Group(),beams:new THREE.Group(),chains:new THREE.Group(),particles:new THREE.Group()};
   for(const [name,g] of Object.entries(this.layers)){g.name='skill02 '+name;if(name!=='dragon')scene.add(g);g.visible=false;}
   for(let k=0;k<3;k++){
@@ -42,7 +42,7 @@ export class BindStar {
   this.particles=new THREE.InstancedMesh(new THREE.OctahedronGeometry(.045,0),lineMat,120);this.particles.frustumCulled=false;this.layers.particles.add(this.particles);
   this.stones=new THREE.InstancedMesh(new THREE.DodecahedronGeometry(.09,0),new THREE.MeshStandardMaterial({color:0x293c53,metalness:.15,roughness:.8}),24);this.stones.frustumCulled=false;this.layers.particles.add(this.stones);
  }
- setQuality(q:'standard'|'high'|'ultra'){this.quality=q;this.dragon.setQuality(q);this.chainLinks.count=q==='ultra'?100:q==='standard'?48:70;this.particles.count=q==='ultra'?120:q==='standard'?35:65;this.stones.count=q==='ultra'?24:q==='standard'?6:12;}
+ setQuality(q:'high'|'ultra'){this.quality=q;this.dragon.setQuality(q);this.chainLinks.count=q==='ultra'?100:70;this.particles.count=q==='ultra'?120:65;this.stones.count=q==='ultra'?24:12;}
  update(t:number,active:boolean,visibility:Record<Layer,boolean>){
   const envelope=smooth(.08,.6,t)*(1-smooth(5.45,6.25,t));const expand=smooth(.32,1.7,t);const bind=smooth(2.25,3.4,t)*(1-smooth(4.9,5.9,t));
   for(const [name,g] of Object.entries(this.layers))g.visible=active&&envelope>.001&&visibility[name as Layer];

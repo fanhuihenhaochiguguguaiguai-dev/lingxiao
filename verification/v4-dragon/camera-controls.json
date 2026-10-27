@@ -1,0 +1,11 @@
+{
+  "status": "PASS_DESKTOP_SOFTWARE_AND_SIMULATED_LANDSCAPE_ONLY",
+  "mouse_orbit_changed_frame": true,
+  "wheel_zoom_changed_frame": true,
+  "simulated_touch_viewport": [
+    844,
+    390
+  ],
+  "followButton": "dragon",
+  "errors": []
+}

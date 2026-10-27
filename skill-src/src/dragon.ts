@@ -1,5 +1,6 @@
 import * as THREE from 'three/webgpu';
 import { EnergyRibbons } from './energy-ribbons';
+import { makeDragonHead,orientDragonHead } from './dragon-head';
 import { color, mix, positionLocal, sin, uniform } from 'three/tsl';
 
 const V = THREE.Vector3;
@@ -14,6 +15,7 @@ const gold = new THREE.MeshStandardMaterial({color:0xb58535,emissive:0x613707,em
 const luminous = new THREE.MeshBasicMaterial({color:0x95dcff,transparent:true,opacity:.8,blending:THREE.AdditiveBlending,depthWrite:false,side:THREE.DoubleSide});
 const dimBlue = new THREE.MeshBasicMaterial({color:0x2588ff,transparent:true,opacity:.4,blending:THREE.AdditiveBlending,depthWrite:false,side:THREE.DoubleSide});
 const orb = new THREE.MeshBasicMaterial({color:0xdffaff});
+const headShell=new THREE.MeshStandardMaterial({color:0x104682,emissive:0x06244f,emissiveIntensity:.48,metalness:.35,roughness:.32,transparent:true,opacity:.94});
 function mesh(parent:THREE.Object3D, geometry:THREE.BufferGeometry, material:THREE.Material, x:number,y:number,z:number, sx=1,sy=1,sz=1) {const m=new THREE.Mesh(geometry,material);m.position.set(x,y,z);m.scale.set(sx,sy,sz);parent.add(m);return m;}
 function line(points:THREE.Vector3[],radius:number,material:THREE.Material){return new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(points),32,radius,6,false),material);}
 function path(t:number):THREE.Vector3 {
@@ -25,10 +27,10 @@ function path(t:number):THREE.Vector3 {
 export class DragonEffect {
  readonly group=new THREE.Group(); readonly head=new THREE.Group();
  private readonly body:THREE.Mesh; private readonly positions:THREE.BufferAttribute; private readonly ribbons=new EnergyRibbons({color:0x77ccff,opacity:.18,width:.055,count:4});
- private readonly rings:THREE.Mesh[]=[]; private readonly shards:THREE.InstancedMesh; private readonly scales:THREE.InstancedMesh;
+ private readonly rings:THREE.Mesh[]=[]; private readonly shards:THREE.InstancedMesh; private readonly scales:THREE.InstancedMesh; private readonly dorsal:THREE.InstancedMesh;
  private readonly dummy=new THREE.Object3D(); private readonly segmentCount=64; private readonly sides=10;
  private readonly tmp=new V(); private readonly axis=new V(1,0,0); private readonly dir=new V(); private readonly quat=new THREE.Quaternion();
- private readonly windBands:THREE.Mesh[]=[]; private readonly sweepArcs=new THREE.Group(); private quality:'standard'|'high'|'ultra'='high';
+ private readonly windBands:THREE.Mesh[]=[]; private readonly sweepArcs=new THREE.Group(); private quality:'high'|'ultra'='high';
  constructor(scene:THREE.Scene){
   this.group.name='3D Dragon skill';scene.add(this.group);
   const positions=new Float32Array((this.segmentCount+1)*(this.sides+1)*3),idx:number[]=[];
@@ -36,6 +38,7 @@ export class DragonEffect {
   const geo=new THREE.BufferGeometry();this.positions=new THREE.BufferAttribute(positions,3);this.positions.setUsage(THREE.DynamicDrawUsage);geo.setAttribute('position',this.positions);geo.setIndex(idx);geo.computeVertexNormals();this.body=new THREE.Mesh(geo,bodyMaterial);this.body.frustumCulled=false;this.group.add(this.body);this.body.add(this.ribbons.mesh);
   this.makeHead();this.group.add(this.head);
   const scaleGeo=new THREE.OctahedronGeometry(.065,0);this.scales=new THREE.InstancedMesh(scaleGeo,core,72);this.scales.frustumCulled=false;this.group.add(this.scales);
+  this.dorsal=new THREE.InstancedMesh(new THREE.ConeGeometry(.065,.24,5),core,24);this.dorsal.frustumCulled=false;this.group.add(this.dorsal);
   const shardGeo=new THREE.OctahedronGeometry(.045,0);this.shards=new THREE.InstancedMesh(shardGeo,luminous,160);this.shards.frustumCulled=false;this.group.add(this.shards);
   for(let i=0;i<3;i++){const ring=mesh(this.group,new THREE.TorusGeometry(1,.008,6,100),i===1?dimBlue:luminous,0,.035+i*.025,0);ring.rotation.x=Math.PI/2;this.rings.push(ring)}
   for(let i=0;i<4;i++){const ribbon=mesh(this.group,new THREE.TorusGeometry(1,.012,5,70,Math.PI*1.5),i%2?luminous:dimBlue,0,.85,0);ribbon.rotation.set(Math.PI/2,.18*i,.5*i);this.windBands.push(ribbon)}
@@ -44,26 +47,14 @@ export class DragonEffect {
   this.group.visible=false;
  }
  private makeHead(){
-  const h=this.head;h.name='Dragon head: actual 3D geometry';
-  const skull=mesh(h,new THREE.SphereGeometry(.24,24,16),bodyMaterial,0,0,0,1.18,.82,.82);
-  mesh(h,new THREE.SphereGeometry(.18,20,12),core,.23,-.06,0,1.55,.55,.68);
-  mesh(h,new THREE.SphereGeometry(.16,20,12),bodyMaterial,.20,-.16,0,1.45,.38,.60);
-  for(const side of [-1,1]){
-   mesh(h,new THREE.SphereGeometry(.032,14,10),orb,.075,.065,side*.177,1,.75,.5);
-   const brow=line([new V(-.10,.13,side*.14),new V(.03,.16,side*.20),new V(.18,.12,side*.16)],.013,gold);h.add(brow);
-   const horn=line([new V(-.15,.10,side*.11),new V(-.25,.24,side*.18),new V(-.40,.30,side*.23),new V(-.51,.27,side*.25)],.018,gold);h.add(horn);
-   const whisker=line([new V(.23,-.09,side*.11),new V(.34,-.11,side*.22),new V(.47,-.04,side*.33),new V(.57,.03,side*.35)],.006,luminous);h.add(whisker);
-   for(let i=0;i<4;i++){const spike=mesh(h,new THREE.ConeGeometry(.023,.095,6),core,.06+i*.07,-.18,side*.11);spike.rotation.z=Math.PI;}
-   const crest=line([new V(-.02,.16,side*.11),new V(-.18,.30,side*.15),new V(-.34,.25,side*.23)],.011,luminous);h.add(crest);
-  }
-  skull.userData.actual3D=true;
+  this.head.add(makeDragonHead({shell:headShell,light:core,gold,dark:new THREE.MeshStandardMaterial({color:0x07152b,roughness:.6}),eye:orb}));
  }
- setQuality(q:'standard'|'high'|'ultra'){this.quality=q;this.shards.count=q==='ultra'?160:q==='standard'?40:80;this.scales.count=q==='ultra'?72:q==='standard'?24:48;}
+ setQuality(q:'high'|'ultra'){this.quality=q;this.shards.count=q==='ultra'?160:80;this.scales.count=q==='ultra'?72:48;}
  update(t:number,active:boolean,orbit?:{sample:(u:number)=>THREE.Vector3;phase:number}){
   const phase=orbit?orbit.phase:smooth(.05,.60,t)*(1-smooth(3.65,4.35,t));this.group.visible=active&&phase>.001;if(!this.group.visible)return;
-  flowTime.value=t;bodyMaterial.opacity=.64*phase;core.opacity=.80*phase;luminous.opacity=.70*phase;dimBlue.opacity=.36*phase;
+  flowTime.value=t;headShell.opacity=.94*phase;bodyMaterial.opacity=.64*phase;core.opacity=.80*phase;luminous.opacity=.70*phase;dimBlue.opacity=.36*phase;
   const sample=(u:number)=>orbit?orbit.sample(Math.max(0,Math.min(1,u))):path(Math.max(0,t-u*.65)).add(new V(-u*.55,.15*Math.sin(t*7-u*7)*u,.20*Math.sin(t*5-u*8)*u));
-  const headP=orbit?sample(0):path(t);this.head.position.copy(headP);if(orbit)this.dir.copy(sample(0)).sub(sample(.02));else this.dir.copy(path(Math.min(t+.025,3.2))).sub(path(Math.max(.0,t-.025)));if(this.dir.lengthSq()<.00001)this.dir.set(1,0,0);this.dir.normalize();this.quat.setFromUnitVectors(this.axis,this.dir);this.head.quaternion.copy(this.quat);this.head.scale.setScalar(.88+.12*Math.sin(t*4));
+  const headP=orbit?sample(0):path(t);this.head.position.copy(headP);if(orbit)this.dir.copy(sample(0)).sub(sample(.02));else this.dir.copy(path(Math.min(t+.025,3.2))).sub(path(Math.max(.0,t-.025)));if(this.dir.lengthSq()<.00001)this.dir.set(1,0,0);this.dir.normalize();orientDragonHead(this.head,this.dir);this.head.scale.setScalar(1.16+.04*Math.sin(t*4));
   const center=new V(),next=new V(),tangent=new V(),normal=new V(),binormal=new V();
   for(let i=0;i<=this.segmentCount;i++){
    const u=i/this.segmentCount,lag=u*.65;if(orbit){center.copy(sample(u));next.copy(sample(u+.018))}else{center.copy(path(Math.max(0,t-lag))).add(new V(-u*.55,.15*Math.sin(t*7-u*7)*u,.20*Math.sin(t*5-u*8)*u));next.copy(path(Math.max(0,t-lag-.012))).add(new V(-(u+.006)*.55,.15*Math.sin(t*7-(u+.006)*7)*(u+.006),.20*Math.sin(t*5-(u+.006)*8)*(u+.006)))}
@@ -72,10 +63,11 @@ export class DragonEffect {
    for(let j=0;j<=this.sides;j++){const a=j/this.sides*Math.PI*2;this.tmp.copy(center).addScaledVector(normal,Math.cos(a)*radius).addScaledVector(binormal,Math.sin(a)*radius*.75);this.positions.setXYZ(i*(this.sides+1)+j,this.tmp.x,this.tmp.y,this.tmp.z)}
   }
   this.positions.needsUpdate=true;this.body.geometry.computeVertexNormals();this.ribbons.update(sample,t,phase);
+  for(let i=0;i<24;i++){const u=.04+i/26,p=sample(u),r=.20*(1-u)+.016;this.dummy.position.copy(p).add(new V(0,r*.75,0));this.dummy.rotation.set(0,0,-.35);this.dummy.scale.set(.55,Math.max(.12,1-u)*phase,.55);this.dummy.updateMatrix();this.dorsal.setMatrixAt(i,this.dummy.matrix)}this.dorsal.instanceMatrix.needsUpdate=true;
   for(let i=0;i<this.scales.count;i++){
    const u=(i%36)/36,side=i<36?-1:1;const centerP=orbit?sample(u):path(Math.max(0,t-u*.65));this.dummy.position.copy(centerP).add(orbit?new V(0,.12,.12*side):new V(-u*.55,.13+(.2*(1-u))*side*.4,.14*side));this.dummy.rotation.set(0,u*4+t*2,side*.4);this.dummy.scale.set(.22,.34,.50);this.dummy.updateMatrix();this.scales.setMatrixAt(i,this.dummy.matrix);
   }this.scales.instanceMatrix.needsUpdate=true;
-  const maxShards=this.quality==='ultra'?160:this.quality==='standard'?40:80;this.shards.count=orbit?Math.ceil(maxShards*.55):t<1.5?Math.min(maxShards,28):maxShards;
+  const maxShards=this.quality==='ultra'?160:80;this.shards.count=orbit?Math.ceil(maxShards*.55):t<1.5?Math.min(maxShards,28):maxShards;
   const burst=smooth(2.95,3.35,t);for(let i=0;i<this.shards.count;i++){
    const a=i*2.399+t*.9,r=(.30+(i%19)*.075)*(0.3+burst);this.dummy.position.set(headP.x+Math.cos(a)*r,Math.max(.06,headP.y+Math.sin(a*1.7)*r*.55),headP.z+Math.sin(a)*r);const sz=(.4+(i%5)*.14)*phase*(orbit?.65:1);this.dummy.scale.setScalar(sz);this.dummy.rotation.set(a,t*2,a*.4);this.dummy.updateMatrix();this.shards.setMatrixAt(i,this.dummy.matrix);
   }this.shards.instanceMatrix.needsUpdate=true;

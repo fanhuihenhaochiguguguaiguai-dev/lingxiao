@@ -1,0 +1,16 @@
+{
+  "modes": {
+    "high": {
+      "triangles": 106806,
+      "drawCalls": 153,
+      "fps": 1
+    },
+    "ultra": {
+      "triangles": 168387,
+      "drawCalls": 214,
+      "fps": 2
+    }
+  },
+  "errors": [],
+  "status": "PASS_SOFTWARE_ONLY"
+}

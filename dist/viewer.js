@@ -10,6 +10,7 @@ function updateCamera(){let cp=Math.cos(pitch);camera.setPosition(target.x+radiu
 function withTimeout(p,ms,label){let timer;return Promise.race([p,new Promise((_,reject)=>{timer=setTimeout(()=>reject(new Error(label)),ms)})]).finally(()=>clearTimeout(timer))}
 function loadModel(n){if(loaded[n])return Promise.resolve(loaded[n]);return withTimeout(new Promise((resolve,reject)=>app.assets.loadFromUrl(`lingyuan-lod${n}.glb`,'container',(e,a)=>{if(e)reject(e);else{loaded[n]=a;resolve(a)}})),45000,'模型下载超时，请检查网络后重试')}
 let actorPosition=new pc.Vec3(), actorHeading=0, movementActive=false, joystick={x:0,y:0}, keys=new Set(), requestNumber=0;
+let velocityX=0,velocityZ=0,followX=0,followZ=0;
 let savedMaterials=[];const grayMat=new pc.StandardMaterial();grayMat.diffuse=new pc.Color(.52,.54,.56);grayMat.roughness=.65;grayMat.update();
 function applyGray(){for(const {mesh,material} of savedMaterials)mesh.material=gray?grayMat:material}
 async function showModel(n,animation='pose'){
@@ -43,16 +44,25 @@ document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',(
 function switchMotion(name){if(!character||!character.anim)return;if(state.animation===name&&character.anim.enabled)return;character.anim.enabled=true;character.anim.baseLayer.transition(name,.15);state.animation=name;$('motion').value=name}
 function moveActor(dt){
  if(!state.ready||!character)return;
+ dt=Math.min(dt,.05);
  let x=joystick.x+(keys.has('d')||keys.has('arrowright')?1:0)-(keys.has('a')||keys.has('arrowleft')?1:0), y=joystick.y+(keys.has('s')||keys.has('arrowdown')?1:0)-(keys.has('w')||keys.has('arrowup')?1:0);
- let length=Math.hypot(x,y);if(length>.08){x/=Math.max(1,length);y/=Math.max(1,length);const dx=x*Math.cos(yaw)+y*Math.sin(yaw),dz=-x*Math.sin(yaw)+y*Math.cos(yaw);const step=Math.min(dt,.05)*1.15;let nx=actorPosition.x+dx*step,nz=actorPosition.z+dz*step,dist=Math.hypot(nx,nz);if(dist>3.15){nx*=3.15/dist;nz*=3.15/dist}let ox=actorPosition.x,oz=actorPosition.z;actorPosition.set(nx,0,nz);target.x+=nx-ox;target.z+=nz-oz;actorHeading=Math.atan2(dx,dz)*180/Math.PI;character.setPosition(actorPosition);character.setEulerAngles(0,actorHeading,0);updateCamera();if(!movementActive)switchMotion('walk');movementActive=true}
- else if(movementActive){movementActive=false;switchMotion('idle')}
- state.position={x:actorPosition.x,y:0,z:actorPosition.z};
+ const length=Math.hypot(x,y);if(length>.08){x/=Math.max(1,length);y/=Math.max(1,length)}else{x=0;y=0}
+ const dx=x*Math.cos(yaw)+y*Math.sin(yaw),dz=-x*Math.sin(yaw)+y*Math.cos(yaw);
+ const blend=1-Math.exp(-dt*(length>.08?7:10));velocityX+=(dx*1.15-velocityX)*blend;velocityZ+=(dz*1.15-velocityZ)*blend;
+ const speed=Math.hypot(velocityX,velocityZ);if(speed>.06){
+  let nx=actorPosition.x+velocityX*dt,nz=actorPosition.z+velocityZ*dt,dist=Math.hypot(nx,nz);if(dist>3.15){nx*=3.15/dist;nz*=3.15/dist}
+  actorPosition.set(nx,0,nz);const desired=Math.atan2(velocityX,velocityZ)*180/Math.PI;const delta=(((desired-actorHeading+180)%360)+360)%360-180;actorHeading+=delta*(1-Math.exp(-dt*9));character.setPosition(actorPosition);character.setEulerAngles(0,actorHeading,0);
+  if(!movementActive){switchMotion('walk');movementActive=true}
+ }else if(movementActive){velocityX=velocityZ=0;movementActive=false;switchMotion('idle')}
+ // Follow the actor root, not the animated head: breathing cannot shake the camera.
+ const f=1-Math.exp(-dt*10),nextX=followX+(actorPosition.x-followX)*f,nextZ=followZ+(actorPosition.z-followZ)*f;target.x+=nextX-followX;target.z+=nextZ-followZ;followX=nextX;followZ=nextZ;updateCamera();
+ state.position={x:actorPosition.x,y:0,z:actorPosition.z};state.speed=speed;state.heading=actorHeading;state.cameraTarget={x:target.x,y:target.y,z:target.z};
 }
 window.addEventListener('keydown',e=>{if(['INPUT','SELECT','TEXTAREA'].includes(document.activeElement.tagName))return;const k=e.key.toLowerCase();if(['w','a','s','d','arrowup','arrowdown','arrowleft','arrowright'].includes(k)){keys.add(k);e.preventDefault()}});
 window.addEventListener('keyup',e=>keys.delete(e.key.toLowerCase()));window.addEventListener('blur',()=>{keys.clear();joystick.x=joystick.y=0;$('joystick-knob').style.transform=''});
 const stick=$('joystick');function setStick(e){const r=stick.getBoundingClientRect(),limit=r.width*.32;let x=e.clientX-(r.left+r.width/2),y=e.clientY-(r.top+r.height/2),d=Math.hypot(x,y);if(d>limit){x=x*limit/d;y=y*limit/d}joystick={x:x/limit,y:y/limit};$('joystick-knob').style.transform=`translate(${x}px,${y}px)`}
 stick.addEventListener('pointerdown',e=>{e.preventDefault();stick.setPointerCapture(e.pointerId);setStick(e)});stick.addEventListener('pointermove',e=>{if(stick.hasPointerCapture(e.pointerId))setStick(e)});function stopStick(){joystick={x:0,y:0};$('joystick-knob').style.transform=''}stick.addEventListener('pointerup',stopStick);stick.addEventListener('pointercancel',stopStick);stick.addEventListener('lostpointercapture',stopStick);
-$('reset-position').addEventListener('click',()=>{target.x-=actorPosition.x;target.z-=actorPosition.z;actorPosition.set(0,0,0);actorHeading=0;if(character){character.setPosition(actorPosition);character.setEulerAngles(0,0,0)}updateCamera()});
+$('reset-position').addEventListener('click',()=>{target.x-=followX;target.z-=followZ;followX=followZ=velocityX=velocityZ=0;actorPosition.set(0,0,0);actorHeading=0;if(character){character.setPosition(actorPosition);character.setEulerAngles(0,0,0)}updateCamera()});
 
 function switchToCompatibility(){const url=new URL(location.href);if(url.searchParams.get('renderer')==='webgl2')return;url.searchParams.set('renderer','webgl2');location.replace(url.toString())}
 function fail(e){state.errors.push(String(e));$('loading').hidden=false;$('load-message').textContent='加载失败：'+String(e.message||e);$('load-help').textContent='可尝试兼容模式，或在手机 Chrome / 系统浏览器中打开。';$('load-help').hidden=false;$('load-compat').hidden=false;$('load-refresh').hidden=false}
