@@ -17,3 +17,5 @@
 第一技能工作稿位于 `dist/skill/`，源码位于 `skill-src/`。运行 `npm ci --prefix skill-src` 和 `npm run build --prefix skill-src` 可重新构建；在 `dist/` 启动静态服务器后访问 `/skill/`。现有角色和技能特效均未达到最终美术验收，参见 `verification/SKILL01_REPORT.md`。
 
 二技能工作稿已接入现有 `/skill/` 页面，按钮可独立释放两个技能。新增法阵、青龙、晶体、光柱、锁链与粒子显隐控制；实现与未通过项目见 `verification/SKILL02_REPORT.md`。模型、动作与视觉效果尚未达到原画标准，安卓真机尚未验证。
+
+大招「星渊龙卷」已加入同一技能展示页作为第三个演示按钮；质量状态、截图和未完成项见 `verification/SKILL03_REPORT.md`。展示页不含伤害与冷却系统，未宣称正式对局接入。

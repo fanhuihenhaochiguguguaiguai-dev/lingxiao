@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "events": [
+    {
+      "skill": 3,
+      "cue": "awaken",
+      "time": 0
+    },
+    {
+      "skill": 3,
+      "cue": "dragon",
+      "time": 0.85
+    },
+    {
+      "skill": 3,
+      "cue": "burst",
+      "time": 4.95
+    },
+    {
+      "skill": 3,
+      "cue": "afterglow",
+      "time": 5.6
+    }
+  ]
+}
