@@ -13,3 +13,5 @@
 网页通过 WASD / 方向键或触屏摇杆移动人物，拖动旋转镜头。网页只加载所需的模型，手机尺寸默认 LOD1；支持 `?renderer=webgl2` 兼容模式和加载失败提示。精修问题及流程见 `docs/REFINEMENT_WORKFLOW.md`。网页引擎 PlayCanvas，许可见 `dist/engine/PlayCanvas-MIT.txt`。网页默认优先 WebGPU，失败使用 WebGL 2；`?renderer=webgl2` 供兼容性检查。
 
 新增的十张参考图及局部对应关系见 `reference/detail/INDEX.md`。可编辑脸部包含三个初步形变目标；详见最新验证报告。当前并非正式高质量成品。
+
+第一技能工作稿位于 `dist/skill/`，源码位于 `skill-src/`。运行 `npm ci --prefix skill-src` 和 `npm run build --prefix skill-src` 可重新构建；在 `dist/` 启动静态服务器后访问 `/skill/`。现有角色和技能特效均未达到最终美术验收，参见 `verification/SKILL01_REPORT.md`。
