@@ -1,0 +1,72 @@
+{
+  "mobile_webgl": {
+    "ready": true,
+    "errors": [],
+    "frames": 3,
+    "renderer": "webgl2",
+    "lod": 1,
+    "animation": "pose",
+    "triangles": 56813,
+    "drawCalls": 0,
+    "software": true,
+    "clips": [
+      "idle",
+      "turn_left",
+      "turn_right",
+      "walk"
+    ],
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "lod_fallback": {
+    "ready": true,
+    "errors": [],
+    "frames": 2,
+    "renderer": "webgl2",
+    "lod": 2,
+    "animation": "pose",
+    "triangles": 38949,
+    "drawCalls": 0,
+    "software": true,
+    "clips": [
+      "idle",
+      "turn_left",
+      "turn_right",
+      "walk"
+    ],
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "all_models_blocked": {
+    "ready": false,
+    "errors": [
+      "Network error"
+    ],
+    "frames": 0,
+    "renderer": "webgl2",
+    "lod": 0,
+    "animation": "pose",
+    "triangles": 0,
+    "drawCalls": 0,
+    "software": true
+  },
+  "graphics_fallback": {
+    "ready": false,
+    "errors": [
+      "Error: forced graphics failure"
+    ],
+    "frames": 0,
+    "renderer": null,
+    "lod": 0,
+    "animation": "pose",
+    "triangles": 0,
+    "drawCalls": 0
+  },
+  "module_failure_help": "PASS"
+}

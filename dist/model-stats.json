@@ -3,7 +3,7 @@
   "lods": [
     {
       "lod": 0,
-      "triangles": 91782,
+      "triangles": 91994,
       "hair_vertices": 14352,
       "hair_primitives": 3,
       "animation_names": [
@@ -16,7 +16,7 @@
     },
     {
       "lod": 1,
-      "triangles": 56601,
+      "triangles": 56813,
       "hair_vertices": 6840,
       "hair_primitives": 3,
       "animation_names": [
@@ -29,7 +29,7 @@
     },
     {
       "lod": 2,
-      "triangles": 38737,
+      "triangles": 38949,
       "hair_vertices": 2310,
       "hair_primitives": 3,
       "animation_names": [

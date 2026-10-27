@@ -2,6 +2,8 @@
 import bpy,json,math
 from collections import defaultdict
 rig=bpy.data.objects['Lingyuan_Rig'];assert len(rig.data.bones)==58
+head=bpy.data.objects['Lingyuan head - MakeHuman CC0 base'];assert head.data.shape_keys and len(head.data.shape_keys.key_blocks)==4
+assert bpy.data.objects.get('Eye microgeometry') is not None
 for n in range(3):
  hair=bpy.data.objects[f'Hair_Lod{n}'];assert any(m.type=='ARMATURE' and m.object==rig for m in hair.modifiers)
  missing=[g for g in ['head','hair01.L','hair02.L','hair01.R','hair02.R'] if hair.vertex_groups.get(g) is None];assert not missing

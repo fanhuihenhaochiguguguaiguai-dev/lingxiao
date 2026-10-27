@@ -13,7 +13,7 @@ for lod in range(3):
   if a.get('normalized') and kind in ('H','B'):
    div=65535 if kind=='H' else 255;values=[tuple(x/div for x in row) for row in values]
   return values
- nodes=doc['nodes'];hairs=[n for n in nodes if n.get('name','').startswith('Hair_Lod')];assert len(hairs)==1 and hairs[0]['name']==f'Hair_Lod{lod}',f'LOD {lod}: wrong hair node'
+ nodes=doc['nodes'];head=next((n for n in nodes if 'MakeHuman CC0 base' in n.get('name','')),None);assert head and 'mesh' in head and 'skin' in head;headmesh=doc['meshes'][head['mesh']];assert len(headmesh.get('weights',[]))==3 and all(len(p.get('targets',[]))==3 for p in headmesh['primitives']),f'LOD {lod}: missing editable face targets';eyes=next((n for n in nodes if n.get('name')=='Eye microgeometry'),None);assert eyes and 'mesh' in eyes and 'skin' in eyes,f'LOD {lod}: missing eye detail geometry';hairs=[n for n in nodes if n.get('name','').startswith('Hair_Lod')];assert len(hairs)==1 and hairs[0]['name']==f'Hair_Lod{lod}',f'LOD {lod}: wrong hair node'
  hair=hairs[0];assert 'skin' in hair and 'mesh' in hair;primitives=doc['meshes'][hair['mesh']]['primitives'];num_vertices=0
  for p in primitives:
   a=p['attributes'];assert all(x in a for x in ['POSITION','NORMAL','JOINTS_0','WEIGHTS_0']);weights=accessor(a['WEIGHTS_0']);num_vertices+=len(weights)
