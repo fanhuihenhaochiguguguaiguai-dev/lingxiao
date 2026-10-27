@@ -1,0 +1,138 @@
+{
+  "initial": {
+    "ready": true,
+    "errors": [],
+    "frames": 5,
+    "renderer": "webgl2",
+    "lod": 0,
+    "animation": "pose",
+    "triangles": 91782,
+    "drawCalls": 59,
+    "software": true,
+    "clips": [
+      "idle",
+      "turn_left",
+      "turn_right",
+      "walk"
+    ],
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "moving": {
+    "ready": true,
+    "errors": [],
+    "frames": 8,
+    "renderer": "webgl2",
+    "lod": 0,
+    "animation": "walk",
+    "triangles": 91782,
+    "drawCalls": 59,
+    "software": true,
+    "clips": [
+      "idle",
+      "turn_left",
+      "turn_right",
+      "walk"
+    ],
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": -0.1725
+    }
+  },
+  "stopped": {
+    "ready": true,
+    "errors": [],
+    "frames": 9,
+    "renderer": "webgl2",
+    "lod": 0,
+    "animation": "idle",
+    "triangles": 91782,
+    "drawCalls": 59,
+    "software": true,
+    "clips": [
+      "idle",
+      "turn_left",
+      "turn_right",
+      "walk"
+    ],
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": -0.1725
+    }
+  },
+  "lod": {
+    "ready": true,
+    "errors": [],
+    "frames": 12,
+    "renderer": "webgl2",
+    "lod": 2,
+    "animation": "idle",
+    "triangles": 38737,
+    "drawCalls": 59,
+    "software": true,
+    "clips": [
+      "idle",
+      "turn_left",
+      "turn_right",
+      "walk"
+    ],
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": -0.1725
+    }
+  },
+  "reset": {
+    "ready": true,
+    "errors": [],
+    "frames": 16,
+    "renderer": "webgl2",
+    "lod": 2,
+    "animation": "idle",
+    "triangles": 38737,
+    "drawCalls": 59,
+    "software": true,
+    "clips": [
+      "idle",
+      "turn_left",
+      "turn_right",
+      "walk"
+    ],
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "joystick": {
+    "ready": true,
+    "errors": [],
+    "frames": 8,
+    "renderer": "webgl2",
+    "lod": 1,
+    "animation": "walk",
+    "triangles": 56601,
+    "drawCalls": 59,
+    "software": true,
+    "clips": [
+      "idle",
+      "turn_left",
+      "turn_right",
+      "walk"
+    ],
+    "position": {
+      "x": 0.04991319444444444,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "initial_network_assertions": {
+    "desktop_lod0_only": "PASS",
+    "mobile_lod1_only": "PASS"
+  }
+}

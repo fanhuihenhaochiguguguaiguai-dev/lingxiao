@@ -4,7 +4,7 @@ const state=window.__lingyuan={ready:false,errors:[],frames:0,renderer:null,lod:
 window.addEventListener('error',e=>state.errors.push(e.message));window.addEventListener('unhandledrejection',e=>state.errors.push(String(e.reason)));
 let app,camera,character,device,key,fill,loaded={},gray=false,yaw=0,pitch=.04,radius=3.9,target=new pc.Vec3(0,1,0),lastX=0,lastY=0,dragging=false,prevPinch=0;
 const counts=[0,0,0];
-async function fetchStats(){for(let n=0;n<3;n++){let b=await fetch(`lingyuan-lod${n}.glb`).then(r=>r.arrayBuffer());let v=new DataView(b),len=v.getUint32(12,true),doc=JSON.parse(new TextDecoder().decode(new Uint8Array(b,20,len)));counts[n]=doc.meshes.reduce((s,m)=>s+m.primitives.reduce((p,x)=>p+(x.indices===undefined?0:doc.accessors[x.indices].count/3),0),0)}}
+async function fetchStats(){const response=await fetch('model-stats.json');if(!response.ok)throw Error('模型统计信息加载失败');const doc=await response.json();if(doc.version!==1||!Array.isArray(doc.lods)||doc.lods.length!==3)throw Error('模型统计信息无效');for(const item of doc.lods){if(!Number.isInteger(item.lod)||item.lod<0||item.lod>2||!Number.isInteger(item.triangles)||item.triangles<1)throw Error('模型统计信息不完整');counts[item.lod]=item.triangles}}
 function resize(){if(!app)return;let r=canvas.parentElement.getBoundingClientRect();app.resizeCanvas(Math.max(1,r.width),Math.max(1,r.height))}
 function updateCamera(){let cp=Math.cos(pitch);camera.setPosition(target.x+radius*Math.sin(yaw)*cp,target.y+radius*Math.sin(pitch),target.z+radius*Math.cos(yaw)*cp);camera.lookAt(target)}
 function loadModel(n){if(loaded[n])return Promise.resolve(loaded[n]);return new Promise((resolve,reject)=>app.assets.loadFromUrl(`lingyuan-lod${n}.glb`,'container',(e,a)=>{if(e)reject(e);else{loaded[n]=a;resolve(a)}}))}
@@ -31,7 +31,7 @@ async function main(){
  const floorMat=new pc.StandardMaterial();floorMat.diffuse=new pc.Color(.20,.25,.30);floorMat.metalness=.25;floorMat.roughness=.6;floorMat.useMetalness=true;floorMat.update();const floor=new pc.Entity('Neutral platform');floor.addComponent('render',{type:'cylinder',material:floorMat});floor.setLocalScale(7.4,.035,7.4);floor.setPosition(0,-.035,0);app.root.addChild(floor);
  let info=device.gpuAdapter?.info;let sw=!!(info?.isFallbackAdapter||/swiftshader|llvmpipe|lavapipe/i.test([info?.vendor,info?.architecture,info?.device,info?.description].join(' ')));if(device.deviceType==='webgl2'){let gl=device.gl,e=gl.getExtension('WEBGL_debug_renderer_info');sw=!!(e&&/swiftshader|llvmpipe|software/i.test(gl.getParameter(e.UNMASKED_RENDERER_WEBGL)))}state.software=sw;
  if(sw&&device.wgpu){app.autoRender=false;app.renderNextFrame=true;app.on('postrender',()=>queueMicrotask(async()=>{await device.wgpu.queue.onSubmittedWorkDone();setTimeout(()=>{app.renderNextFrame=true},100)}))}
- app.start();await fetchStats();await showModel(0);state.ready=true;app.on('update',moveActor);
+ app.start();await fetchStats();const initialLod=matchMedia('(max-width: 800px)').matches?1:0;$('lod').value=String(initialLod);await showModel(initialLod);state.ready=true;app.on('update',moveActor);
  let then=performance.now(),frames=0;app.on('postrender',()=>{frames++;state.frames++;let now=performance.now();if(now-then>1000){$('fps').textContent=Math.round(frames*1000/(now-then));const dc=app.stats.drawCalls.total; $('draws').textContent=dc>0?dc:'—';state.drawCalls=dc>0?dc:null;then=now;frames=0}});
  window.addEventListener('resize',resize);
 }

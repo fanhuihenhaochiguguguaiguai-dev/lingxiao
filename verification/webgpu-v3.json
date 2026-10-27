@@ -1,0 +1,22 @@
+{
+  "ready": true,
+  "errors": [],
+  "frames": 5,
+  "renderer": "webgpu",
+  "lod": 0,
+  "animation": "pose",
+  "triangles": 91782,
+  "drawCalls": null,
+  "software": true,
+  "clips": [
+    "idle",
+    "turn_left",
+    "turn_right",
+    "walk"
+  ],
+  "position": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  }
+}

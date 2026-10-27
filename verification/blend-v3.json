@@ -1,0 +1,8 @@
+{
+  "result": "PASS",
+  "bones": 58,
+  "old_overlap_neck_removed": true,
+  "lods": 3,
+  "hair_vertex_motion_m": 0.09655787721671694,
+  "tested_action": "walk"
+}
