@@ -124,6 +124,9 @@ for side in (-1,1):
  e=joints['joint-'+('l' if side==1 else 'r')+'-eye'];line(f'Earring {side}',[(side*.092,-.02,1.56),(side*.098,-.025,1.48)],.0017,gold);sphere(f'Earring gem {side}',(side*.098,-.025,1.47),(.008,.005,.012),gem,16,8)
 flower((0,-.185,1.15),.025,'Bodice flower');sphere('Waist blue gem',(0,-.165,.86),(.022,.009,.033),gem,20,10)
 for s in (-1,1):line(f'Waist trim {s}',[(0,-.165,.87),(s*.05,-.15,.90),(s*.10,-.10,.88)],.003,gold)
+# Incremental geometry study. Kept separate so the reference baseline and the
+# changes can be inspected and reverted independently.
+exec(compile((ROOT/'tools/refine_qingli_study.py').read_text(), 'refine_qingli_study.py', 'exec'))
 # Make all curves into exportable, editable geometry.
 bpy.ops.object.select_all(action='DESELECT')
 for o in bpy.context.scene.objects:

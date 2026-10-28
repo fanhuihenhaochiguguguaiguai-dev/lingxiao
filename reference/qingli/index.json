@@ -1,6 +1,7 @@
 [
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "full_body",
     "label": "front",
     "source": "originals/board-01.jpg",
@@ -23,6 +24,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "full_body",
     "label": "side",
     "source": "originals/board-01.jpg",
@@ -45,6 +47,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "full_body",
     "label": "back",
     "source": "originals/board-01.jpg",
@@ -67,6 +70,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "full_body",
     "label": "angle45",
     "source": "originals/board-01.jpg",
@@ -89,6 +93,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "full_body",
     "label": "motion",
     "source": "originals/board-01.jpg",
@@ -111,6 +116,30 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
+    "category": "full_body",
+    "label": "panorama_context",
+    "source": "originals/board-01.jpg",
+    "box": [
+      0,
+      0,
+      791,
+      337
+    ],
+    "source_size": [
+      791,
+      337
+    ],
+    "scale": 2,
+    "raw": "crops/board-01/full_body/06_panorama_context.png",
+    "upscaled": "upscaled/board-01/full_body/06_panorama_context.png",
+    "raw_sha256": "734b5d1a7da19bb1feef240300b1f84fd7b472d17da218bb2d5ef271461fefaf",
+    "status": "needs_review",
+    "notes": "context only, multiple overlapping views; not an isolated figure"
+  },
+  {
+    "board": 1,
+    "reference_role": "primary",
     "category": "face",
     "label": "portrait_front",
     "source": "originals/board-01.jpg",
@@ -133,6 +162,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "face",
     "label": "portrait_angle",
     "source": "originals/board-01.jpg",
@@ -155,6 +185,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "features",
     "label": "eye",
     "source": "originals/board-01.jpg",
@@ -177,6 +208,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "features",
     "label": "eye_angle",
     "source": "originals/board-01.jpg",
@@ -199,6 +231,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "features",
     "label": "lips",
     "source": "originals/board-01.jpg",
@@ -221,6 +254,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "features",
     "label": "profile",
     "source": "originals/board-01.jpg",
@@ -243,6 +277,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "features",
     "label": "eyelid",
     "source": "originals/board-01.jpg",
@@ -265,6 +300,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "features",
     "label": "cheek",
     "source": "originals/board-01.jpg",
@@ -287,6 +323,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "expressions",
     "label": "calm",
     "source": "originals/board-01.jpg",
@@ -309,6 +346,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "expressions",
     "label": "smile",
     "source": "originals/board-01.jpg",
@@ -331,6 +369,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "expressions",
     "label": "sad",
     "source": "originals/board-01.jpg",
@@ -353,6 +392,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "expressions",
     "label": "surprised",
     "source": "originals/board-01.jpg",
@@ -375,6 +415,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "expressions",
     "label": "angry",
     "source": "originals/board-01.jpg",
@@ -397,6 +438,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "expressions",
     "label": "shy",
     "source": "originals/board-01.jpg",
@@ -419,6 +461,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "hair",
     "label": "front",
     "source": "originals/board-01.jpg",
@@ -441,6 +484,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "hair",
     "label": "side",
     "source": "originals/board-01.jpg",
@@ -463,6 +507,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "hair",
     "label": "back",
     "source": "originals/board-01.jpg",
@@ -485,6 +530,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "hair",
     "label": "crown",
     "source": "originals/board-01.jpg",
@@ -507,6 +553,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "hair",
     "label": "hair_layers",
     "source": "originals/board-01.jpg",
@@ -529,6 +576,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "hair",
     "label": "hair_strands",
     "source": "originals/board-01.jpg",
@@ -551,6 +599,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "hair",
     "label": "hair_ends",
     "source": "originals/board-01.jpg",
@@ -573,6 +622,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "hair",
     "label": "hair_ornament",
     "source": "originals/board-01.jpg",
@@ -595,6 +645,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "scalp",
     "label": "scalp_regions",
     "source": "originals/board-01.jpg",
@@ -617,6 +668,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "scalp",
     "label": "topology",
     "source": "originals/board-01.jpg",
@@ -639,6 +691,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "scalp",
     "label": "hairline",
     "source": "originals/board-01.jpg",
@@ -661,6 +714,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "scalp",
     "label": "fringe",
     "source": "originals/board-01.jpg",
@@ -683,6 +737,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "scalp",
     "label": "side_scalp",
     "source": "originals/board-01.jpg",
@@ -705,6 +760,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "scalp",
     "label": "back_scalp_a",
     "source": "originals/board-01.jpg",
@@ -727,6 +783,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "scalp",
     "label": "back_scalp_b",
     "source": "originals/board-01.jpg",
@@ -749,6 +806,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "body",
     "label": "skeleton_front",
     "source": "originals/board-01.jpg",
@@ -771,6 +829,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "body",
     "label": "skeleton_side",
     "source": "originals/board-01.jpg",
@@ -793,6 +852,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "body",
     "label": "skeleton_back",
     "source": "originals/board-01.jpg",
@@ -815,6 +875,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "body",
     "label": "skull",
     "source": "originals/board-01.jpg",
@@ -837,6 +898,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "body",
     "label": "head_skeleton",
     "source": "originals/board-01.jpg",
@@ -859,6 +921,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "body",
     "label": "shoulder_skeleton",
     "source": "originals/board-01.jpg",
@@ -881,6 +944,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "body",
     "label": "body_skeleton",
     "source": "originals/board-01.jpg",
@@ -903,6 +967,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "body",
     "label": "arm_skeleton",
     "source": "originals/board-01.jpg",
@@ -925,6 +990,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "body",
     "label": "hand_skeleton",
     "source": "originals/board-01.jpg",
@@ -947,6 +1013,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "body",
     "label": "foot_skeleton",
     "source": "originals/board-01.jpg",
@@ -969,6 +1036,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "body",
     "label": "proportions_front",
     "source": "originals/board-01.jpg",
@@ -991,6 +1059,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "body",
     "label": "proportions_45",
     "source": "originals/board-01.jpg",
@@ -1013,6 +1082,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "body",
     "label": "proportions_side",
     "source": "originals/board-01.jpg",
@@ -1035,6 +1105,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "body",
     "label": "proportions_back",
     "source": "originals/board-01.jpg",
@@ -1057,6 +1128,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "body",
     "label": "proportions_variant",
     "source": "originals/board-01.jpg",
@@ -1079,6 +1151,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "body",
     "label": "neck",
     "source": "originals/board-01.jpg",
@@ -1101,6 +1174,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "body",
     "label": "back",
     "source": "originals/board-01.jpg",
@@ -1123,6 +1197,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "body",
     "label": "shoulder",
     "source": "originals/board-01.jpg",
@@ -1145,6 +1220,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "body",
     "label": "waist",
     "source": "originals/board-01.jpg",
@@ -1167,6 +1243,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "body",
     "label": "hand",
     "source": "originals/board-01.jpg",
@@ -1189,6 +1266,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "body",
     "label": "foot",
     "source": "originals/board-01.jpg",
@@ -1211,6 +1289,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "clothing",
     "label": "complete",
     "source": "originals/board-01.jpg",
@@ -1233,6 +1312,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "clothing",
     "label": "outer_layer",
     "source": "originals/board-01.jpg",
@@ -1255,6 +1335,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "clothing",
     "label": "inner_layer",
     "source": "originals/board-01.jpg",
@@ -1277,6 +1358,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "clothing",
     "label": "side_structure",
     "source": "originals/board-01.jpg",
@@ -1299,6 +1381,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "clothing",
     "label": "back_structure",
     "source": "originals/board-01.jpg",
@@ -1321,6 +1404,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "clothing",
     "label": "waist_ornament",
     "source": "originals/board-01.jpg",
@@ -1328,21 +1412,22 @@
       399,
       702,
       473,
-      765
+      828
     ],
     "source_size": [
       74,
-      63
+      126
     ],
     "scale": 4,
     "raw": "crops/board-01/clothing/06_waist_ornament.png",
     "upscaled": "upscaled/board-01/clothing/06_waist_ornament.png",
-    "raw_sha256": "8f5f840704ca9d6b41300cbb39de1afc46caa1c8a6498e7cf92d633af54aa5c9",
+    "raw_sha256": "53c569fa2f8e88d00f0912d1882acb6d4a032b6daae0f474fd785004c7e3a68c",
     "status": "cropped",
     "notes": ""
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "clothing",
     "label": "skirt_embroidery",
     "source": "originals/board-01.jpg",
@@ -1350,66 +1435,69 @@
       473,
       702,
       548,
-      765
+      828
     ],
     "source_size": [
       75,
-      63
+      126
     ],
     "scale": 4,
     "raw": "crops/board-01/clothing/07_skirt_embroidery.png",
     "upscaled": "upscaled/board-01/clothing/07_skirt_embroidery.png",
-    "raw_sha256": "f2421e40760cccb4590883fb4baaee63995bdf7cd065d27c29071fdb90469c83",
+    "raw_sha256": "11a55ae08215beb1bb61a47f0261fbf06c6d7db0499268dbc2e0c420e55818cb",
     "status": "cropped",
     "notes": ""
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "clothing",
-    "label": "skirt_material",
+    "label": "cloak_ornament",
     "source": "originals/board-01.jpg",
     "box": [
       548,
       702,
       622,
-      765
+      828
     ],
     "source_size": [
       74,
-      63
+      126
     ],
     "scale": 4,
-    "raw": "crops/board-01/clothing/08_skirt_material.png",
-    "upscaled": "upscaled/board-01/clothing/08_skirt_material.png",
-    "raw_sha256": "0013042589e11fdb686967851b8c5cf632341e2a38bd9b01b7f125abaa45605f",
+    "raw": "crops/board-01/clothing/08_cloak_ornament.png",
+    "upscaled": "upscaled/board-01/clothing/08_cloak_ornament.png",
+    "raw_sha256": "0aed670330b20518c8eb46fdc306b3a18d947e3cb360cc0127a27adee89c986a",
     "status": "cropped",
     "notes": ""
   },
   {
     "board": 1,
-    "category": "clothing",
-    "label": "fabric",
+    "reference_role": "primary",
+    "category": "materials",
+    "label": "sheer_fabric",
     "source": "originals/board-01.jpg",
     "box": [
-      622,
+      625,
       702,
       695,
       765
     ],
     "source_size": [
-      73,
+      70,
       63
     ],
     "scale": 4,
-    "raw": "crops/board-01/clothing/09_fabric.png",
-    "upscaled": "upscaled/board-01/clothing/09_fabric.png",
-    "raw_sha256": "97736aeabae243b5b634881d50cc9a5b2b5ee771c8aaf71e106f964f883b92f6",
+    "raw": "crops/board-01/materials/01_sheer_fabric.png",
+    "upscaled": "upscaled/board-01/materials/01_sheer_fabric.png",
+    "raw_sha256": "61efcbe4ff11bac253e311cefda58e48821af9f8d7a702266e270583085bb852",
     "status": "cropped",
     "notes": ""
   },
   {
     "board": 1,
-    "category": "clothing",
+    "reference_role": "primary",
+    "category": "materials",
     "label": "flower",
     "source": "originals/board-01.jpg",
     "box": [
@@ -1423,16 +1511,17 @@
       63
     ],
     "scale": 4,
-    "raw": "crops/board-01/clothing/10_flower.png",
-    "upscaled": "upscaled/board-01/clothing/10_flower.png",
+    "raw": "crops/board-01/materials/02_flower.png",
+    "upscaled": "upscaled/board-01/materials/02_flower.png",
     "raw_sha256": "0a6aec7fa020c0eb4d3f6eba77f2e900c880f8d0f616289f645dcd91ebb6615d",
     "status": "cropped",
     "notes": ""
   },
   {
     "board": 1,
-    "category": "clothing",
-    "label": "metal",
+    "reference_role": "primary",
+    "category": "materials",
+    "label": "metal_ornament",
     "source": "originals/board-01.jpg",
     "box": [
       767,
@@ -1445,146 +1534,38 @@
       63
     ],
     "scale": 4,
-    "raw": "crops/board-01/clothing/11_metal.png",
-    "upscaled": "upscaled/board-01/clothing/11_metal.png",
+    "raw": "crops/board-01/materials/03_metal_ornament.png",
+    "upscaled": "upscaled/board-01/materials/03_metal_ornament.png",
     "raw_sha256": "262aa4a81918e180593cd1afcbaa70908a2088f12811f629b9ddda7ea6c433b5",
     "status": "cropped",
     "notes": ""
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "clothing",
-    "label": "waist_ornament_detail",
+    "label": "gold_embroidery",
     "source": "originals/board-01.jpg",
     "box": [
-      399,
-      768,
-      473,
-      828
-    ],
-    "source_size": [
-      74,
-      60
-    ],
-    "scale": 4,
-    "raw": "crops/board-01/clothing/12_waist_ornament_detail.png",
-    "upscaled": "upscaled/board-01/clothing/12_waist_ornament_detail.png",
-    "raw_sha256": "45b27ffe1e37e1201625036ec83ce0e0a0c6330133b1946fd7b5975011144d56",
-    "status": "cropped",
-    "notes": ""
-  },
-  {
-    "board": 1,
-    "category": "clothing",
-    "label": "skirt_embroidery_detail",
-    "source": "originals/board-01.jpg",
-    "box": [
-      473,
-      768,
-      548,
-      828
-    ],
-    "source_size": [
-      75,
-      60
-    ],
-    "scale": 4,
-    "raw": "crops/board-01/clothing/13_skirt_embroidery_detail.png",
-    "upscaled": "upscaled/board-01/clothing/13_skirt_embroidery_detail.png",
-    "raw_sha256": "017d7d894d76216ca64c624fae14e59f4d0e370c9dc13741754df6a1d89a5bd9",
-    "status": "cropped",
-    "notes": ""
-  },
-  {
-    "board": 1,
-    "category": "clothing",
-    "label": "skirt_material_detail",
-    "source": "originals/board-01.jpg",
-    "box": [
-      548,
-      768,
-      622,
-      828
-    ],
-    "source_size": [
-      74,
-      60
-    ],
-    "scale": 4,
-    "raw": "crops/board-01/clothing/14_skirt_material_detail.png",
-    "upscaled": "upscaled/board-01/clothing/14_skirt_material_detail.png",
-    "raw_sha256": "c1f90752db4873e6ae3e2c81a5bbb193d53bd84a9b1f40583eb0d352ab58c23c",
-    "status": "cropped",
-    "notes": ""
-  },
-  {
-    "board": 1,
-    "category": "clothing",
-    "label": "metal_layer",
-    "source": "originals/board-01.jpg",
-    "box": [
-      622,
+      625,
       768,
       695,
       828
     ],
     "source_size": [
-      73,
+      70,
       60
     ],
     "scale": 4,
-    "raw": "crops/board-01/clothing/15_metal_layer.png",
-    "upscaled": "upscaled/board-01/clothing/15_metal_layer.png",
-    "raw_sha256": "ff8fface8772db59056f3573491eb9f2ec0701a18d3f16d40589ed91541f7dab",
+    "raw": "crops/board-01/clothing/09_gold_embroidery.png",
+    "upscaled": "upscaled/board-01/clothing/09_gold_embroidery.png",
+    "raw_sha256": "6f83702c0805e585390981d5de0a6f02b17ac697b5fb2a84707e5f441d0759c7",
     "status": "cropped",
     "notes": ""
   },
   {
     "board": 1,
-    "category": "clothing",
-    "label": "gem",
-    "source": "originals/board-01.jpg",
-    "box": [
-      695,
-      768,
-      767,
-      828
-    ],
-    "source_size": [
-      72,
-      60
-    ],
-    "scale": 4,
-    "raw": "crops/board-01/clothing/16_gem.png",
-    "upscaled": "upscaled/board-01/clothing/16_gem.png",
-    "raw_sha256": "4096ac8d143edfc8a97df165f5a16141ecb1e93e4cbf7147d45f1dd01a3a44f4",
-    "status": "cropped",
-    "notes": ""
-  },
-  {
-    "board": 1,
-    "category": "clothing",
-    "label": "fabric_fold",
-    "source": "originals/board-01.jpg",
-    "box": [
-      767,
-      768,
-      846,
-      828
-    ],
-    "source_size": [
-      79,
-      60
-    ],
-    "scale": 4,
-    "raw": "crops/board-01/clothing/17_fabric_fold.png",
-    "upscaled": "upscaled/board-01/clothing/17_fabric_fold.png",
-    "raw_sha256": "0b1c6cc0995f858f05afb0afbc2357f48378c26df9c12d57d0553a2eff2b68db",
-    "status": "cropped",
-    "notes": ""
-  },
-  {
-    "board": 1,
+    "reference_role": "primary",
     "category": "accessories",
     "label": "crown_front",
     "source": "originals/board-01.jpg",
@@ -1607,6 +1588,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "accessories",
     "label": "crown_side",
     "source": "originals/board-01.jpg",
@@ -1629,6 +1611,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "accessories",
     "label": "crown_back",
     "source": "originals/board-01.jpg",
@@ -1651,6 +1634,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "accessories",
     "label": "earring",
     "source": "originals/board-01.jpg",
@@ -1673,6 +1657,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "accessories",
     "label": "necklace",
     "source": "originals/board-01.jpg",
@@ -1695,6 +1680,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "accessories",
     "label": "hand",
     "source": "originals/board-01.jpg",
@@ -1717,6 +1703,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "accessories",
     "label": "foot",
     "source": "originals/board-01.jpg",
@@ -1739,6 +1726,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "accessories",
     "label": "waist",
     "source": "originals/board-01.jpg",
@@ -1761,6 +1749,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "accessories",
     "label": "hairpin",
     "source": "originals/board-01.jpg",
@@ -1783,6 +1772,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "accessories",
     "label": "flower",
     "source": "originals/board-01.jpg",
@@ -1805,6 +1795,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "accessories",
     "label": "tassel",
     "source": "originals/board-01.jpg",
@@ -1827,6 +1818,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "accessories",
     "label": "metal_setting",
     "source": "originals/board-01.jpg",
@@ -1849,6 +1841,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "accessories",
     "label": "gem_setting",
     "source": "originals/board-01.jpg",
@@ -1871,6 +1864,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "accessories",
     "label": "blue_gem",
     "source": "originals/board-01.jpg",
@@ -1893,6 +1887,7 @@
   },
   {
     "board": 1,
+    "reference_role": "primary",
     "category": "accessories",
     "label": "material",
     "source": "originals/board-01.jpg",
@@ -1914,7 +1909,77 @@
     "notes": ""
   },
   {
+    "board": 1,
+    "reference_role": "primary",
+    "category": "accessories",
+    "label": "gem_tassel",
+    "source": "originals/board-01.jpg",
+    "box": [
+      695,
+      768,
+      735,
+      828
+    ],
+    "source_size": [
+      40,
+      60
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/accessories/16_gem_tassel.png",
+    "upscaled": "upscaled/board-01/accessories/16_gem_tassel.png",
+    "raw_sha256": "28bc48d4d0f811635fa1a43ec343b05f1114ddcad7bf5fed9da1a960582cadc4",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "reference_role": "primary",
+    "category": "accessories",
+    "label": "blue_gem_setting",
+    "source": "originals/board-01.jpg",
+    "box": [
+      735,
+      768,
+      790,
+      828
+    ],
+    "source_size": [
+      55,
+      60
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/accessories/17_blue_gem_setting.png",
+    "upscaled": "upscaled/board-01/accessories/17_blue_gem_setting.png",
+    "raw_sha256": "c69d8049c70e3416267185150aac3c50ddf693922014e6e329679e1ab3123c45",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "reference_role": "primary",
+    "category": "accessories",
+    "label": "embroidered_panel",
+    "source": "originals/board-01.jpg",
+    "box": [
+      790,
+      768,
+      846,
+      828
+    ],
+    "source_size": [
+      56,
+      60
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/accessories/18_embroidered_panel.png",
+    "upscaled": "upscaled/board-01/accessories/18_embroidered_panel.png",
+    "raw_sha256": "61af7602062ced0c55a9f92c9571a22c4a688b3f743c8723a9af060bf126c953",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
     "board": 2,
+    "reference_role": "supporting",
     "category": "full_body",
     "label": "front",
     "source": "originals/board-02-main.jpg",
@@ -1937,6 +2002,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "full_body",
     "label": "angle45",
     "source": "originals/board-02-main.jpg",
@@ -1959,6 +2025,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "full_body",
     "label": "side",
     "source": "originals/board-02-main.jpg",
@@ -1981,6 +2048,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "full_body",
     "label": "back",
     "source": "originals/board-02-main.jpg",
@@ -2003,6 +2071,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "full_body",
     "label": "motion",
     "source": "originals/board-02-main.jpg",
@@ -2025,6 +2094,30 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
+    "category": "full_body",
+    "label": "panorama_context",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      0,
+      0,
+      949,
+      366
+    ],
+    "source_size": [
+      949,
+      366
+    ],
+    "scale": 2,
+    "raw": "crops/board-02/full_body/06_panorama_context.png",
+    "upscaled": "upscaled/board-02/full_body/06_panorama_context.png",
+    "raw_sha256": "549d9aaf33eb063f9770f8596f5276dfb4a39f54bc01d091d80f8f86464252e8",
+    "status": "needs_review",
+    "notes": "context only, multiple overlapping views; retains the left-hand train omitted by the per-view crop"
+  },
+  {
+    "board": 2,
+    "reference_role": "supporting",
     "category": "face",
     "label": "main_portrait",
     "source": "originals/board-02-main.jpg",
@@ -2047,6 +2140,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "features",
     "label": "eye_1",
     "source": "originals/board-02-main.jpg",
@@ -2069,6 +2163,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "features",
     "label": "eye_2",
     "source": "originals/board-02-main.jpg",
@@ -2091,6 +2186,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "features",
     "label": "eye_3",
     "source": "originals/board-02-main.jpg",
@@ -2113,6 +2209,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "features",
     "label": "eye_4",
     "source": "originals/board-02-main.jpg",
@@ -2135,6 +2232,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "features",
     "label": "mouth",
     "source": "originals/board-02-main.jpg",
@@ -2157,6 +2255,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "features",
     "label": "closed_eye",
     "source": "originals/board-02-main.jpg",
@@ -2179,6 +2278,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "features",
     "label": "iris",
     "source": "originals/board-02-main.jpg",
@@ -2201,6 +2301,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "features",
     "label": "face_side",
     "source": "originals/board-02-main.jpg",
@@ -2223,6 +2324,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "expressions",
     "label": "calm",
     "source": "originals/board-02-main.jpg",
@@ -2245,6 +2347,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "expressions",
     "label": "smile",
     "source": "originals/board-02-main.jpg",
@@ -2267,6 +2370,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "expressions",
     "label": "happy",
     "source": "originals/board-02-main.jpg",
@@ -2289,6 +2393,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "expressions",
     "label": "surprised",
     "source": "originals/board-02-main.jpg",
@@ -2311,6 +2416,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "expressions",
     "label": "angry",
     "source": "originals/board-02-main.jpg",
@@ -2333,6 +2439,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "expressions",
     "label": "sad",
     "source": "originals/board-02-main.jpg",
@@ -2355,6 +2462,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "expressions",
     "label": "cool",
     "source": "originals/board-02-main.jpg",
@@ -2377,6 +2485,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "expressions",
     "label": "focused_a",
     "source": "originals/board-02-main.jpg",
@@ -2399,6 +2508,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "expressions",
     "label": "focused_b",
     "source": "originals/board-02-main.jpg",
@@ -2421,6 +2531,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "expressions",
     "label": "shy",
     "source": "originals/board-02-main.jpg",
@@ -2443,6 +2554,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "expressions",
     "label": "gentle",
     "source": "originals/board-02-main.jpg",
@@ -2465,6 +2577,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "expressions",
     "label": "thoughtful",
     "source": "originals/board-02-main.jpg",
@@ -2487,6 +2600,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "expressions",
     "label": "look_back",
     "source": "originals/board-02-main.jpg",
@@ -2509,6 +2623,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "hair",
     "label": "front",
     "source": "originals/board-02-main.jpg",
@@ -2531,6 +2646,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "hair",
     "label": "side",
     "source": "originals/board-02-main.jpg",
@@ -2553,6 +2669,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "hair",
     "label": "back",
     "source": "originals/board-02-main.jpg",
@@ -2575,6 +2692,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "hair",
     "label": "angle45",
     "source": "originals/board-02-main.jpg",
@@ -2597,6 +2715,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "hair",
     "label": "look_down",
     "source": "originals/board-02-main.jpg",
@@ -2619,6 +2738,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "hair",
     "label": "look_up",
     "source": "originals/board-02-main.jpg",
@@ -2641,6 +2761,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "accessories",
     "label": "hairpin_metal",
     "source": "originals/board-02-main.jpg",
@@ -2663,6 +2784,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "accessories",
     "label": "hairpin_flower",
     "source": "originals/board-02-main.jpg",
@@ -2685,6 +2807,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "accessories",
     "label": "earrings",
     "source": "originals/board-02-main.jpg",
@@ -2707,6 +2830,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "body",
     "label": "neck",
     "source": "originals/board-02-main.jpg",
@@ -2729,6 +2853,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "body",
     "label": "shoulder",
     "source": "originals/board-02-main.jpg",
@@ -2751,6 +2876,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "body",
     "label": "bodice",
     "source": "originals/board-02-main.jpg",
@@ -2773,6 +2899,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "clothing",
     "label": "bodice",
     "source": "originals/board-02-main.jpg",
@@ -2795,6 +2922,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "clothing",
     "label": "waist",
     "source": "originals/board-02-main.jpg",
@@ -2817,6 +2945,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "clothing",
     "label": "skirt_layers",
     "source": "originals/board-02-main.jpg",
@@ -2839,6 +2968,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "clothing",
     "label": "side_skirt",
     "source": "originals/board-02-main.jpg",
@@ -2861,6 +2991,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "clothing",
     "label": "ribbon",
     "source": "originals/board-02-main.jpg",
@@ -2883,6 +3014,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "clothing",
     "label": "cuff",
     "source": "originals/board-02-main.jpg",
@@ -2905,6 +3037,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "clothing",
     "label": "hem_ornament",
     "source": "originals/board-02-main.jpg",
@@ -2927,6 +3060,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "clothing",
     "label": "heel",
     "source": "originals/board-02-main.jpg",
@@ -2949,6 +3083,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "clothing",
     "label": "back",
     "source": "originals/board-02-main.jpg",
@@ -2971,6 +3106,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "materials",
     "label": "metal",
     "source": "originals/board-02-main.jpg",
@@ -2993,6 +3129,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "materials",
     "label": "cloth",
     "source": "originals/board-02-main.jpg",
@@ -3015,6 +3152,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "materials",
     "label": "flower",
     "source": "originals/board-02-main.jpg",
@@ -3037,6 +3175,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "materials",
     "label": "gem",
     "source": "originals/board-02-main.jpg",
@@ -3059,6 +3198,7 @@
   },
   {
     "board": 2,
+    "reference_role": "supporting",
     "category": "materials",
     "label": "translucent",
     "source": "originals/board-02-main.jpg",
@@ -3081,6 +3221,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "face",
     "label": "portrait",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3103,6 +3244,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "full_body",
     "label": "full_front",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3125,6 +3267,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "full_body",
     "label": "full_angle",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3147,6 +3290,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "full_body",
     "label": "full_side",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3169,6 +3313,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "full_body",
     "label": "full_back_a",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3191,6 +3336,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "full_body",
     "label": "full_back_b",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3213,6 +3359,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "hair",
     "label": "hair_front",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3235,6 +3382,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "hair",
     "label": "hair_side",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3257,6 +3405,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "hair",
     "label": "hair_back",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3279,6 +3428,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "hair",
     "label": "hair_side_detail",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3301,6 +3451,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "hair",
     "label": "hair_rear_detail",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3323,6 +3474,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "hair",
     "label": "hair_profile",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3345,6 +3497,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "hair",
     "label": "hair_ornament_front",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3367,6 +3520,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "hair",
     "label": "hair_ornament_back",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3389,6 +3543,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "hair",
     "label": "hair_ornament_back_close",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3411,6 +3566,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "clothing",
     "label": "sleeve",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3433,6 +3589,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "clothing",
     "label": "chest",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3455,6 +3612,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "clothing",
     "label": "waist",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3477,6 +3635,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "clothing",
     "label": "skirt",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3499,6 +3658,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "clothing",
     "label": "ribbon",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3521,6 +3681,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "clothing",
     "label": "back_fabric",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3543,6 +3704,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "clothing",
     "label": "waist_gem",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3565,6 +3727,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "clothing",
     "label": "skirt_tail",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3587,6 +3750,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "expressions",
     "label": "expression_1",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3609,6 +3773,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "expressions",
     "label": "expression_2",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3631,6 +3796,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "expressions",
     "label": "expression_3",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3653,6 +3819,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "expressions",
     "label": "expression_4",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3675,6 +3842,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "expressions",
     "label": "expression_5",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3697,6 +3865,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "expressions",
     "label": "expression_6",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3719,6 +3888,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "accessories",
     "label": "flower_hair",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3741,6 +3911,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "clothing",
     "label": "side_face",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3763,6 +3934,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "features",
     "label": "eye_close",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3785,6 +3957,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "accessories",
     "label": "flower_close",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3807,6 +3980,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "clothing",
     "label": "skirt_detail",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3829,6 +4003,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "clothing",
     "label": "legs",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3851,6 +4026,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "clothing",
     "label": "shoes",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3873,6 +4049,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "hair",
     "label": "hair_detail_1",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3895,6 +4072,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "hair",
     "label": "hair_detail_2",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3917,6 +4095,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "hair",
     "label": "hair_back",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3939,6 +4118,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "hair",
     "label": "hair_side",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3961,6 +4141,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "clothing",
     "label": "bodice",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -3983,6 +4164,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "hair",
     "label": "profile",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -4005,6 +4187,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "hair",
     "label": "hairpin",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -4027,6 +4210,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "clothing",
     "label": "shoulder",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -4049,6 +4233,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "accessories",
     "label": "hand",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -4071,6 +4256,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "clothing",
     "label": "leg",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -4093,6 +4279,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "clothing",
     "label": "skirt",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -4115,6 +4302,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "accessories",
     "label": "boots",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -4137,6 +4325,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "full_body",
     "label": "body_pose_01",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -4159,6 +4348,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "full_body",
     "label": "body_pose_02",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -4181,6 +4371,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "full_body",
     "label": "body_pose_03",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -4203,6 +4394,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "full_body",
     "label": "body_pose_04",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -4225,6 +4417,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "full_body",
     "label": "body_pose_05",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -4247,6 +4440,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "full_body",
     "label": "body_pose_06",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -4269,6 +4463,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "full_body",
     "label": "body_pose_07",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -4291,6 +4486,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "full_body",
     "label": "body_pose_08",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -4313,6 +4509,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "full_body",
     "label": "body_pose_09",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -4335,6 +4532,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "full_body",
     "label": "body_pose_10",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -4357,6 +4555,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "full_body",
     "label": "body_pose_11",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -4379,6 +4578,7 @@
   },
   {
     "board": 3,
+    "reference_role": "alternate_excluded",
     "category": "full_body",
     "label": "body_pose_12",
     "source": "originals/board-03-blackhair-variant.jpg",
@@ -4401,6 +4601,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "full_body",
     "label": "front",
     "source": "originals/board-04.jpg",
@@ -4419,10 +4620,11 @@
     "upscaled": "upscaled/board-04/full_body/01_front.png",
     "raw_sha256": "64af50bbb9debe8c2db385bbfd32b74f3ab7018b6f973bc9b2c1fe57a35b6c33",
     "status": "needs_review",
-    "notes": "secondary silver-haired design; silhouette overlaps"
+    "notes": "primary silver-haired reference; silhouette overlaps"
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "full_body",
     "label": "angle45",
     "source": "originals/board-04.jpg",
@@ -4441,10 +4643,11 @@
     "upscaled": "upscaled/board-04/full_body/02_angle45.png",
     "raw_sha256": "e6cbd1c0101e3569dcb8704527c33d6a89ff053288d2d97a3c7b39a83e1d33ff",
     "status": "needs_review",
-    "notes": "secondary silver-haired design; silhouette overlaps"
+    "notes": "primary silver-haired reference; silhouette overlaps"
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "full_body",
     "label": "side",
     "source": "originals/board-04.jpg",
@@ -4463,10 +4666,11 @@
     "upscaled": "upscaled/board-04/full_body/03_side.png",
     "raw_sha256": "8002fdf616b866bde2060bf0d8fffc082a6f8315a1eb15dde18a24b9d6ddb944",
     "status": "needs_review",
-    "notes": "secondary silver-haired design; silhouette overlaps"
+    "notes": "primary silver-haired reference; silhouette overlaps"
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "full_body",
     "label": "back",
     "source": "originals/board-04.jpg",
@@ -4485,10 +4689,11 @@
     "upscaled": "upscaled/board-04/full_body/04_back.png",
     "raw_sha256": "404e93e13d4357b8c7b79f2ae6d4ca2b68f43497e9cdff4f91aacbd7001d97fd",
     "status": "needs_review",
-    "notes": "secondary silver-haired design; silhouette overlaps"
+    "notes": "primary silver-haired reference; silhouette overlaps"
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "full_body",
     "label": "motion",
     "source": "originals/board-04.jpg",
@@ -4507,10 +4712,34 @@
     "upscaled": "upscaled/board-04/full_body/05_motion.png",
     "raw_sha256": "f2afeeb2b762d178613ca6f76663696737eaa306e5450d61943a5449ef52f230",
     "status": "needs_review",
-    "notes": "secondary silver-haired design; silhouette overlaps"
+    "notes": "primary silver-haired reference; silhouette overlaps"
   },
   {
     "board": 4,
+    "reference_role": "primary",
+    "category": "full_body",
+    "label": "panorama_context",
+    "source": "originals/board-04.jpg",
+    "box": [
+      0,
+      0,
+      909,
+      365
+    ],
+    "source_size": [
+      909,
+      365
+    ],
+    "scale": 2,
+    "raw": "crops/board-04/full_body/06_panorama_context.png",
+    "upscaled": "upscaled/board-04/full_body/06_panorama_context.png",
+    "raw_sha256": "10c5b862f1f0d5352a5a4da8c7bb72edc0850d5776d8fbf97d64e4c34f4b4176",
+    "status": "needs_review",
+    "notes": "primary reference; context only, contains multiple overlapping views"
+  },
+  {
+    "board": 4,
+    "reference_role": "primary",
     "category": "face",
     "label": "front",
     "source": "originals/board-04.jpg",
@@ -4533,6 +4762,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "face",
     "label": "angle45",
     "source": "originals/board-04.jpg",
@@ -4555,6 +4785,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "face",
     "label": "profile",
     "source": "originals/board-04.jpg",
@@ -4577,6 +4808,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "features",
     "label": "iris",
     "source": "originals/board-04.jpg",
@@ -4599,6 +4831,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "features",
     "label": "lashes",
     "source": "originals/board-04.jpg",
@@ -4621,6 +4854,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "features",
     "label": "eye_makeup",
     "source": "originals/board-04.jpg",
@@ -4643,6 +4877,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "features",
     "label": "nose",
     "source": "originals/board-04.jpg",
@@ -4665,6 +4900,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "features",
     "label": "lips",
     "source": "originals/board-04.jpg",
@@ -4687,6 +4923,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "face",
     "label": "eye_close",
     "source": "originals/board-04.jpg",
@@ -4709,6 +4946,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "face",
     "label": "face_lighting",
     "source": "originals/board-04.jpg",
@@ -4731,6 +4969,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "expressions",
     "label": "calm",
     "source": "originals/board-04.jpg",
@@ -4753,6 +4992,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "expressions",
     "label": "smile",
     "source": "originals/board-04.jpg",
@@ -4775,6 +5015,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "expressions",
     "label": "sad",
     "source": "originals/board-04.jpg",
@@ -4797,6 +5038,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "expressions",
     "label": "surprised",
     "source": "originals/board-04.jpg",
@@ -4819,6 +5061,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "expressions",
     "label": "angry",
     "source": "originals/board-04.jpg",
@@ -4841,6 +5084,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "expressions",
     "label": "cool",
     "source": "originals/board-04.jpg",
@@ -4863,6 +5107,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "expressions",
     "label": "gentle",
     "source": "originals/board-04.jpg",
@@ -4885,6 +5130,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "expressions",
     "label": "focused",
     "source": "originals/board-04.jpg",
@@ -4907,6 +5153,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "scalp",
     "label": "parting",
     "source": "originals/board-04.jpg",
@@ -4929,6 +5176,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "scalp",
     "label": "scalp",
     "source": "originals/board-04.jpg",
@@ -4951,6 +5199,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "scalp",
     "label": "roots",
     "source": "originals/board-04.jpg",
@@ -4973,6 +5222,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "scalp",
     "label": "layers",
     "source": "originals/board-04.jpg",
@@ -4995,6 +5245,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "scalp",
     "label": "section",
     "source": "originals/board-04.jpg",
@@ -5017,6 +5268,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "hair",
     "label": "front",
     "source": "originals/board-04.jpg",
@@ -5039,6 +5291,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "hair",
     "label": "side",
     "source": "originals/board-04.jpg",
@@ -5061,6 +5314,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "hair",
     "label": "back",
     "source": "originals/board-04.jpg",
@@ -5083,6 +5337,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "hair",
     "label": "angle45",
     "source": "originals/board-04.jpg",
@@ -5105,6 +5360,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "body",
     "label": "skeleton_front",
     "source": "originals/board-04.jpg",
@@ -5127,6 +5383,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "body",
     "label": "skeleton_side",
     "source": "originals/board-04.jpg",
@@ -5149,6 +5406,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "body",
     "label": "skeleton_back",
     "source": "originals/board-04.jpg",
@@ -5171,6 +5429,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "body",
     "label": "body_front",
     "source": "originals/board-04.jpg",
@@ -5193,6 +5452,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "body",
     "label": "body_back",
     "source": "originals/board-04.jpg",
@@ -5215,6 +5475,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "body",
     "label": "joints",
     "source": "originals/board-04.jpg",
@@ -5237,6 +5498,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "body",
     "label": "back",
     "source": "originals/board-04.jpg",
@@ -5259,6 +5521,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "body",
     "label": "arm",
     "source": "originals/board-04.jpg",
@@ -5281,6 +5544,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "body",
     "label": "waist",
     "source": "originals/board-04.jpg",
@@ -5303,6 +5567,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "body",
     "label": "shoulder",
     "source": "originals/board-04.jpg",
@@ -5325,6 +5590,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "body",
     "label": "pelvis",
     "source": "originals/board-04.jpg",
@@ -5347,6 +5613,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "body",
     "label": "knee",
     "source": "originals/board-04.jpg",
@@ -5369,6 +5636,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "body",
     "label": "knee_side",
     "source": "originals/board-04.jpg",
@@ -5391,6 +5659,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "body",
     "label": "hand",
     "source": "originals/board-04.jpg",
@@ -5413,6 +5682,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "body",
     "label": "hand_bones",
     "source": "originals/board-04.jpg",
@@ -5435,6 +5705,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "body",
     "label": "foot",
     "source": "originals/board-04.jpg",
@@ -5457,6 +5728,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "body",
     "label": "foot_detail",
     "source": "originals/board-04.jpg",
@@ -5479,6 +5751,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "body",
     "label": "knee",
     "source": "originals/board-04.jpg",
@@ -5501,6 +5774,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "body",
     "label": "shoulder_joint",
     "source": "originals/board-04.jpg",
@@ -5523,6 +5797,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "body",
     "label": "spine",
     "source": "originals/board-04.jpg",
@@ -5545,6 +5820,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "body",
     "label": "torso",
     "source": "originals/board-04.jpg",
@@ -5567,6 +5843,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "clothing",
     "label": "overall",
     "source": "originals/board-04.jpg",
@@ -5589,6 +5866,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "clothing",
     "label": "inner_layer",
     "source": "originals/board-04.jpg",
@@ -5611,6 +5889,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "clothing",
     "label": "skirt_structure",
     "source": "originals/board-04.jpg",
@@ -5633,6 +5912,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "clothing",
     "label": "ribbon",
     "source": "originals/board-04.jpg",
@@ -5655,6 +5935,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "clothing",
     "label": "metal_details",
     "source": "originals/board-04.jpg",
@@ -5677,6 +5958,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "clothing",
     "label": "back_layers",
     "source": "originals/board-04.jpg",
@@ -5699,6 +5981,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "accessories",
     "label": "hairpin",
     "source": "originals/board-04.jpg",
@@ -5721,6 +6004,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "accessories",
     "label": "earring",
     "source": "originals/board-04.jpg",
@@ -5743,6 +6027,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "accessories",
     "label": "necklace",
     "source": "originals/board-04.jpg",
@@ -5765,6 +6050,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "accessories",
     "label": "waist",
     "source": "originals/board-04.jpg",
@@ -5787,6 +6073,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "accessories",
     "label": "arm_ornament",
     "source": "originals/board-04.jpg",
@@ -5809,6 +6096,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "accessories",
     "label": "ribbon",
     "source": "originals/board-04.jpg",
@@ -5831,6 +6119,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "accessories",
     "label": "shoe_ornament",
     "source": "originals/board-04.jpg",
@@ -5853,6 +6142,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "materials",
     "label": "sheer_cloth",
     "source": "originals/board-04.jpg",
@@ -5875,6 +6165,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "materials",
     "label": "metal",
     "source": "originals/board-04.jpg",
@@ -5897,6 +6188,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "materials",
     "label": "gem",
     "source": "originals/board-04.jpg",
@@ -5919,6 +6211,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "materials",
     "label": "fabric_pattern",
     "source": "originals/board-04.jpg",
@@ -5941,6 +6234,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "materials",
     "label": "embroidery",
     "source": "originals/board-04.jpg",
@@ -5963,6 +6257,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "accessories",
     "label": "shoe_front",
     "source": "originals/board-04.jpg",
@@ -5985,6 +6280,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "accessories",
     "label": "shoe_side",
     "source": "originals/board-04.jpg",
@@ -6007,6 +6303,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "accessories",
     "label": "shoe_detail",
     "source": "originals/board-04.jpg",
@@ -6029,6 +6326,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "accessories",
     "label": "leg_ornament",
     "source": "originals/board-04.jpg",
@@ -6051,6 +6349,7 @@
   },
   {
     "board": 4,
+    "reference_role": "primary",
     "category": "accessories",
     "label": "ankle_chain",
     "source": "originals/board-04.jpg",

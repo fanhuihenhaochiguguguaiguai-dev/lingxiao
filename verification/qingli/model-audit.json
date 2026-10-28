@@ -1,14 +1,14 @@
 {
   "status": "PASS_LOAD_ONLY_NOT_ART_ACCEPTANCE",
   "blend": {
-    "meshes": 100,
-    "vertices": 26775,
-    "faces": 26242,
-    "nonmanifold_edges": 1932,
+    "meshes": 132,
+    "vertices": 36835,
+    "faces": 36352,
+    "nonmanifold_edges": 2336,
     "degenerate_faces": 0,
     "rigs": 0,
     "actions": 0,
-    "materials": 10,
+    "materials": 11,
     "objects": [
       {
         "name": "Qingli female base — CC0 study",
@@ -245,192 +245,6 @@
         "uv_layers": 1
       },
       {
-        "name": "Back silver hair 00",
-        "vertices": 136,
-        "faces": 128,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 01",
-        "vertices": 136,
-        "faces": 128,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 02",
-        "vertices": 136,
-        "faces": 128,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 03",
-        "vertices": 136,
-        "faces": 128,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 04",
-        "vertices": 136,
-        "faces": 128,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 05",
-        "vertices": 136,
-        "faces": 128,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 06",
-        "vertices": 136,
-        "faces": 128,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 07",
-        "vertices": 136,
-        "faces": 128,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 08",
-        "vertices": 136,
-        "faces": 128,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 09",
-        "vertices": 136,
-        "faces": 128,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 10",
-        "vertices": 136,
-        "faces": 128,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 11",
-        "vertices": 136,
-        "faces": 128,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 12",
-        "vertices": 136,
-        "faces": 128,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 13",
-        "vertices": 136,
-        "faces": 128,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 14",
-        "vertices": 136,
-        "faces": 128,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 15",
-        "vertices": 136,
-        "faces": 128,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 16",
-        "vertices": 136,
-        "faces": 128,
-        "uv_layers": 1
-      },
-      {
-        "name": "Face framing lock -1 0",
-        "vertices": 40,
-        "faces": 32,
-        "uv_layers": 1
-      },
-      {
-        "name": "Face framing lock -1 1",
-        "vertices": 40,
-        "faces": 32,
-        "uv_layers": 1
-      },
-      {
-        "name": "Face framing lock -1 2",
-        "vertices": 40,
-        "faces": 32,
-        "uv_layers": 1
-      },
-      {
-        "name": "Face framing lock 1 0",
-        "vertices": 40,
-        "faces": 32,
-        "uv_layers": 1
-      },
-      {
-        "name": "Face framing lock 1 1",
-        "vertices": 40,
-        "faces": 32,
-        "uv_layers": 1
-      },
-      {
-        "name": "Face framing lock 1 2",
-        "vertices": 40,
-        "faces": 32,
-        "uv_layers": 1
-      },
-      {
-        "name": "Swept hairline -1 0",
-        "vertices": 40,
-        "faces": 32,
-        "uv_layers": 1
-      },
-      {
-        "name": "Swept hairline -1 1",
-        "vertices": 40,
-        "faces": 32,
-        "uv_layers": 1
-      },
-      {
-        "name": "Swept hairline -1 2",
-        "vertices": 40,
-        "faces": 32,
-        "uv_layers": 1
-      },
-      {
-        "name": "Swept hairline -1 3",
-        "vertices": 40,
-        "faces": 32,
-        "uv_layers": 1
-      },
-      {
-        "name": "Swept hairline 1 0",
-        "vertices": 40,
-        "faces": 32,
-        "uv_layers": 1
-      },
-      {
-        "name": "Swept hairline 1 1",
-        "vertices": 40,
-        "faces": 32,
-        "uv_layers": 1
-      },
-      {
-        "name": "Swept hairline 1 2",
-        "vertices": 40,
-        "faces": 32,
-        "uv_layers": 1
-      },
-      {
-        "name": "Swept hairline 1 3",
-        "vertices": 40,
-        "faces": 32,
-        "uv_layers": 1
-      },
-      {
         "name": "Hair flower -1 petal 0",
         "vertices": 114,
         "faces": 128,
@@ -609,18 +423,396 @@
         "vertices": 30,
         "faces": 20,
         "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 00",
+        "vertices": 260,
+        "faces": 250,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 01",
+        "vertices": 260,
+        "faces": 250,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 02",
+        "vertices": 260,
+        "faces": 250,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 03",
+        "vertices": 260,
+        "faces": 250,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 04",
+        "vertices": 260,
+        "faces": 250,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 05",
+        "vertices": 260,
+        "faces": 250,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 06",
+        "vertices": 260,
+        "faces": 250,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 07",
+        "vertices": 260,
+        "faces": 250,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 08",
+        "vertices": 260,
+        "faces": 250,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 09",
+        "vertices": 260,
+        "faces": 250,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 10",
+        "vertices": 260,
+        "faces": 250,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 11",
+        "vertices": 260,
+        "faces": 250,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 12",
+        "vertices": 260,
+        "faces": 250,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 13",
+        "vertices": 260,
+        "faces": 250,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 14",
+        "vertices": 260,
+        "faces": 250,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 15",
+        "vertices": 260,
+        "faces": 250,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 16",
+        "vertices": 260,
+        "faces": 250,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 17",
+        "vertices": 260,
+        "faces": 250,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 18",
+        "vertices": 260,
+        "faces": 250,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fringe sweep -1 0",
+        "vertices": 210,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fringe sweep -1 1",
+        "vertices": 210,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fringe sweep -1 2",
+        "vertices": 210,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fringe sweep -1 3",
+        "vertices": 210,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fringe sweep -1 4",
+        "vertices": 210,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fringe sweep -1 5",
+        "vertices": 210,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Tapered side lock -1 0",
+        "vertices": 210,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Tapered side lock -1 1",
+        "vertices": 210,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Tapered side lock -1 2",
+        "vertices": 210,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Tapered side lock -1 3",
+        "vertices": 210,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Brow -1",
+        "vertices": 370,
+        "faces": 360,
+        "uv_layers": 1
+      },
+      {
+        "name": "Pupil -1",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fringe sweep 1 0",
+        "vertices": 210,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fringe sweep 1 1",
+        "vertices": 210,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fringe sweep 1 2",
+        "vertices": 210,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fringe sweep 1 3",
+        "vertices": 210,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fringe sweep 1 4",
+        "vertices": 210,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fringe sweep 1 5",
+        "vertices": 210,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Tapered side lock 1 0",
+        "vertices": 210,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Tapered side lock 1 1",
+        "vertices": 210,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Tapered side lock 1 2",
+        "vertices": 210,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Tapered side lock 1 3",
+        "vertices": 210,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Brow 1",
+        "vertices": 370,
+        "faces": 360,
+        "uv_layers": 1
+      },
+      {
+        "name": "Pupil 1",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Collar necklace -1",
+        "vertices": 250,
+        "faces": 240,
+        "uv_layers": 1
+      },
+      {
+        "name": "Collar necklace 1",
+        "vertices": 250,
+        "faces": 240,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom -1 petal 0",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom -1 petal 1",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom -1 petal 2",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom -1 petal 3",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom -1 petal 4",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom -1 petal 5",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom -1 blue core",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Head ornament branch -1",
+        "vertices": 250,
+        "faces": 240,
+        "uv_layers": 1
+      },
+      {
+        "name": "Head ornament gem -1",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom 1 petal 0",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom 1 petal 1",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom 1 petal 2",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom 1 petal 3",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom 1 petal 4",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom 1 petal 5",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom 1 blue core",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Head ornament branch 1",
+        "vertices": 250,
+        "faces": 240,
+        "uv_layers": 1
+      },
+      {
+        "name": "Head ornament gem 1",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
       }
     ]
   },
   "glb": {
-    "meshes": 100,
-    "vertices": 28149,
-    "faces": 51468,
-    "nonmanifold_edges": 4688,
+    "meshes": 132,
+    "vertices": 39049,
+    "faces": 71112,
+    "nonmanifold_edges": 6796,
     "degenerate_faces": 0,
     "rigs": 0,
     "actions": 0,
-    "materials": 10,
+    "materials": 11,
     "objects": [
       {
         "name": "Qingli female base — CC0 study",
@@ -857,192 +1049,6 @@
         "uv_layers": 1
       },
       {
-        "name": "Back silver hair 00",
-        "vertices": 136,
-        "faces": 256,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 01",
-        "vertices": 136,
-        "faces": 256,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 02",
-        "vertices": 136,
-        "faces": 256,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 03",
-        "vertices": 136,
-        "faces": 256,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 04",
-        "vertices": 136,
-        "faces": 256,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 05",
-        "vertices": 136,
-        "faces": 256,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 06",
-        "vertices": 136,
-        "faces": 256,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 07",
-        "vertices": 136,
-        "faces": 256,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 08",
-        "vertices": 136,
-        "faces": 256,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 09",
-        "vertices": 136,
-        "faces": 256,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 10",
-        "vertices": 136,
-        "faces": 256,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 11",
-        "vertices": 136,
-        "faces": 256,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 12",
-        "vertices": 136,
-        "faces": 256,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 13",
-        "vertices": 136,
-        "faces": 256,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 14",
-        "vertices": 136,
-        "faces": 256,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 15",
-        "vertices": 136,
-        "faces": 256,
-        "uv_layers": 1
-      },
-      {
-        "name": "Back silver hair 16",
-        "vertices": 136,
-        "faces": 256,
-        "uv_layers": 1
-      },
-      {
-        "name": "Face framing lock -1 0",
-        "vertices": 40,
-        "faces": 64,
-        "uv_layers": 1
-      },
-      {
-        "name": "Face framing lock -1 1",
-        "vertices": 40,
-        "faces": 64,
-        "uv_layers": 1
-      },
-      {
-        "name": "Face framing lock -1 2",
-        "vertices": 40,
-        "faces": 64,
-        "uv_layers": 1
-      },
-      {
-        "name": "Face framing lock 1 0",
-        "vertices": 40,
-        "faces": 64,
-        "uv_layers": 1
-      },
-      {
-        "name": "Face framing lock 1 1",
-        "vertices": 40,
-        "faces": 64,
-        "uv_layers": 1
-      },
-      {
-        "name": "Face framing lock 1 2",
-        "vertices": 40,
-        "faces": 64,
-        "uv_layers": 1
-      },
-      {
-        "name": "Swept hairline -1 0",
-        "vertices": 40,
-        "faces": 64,
-        "uv_layers": 1
-      },
-      {
-        "name": "Swept hairline -1 1",
-        "vertices": 40,
-        "faces": 64,
-        "uv_layers": 1
-      },
-      {
-        "name": "Swept hairline -1 2",
-        "vertices": 40,
-        "faces": 64,
-        "uv_layers": 1
-      },
-      {
-        "name": "Swept hairline -1 3",
-        "vertices": 40,
-        "faces": 64,
-        "uv_layers": 1
-      },
-      {
-        "name": "Swept hairline 1 0",
-        "vertices": 40,
-        "faces": 64,
-        "uv_layers": 1
-      },
-      {
-        "name": "Swept hairline 1 1",
-        "vertices": 40,
-        "faces": 64,
-        "uv_layers": 1
-      },
-      {
-        "name": "Swept hairline 1 2",
-        "vertices": 40,
-        "faces": 64,
-        "uv_layers": 1
-      },
-      {
-        "name": "Swept hairline 1 3",
-        "vertices": 40,
-        "faces": 64,
-        "uv_layers": 1
-      },
-      {
         "name": "Hair flower -1 petal 0",
         "vertices": 151,
         "faces": 224,
@@ -1220,6 +1226,384 @@
         "name": "Waist trim 1",
         "vertices": 33,
         "faces": 40,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 00",
+        "vertices": 260,
+        "faces": 500,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 01",
+        "vertices": 260,
+        "faces": 500,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 02",
+        "vertices": 260,
+        "faces": 500,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 03",
+        "vertices": 260,
+        "faces": 500,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 04",
+        "vertices": 260,
+        "faces": 500,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 05",
+        "vertices": 260,
+        "faces": 500,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 06",
+        "vertices": 260,
+        "faces": 500,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 07",
+        "vertices": 260,
+        "faces": 500,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 08",
+        "vertices": 260,
+        "faces": 500,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 09",
+        "vertices": 260,
+        "faces": 500,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 10",
+        "vertices": 260,
+        "faces": 500,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 11",
+        "vertices": 260,
+        "faces": 500,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 12",
+        "vertices": 260,
+        "faces": 500,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 13",
+        "vertices": 260,
+        "faces": 500,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 14",
+        "vertices": 260,
+        "faces": 500,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 15",
+        "vertices": 260,
+        "faces": 500,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 16",
+        "vertices": 260,
+        "faces": 500,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 17",
+        "vertices": 260,
+        "faces": 500,
+        "uv_layers": 1
+      },
+      {
+        "name": "Layered back hair 18",
+        "vertices": 260,
+        "faces": 500,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fringe sweep -1 0",
+        "vertices": 210,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fringe sweep -1 1",
+        "vertices": 210,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fringe sweep -1 2",
+        "vertices": 210,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fringe sweep -1 3",
+        "vertices": 210,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fringe sweep -1 4",
+        "vertices": 210,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fringe sweep -1 5",
+        "vertices": 210,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Tapered side lock -1 0",
+        "vertices": 210,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Tapered side lock -1 1",
+        "vertices": 210,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Tapered side lock -1 2",
+        "vertices": 210,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Tapered side lock -1 3",
+        "vertices": 210,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Brow -1",
+        "vertices": 407,
+        "faces": 720,
+        "uv_layers": 1
+      },
+      {
+        "name": "Pupil -1",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fringe sweep 1 0",
+        "vertices": 210,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fringe sweep 1 1",
+        "vertices": 210,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fringe sweep 1 2",
+        "vertices": 210,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fringe sweep 1 3",
+        "vertices": 210,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fringe sweep 1 4",
+        "vertices": 210,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fringe sweep 1 5",
+        "vertices": 210,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Tapered side lock 1 0",
+        "vertices": 210,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Tapered side lock 1 1",
+        "vertices": 210,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Tapered side lock 1 2",
+        "vertices": 210,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Tapered side lock 1 3",
+        "vertices": 210,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Brow 1",
+        "vertices": 407,
+        "faces": 720,
+        "uv_layers": 1
+      },
+      {
+        "name": "Pupil 1",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Collar necklace -1",
+        "vertices": 275,
+        "faces": 480,
+        "uv_layers": 1
+      },
+      {
+        "name": "Collar necklace 1",
+        "vertices": 275,
+        "faces": 480,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom -1 petal 0",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom -1 petal 1",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom -1 petal 2",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom -1 petal 3",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom -1 petal 4",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom -1 petal 5",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom -1 blue core",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Head ornament branch -1",
+        "vertices": 275,
+        "faces": 480,
+        "uv_layers": 1
+      },
+      {
+        "name": "Head ornament gem -1",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom 1 petal 0",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom 1 petal 1",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom 1 petal 2",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom 1 petal 3",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom 1 petal 4",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom 1 petal 5",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Side hair blossom 1 blue core",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Head ornament branch 1",
+        "vertices": 275,
+        "faces": 480,
+        "uv_layers": 1
+      },
+      {
+        "name": "Head ornament gem 1",
+        "vertices": 151,
+        "faces": 224,
         "uv_layers": 1
       }
     ]
