@@ -1,14 +1,14 @@
 {
   "status": "PASS_LOAD_ONLY_NOT_ART_ACCEPTANCE",
   "blend": {
-    "meshes": 113,
-    "vertices": 34524,
-    "faces": 33016,
-    "nonmanifold_edges": 4290,
+    "meshes": 114,
+    "vertices": 37672,
+    "faces": 35984,
+    "nonmanifold_edges": 4646,
     "degenerate_faces": 0,
     "rigs": 0,
     "actions": 0,
-    "materials": 12,
+    "materials": 14,
     "textures": [
       {
         "material": "Silver hair CC0 candidate",
@@ -220,42 +220,6 @@
         "name": "Front short layered apron hem",
         "vertices": 110,
         "faces": 100,
-        "uv_layers": 1
-      },
-      {
-        "name": "Shoulder ribbon -1 0",
-        "vertices": 40,
-        "faces": 30,
-        "uv_layers": 1
-      },
-      {
-        "name": "Shoulder ribbon -1 1",
-        "vertices": 40,
-        "faces": 30,
-        "uv_layers": 1
-      },
-      {
-        "name": "Shoulder ribbon -1 2",
-        "vertices": 40,
-        "faces": 30,
-        "uv_layers": 1
-      },
-      {
-        "name": "Shoulder ribbon 1 0",
-        "vertices": 40,
-        "faces": 30,
-        "uv_layers": 1
-      },
-      {
-        "name": "Shoulder ribbon 1 1",
-        "vertices": 40,
-        "faces": 30,
-        "uv_layers": 1
-      },
-      {
-        "name": "Shoulder ribbon 1 2",
-        "vertices": 40,
-        "faces": 30,
         "uv_layers": 1
       },
       {
@@ -707,18 +671,60 @@
         "vertices": 3239,
         "faces": 2054,
         "uv_layers": 1
+      },
+      {
+        "name": "Iris rim -1",
+        "vertices": 64,
+        "faces": 32,
+        "uv_layers": 1
+      },
+      {
+        "name": "Iris rim 1",
+        "vertices": 64,
+        "faces": 32,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fitted sleeve -1",
+        "vertices": 327,
+        "faces": 285,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fitted sleeve 1",
+        "vertices": 327,
+        "faces": 285,
+        "uv_layers": 1
+      },
+      {
+        "name": "Upper inner collar",
+        "vertices": 440,
+        "faces": 370,
+        "uv_layers": 1
+      },
+      {
+        "name": "Foot covering -1",
+        "vertices": 1083,
+        "faces": 1072,
+        "uv_layers": 1
+      },
+      {
+        "name": "Foot covering 1",
+        "vertices": 1083,
+        "faces": 1072,
+        "uv_layers": 1
       }
     ]
   },
   "glb": {
-    "meshes": 113,
-    "vertices": 37867,
-    "faces": 64504,
-    "nonmanifold_edges": 10970,
+    "meshes": 114,
+    "vertices": 48554,
+    "faces": 86816,
+    "nonmanifold_edges": 10006,
     "degenerate_faces": 0,
     "rigs": 0,
     "actions": 0,
-    "materials": 12,
+    "materials": 14,
     "textures": [
       {
         "material": "Silver hair CC0 candidate",
@@ -772,14 +778,14 @@
       },
       {
         "name": "Fitted bodice shell",
-        "vertices": 1300,
-        "faces": 2440,
+        "vertices": 2600,
+        "faces": 5192,
         "uv_layers": 1
       },
       {
         "name": "Skirt panel 01",
-        "vertices": 231,
-        "faces": 400,
+        "vertices": 462,
+        "faces": 920,
         "uv_layers": 1
       },
       {
@@ -790,8 +796,8 @@
       },
       {
         "name": "Skirt panel 02",
-        "vertices": 231,
-        "faces": 400,
+        "vertices": 462,
+        "faces": 920,
         "uv_layers": 1
       },
       {
@@ -802,8 +808,8 @@
       },
       {
         "name": "Skirt panel 03",
-        "vertices": 231,
-        "faces": 400,
+        "vertices": 462,
+        "faces": 920,
         "uv_layers": 1
       },
       {
@@ -814,8 +820,8 @@
       },
       {
         "name": "Skirt panel 04",
-        "vertices": 231,
-        "faces": 400,
+        "vertices": 462,
+        "faces": 920,
         "uv_layers": 1
       },
       {
@@ -826,8 +832,8 @@
       },
       {
         "name": "Skirt panel 05",
-        "vertices": 231,
-        "faces": 400,
+        "vertices": 462,
+        "faces": 920,
         "uv_layers": 1
       },
       {
@@ -838,8 +844,8 @@
       },
       {
         "name": "Skirt panel 06",
-        "vertices": 231,
-        "faces": 400,
+        "vertices": 462,
+        "faces": 920,
         "uv_layers": 1
       },
       {
@@ -850,8 +856,8 @@
       },
       {
         "name": "Skirt panel 07",
-        "vertices": 231,
-        "faces": 400,
+        "vertices": 462,
+        "faces": 920,
         "uv_layers": 1
       },
       {
@@ -862,8 +868,8 @@
       },
       {
         "name": "Skirt panel 08",
-        "vertices": 231,
-        "faces": 400,
+        "vertices": 462,
+        "faces": 920,
         "uv_layers": 1
       },
       {
@@ -874,8 +880,8 @@
       },
       {
         "name": "Skirt panel 09",
-        "vertices": 231,
-        "faces": 400,
+        "vertices": 462,
+        "faces": 920,
         "uv_layers": 1
       },
       {
@@ -886,8 +892,8 @@
       },
       {
         "name": "Skirt panel 10",
-        "vertices": 231,
-        "faces": 400,
+        "vertices": 462,
+        "faces": 920,
         "uv_layers": 1
       },
       {
@@ -898,8 +904,8 @@
       },
       {
         "name": "Skirt panel 11",
-        "vertices": 231,
-        "faces": 400,
+        "vertices": 462,
+        "faces": 920,
         "uv_layers": 1
       },
       {
@@ -910,8 +916,8 @@
       },
       {
         "name": "Skirt panel 12",
-        "vertices": 231,
-        "faces": 400,
+        "vertices": 462,
+        "faces": 920,
         "uv_layers": 1
       },
       {
@@ -922,50 +928,14 @@
       },
       {
         "name": "Front short layered apron",
-        "vertices": 231,
-        "faces": 400,
+        "vertices": 462,
+        "faces": 920,
         "uv_layers": 1
       },
       {
         "name": "Front short layered apron hem",
         "vertices": 121,
         "faces": 200,
-        "uv_layers": 1
-      },
-      {
-        "name": "Shoulder ribbon -1 0",
-        "vertices": 44,
-        "faces": 60,
-        "uv_layers": 1
-      },
-      {
-        "name": "Shoulder ribbon -1 1",
-        "vertices": 44,
-        "faces": 60,
-        "uv_layers": 1
-      },
-      {
-        "name": "Shoulder ribbon -1 2",
-        "vertices": 44,
-        "faces": 60,
-        "uv_layers": 1
-      },
-      {
-        "name": "Shoulder ribbon 1 0",
-        "vertices": 44,
-        "faces": 60,
-        "uv_layers": 1
-      },
-      {
-        "name": "Shoulder ribbon 1 1",
-        "vertices": 44,
-        "faces": 60,
-        "uv_layers": 1
-      },
-      {
-        "name": "Shoulder ribbon 1 2",
-        "vertices": 44,
-        "faces": 60,
         "uv_layers": 1
       },
       {
@@ -1416,6 +1386,48 @@
         "name": "CC0 long hair base candidate",
         "vertices": 3312,
         "faces": 4108,
+        "uv_layers": 1
+      },
+      {
+        "name": "Iris rim -1",
+        "vertices": 64,
+        "faces": 64,
+        "uv_layers": 1
+      },
+      {
+        "name": "Iris rim 1",
+        "vertices": 64,
+        "faces": 64,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fitted sleeve -1",
+        "vertices": 654,
+        "faces": 1308,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fitted sleeve 1",
+        "vertices": 654,
+        "faces": 1308,
+        "uv_layers": 1
+      },
+      {
+        "name": "Upper inner collar",
+        "vertices": 880,
+        "faces": 1760,
+        "uv_layers": 1
+      },
+      {
+        "name": "Foot covering -1",
+        "vertices": 2166,
+        "faces": 4328,
+        "uv_layers": 1
+      },
+      {
+        "name": "Foot covering 1",
+        "vertices": 2166,
+        "faces": 4328,
         "uv_layers": 1
       }
     ]

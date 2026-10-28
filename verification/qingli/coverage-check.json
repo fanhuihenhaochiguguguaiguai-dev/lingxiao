@@ -1,0 +1,57 @@
+{
+  "scope": "sampled static proximity only; not art, full intersection or animation acceptance",
+  "blend": {
+    "Fitted sleeve -1": {
+      "vertices": 327,
+      "sample_count": 327,
+      "max_distance_m": 0.006
+    },
+    "Fitted sleeve 1": {
+      "vertices": 327,
+      "sample_count": 327,
+      "max_distance_m": 0.006
+    },
+    "Upper inner collar": {
+      "vertices": 440,
+      "sample_count": 440,
+      "max_distance_m": 0.008
+    },
+    "Foot covering -1": {
+      "vertices": 1083,
+      "sample_count": 271,
+      "max_distance_m": 0.004
+    },
+    "Foot covering 1": {
+      "vertices": 1083,
+      "sample_count": 271,
+      "max_distance_m": 0.004
+    }
+  },
+  "glb": {
+    "Fitted sleeve -1": {
+      "vertices": 654,
+      "sample_count": 327,
+      "max_distance_m": 0.006
+    },
+    "Fitted sleeve 1": {
+      "vertices": 654,
+      "sample_count": 327,
+      "max_distance_m": 0.006
+    },
+    "Upper inner collar": {
+      "vertices": 880,
+      "sample_count": 294,
+      "max_distance_m": 0.008
+    },
+    "Foot covering -1": {
+      "vertices": 2166,
+      "sample_count": 271,
+      "max_distance_m": 0.004
+    },
+    "Foot covering 1": {
+      "vertices": 2166,
+      "sample_count": 271,
+      "max_distance_m": 0.004
+    }
+  }
+}

@@ -152,6 +152,10 @@ for s in (-1,1):line(f'Waist trim {s}',[(0,-.165,.87),(s*.05,-.15,.90),(s*.10,-.
 exec(compile((ROOT/'tools/refine_qingli_study.py').read_text(), 'refine_qingli_study.py', 'exec'))
 if os.environ.get('QINGLI_HAIR_CC0_EXPERIMENT','1')=='1':
  exec(compile((ROOT/'tools/candidate_qingli_cc0_hair.py').read_text(), 'candidate_qingli_cc0_hair.py', 'exec'))
+if os.environ.get('QINGLI_EYE_DETAIL_EXPERIMENT','1')=='1':
+ exec(compile((ROOT/'tools/candidate_qingli_eye_detail.py').read_text(), 'candidate_qingli_eye_detail.py', 'exec'))
+if os.environ.get('QINGLI_ATTIRE_EXPERIMENT','1')=='1':
+ exec(compile((ROOT/'tools/candidate_qingli_coverage.py').read_text(), 'candidate_qingli_coverage.py', 'exec'))
 # Make all curves into exportable, editable geometry.
 bpy.ops.object.select_all(action='DESELECT')
 for o in bpy.context.scene.objects:
@@ -162,7 +166,8 @@ for o in bpy.context.scene.objects:
  if o.type=='MESH':o['quality_status']='WORK IN PROGRESS; NOT ART APPROVED; NO RIG'
 # No external files in the editable study.
 bpy.ops.wm.save_as_mainfile(filepath=str(OUT/'Qingli_static_study.blend'))
-bpy.ops.export_scene.gltf(filepath=str(OUT/'Qingli_static_study.glb'),export_format='GLB',export_animations=False)
+# Preserve non-destructive clothing thickness in the actual realtime mesh.
+bpy.ops.export_scene.gltf(filepath=str(OUT/'Qingli_static_study.glb'),export_format='GLB',export_animations=False,export_apply=True)
 # All images below are actual renders of the same geometry under fixed light.
 scene=bpy.context.scene;scene.world=bpy.data.worlds.new('Study world');scene.render.engine='CYCLES';scene.cycles.samples=20;scene.cycles.use_denoising=False;scene.render.resolution_x=560;scene.render.resolution_y=800;scene.render.resolution_percentage=100;scene.world.color=(.08,.08,.08)
 bpy.ops.object.camera_add();cam=bpy.context.object;cam.data.type='ORTHO';cam.data.ortho_scale=2.0;scene.camera=cam
