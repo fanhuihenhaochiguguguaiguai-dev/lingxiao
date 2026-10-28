@@ -1,5 +1,5 @@
 from pathlib import Path
-import json
+import json,os
 from browser_display import display,ARGS
 from playwright.sync_api import sync_playwright
 root=Path(__file__).resolve().parents[1];src=(root/'skill-src/src/skill-audio.ts').read_text();spec=src.split('const tracks:Record<number,Cue[]>=',1)[1].split(';',1)[0]
@@ -14,4 +14,4 @@ with display() as env,sync_playwright() as p:
  }return results;
 }''',spec)
  assert all(v['peak']>0 and v['clippedSamples']==0 for v in results.values()),results
- (root/'verification/v12/audio-mix.json').write_text(json.dumps({'status':'PASS_OFFLINE_MIX_ONLY','skills':results,'scope':'OfflineAudioContext at fixed 48kHz; not live device latency or subjective listening.'},indent=2));print(json.dumps(results),flush=True);b.close()
+ (Path(os.environ.get('LINGYUAN_AUDIO_REPORT',str(root/'verification/v12/audio-mix.json')))).write_text(json.dumps({'status':'PASS_OFFLINE_MIX_ONLY','skills':results,'scope':'OfflineAudioContext at fixed 48kHz; not live device latency or subjective listening.'},indent=2));print(json.dumps(results),flush=True);b.close()

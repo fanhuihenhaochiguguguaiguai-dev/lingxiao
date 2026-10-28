@@ -1,0 +1,68 @@
+{
+  "settings": "sound and quality only",
+  "twoFinger": "moving while casting skill 2",
+  "moonHit": [
+    {
+      "character": "lingyuan",
+      "skill": 3,
+      "target": 0,
+      "time": 1.0000000000000013
+    },
+    {
+      "character": "yueli",
+      "skill": 1,
+      "target": 0,
+      "time": 1.7166666666666655
+    }
+  ],
+  "moonAudioCues": [
+    {
+      "skill": 4,
+      "cue": 0.05,
+      "at": 0.016666666666666666,
+      "audioNow": 6.4812698412698415,
+      "scheduledAudioTime": 6.514603174603175,
+      "lateBy": 0
+    },
+    {
+      "skill": 4,
+      "cue": 0.72,
+      "at": 0.6000000000000002,
+      "audioNow": 6.492879818594104,
+      "scheduledAudioTime": 6.612879818594104,
+      "lateBy": 0
+    },
+    {
+      "skill": 4,
+      "cue": 1.12,
+      "at": 1.0000000000000013,
+      "audioNow": 6.501587301587302,
+      "scheduledAudioTime": 6.621587301587301,
+      "lateBy": 0
+    },
+    {
+      "skill": 4,
+      "cue": 2.12,
+      "at": 2.0166666666666644,
+      "audioNow": 6.501587301587302,
+      "scheduledAudioTime": 6.604920634920637,
+      "lateBy": 0
+    },
+    {
+      "skill": 4,
+      "cue": 2.16,
+      "at": 2.0499999999999976,
+      "audioNow": 6.501587301587302,
+      "scheduledAudioTime": 6.611587301587305,
+      "lateBy": 0
+    }
+  ],
+  "boundary": {
+    "radius": 21.242645786248005,
+    "limit": 21.242645786248005,
+    "areaRatio": 5
+  },
+  "cachedSwitches": "four successive character switches retain contact solver and rig state",
+  "errors": [],
+  "scope": "simulated landscape touch / software WebGL2; no phone latency or art acceptance"
+}

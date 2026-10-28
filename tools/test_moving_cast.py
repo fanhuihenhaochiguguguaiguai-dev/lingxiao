@@ -41,7 +41,7 @@ with display() as env,sync_playwright() as p:
  def send(kind,points):cdp.send('Input.dispatchTouchEvent',{'type':kind,'touchPoints':points})
  finger={'x':jx,'y':jy-joy['width']*.30,'id':1};target={'x':bx,'y':by,'id':2}
  send('touchStart',[{'x':jx,'y':jy,'id':1}]);send('touchMove',[finger]);mobile.wait_for_function('window.__lingSkill.speed>.2',timeout=30000)
- send('touchStart',[finger,target]);send('touchEnd',[finger]);mobile.wait_for_function('window.__lingSkill.skill===2 && window.__lingSkill.casting && window.__lingSkill.time>.2',timeout=30000)
+ send('touchStart',[finger,target]);send('touchEnd',[target]);mobile.wait_for_function('window.__lingSkill.skill===2 && window.__lingSkill.casting && window.__lingSkill.time>.2',timeout=30000)
  before=mobile.evaluate('window.__lingSkill');mobile.wait_for_function('t=>window.__lingSkill.time>t+.25',arg=before['time'],timeout=30000);after=mobile.evaluate('window.__lingSkill');assert after['casting'] and distance(before['stagePosition'],after['stagePosition'])>.025
  send('touchEnd',[]);checks['two_finger']={'stageDistance':round(distance(before['stagePosition'],after['stagePosition']),3),'casting':after['casting']}
  assert not errors,errors

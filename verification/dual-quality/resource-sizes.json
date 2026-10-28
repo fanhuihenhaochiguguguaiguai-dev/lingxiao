@@ -1,0 +1,13 @@
+{
+  "sizes": {
+    "dist/lingyuan-lod1.glb": {
+      "beforeBytes": 7470876,
+      "afterBytes": 8707916
+    },
+    "dist/yueli-study.glb": {
+      "beforeBytes": 8012196,
+      "afterBytes": 9348216
+    }
+  },
+  "scope": "asset byte sizes only; not GPU memory or phone performance"
+}

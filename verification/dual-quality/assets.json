@@ -1,0 +1,29 @@
+{
+  "results": [
+    {
+      "file": "dist/lingyuan-lod1.glb",
+      "skins": 1,
+      "jointCount": 60,
+      "weightedVertices": 64664,
+      "blinkMeshes": [
+        "Anatomical face topology",
+        "Upper lash line",
+        "Upper lash line.001"
+      ],
+      "errors": []
+    },
+    {
+      "file": "dist/yueli-study.glb",
+      "skins": 1,
+      "jointCount": 36,
+      "weightedVertices": 52316,
+      "blinkMeshes": [
+        "Qingli female base — CC0 study",
+        "Upper lash line",
+        "Upper lash line.001"
+      ],
+      "errors": []
+    }
+  ],
+  "scope": "weights, hierarchy, blink presence only; not artistic/cloth acceptance"
+}

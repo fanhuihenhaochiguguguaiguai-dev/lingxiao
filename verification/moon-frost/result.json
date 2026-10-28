@@ -1,6 +1,6 @@
 {
   "status": "PASS_RUNTIME_STRUCTURE_ONLY",
-  "scope": "desktop software WebGL2; no damage, skill sound, character rig, or artistic acceptance",
+  "scope": "desktop software WebGL2; visual timeline only; artistic quality and real phone unaccepted",
   "samples": {
     "0.5": {
       "visible": true,
@@ -10,19 +10,19 @@
     },
     "1.7": {
       "visible": true,
-      "crescentX": 1.665888916715363,
+      "crescentX": 3.1454272,
       "lotusScale": 0,
       "featherCount": 42
     },
     "2.8": {
       "visible": true,
-      "crescentX": 3.05,
+      "crescentX": 4.1000000000000005,
       "lotusScale": 1,
       "featherCount": 42
     },
     "4.4": {
       "visible": false,
-      "crescentX": 3.05,
+      "crescentX": 4.1000000000000005,
       "lotusScale": 1,
       "featherCount": 42
     }

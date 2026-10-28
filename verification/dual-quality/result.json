@@ -1,0 +1,67 @@
+{
+  "lingyuan": {
+    "bones": 60,
+    "walk": {
+      "gait": "walk",
+      "runBlend": 0,
+      "contactErrors": [
+        9.942662393718803e-08
+      ],
+      "blink": 0,
+      "ikLegs": 2
+    },
+    "run": {
+      "gait": "run",
+      "runBlend": 0.998338442726826,
+      "contactErrors": [
+        8.418309107483869e-08
+      ],
+      "blink": 0,
+      "ikLegs": 2
+    },
+    "jump": 0.677777777777778,
+    "land": 0,
+    "bufferedRepeat": 2,
+    "hits": []
+  },
+  "yueli": {
+    "bones": 36,
+    "walk": {
+      "gait": "walk",
+      "runBlend": 0,
+      "contactErrors": [
+        7.506250896407227e-07
+      ],
+      "blink": 0,
+      "ikLegs": 2
+    },
+    "run": {
+      "gait": "run",
+      "runBlend": 0.998338442726826,
+      "contactErrors": [
+        5.77785212990053e-07
+      ],
+      "blink": 0,
+      "ikLegs": 2
+    },
+    "jump": 0.677777777777778,
+    "land": 0,
+    "bufferedRepeat": 2,
+    "hits": [
+      {
+        "character": "lingyuan",
+        "skill": 1,
+        "target": 0,
+        "time": 1.0000000000000013
+      },
+      {
+        "character": "yueli",
+        "skill": 1,
+        "target": 0,
+        "time": 1.7299999999999986
+      }
+    ]
+  },
+  "errors": [],
+  "scope": "desktop software WebGL2; artistic quality and real phone not accepted"
+}

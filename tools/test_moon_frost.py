@@ -22,5 +22,5 @@ with display() as env,sync_playwright() as p:
   page.wait_for_function('n=>window.__lingSkill.frames>n',arg=previous,timeout=30000)
   page.screenshot(path=str(out/(view+'.png')))
  assert not errors,errors
- result={'status':'PASS_RUNTIME_STRUCTURE_ONLY','scope':'desktop software WebGL2; no damage, skill sound, character rig, or artistic acceptance','samples':samples,'errors':errors}
+ result={'status':'PASS_RUNTIME_STRUCTURE_ONLY','scope':'desktop software WebGL2; visual timeline only; artistic quality and real phone unaccepted','samples':samples,'errors':errors}
  (out/'result.json').write_text(json.dumps(result,ensure_ascii=False,indent=2));print('PASS',json.dumps(result,ensure_ascii=False),flush=True);b.close()
