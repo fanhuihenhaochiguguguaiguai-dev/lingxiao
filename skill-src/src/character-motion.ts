@@ -57,11 +57,11 @@ export class CharacterMotion {
   this.actor.traverse(o=>{const m=o as THREE.Mesh;const dict=m.morphTargetDictionary;if(dict&&m.morphTargetInfluences&&dict.Blink!==undefined)m.morphTargetInfluences[dict.Blink]=this.sample.blink});
   this.sample.castPose='none';
   if(casting&&this.feminine){
-   const pulse=THREE.MathUtils.smoothstep(time,.04,.55)*(1-THREE.MathUtils.smoothstep(time,1.05,1.8));const tidal=skill===2;this.sample.castPose=tidal?'moon-tide-raise':'frost-feather-release';
+   const ultimate=skill===3,tidal=skill===2;const pulse=THREE.MathUtils.smoothstep(time,.04,ultimate?.85:.55)*(1-THREE.MathUtils.smoothstep(time,ultimate?1.8:1.05,ultimate?2.6:1.8));this.sample.castPose=ultimate?'moonfall-invoke':tidal?'moon-tide-raise':'frost-feather-release';
    const swing=Math.sin(cycle*Math.PI*2)*(.16+.25*this.run)*this.weight;
-   this.turn('upper_armR',-swing*(1-pulse)+(tidal?-.30:-.55)*pulse,0,-.24*pulse);this.turn('forearmR',(-.06-.20*this.run)*(1-pulse)+(tidal?-.42:-.48)*pulse);
-   this.turn('upper_armL',swing*(1-pulse)+(tidal?-.92:-.25)*pulse,0,(tidal?.20:.28)*pulse);this.turn('forearmL',(-.06-.20*this.run)*(1-pulse)+(tidal?-.72:-.30)*pulse);
-   this.turn('handL',-.12*pulse,(tidal?.18:0)*pulse,.10*pulse);this.turn('handR',-.10*pulse,0,-.06*pulse);this.turn('chest',-.035*pulse,(tidal?-.06:.10)*pulse);
+   this.turn('upper_armR',-swing*(1-pulse)+(ultimate?-.90:tidal?-.30:-.55)*pulse,0,-.24*pulse);this.turn('forearmR',(-.06-.20*this.run)*(1-pulse)+(ultimate?-.68:tidal?-.42:-.48)*pulse);
+   this.turn('upper_armL',swing*(1-pulse)+(ultimate?-.98:tidal?-.92:-.25)*pulse,0,(tidal?.20:.28)*pulse);this.turn('forearmL',(-.06-.20*this.run)*(1-pulse)+(ultimate?-.76:tidal?-.72:-.30)*pulse);
+   this.turn('handL',-.12*pulse,(tidal?.18:0)*pulse,.10*pulse);this.turn('handR',-.10*pulse,0,-.06*pulse);this.turn('chest',-.035*pulse,(ultimate?0:tidal?-.06:.10)*pulse);
   }
 
  }

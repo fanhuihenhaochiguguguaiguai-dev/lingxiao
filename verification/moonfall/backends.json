@@ -1,0 +1,23 @@
+{
+  "scope": "actual desktop software WebGL2 / WebGPU ten-instance render; no hardware phone performance acceptance",
+  "checks": {
+    "webgl2": {
+      "renderer": "WebGL2",
+      "software": true,
+      "drawCalls": 283,
+      "triangles": 962137,
+      "quality": "high",
+      "ultimateAssetsReady": true,
+      "iceDragons": 10
+    },
+    "default": {
+      "renderer": "WebGPU",
+      "software": true,
+      "drawCalls": 283,
+      "triangles": 962137,
+      "quality": "high",
+      "ultimateAssetsReady": true,
+      "iceDragons": 10
+    }
+  }
+}

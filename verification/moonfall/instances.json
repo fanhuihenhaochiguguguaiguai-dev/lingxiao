@@ -1,0 +1,312 @@
+{
+  "scope": "desktop Chromium software WebGL2; exact synthetic DOM burst counts, not physical phone latency",
+  "checks": {
+    "lingyuan-1": {
+      "bursts": [
+        {
+          "requested": 1,
+          "created": 1,
+          "uniqueRoots": 1,
+          "immediateAgeZero": true,
+          "castAudioEvents": 1,
+          "synchronousBurstWallMs": 51.7
+        },
+        {
+          "requested": 3,
+          "created": 3,
+          "uniqueRoots": 3,
+          "immediateAgeZero": true,
+          "castAudioEvents": 3,
+          "synchronousBurstWallMs": 36.58
+        },
+        {
+          "requested": 5,
+          "created": 5,
+          "uniqueRoots": 5,
+          "immediateAgeZero": true,
+          "castAudioEvents": 5,
+          "synchronousBurstWallMs": 96.16
+        },
+        {
+          "requested": 10,
+          "created": 10,
+          "uniqueRoots": 10,
+          "immediateAgeZero": true,
+          "castAudioEvents": 10,
+          "synchronousBurstWallMs": 131.61
+        }
+      ],
+      "movingJumpCast": true,
+      "independentAnchorsAndClocks": true,
+      "cleanup": {
+        "created": 20,
+        "allocations": 20,
+        "reused": 0,
+        "activeCount": 0,
+        "pooled": 2,
+        "recycled": 2,
+        "disposed": 9,
+        "clock": 14.313333333333624,
+        "active": [],
+        "history": []
+      },
+      "reuse": true
+    },
+    "lingyuan-2": {
+      "bursts": [
+        {
+          "requested": 1,
+          "created": 1,
+          "uniqueRoots": 1,
+          "immediateAgeZero": true,
+          "castAudioEvents": 1,
+          "synchronousBurstWallMs": 58.05
+        },
+        {
+          "requested": 3,
+          "created": 3,
+          "uniqueRoots": 3,
+          "immediateAgeZero": true,
+          "castAudioEvents": 3,
+          "synchronousBurstWallMs": 157.89
+        },
+        {
+          "requested": 5,
+          "created": 5,
+          "uniqueRoots": 5,
+          "immediateAgeZero": true,
+          "castAudioEvents": 5,
+          "synchronousBurstWallMs": 172.91
+        },
+        {
+          "requested": 10,
+          "created": 10,
+          "uniqueRoots": 10,
+          "immediateAgeZero": true,
+          "castAudioEvents": 10,
+          "synchronousBurstWallMs": 239.97
+        }
+      ],
+      "movingJumpCast": true,
+      "independentAnchorsAndClocks": true,
+      "cleanup": {
+        "created": 41,
+        "allocations": 40,
+        "reused": 1,
+        "activeCount": 0,
+        "pooled": 3,
+        "recycled": 4,
+        "disposed": 18,
+        "clock": 28.54666666666633,
+        "active": [],
+        "history": []
+      },
+      "reuse": true
+    },
+    "lingyuan-3": {
+      "bursts": [
+        {
+          "requested": 1,
+          "created": 1,
+          "uniqueRoots": 1,
+          "immediateAgeZero": true,
+          "castAudioEvents": 1,
+          "synchronousBurstWallMs": 38.91
+        },
+        {
+          "requested": 3,
+          "created": 3,
+          "uniqueRoots": 3,
+          "immediateAgeZero": true,
+          "castAudioEvents": 3,
+          "synchronousBurstWallMs": 171.79
+        },
+        {
+          "requested": 5,
+          "created": 5,
+          "uniqueRoots": 5,
+          "immediateAgeZero": true,
+          "castAudioEvents": 5,
+          "synchronousBurstWallMs": 137.84
+        },
+        {
+          "requested": 10,
+          "created": 10,
+          "uniqueRoots": 10,
+          "immediateAgeZero": true,
+          "castAudioEvents": 10,
+          "synchronousBurstWallMs": 310.05
+        }
+      ],
+      "movingJumpCast": true,
+      "independentAnchorsAndClocks": true,
+      "cleanup": {
+        "created": 62,
+        "allocations": 60,
+        "reused": 2,
+        "activeCount": 0,
+        "pooled": 4,
+        "recycled": 6,
+        "disposed": 27,
+        "clock": 42.77999999999886,
+        "active": [],
+        "history": []
+      },
+      "reuse": true
+    },
+    "yueli-1": {
+      "bursts": [
+        {
+          "requested": 1,
+          "created": 1,
+          "uniqueRoots": 1,
+          "immediateAgeZero": true,
+          "castAudioEvents": 1,
+          "synchronousBurstWallMs": 52.15
+        },
+        {
+          "requested": 3,
+          "created": 3,
+          "uniqueRoots": 3,
+          "immediateAgeZero": true,
+          "castAudioEvents": 3,
+          "synchronousBurstWallMs": 48.39
+        },
+        {
+          "requested": 5,
+          "created": 5,
+          "uniqueRoots": 5,
+          "immediateAgeZero": true,
+          "castAudioEvents": 5,
+          "synchronousBurstWallMs": 74.53
+        },
+        {
+          "requested": 10,
+          "created": 10,
+          "uniqueRoots": 10,
+          "immediateAgeZero": true,
+          "castAudioEvents": 10,
+          "synchronousBurstWallMs": 62.38
+        }
+      ],
+      "movingJumpCast": true,
+      "independentAnchorsAndClocks": true,
+      "cleanup": {
+        "created": 83,
+        "allocations": 80,
+        "reused": 3,
+        "activeCount": 0,
+        "pooled": 5,
+        "recycled": 8,
+        "disposed": 36,
+        "clock": 57.01333333333138,
+        "active": [],
+        "history": []
+      },
+      "reuse": true
+    },
+    "yueli-2": {
+      "bursts": [
+        {
+          "requested": 1,
+          "created": 1,
+          "uniqueRoots": 1,
+          "immediateAgeZero": true,
+          "castAudioEvents": 1,
+          "synchronousBurstWallMs": 65.2
+        },
+        {
+          "requested": 3,
+          "created": 3,
+          "uniqueRoots": 3,
+          "immediateAgeZero": true,
+          "castAudioEvents": 3,
+          "synchronousBurstWallMs": 75.18
+        },
+        {
+          "requested": 5,
+          "created": 5,
+          "uniqueRoots": 5,
+          "immediateAgeZero": true,
+          "castAudioEvents": 5,
+          "synchronousBurstWallMs": 48.46
+        },
+        {
+          "requested": 10,
+          "created": 10,
+          "uniqueRoots": 10,
+          "immediateAgeZero": true,
+          "castAudioEvents": 10,
+          "synchronousBurstWallMs": 58.94
+        }
+      ],
+      "movingJumpCast": true,
+      "independentAnchorsAndClocks": true,
+      "cleanup": {
+        "created": 104,
+        "allocations": 100,
+        "reused": 4,
+        "activeCount": 0,
+        "pooled": 6,
+        "recycled": 10,
+        "disposed": 45,
+        "clock": 71.24666666666391,
+        "active": [],
+        "history": []
+      },
+      "reuse": true
+    },
+    "yueli-3": {
+      "bursts": [
+        {
+          "requested": 1,
+          "created": 1,
+          "uniqueRoots": 1,
+          "immediateAgeZero": true,
+          "castAudioEvents": 1,
+          "synchronousBurstWallMs": 52.21
+        },
+        {
+          "requested": 3,
+          "created": 3,
+          "uniqueRoots": 3,
+          "immediateAgeZero": true,
+          "castAudioEvents": 3,
+          "synchronousBurstWallMs": 72.66
+        },
+        {
+          "requested": 5,
+          "created": 5,
+          "uniqueRoots": 5,
+          "immediateAgeZero": true,
+          "castAudioEvents": 5,
+          "synchronousBurstWallMs": 102.49
+        },
+        {
+          "requested": 10,
+          "created": 10,
+          "uniqueRoots": 10,
+          "immediateAgeZero": true,
+          "castAudioEvents": 10,
+          "synchronousBurstWallMs": 168.74
+        }
+      ],
+      "movingJumpCast": true,
+      "independentAnchorsAndClocks": true,
+      "cleanup": {
+        "created": 125,
+        "allocations": 120,
+        "reused": 5,
+        "activeCount": 0,
+        "pooled": 7,
+        "recycled": 12,
+        "disposed": 54,
+        "clock": 85.47999999999644,
+        "active": [],
+        "history": []
+      },
+      "reuse": true
+    }
+  },
+  "errors": []
+}

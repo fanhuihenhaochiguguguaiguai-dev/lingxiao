@@ -1,0 +1,15 @@
+{
+  "baselineCommit": "c4bee71638f92cabbbff55cf5bda10e4fee597db",
+  "files": {
+    "dist/skill/app.js": "1d2f3d7c92f5b7a61c37f2d0f3a88aceae1bc6232f5375fa0d02ba59179fe585",
+    "dist/yueli-study.glb": "a26546f15a3aa353edb420e62cc48888a7006acb4f5f7dec288a1689348ca084",
+    "characters/qingli/Yueli_working.blend": "89dca91615b858a43c8deeb7019dbdac8f05bdaf03b4a1421a03ace28460f041",
+    "dist/skill/assets/yueli-moon-echo.glb": "690f68ea29d3783283060c90fcf405da0803f9d20f6dc0e0e60ccebc75700f25",
+    "dist/skill/audio/lunar/manifest.json": "ee9f4e67bda83e15fb1d469b96ba8544a3d41ebb00f42dc0f4d0deb2104735d2"
+  },
+  "appearanceAuthority": [
+    "reference/qingli/originals/board-04.jpg",
+    "reference/qingli/originals/board-01.jpg"
+  ],
+  "skillAuthority": "reference/moonfall/manifest.json"
+}

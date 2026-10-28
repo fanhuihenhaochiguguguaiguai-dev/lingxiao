@@ -80,3 +80,6 @@ export class MoonTide {
  }
  dispose(){this.group.traverse(o=>{if((o as THREE.InstancedMesh).isInstancedMesh)(o as THREE.InstancedMesh).dispose()});const mats=new Set<THREE.Material>();this.group.traverse(o=>{const m=o as THREE.Mesh;if(m.isMesh){for(const mat of Array.isArray(m.material)?m.material:[m.material])mats.add(mat)}});for(const m of mats)m.dispose();this.wave.geometry.dispose();this.group.removeFromParent();this.group.clear()}
 }
+
+// Immutable topology is shared with other lunar skills; instance state/materials stay local.
+export const lunarGeometry=assets;

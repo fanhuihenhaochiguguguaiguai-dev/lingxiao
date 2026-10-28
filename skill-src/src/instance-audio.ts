@@ -1,7 +1,7 @@
 import * as THREE from 'three/webgpu';
 import { SkillAudio, tracks } from './skill-audio';
-export type CastKind='lingyuan-1'|'lingyuan-2'|'lingyuan-3'|'yueli-1'|'yueli-2';
-export type LunarPhase='cast'|'moon'|'crystal'|'burst'|'field'|'hit'|'dissolve';
+export type CastKind='lingyuan-1'|'lingyuan-2'|'lingyuan-3'|'yueli-1'|'yueli-2'|'yueli-3';
+export type LunarPhase='cast'|'moon'|'crystal'|'burst'|'field'|'hit'|'dissolve'|'dragon';
 export interface AudioEvent {instanceId:number;kind:CastKind;phase:string;variant:number;pitch:number;gain:number;simulationTime:number;requestedAudioTime:number;startedAudioTime:number|null;file:string;status:'pending'|'playing'|'failed'}
 const phases:LunarPhase[]=['cast','moon','crystal','burst','field','hit','dissolve'];
 export class InstanceAudio {
@@ -14,14 +14,14 @@ export class InstanceAudio {
  private async preload(){
   try{const ctx=this.owner.context;if(!ctx)throw Error('AudioContext unavailable');
    // Decode a bounded batch to keep startup memory and CPU predictable.
-   const names:string[]=[];for(const style of [1,2])for(const phase of phases)for(let v=0;v<3;v++)names.push(`lunar${style}-${phase}-${v}`);
+   const names:string[]=[];for(const style of [1,2,3])for(const phase of style===3?[...phases,'dragon']:phases)for(let v=0;v<3;v++)names.push(`lunar${style}-${phase}-${v}`);
    for(let at=0;at<names.length;at+=4)await Promise.all(names.slice(at,at+4).map(async name=>{const r=await fetch(`audio/lunar/${name}.ogg`);if(!r.ok)throw Error(`${name}: HTTP ${r.status}`);this.buffers.set(name,await ctx.decodeAudioData(await r.arrayBuffer()))}));
    this.ready=true;this.flush();
   }catch(e){this.error=String(e);for(const p of this.pending)p.event.status='failed';this.pending.length=0}
  }
  private ensureBus(){const ctx=this.owner.context;if(!ctx||!this.owner.master)return null;if(!this.bus){this.bus=ctx.createGain();this.bus.gain.value=.8;this.bus.connect(this.owner.master)}return this.bus}
  fire(id:number,kind:CastKind,phase:string,variant:number,age:number,position:THREE.Vector3){
-  const lunar=kind.startsWith('yueli'),style=kind==='yueli-1'?1:2;let file:string,gain=.55;
+  const lunar=kind.startsWith('yueli'),style=kind==='yueli-1'?1:kind==='yueli-2'?2:3;let file:string,gain=.55;
   if(lunar){const base=phase.split(':')[0];file=`lunar${style}-${base}-${variant}`;gain=base==='field'?.32:base==='hit'?.48:base==='burst'?.62:.50}
   else{const skill=Number(kind.slice(-1)),index=Number(phase.split(':')[1]);const cue=tracks[skill][index];if(!cue)return;file=cue.file;gain=cue.gain*.75}
   const seed=Math.sin(id*91.17+phase.length*3.71)*.5+.5,pitch=2**((seed-.5)*.055);gain*=.94+seed*.12;

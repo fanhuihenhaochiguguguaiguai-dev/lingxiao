@@ -1,0 +1,35 @@
+{
+  "scope": "48 kHz OfflineAudioContext with production gain/compressor/limiter; no subjective listening or physical device latency acceptance",
+  "sourceVariants": 66,
+  "castSpectralCentroidsHz": {
+    "1": 6436.206335107759,
+    "2": 3607.074993036854,
+    "3": 3666.251665540829
+  },
+  "mixes": {
+    "lunar1-1casts": {
+      "peak": 0.2994672954082489,
+      "clippedSamples": 0,
+      "rms": 0.015630823822163124,
+      "scheduledSources": 7
+    },
+    "lunar2-1casts": {
+      "peak": 0.3059174418449402,
+      "clippedSamples": 0,
+      "rms": 0.020918386871682765,
+      "scheduledSources": 13
+    },
+    "lunar3-1casts": {
+      "peak": 0.3838115632534027,
+      "clippedSamples": 0,
+      "rms": 0.026401138286128282,
+      "scheduledSources": 14
+    },
+    "lunar3-10casts": {
+      "peak": 0.30450934171676636,
+      "clippedSamples": 0,
+      "rms": 0.02555756571254672,
+      "scheduledSources": 140
+    }
+  }
+}

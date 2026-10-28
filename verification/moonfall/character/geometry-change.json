@@ -1,0 +1,13 @@
+{
+  "faceVerticesMoved": 3971,
+  "maximumDisplacement": 0.009338360309790345,
+  "bonesPreserved": 36,
+  "newBatches": [
+    "sheen",
+    "hair",
+    "ivory",
+    "gold",
+    "headgold"
+  ],
+  "source": "characters/qingli/Yueli_working.blend"
+}

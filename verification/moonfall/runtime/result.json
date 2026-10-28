@@ -1,0 +1,123 @@
+{
+  "scope": "desktop Chromium software WebGL2; actual geometry/time/deformation, not art or phone acceptance",
+  "stages": {
+    "0.5": {
+      "phase": "九重凝月",
+      "rings": 9,
+      "dragonCount": 0,
+      "dragon": {
+        "visible": false,
+        "head": [
+          0,
+          0,
+          0
+        ],
+        "bodyY": 0,
+        "scales": 160,
+        "limbs": 4
+      },
+      "moonY": 5.434289780745545,
+      "radius": 4.5,
+      "crystals": 40
+    },
+    "2.2": {
+      "phase": "冰龙降临",
+      "rings": 9,
+      "dragonCount": 1,
+      "dragon": {
+        "visible": true,
+        "head": [
+          0.6352065452011779,
+          1.423366981160621,
+          -2.5049216116551665
+        ],
+        "bodyY": 1.4698542356491089,
+        "scales": 160,
+        "limbs": 4
+      },
+      "moonY": 5.499952583060549,
+      "radius": 4.5,
+      "crystals": 40
+    },
+    "3.5": {
+      "phase": "月陨天霜",
+      "rings": 9,
+      "dragonCount": 1,
+      "dragon": {
+        "visible": true,
+        "head": [
+          2.2749737770061147,
+          0.6286059146203071,
+          -0.6980477967833079
+        ],
+        "bodyY": 0.6391012072563171,
+        "scales": 160,
+        "limbs": 4
+      },
+      "moonY": 3.9637764702134497,
+      "radius": 4.5,
+      "crystals": 40
+    },
+    "4.2": {
+      "phase": "月陨天霜",
+      "rings": 9,
+      "dragonCount": 1,
+      "dragon": {
+        "visible": true,
+        "head": [
+          1.5,
+          0.41999999999999993,
+          0
+        ],
+        "bodyY": 0.42511364817619324,
+        "scales": 160,
+        "limbs": 4
+      },
+      "moonY": 2.4200229984721773,
+      "radius": 4.5,
+      "crystals": 40
+    },
+    "6.5": {
+      "phase": "九界归墟",
+      "rings": 9,
+      "dragonCount": 1,
+      "dragon": {
+        "visible": true,
+        "head": [
+          0.4778584277941209,
+          2.6996521223797965,
+          2.4449389780459745
+        ],
+        "bodyY": 2.661166191101074,
+        "scales": 160,
+        "limbs": 4
+      },
+      "moonY": 2.3013156141496767,
+      "radius": 4.5,
+      "crystals": 40
+    },
+    "10.2": {
+      "phase": "自然消散",
+      "rings": 9,
+      "dragonCount": 1,
+      "dragon": {
+        "visible": true,
+        "head": [
+          2.961977549606179,
+          1.5735869848228343,
+          -2.2102311291915857
+        ],
+        "bodyY": 1.6240029335021973,
+        "scales": 160,
+        "limbs": 4
+      },
+      "moonY": 2.4755760508057056,
+      "radius": 4.5,
+      "crystals": 40
+    }
+  },
+  "independentDragonsAt2_3Seconds": 10,
+  "independentHitIds": 10,
+  "activeAndVoicesReturnToZero": true,
+  "errors": []
+}

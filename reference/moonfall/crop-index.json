@@ -1,0 +1,546 @@
+[
+  {
+    "file": "crops/A-phase-01-起手凝月.png",
+    "source": "月陨天霜_设定图一.png",
+    "box": [
+      6,
+      393,
+      220,
+      552
+    ],
+    "size": [
+      214,
+      159
+    ],
+    "sha256": "60a5ff9eafbcdd1150e77889eb7d82929a507a9791bfdeae41a8942c95b806e8",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/A-phase-02-星辰汇聚.png",
+    "source": "月陨天霜_设定图一.png",
+    "box": [
+      224,
+      393,
+      438,
+      552
+    ],
+    "size": [
+      214,
+      159
+    ],
+    "sha256": "2f919b68d1827c5f41a72b9eced6b06f17a162b6c59e84dca822aa3587512f66",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/A-phase-03-月轮降临.png",
+    "source": "月陨天霜_设定图一.png",
+    "box": [
+      442,
+      393,
+      656,
+      552
+    ],
+    "size": [
+      214,
+      159
+    ],
+    "sha256": "9bb38ec3724970fcd670ceda05e7f991074c6892924fd188bbe3665bc495c390",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/A-phase-04-九天霜龙.png",
+    "source": "月陨天霜_设定图一.png",
+    "box": [
+      660,
+      393,
+      874,
+      552
+    ],
+    "size": [
+      214,
+      159
+    ],
+    "sha256": "b5a2693c366164727eb4d75d79fc945ee4b80d23674e07983346534410e69be3",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/A-phase-05-霜月爆发.png",
+    "source": "月陨天霜_设定图一.png",
+    "box": [
+      879,
+      393,
+      1092,
+      552
+    ],
+    "size": [
+      213,
+      159
+    ],
+    "sha256": "d76dfe70a3055816dea7ce45f2f665976e661fe35deb47e0d220ab7fbb3fc669",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/A-phase-06-持续领域.png",
+    "source": "月陨天霜_设定图一.png",
+    "box": [
+      1097,
+      393,
+      1310,
+      552
+    ],
+    "size": [
+      213,
+      159
+    ],
+    "sha256": "d7c6d2e0ea597674888b22732e619c910a5c7687feb875e46e7a6d43d1726036",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/A-phase-07-自然消散.png",
+    "source": "月陨天霜_设定图一.png",
+    "box": [
+      1315,
+      393,
+      1528,
+      552
+    ],
+    "size": [
+      213,
+      159
+    ],
+    "sha256": "76294c0fbcd40030e658c564197a9404dbece0bf7bac06988da1848e954ab07b",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/A-detail-01-九重月轮.png",
+    "source": "月陨天霜_设定图一.png",
+    "box": [
+      8,
+      765,
+      107,
+      874
+    ],
+    "size": [
+      99,
+      109
+    ],
+    "sha256": "10d920114b964e45030941dcf60882c28c471c52449b76049c3adbd4b8d1afdc",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/A-detail-02-冰霜巨龙.png",
+    "source": "月陨天霜_设定图一.png",
+    "box": [
+      110,
+      765,
+      210,
+      874
+    ],
+    "size": [
+      100,
+      109
+    ],
+    "sha256": "e21d1542e4b55acaf4bc875377dd209c731d5e8cd34a7608c31c53ef3246cbb7",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/A-detail-03-冰莲绽放.png",
+    "source": "月陨天霜_设定图一.png",
+    "box": [
+      213,
+      765,
+      312,
+      874
+    ],
+    "size": [
+      99,
+      109
+    ],
+    "sha256": "f417c7f3aaf575fd9c36a3c446d0dd7055e633b02051862e9624c5035b6eca46",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/A-detail-04-星环法阵.png",
+    "source": "月陨天霜_设定图一.png",
+    "box": [
+      315,
+      765,
+      415,
+      874
+    ],
+    "size": [
+      100,
+      109
+    ],
+    "sha256": "fd52e0188823449302f12a41bac0c321e23b7edb9804c902a7b15a5535dd8769",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/A-detail-05-月影幻象.png",
+    "source": "月陨天霜_设定图一.png",
+    "box": [
+      418,
+      765,
+      518,
+      874
+    ],
+    "size": [
+      100,
+      109
+    ],
+    "sha256": "319cb7007fbb2e6793e3bb58844a5be7670389231c20490830ceaa70fe6d4bc6",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/A-detail-06-冰晶碎片.png",
+    "source": "月陨天霜_设定图一.png",
+    "box": [
+      8,
+      879,
+      107,
+      988
+    ],
+    "size": [
+      99,
+      109
+    ],
+    "sha256": "aab28989bcbf741121e416b953cb7a04d44da2bdfea1a4b996e566445fe8de41",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/A-detail-07-能量光柱.png",
+    "source": "月陨天霜_设定图一.png",
+    "box": [
+      110,
+      879,
+      210,
+      988
+    ],
+    "size": [
+      100,
+      109
+    ],
+    "sha256": "55b393c5ac90f18fca10da850f4c1f8af240498ee31acd19397b8516613f5fdf",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/A-detail-08-流光轨迹.png",
+    "source": "月陨天霜_设定图一.png",
+    "box": [
+      213,
+      879,
+      312,
+      988
+    ],
+    "size": [
+      99,
+      109
+    ],
+    "sha256": "e82d39b0eed14f718c5b66e5d4027353053b0ac7ef5e9b465a638b33f977cce1",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/A-detail-09-雪花粒子.png",
+    "source": "月陨天霜_设定图一.png",
+    "box": [
+      315,
+      879,
+      415,
+      988
+    ],
+    "size": [
+      100,
+      109
+    ],
+    "sha256": "d382319678266b25fca8a389337ddbd42cbb7abf9f2ff9998408ca172a32a531",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/A-detail-10-蝶影残光.png",
+    "source": "月陨天霜_设定图一.png",
+    "box": [
+      418,
+      879,
+      518,
+      988
+    ],
+    "size": [
+      100,
+      109
+    ],
+    "sha256": "fdf1269a822b221522b88aa67f36dc90a6a5655f0746dc7405161534856c3620",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/B-phase-01-起手凝月.png",
+    "source": "月陨天霜_设定图二.png",
+    "box": [
+      6,
+      429,
+      220,
+      600
+    ],
+    "size": [
+      214,
+      171
+    ],
+    "sha256": "e84bb1df7545ac92ee9431c23954cdd934f2571095a649dd1d83ef1af49aebbb",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/B-phase-02-星龙降临.png",
+    "source": "月陨天霜_设定图二.png",
+    "box": [
+      224,
+      429,
+      438,
+      600
+    ],
+    "size": [
+      214,
+      171
+    ],
+    "sha256": "32ef9c37292af162dd206597e53d73790b37617dfb7f2b78b2e3af6c9730689b",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/B-phase-03-月陨天霜.png",
+    "source": "月陨天霜_设定图二.png",
+    "box": [
+      442,
+      429,
+      656,
+      600
+    ],
+    "size": [
+      214,
+      171
+    ],
+    "sha256": "5d5584575cb436f76adbc9faca854cf7007230c2a89dd84db023a797e384f804",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/B-phase-04-九界归墟.png",
+    "source": "月陨天霜_设定图二.png",
+    "box": [
+      660,
+      429,
+      874,
+      600
+    ],
+    "size": [
+      214,
+      171
+    ],
+    "sha256": "b97affd46ccd45bd66ab28e59c017def572a14a1d290dd90eb9e4529ae462aa3",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/B-phase-05-霜月消散.png",
+    "source": "月陨天霜_设定图二.png",
+    "box": [
+      879,
+      429,
+      1092,
+      600
+    ],
+    "size": [
+      213,
+      171
+    ],
+    "sha256": "1c298fa5af8d4c02389c6954a71f214eb213972af826e9ada75b99c4071fa6e3",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/B-detail-01-月轮特写.png",
+    "source": "月陨天霜_设定图二.png",
+    "box": [
+      1100,
+      643,
+      1204,
+      730
+    ],
+    "size": [
+      104,
+      87
+    ],
+    "sha256": "b472c1c5cf87f1eb8b480dd414c8536fc80f3c6ecfe3c4c74da4443de3cea511",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/B-detail-02-冰莲绽放.png",
+    "source": "月陨天霜_设定图二.png",
+    "box": [
+      1207,
+      643,
+      1312,
+      730
+    ],
+    "size": [
+      105,
+      87
+    ],
+    "sha256": "80ba3d893d03564a6d668c3b31cf97fba50bff5f5eaf4b2fb67eb208bb7760c7",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/B-detail-03-星龙细节.png",
+    "source": "月陨天霜_设定图二.png",
+    "box": [
+      1315,
+      643,
+      1419,
+      730
+    ],
+    "size": [
+      104,
+      87
+    ],
+    "sha256": "c19a8e263df5ec4eee2bc1d1e0af5fb3308aa13e05158411ecaa22f4bb7422e0",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/B-detail-04-法阵符文.png",
+    "source": "月陨天霜_设定图二.png",
+    "box": [
+      1422,
+      643,
+      1527,
+      730
+    ],
+    "size": [
+      105,
+      87
+    ],
+    "sha256": "4001c9f1ead7511b32d2c84010d66902b6177fedf8167ceff42746e4b5db8138",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/B-detail-05-冰晶碎片.png",
+    "source": "月陨天霜_设定图二.png",
+    "box": [
+      1100,
+      733,
+      1204,
+      820
+    ],
+    "size": [
+      104,
+      87
+    ],
+    "sha256": "10cd7d4a2a64f1d9d54dff71df7a85364fff917213f3b052ee7d495fba6cb187",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/B-detail-06-流光轨迹.png",
+    "source": "月陨天霜_设定图二.png",
+    "box": [
+      1207,
+      733,
+      1312,
+      820
+    ],
+    "size": [
+      105,
+      87
+    ],
+    "sha256": "1f15f5954cc925585bc91bbf3eaf8c7319a12d5691571c76f314e694c2934f98",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/B-detail-07-领域边缘.png",
+    "source": "月陨天霜_设定图二.png",
+    "box": [
+      1315,
+      733,
+      1419,
+      820
+    ],
+    "size": [
+      104,
+      87
+    ],
+    "sha256": "2aeaa1fc224aa938204ffdfed929d7b7c11b0f52132a7f2f6b8ffe0314199a75",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/B-detail-08-粒子光效.png",
+    "source": "月陨天霜_设定图二.png",
+    "box": [
+      1422,
+      733,
+      1527,
+      820
+    ],
+    "size": [
+      105,
+      87
+    ],
+    "sha256": "7636dccef7a66d40d6e63bc42196d71b8843de97febefa138b899323ce1b040e",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/A-main-context.png",
+    "source": "月陨天霜_设定图一.png",
+    "box": [
+      441,
+      2,
+      1261,
+      374
+    ],
+    "size": [
+      820,
+      372
+    ],
+    "sha256": "7ed23b5ab3372a1c1d3a5e20382834b8eb2503bbc7e5b11aa71780b0cbb8bc6f",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/B-main-context.png",
+    "source": "月陨天霜_设定图二.png",
+    "box": [
+      493,
+      4,
+      1204,
+      409
+    ],
+    "size": [
+      711,
+      405
+    ],
+    "sha256": "5728873c67ab1241ed8f50e14f2b343ab7179f4ca7c0c878e150e65803375d57",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/B-multi-instance-context.png",
+    "source": "月陨天霜_设定图二.png",
+    "box": [
+      6,
+      830,
+      591,
+      1010
+    ],
+    "size": [
+      585,
+      180
+    ],
+    "sha256": "53ec96e654b3b213737c55c64d6c4f78d259d09380144cf0066c09560d73c277",
+    "appearanceAuthority": false
+  },
+  {
+    "file": "crops/B-range-context.png",
+    "source": "月陨天霜_设定图二.png",
+    "box": [
+      598,
+      830,
+      886,
+      1010
+    ],
+    "size": [
+      288,
+      180
+    ],
+    "sha256": "5720369efe814335f3c1acbc1a4373ab45c6938ecd433854de76f519302917f7",
+    "appearanceAuthority": false
+  }
+]

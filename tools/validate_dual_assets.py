@@ -1,7 +1,7 @@
 """Check skin-weight integrity and preserved clothing thickness in candidate GLBs."""
 from pathlib import Path
-import json,struct,math
-R=Path(__file__).resolve().parents[1];out=R/'verification/dual-quality';out.mkdir(exist_ok=True)
+import json,struct,math,os
+R=Path(__file__).resolve().parents[1];out=R/os.environ.get('LUNAR_MODEL_REPORT_DIR','verification/dual-quality');out.mkdir(exist_ok=True)
 def audit(file):
  data=file.read_bytes();size=struct.unpack_from('<I',data,12)[0];doc=json.loads(data[20:20+size]);binary=data[28+size:];errors=[];weighted=0;shapes=[]
  for mesh in doc['meshes']:
