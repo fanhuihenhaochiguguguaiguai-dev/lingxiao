@@ -1,5 +1,14 @@
 # 凌渊角色工作稿
 
+## 当前版本与经验索引
+
+最新有效网页是 [凌渊角色工作室](https://lingyuan-character-studio.earthyaspen11.chatgpt.site/skill/)（公开访问）。当前代码包含凌渊与月璃、两人的三个技能，以及月璃「月陨天霜」可运行工作稿。月璃仍未通过原画还原与最终艺术验收；真机性能和专业听感仍未验证。下方各段是历次工作记录，其中关于角色是否接入、技能数量及画质档位的描述可能反映旧版本，当前状态以 `verification/moonfall/README.md` 为准。
+
+- 项目决策、成功经验、失败原因与预防措施：[`docs/PROJECT_LESSONS.md`](docs/PROJECT_LESSONS.md)。
+- 人物制作经验与失败候选：[`docs/qingli-production-lessons.md`](docs/qingli-production-lessons.md)、[`docs/REFINEMENT_WORKFLOW.md`](docs/REFINEMENT_WORKFLOW.md)。
+- 最新真实运行结果、前后对照与未完成内容：[`verification/moonfall/README.md`](verification/moonfall/README.md)。
+- Git 历史保留了各阶段源码、资源及必要的回退点；部分生成脚本依赖外部工作区源资产，见下方来源说明。
+
 这是根据用户提供的四张角色设定图制作的**未完成三维工作稿**，不具备正式验收质量。独立于原《曜境》工程，不覆盖原文件。参考图位于 `reference/`。
 
 - `dist/Lingyuan_working.blend`：唯一 Blender 工作母版，贴图已打包，Blender 4.3.2 可打开。
