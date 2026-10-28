@@ -5,9 +5,9 @@ import bpy, math, os, sys, json, random
 from mathutils import Vector
 from math import pi, sin, cos
 from pathlib import Path
-R=Path('/workspace/sites/lingyuan-character-lab'); random.seed(16)
+R=Path(__file__).resolve().parents[1]; random.seed(16)
 bpy.ops.object.select_all(action='SELECT'); bpy.ops.object.delete(use_global=False)
-bpy.ops.import_scene.gltf(filepath='/workspace/yaojing/assets/heroes_rebuilt/poxiao.glb')
+bpy.ops.import_scene.gltf(filepath=os.environ.get('LINGYUAN_LEGACY_SOURCE',str(R/'reference/legacy-source/poxiao.glb')))
 rig=bpy.data.objects['PoXiao_Rig']; rig.name='Lingyuan_Rig'
 for o in list(bpy.data.objects):
  if o.type=='MESH': o.name=o.name.replace('PoXiao','Lingyuan')

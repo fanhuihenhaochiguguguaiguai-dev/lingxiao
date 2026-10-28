@@ -17,7 +17,7 @@
 - `dist/`：网页静态文件。可运行 `python3 -m http.server 8765 --directory dist`，在浏览器打开本地地址。
 - `verification/`：验证记录及浏览器实际截图，结果见 `verification/REPORT.md`。
 
-来源：人体和枪从 `/workspace/yaojing/assets/heroes_rebuilt/poxiao.glb` 的重建候选提取，以 Blender 建立独立工作稿；其不是原设定图的原始三维资产。新增衣袍、发束、肩部纹理和饰物由 `tools/build_character.py` 生成。当前头部拓扑和皮肤来自 CC0 MakeHuman 基础网格、形变与官方皮肤资产（见 `reference/makehuman/LICENSE.ASSETS.md`）；它们经过缩放、绑定、UV 映射和基础外形处理，不是凌渊原始面部数据。重建脚本依赖上述已有源文件路径，母版和 GLB 本身包含模型与纹理，可脱离原项目打开；源码重建不具备独立性。
+来源：人体和枪从原工作区 `/workspace/yaojing/assets/heroes_rebuilt/poxiao.glb` 的重建候选提取，以 Blender 建立独立工作稿；其不是原设定图的原始三维资产。该原始依赖的副本位于 `reference/legacy-source/poxiao.glb`，`tools/build_character.py` 默认使用仓库内副本，也可通过 `LINGYUAN_LEGACY_SOURCE` 指定其他路径。新增衣袍、发束、肩部纹理和饰物由该脚本生成。当前头部拓扑和皮肤来自 CC0 MakeHuman 基础网格、形变与官方皮肤资产（见 `reference/makehuman/LICENSE.ASSETS.md`）；它们经过缩放、绑定、UV 映射和基础外形处理，不是凌渊原始面部数据。模型母版与 GLB 本身包含模型和纹理；部分历史辅助脚本仍引用旧工作区路径，不保证可直接在新环境运行。
 
 网页通过 WASD / 方向键或触屏摇杆移动人物，拖动旋转镜头。网页只加载所需的模型，手机尺寸默认 LOD1；支持 `?renderer=webgl2` 兼容模式和加载失败提示。精修问题及流程见 `docs/REFINEMENT_WORKFLOW.md`。网页引擎 PlayCanvas，许可见 `dist/engine/PlayCanvas-MIT.txt`。网页默认优先 WebGPU，失败使用 WebGL 2；`?renderer=webgl2` 供兼容性检查。
 
