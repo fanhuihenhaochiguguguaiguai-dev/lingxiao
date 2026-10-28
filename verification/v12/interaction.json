@@ -1,0 +1,18 @@
+{
+  "tests": {
+    "held_then_new_direction": {
+      "skillWhileHeld": 2,
+      "timeWhileHeld": 1.3,
+      "castingAfterNewDirection": false,
+      "transitionWeight": 0.6666666666666666
+    },
+    "background": {
+      "playing": false,
+      "voices": 0
+    },
+    "context_loss": "error message and retry displayed (synthetic event)"
+  },
+  "scope": "desktop software rendering; synthetic visibility/context events; not a mobile test",
+  "errors": [],
+  "status": "PASS_DESKTOP_SOFTWARE_ONLY"
+}

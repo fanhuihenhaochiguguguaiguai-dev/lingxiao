@@ -1,0 +1,74 @@
+{
+  "status": "PASS_SOFTWARE_ONLY",
+  "renderer": "WebGPU",
+  "software": true,
+  "position": [
+    0.03735307461614033,
+    0.45032803615687417,
+    -0.03284494492108892
+  ],
+  "dragon": [
+    0.862032916615307,
+    4.7,
+    2.401246910001446
+  ],
+  "audio": [
+    {
+      "skill": 3,
+      "cue": 0.05,
+      "at": 0,
+      "audioNow": 0.011609977324263039,
+      "scheduledAudioTime": 0.06160997732426304,
+      "lateBy": 0
+    },
+    {
+      "skill": 3,
+      "cue": 0.72,
+      "at": 0,
+      "audioNow": 0.011609977324263039,
+      "scheduledAudioTime": 0.731609977324263,
+      "lateBy": 0
+    },
+    {
+      "skill": 3,
+      "cue": 1.55,
+      "at": 0,
+      "audioNow": 0.011609977324263039,
+      "scheduledAudioTime": 1.561609977324263,
+      "lateBy": 0
+    },
+    {
+      "skill": 3,
+      "cue": 3.2,
+      "at": 0,
+      "audioNow": 0.011609977324263039,
+      "scheduledAudioTime": 3.211609977324263,
+      "lateBy": 0
+    },
+    {
+      "skill": 3,
+      "cue": 4.92,
+      "at": 0,
+      "audioNow": 0.011609977324263039,
+      "scheduledAudioTime": 4.931609977324263,
+      "lateBy": 0
+    },
+    {
+      "skill": 3,
+      "cue": 4.95,
+      "at": 0,
+      "audioNow": 0.011609977324263039,
+      "scheduledAudioTime": 4.9616099773242635,
+      "lateBy": 0
+    },
+    {
+      "skill": 3,
+      "cue": 5.6,
+      "at": 0,
+      "audioNow": 0.011609977324263039,
+      "scheduledAudioTime": 5.611609977324263,
+      "lateBy": 0
+    }
+  ],
+  "errors": []
+}

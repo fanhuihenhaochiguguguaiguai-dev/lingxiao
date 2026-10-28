@@ -16,7 +16,7 @@ function tapered(points:THREE.Vector3[],start:number,end:number){
 function sections(rows:number[][]){
  const sides=12,pos:number[]=[],idx:number[]=[];
  for(const [x,y,ry,rz] of rows)for(let j=0;j<=sides;j++){const a=j/sides*Math.PI*2;pos.push(x,y+Math.cos(a)*ry,Math.sin(a)*rz)}
- for(let i=0;i<rows.length-1;i++)for(let j=0;j<sides;j++){const a=i*(sides+1)+j,b=a+sides+1;idx.push(a,b,a+1,b,b+1,a+1)}
+ for(let i=0;i<rows.length-1;i++)for(let j=0;j<sides;j++){const a=i*(sides+1)+j,b=a+sides+1;idx.push(a,a+1,b,b,a+1,b+1)}
  const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(pos,3));g.setIndex(idx);g.computeVertexNormals();return g;
 }
 function fin(points:THREE.Vector3[],thickness:number){
@@ -27,7 +27,7 @@ function fin(points:THREE.Vector3[],thickness:number){
 export function makeDragonHead(p:Palette){
  const root=new THREE.Group();root.name='龙首 · 立体头骨角鬃牙须';
  const buckets=new Map<THREE.Material,THREE.BufferGeometry[]>();
- function add(g:THREE.BufferGeometry,m:THREE.Material,at=new V(),rot=new THREE.Euler(),scale=new V(1,1,1)){g.applyMatrix4(new THREE.Matrix4().compose(at,new THREE.Quaternion().setFromEuler(rot),scale));const list=buckets.get(m)||[];list.push(g);buckets.set(m,list)}
+ function add(g:THREE.BufferGeometry,m:THREE.Material,at=new V(),rot=new THREE.Euler(),scale=new V(1,1,1)){g.deleteAttribute('uv');g.applyMatrix4(new THREE.Matrix4().compose(at,new THREE.Quaternion().setFromEuler(rot),scale));const list=buckets.get(m)||[];list.push(g);buckets.set(m,list)}
  function strand(pts:number[][],r:number,mat=p.light){add(tapered(pts.map(a=>new V(a[0],a[1],a[2])),r,.0015),mat)}
  // High cheekbones, long tapered snout and separate lower jaw form an open maw.
  add(sections([[-.40,.01,.07,.09],[-.29,.02,.19,.20],[-.08,.035,.23,.23],[.10,.015,.19,.20],[.29,-.04,.12,.15],[.50,-.075,.09,.12],[.62,-.08,.05,.075]]),p.shell);

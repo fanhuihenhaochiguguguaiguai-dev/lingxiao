@@ -1,0 +1,10 @@
+import {build} from '../skill-src/node_modules/esbuild/lib/main.js';
+import {pathToFileURL} from 'node:url';
+import {writeFile} from 'node:fs/promises';
+const dest='/tmp/ling-v12-dragon-test.mjs';await build({entryPoints:['skill-src/src/dragon-head.ts'],bundle:true,format:'esm',platform:'node',outfile:dest});
+const {makeDragonHead}=await import(pathToFileURL(dest));
+const palette={shell:{},light:{},gold:{},dark:{},eye:{}};let warnings=[];const old=console.error;console.error=(...args)=>warnings.push(args.join(' '));
+const head=makeDragonHead(palette);console.error=old;
+const present=Object.keys(palette).filter(k=>head.children.some(x=>x.material===palette[k]));if(present.length!==5||warnings.length)throw Error(`Missing meshes: ${present}; warnings: ${warnings}`);
+const shell=head.children.find(x=>x.material===palette.shell).geometry,n=shell.getAttribute('normal'),normalY=n.getY(26);if(normalY<.8)throw Error(`Inward-facing skull normal: ${normalY}`);
+const output={status:'PASS_GEOMETRY_ONLY',materialGroups:present,skullTopNormalY:normalY,previouslyMissing:['light','dark'],previousNormalY:-.9645868};await writeFile('verification/v12/dragon-geometry.json',JSON.stringify(output,null,2)+'\n');console.log(JSON.stringify(output));

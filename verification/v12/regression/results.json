@@ -1,0 +1,351 @@
+{
+  "tests": {
+    "keyboard": {
+      "start": [
+        0,
+        0,
+        0
+      ],
+      "end": [
+        -0.49494181783912533,
+        0,
+        -0.5628750085229267
+      ],
+      "camera": [
+        -0.4462048075456253,
+        1.049783025836463,
+        -0.5079421145218931
+      ]
+    },
+    "skill2": {
+      "actor": [
+        -0.49494181783912533,
+        0,
+        -0.5628750085229267
+      ],
+      "dragon": [
+        -1.0287640000392346,
+        1.2293449472568578,
+        1.6477430800111117
+      ],
+      "audio": [
+        {
+          "skill": 2,
+          "cue": 0.06,
+          "at": 0,
+          "audioNow": 0.07256235827664399,
+          "scheduledAudioTime": 0.13256235827664398,
+          "lateBy": 0
+        },
+        {
+          "skill": 2,
+          "cue": 0.45,
+          "at": 0,
+          "audioNow": 0.07256235827664399,
+          "scheduledAudioTime": 0.522562358276644,
+          "lateBy": 0
+        },
+        {
+          "skill": 2,
+          "cue": 2.15,
+          "at": 0,
+          "audioNow": 0.07256235827664399,
+          "scheduledAudioTime": 2.222562358276644,
+          "lateBy": 0
+        },
+        {
+          "skill": 2,
+          "cue": 2.45,
+          "at": 0,
+          "audioNow": 0.07256235827664399,
+          "scheduledAudioTime": 2.522562358276644,
+          "lateBy": 0
+        },
+        {
+          "skill": 2,
+          "cue": 4.5,
+          "at": 0,
+          "audioNow": 0.07256235827664399,
+          "scheduledAudioTime": 4.572562358276644,
+          "lateBy": 0
+        }
+      ]
+    },
+    "ultimate": {
+      "actor": [
+        -0.49494181783912533,
+        0.525077799943898,
+        -0.5628750085229267
+      ],
+      "dragon": [
+        1.5963271846096327,
+        4.7,
+        -2.056693591683872
+      ],
+      "audio": [
+        {
+          "skill": 2,
+          "cue": 0.06,
+          "at": 0,
+          "audioNow": 0.07256235827664399,
+          "scheduledAudioTime": 0.13256235827664398,
+          "lateBy": 0
+        },
+        {
+          "skill": 2,
+          "cue": 0.45,
+          "at": 0,
+          "audioNow": 0.07256235827664399,
+          "scheduledAudioTime": 0.522562358276644,
+          "lateBy": 0
+        },
+        {
+          "skill": 2,
+          "cue": 2.15,
+          "at": 0,
+          "audioNow": 0.07256235827664399,
+          "scheduledAudioTime": 2.222562358276644,
+          "lateBy": 0
+        },
+        {
+          "skill": 2,
+          "cue": 2.45,
+          "at": 0,
+          "audioNow": 0.07256235827664399,
+          "scheduledAudioTime": 2.522562358276644,
+          "lateBy": 0
+        },
+        {
+          "skill": 2,
+          "cue": 4.5,
+          "at": 0,
+          "audioNow": 0.07256235827664399,
+          "scheduledAudioTime": 4.572562358276644,
+          "lateBy": 0
+        },
+        {
+          "skill": 3,
+          "cue": 0.05,
+          "at": 0,
+          "audioNow": 3.9328798185941043,
+          "scheduledAudioTime": 3.982879818594104,
+          "lateBy": 0
+        },
+        {
+          "skill": 3,
+          "cue": 0.72,
+          "at": 0,
+          "audioNow": 3.9328798185941043,
+          "scheduledAudioTime": 4.652879818594104,
+          "lateBy": 0
+        },
+        {
+          "skill": 3,
+          "cue": 1.55,
+          "at": 0,
+          "audioNow": 3.9328798185941043,
+          "scheduledAudioTime": 5.482879818594104,
+          "lateBy": 0
+        },
+        {
+          "skill": 3,
+          "cue": 3.2,
+          "at": 0,
+          "audioNow": 3.9328798185941043,
+          "scheduledAudioTime": 7.1328798185941045,
+          "lateBy": 0
+        },
+        {
+          "skill": 3,
+          "cue": 4.92,
+          "at": 0,
+          "audioNow": 3.9328798185941043,
+          "scheduledAudioTime": 8.852879818594104,
+          "lateBy": 0
+        },
+        {
+          "skill": 3,
+          "cue": 4.95,
+          "at": 0,
+          "audioNow": 3.9328798185941043,
+          "scheduledAudioTime": 8.882879818594105,
+          "lateBy": 0
+        },
+        {
+          "skill": 3,
+          "cue": 5.6,
+          "at": 0,
+          "audioNow": 3.9328798185941043,
+          "scheduledAudioTime": 9.532879818594104,
+          "lateBy": 0
+        }
+      ],
+      "measuredPeak": 0.041575077921152115
+    },
+    "skill1": {
+      "actor": [
+        -1.3760467566906576,
+        0.65,
+        -1.5666006231711318
+      ],
+      "audio": [
+        {
+          "skill": 2,
+          "cue": 0.06,
+          "at": 0,
+          "audioNow": 0.07256235827664399,
+          "scheduledAudioTime": 0.13256235827664398,
+          "lateBy": 0
+        },
+        {
+          "skill": 2,
+          "cue": 0.45,
+          "at": 0,
+          "audioNow": 0.07256235827664399,
+          "scheduledAudioTime": 0.522562358276644,
+          "lateBy": 0
+        },
+        {
+          "skill": 2,
+          "cue": 2.15,
+          "at": 0,
+          "audioNow": 0.07256235827664399,
+          "scheduledAudioTime": 2.222562358276644,
+          "lateBy": 0
+        },
+        {
+          "skill": 2,
+          "cue": 2.45,
+          "at": 0,
+          "audioNow": 0.07256235827664399,
+          "scheduledAudioTime": 2.522562358276644,
+          "lateBy": 0
+        },
+        {
+          "skill": 2,
+          "cue": 4.5,
+          "at": 0,
+          "audioNow": 0.07256235827664399,
+          "scheduledAudioTime": 4.572562358276644,
+          "lateBy": 0
+        },
+        {
+          "skill": 3,
+          "cue": 0.05,
+          "at": 0,
+          "audioNow": 3.9328798185941043,
+          "scheduledAudioTime": 3.982879818594104,
+          "lateBy": 0
+        },
+        {
+          "skill": 3,
+          "cue": 0.72,
+          "at": 0,
+          "audioNow": 3.9328798185941043,
+          "scheduledAudioTime": 4.652879818594104,
+          "lateBy": 0
+        },
+        {
+          "skill": 3,
+          "cue": 1.55,
+          "at": 0,
+          "audioNow": 3.9328798185941043,
+          "scheduledAudioTime": 5.482879818594104,
+          "lateBy": 0
+        },
+        {
+          "skill": 3,
+          "cue": 3.2,
+          "at": 0,
+          "audioNow": 3.9328798185941043,
+          "scheduledAudioTime": 7.1328798185941045,
+          "lateBy": 0
+        },
+        {
+          "skill": 3,
+          "cue": 4.92,
+          "at": 0,
+          "audioNow": 3.9328798185941043,
+          "scheduledAudioTime": 8.852879818594104,
+          "lateBy": 0
+        },
+        {
+          "skill": 3,
+          "cue": 4.95,
+          "at": 0,
+          "audioNow": 3.9328798185941043,
+          "scheduledAudioTime": 8.882879818594105,
+          "lateBy": 0
+        },
+        {
+          "skill": 3,
+          "cue": 5.6,
+          "at": 0,
+          "audioNow": 3.9328798185941043,
+          "scheduledAudioTime": 9.532879818594104,
+          "lateBy": 0
+        },
+        {
+          "skill": 1,
+          "cue": 0.08,
+          "at": 0,
+          "audioNow": 7.0501587301587305,
+          "scheduledAudioTime": 7.130158730158731,
+          "lateBy": 0
+        },
+        {
+          "skill": 1,
+          "cue": 0.92,
+          "at": 0,
+          "audioNow": 7.0501587301587305,
+          "scheduledAudioTime": 7.97015873015873,
+          "lateBy": 0
+        },
+        {
+          "skill": 1,
+          "cue": 1.04,
+          "at": 0,
+          "audioNow": 7.0501587301587305,
+          "scheduledAudioTime": 8.09015873015873,
+          "lateBy": 0
+        },
+        {
+          "skill": 1,
+          "cue": 1.83,
+          "at": 0,
+          "audioNow": 7.0501587301587305,
+          "scheduledAudioTime": 8.88015873015873,
+          "lateBy": 0
+        },
+        {
+          "skill": 1,
+          "cue": 2.22,
+          "at": 0,
+          "audioNow": 7.053061224489796,
+          "scheduledAudioTime": 9.273061224489796,
+          "lateBy": 0
+        }
+      ]
+    },
+    "touch": {
+      "before": [
+        0,
+        0,
+        0
+      ],
+      "after": [
+        0.2654212095102555,
+        0,
+        -0.2333876152590178
+      ],
+      "motion": "fast_walk",
+      "viewport": [
+        844,
+        390
+      ]
+    }
+  },
+  "scope": "desktop software rendering and simulated touch only",
+  "errors": [],
+  "status": "PASS_SOFTWARE_AND_SIMULATED_TOUCH_ONLY"
+}

@@ -2,3 +2,7 @@
 @media(max-width:800px) and (orientation:portrait){.rotate:not(.bypass){display:grid}.joystick{width:90px;height:90px}.skill-buttons{gap:5px;right:15px}.skill-buttons button{width:50px;height:50px}.skill-buttons .ultimate{width:58px;height:58px}}
 
 .sound{display:flex;gap:8px;align-items:center;margin-top:8px}.sound input{flex:1;accent-color:#d8b57f;min-width:0}
+
+.audio-status{margin:5px 0 0;font-size:10px;color:#a3bdcd}.runtime-error{position:absolute;z-index:7;left:50%;top:75px;transform:translateX(-50%);display:flex;align-items:center;gap:12px;max-width:85vw;padding:10px 14px;background:#451e28ed;color:#ffe6e4;border:1px solid #e59795;border-radius:5px;font-size:12px}.runtime-error[hidden]{display:none}
+
+.audio-alert{position:absolute;left:50%;top:74px;transform:translateX(-50%);padding:8px 12px;background:#33291beb;border:1px solid #bb9366;border-radius:4px;font-size:11px;color:#f7e6cb;z-index:6}.audio-alert[hidden]{display:none}

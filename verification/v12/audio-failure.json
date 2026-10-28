@@ -1,0 +1,6 @@
+{
+  "status": "PASS_INJECTED_LOAD_FAILURE",
+  "global_visible": true,
+  "detail_visible": true,
+  "scope": "desktop software browser, intentionally blocked audio request"
+}

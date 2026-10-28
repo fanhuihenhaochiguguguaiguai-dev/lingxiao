@@ -1,0 +1,51 @@
+{
+  "status": "PASS_DECODE_AND_LEVEL_SCAN_ONLY",
+  "files": [
+    {
+      "file": "blade_01.ogg",
+      "max_dbfs": -1.2,
+      "mean_dbfs": -22.6
+    },
+    {
+      "file": "blade_03.ogg",
+      "max_dbfs": -0.4,
+      "mean_dbfs": -24.2
+    },
+    {
+      "file": "chain_02.ogg",
+      "max_dbfs": -2.8,
+      "mean_dbfs": -20.2
+    },
+    {
+      "file": "creature_roar_02.ogg",
+      "max_dbfs": -1.3,
+      "mean_dbfs": -19.6
+    },
+    {
+      "file": "magical_2.ogg",
+      "max_dbfs": -14.4,
+      "mean_dbfs": -27.0
+    },
+    {
+      "file": "spell_01.ogg",
+      "max_dbfs": 0.0,
+      "mean_dbfs": -18.8
+    },
+    {
+      "file": "spell_02.ogg",
+      "max_dbfs": -0.5,
+      "mean_dbfs": -20.8
+    },
+    {
+      "file": "spell_fire_03.ogg",
+      "max_dbfs": -14.6,
+      "mean_dbfs": -38.4
+    },
+    {
+      "file": "stones_03.ogg",
+      "max_dbfs": 0.0,
+      "mean_dbfs": -28.0
+    }
+  ],
+  "note": "Not an actual mixed-output clipping, audio-visual latency, or listening test."
+}

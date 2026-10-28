@@ -1,0 +1,29 @@
+{
+  "scope": "single-time desktop software sample, no prior comparable baseline and not phone performance",
+  "samples": {
+    "skill1": {
+      "time": 2.45,
+      "fps": 3,
+      "drawCalls": 122,
+      "triangles": 99270,
+      "renderer": "WebGL2",
+      "software": true
+    },
+    "skill2": {
+      "time": 3.8,
+      "fps": 3,
+      "drawCalls": 156,
+      "triangles": 111326,
+      "renderer": "WebGL2",
+      "software": true
+    },
+    "ultimate": {
+      "time": 3.1,
+      "fps": 3,
+      "drawCalls": 114,
+      "triangles": 122930,
+      "renderer": "WebGL2",
+      "software": true
+    }
+  }
+}

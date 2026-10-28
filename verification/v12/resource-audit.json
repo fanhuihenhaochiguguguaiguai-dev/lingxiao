@@ -1,0 +1,58 @@
+{
+  "glb": [
+    {
+      "lod": 0,
+      "sha256": "374cd2291e8d5e54e35c759b77bac4565890a5c98d504b249c552c05d4adebd1",
+      "bytes": 9187964,
+      "mesh_count": 57,
+      "skin_count": 1,
+      "animations": [
+        "idle",
+        "turn_left",
+        "turn_right",
+        "walk"
+      ],
+      "materials": 16,
+      "normal_mapped_materials": 1,
+      "alpha_blend_materials": 0,
+      "texture_count": 4
+    },
+    {
+      "lod": 1,
+      "sha256": "f49d57834dca12818ce40fd41ae5f61691b6e5d94c823fa9185ad7e07a460f34",
+      "bytes": 7470876,
+      "mesh_count": 57,
+      "skin_count": 1,
+      "animations": [
+        "idle",
+        "turn_left",
+        "turn_right",
+        "walk"
+      ],
+      "materials": 16,
+      "normal_mapped_materials": 1,
+      "alpha_blend_materials": 0,
+      "texture_count": 4
+    },
+    {
+      "lod": 2,
+      "sha256": "8e28dd791a70e8d45364ca9ebe31c8425b7a92f6d4da99e59d4fabad01a2e554",
+      "bytes": 6580124,
+      "mesh_count": 57,
+      "skin_count": 1,
+      "animations": [
+        "idle",
+        "turn_left",
+        "turn_right",
+        "walk"
+      ],
+      "materials": 16,
+      "normal_mapped_materials": 1,
+      "alpha_blend_materials": 0,
+      "texture_count": 4
+    }
+  ],
+  "website_skill_path": "../lingyuan-lod1.glb",
+  "role": "shared character and weapon in same glb; three skills procedural source",
+  "status": "PASS_FORMAT_AND_REFERENCE_ONLY"
+}

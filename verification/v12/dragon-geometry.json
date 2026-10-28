@@ -1,0 +1,16 @@
+{
+  "status": "PASS_GEOMETRY_ONLY",
+  "materialGroups": [
+    "shell",
+    "light",
+    "gold",
+    "dark",
+    "eye"
+  ],
+  "skullTopNormalY": 0.9645867943763733,
+  "previouslyMissing": [
+    "light",
+    "dark"
+  ],
+  "previousNormalY": -0.9645868
+}

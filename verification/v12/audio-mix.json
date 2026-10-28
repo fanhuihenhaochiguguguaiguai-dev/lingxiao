@@ -1,0 +1,18 @@
+{
+  "status": "PASS_OFFLINE_MIX_ONLY",
+  "skills": {
+    "1": {
+      "peak": 0.7677156329154968,
+      "clippedSamples": 0
+    },
+    "2": {
+      "peak": 0.6687623262405396,
+      "clippedSamples": 0
+    },
+    "3": {
+      "peak": 0.7030837535858154,
+      "clippedSamples": 0
+    }
+  },
+  "scope": "OfflineAudioContext at fixed 48kHz; not live device latency or subjective listening."
+}

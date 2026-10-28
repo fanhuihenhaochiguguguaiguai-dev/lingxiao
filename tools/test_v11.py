@@ -1,8 +1,8 @@
 from pathlib import Path
-import json,math
+import json,math,os
 from browser_display import display,ARGS
 from playwright.sync_api import sync_playwright
-out=Path(__file__).resolve().parents[1]/'verification/v11';out.mkdir(parents=True,exist_ok=True)
+out=Path(os.environ.get('LING_TEST_OUT',Path(__file__).resolve().parents[1]/'verification/v11'));out.mkdir(parents=True,exist_ok=True)
 def d(a,b):return math.dist([a[0],a[2]],[b[0],b[2]])
 results={'tests':{},'scope':'desktop software rendering and simulated touch only'}
 with display() as env,sync_playwright() as p:
