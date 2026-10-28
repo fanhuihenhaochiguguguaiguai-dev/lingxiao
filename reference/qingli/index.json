@@ -1,0 +1,6074 @@
+[
+  {
+    "board": 1,
+    "category": "full_body",
+    "label": "front",
+    "source": "originals/board-01.jpg",
+    "box": [
+      0,
+      0,
+      155,
+      337
+    ],
+    "source_size": [
+      155,
+      337
+    ],
+    "scale": 2,
+    "raw": "crops/board-01/full_body/01_front.png",
+    "upscaled": "upscaled/board-01/full_body/01_front.png",
+    "raw_sha256": "8e75ad875fe877c029ca29ccedfb478b60abc28b00feff5edbde8d89d400c2fa",
+    "status": "needs_review",
+    "notes": "source figures or ornaments may overlap; full silhouette not isolated"
+  },
+  {
+    "board": 1,
+    "category": "full_body",
+    "label": "side",
+    "source": "originals/board-01.jpg",
+    "box": [
+      155,
+      0,
+      286,
+      337
+    ],
+    "source_size": [
+      131,
+      337
+    ],
+    "scale": 2,
+    "raw": "crops/board-01/full_body/02_side.png",
+    "upscaled": "upscaled/board-01/full_body/02_side.png",
+    "raw_sha256": "ffb6015c487cec51e3305ab480ca887d273a45a0b0cfd8f0b6a0b950c1e10cbf",
+    "status": "needs_review",
+    "notes": "source figures or ornaments may overlap; full silhouette not isolated"
+  },
+  {
+    "board": 1,
+    "category": "full_body",
+    "label": "back",
+    "source": "originals/board-01.jpg",
+    "box": [
+      286,
+      0,
+      414,
+      337
+    ],
+    "source_size": [
+      128,
+      337
+    ],
+    "scale": 2,
+    "raw": "crops/board-01/full_body/03_back.png",
+    "upscaled": "upscaled/board-01/full_body/03_back.png",
+    "raw_sha256": "ba12f62a5c3e0403906f83d0150f8b125a2c2fba7506d02f8515ddd1b625fdde",
+    "status": "needs_review",
+    "notes": "source figures or ornaments may overlap; full silhouette not isolated"
+  },
+  {
+    "board": 1,
+    "category": "full_body",
+    "label": "angle45",
+    "source": "originals/board-01.jpg",
+    "box": [
+      414,
+      0,
+      558,
+      337
+    ],
+    "source_size": [
+      144,
+      337
+    ],
+    "scale": 2,
+    "raw": "crops/board-01/full_body/04_angle45.png",
+    "upscaled": "upscaled/board-01/full_body/04_angle45.png",
+    "raw_sha256": "37274d04cd119e64431cb4719cd7f00000f302e78ed5d1ce37bcff57b23b1f8f",
+    "status": "needs_review",
+    "notes": "source figures or ornaments may overlap; full silhouette not isolated"
+  },
+  {
+    "board": 1,
+    "category": "full_body",
+    "label": "motion",
+    "source": "originals/board-01.jpg",
+    "box": [
+      558,
+      0,
+      791,
+      337
+    ],
+    "source_size": [
+      233,
+      337
+    ],
+    "scale": 2,
+    "raw": "crops/board-01/full_body/05_motion.png",
+    "upscaled": "upscaled/board-01/full_body/05_motion.png",
+    "raw_sha256": "dd444ace783417f4657c2e1e27dbd22dc1c2654347d3df48f95fcf244b6db5d8",
+    "status": "needs_review",
+    "notes": "source figures or ornaments may overlap; full silhouette not isolated"
+  },
+  {
+    "board": 1,
+    "category": "face",
+    "label": "portrait_front",
+    "source": "originals/board-01.jpg",
+    "box": [
+      796,
+      4,
+      985,
+      197
+    ],
+    "source_size": [
+      189,
+      193
+    ],
+    "scale": 2,
+    "raw": "crops/board-01/face/01_portrait_front.png",
+    "upscaled": "upscaled/board-01/face/01_portrait_front.png",
+    "raw_sha256": "712f4332ad81a9f460078dd59ed767e4ad72ef5bc82946c929a822c48091b19d",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "face",
+    "label": "portrait_angle",
+    "source": "originals/board-01.jpg",
+    "box": [
+      985,
+      4,
+      1111,
+      197
+    ],
+    "source_size": [
+      126,
+      193
+    ],
+    "scale": 2,
+    "raw": "crops/board-01/face/02_portrait_angle.png",
+    "upscaled": "upscaled/board-01/face/02_portrait_angle.png",
+    "raw_sha256": "1c59e28bfc7d1579d9b0baaf4d0564c015b75a7009191821620ad9a952d830a7",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "features",
+    "label": "eye",
+    "source": "originals/board-01.jpg",
+    "box": [
+      1114,
+      8,
+      1203,
+      73
+    ],
+    "source_size": [
+      89,
+      65
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/features/01_eye.png",
+    "upscaled": "upscaled/board-01/features/01_eye.png",
+    "raw_sha256": "ac7487e560a03170ddaa9556e1dae885aef7026e3f4ca89471a285539ecd1fec",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "features",
+    "label": "eye_angle",
+    "source": "originals/board-01.jpg",
+    "box": [
+      1203,
+      8,
+      1275,
+      73
+    ],
+    "source_size": [
+      72,
+      65
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/features/02_eye_angle.png",
+    "upscaled": "upscaled/board-01/features/02_eye_angle.png",
+    "raw_sha256": "ce2c5bcbc4f3d19af4185084a1f427e8ff6aa4316eb89fa830bbc94e9a4adbe6",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "features",
+    "label": "lips",
+    "source": "originals/board-01.jpg",
+    "box": [
+      1114,
+      77,
+      1203,
+      144
+    ],
+    "source_size": [
+      89,
+      67
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/features/03_lips.png",
+    "upscaled": "upscaled/board-01/features/03_lips.png",
+    "raw_sha256": "08528c57a13d46b402c1fcbb8ab3e7d7031d01a4c70226d46c0854137f07ce3b",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "features",
+    "label": "profile",
+    "source": "originals/board-01.jpg",
+    "box": [
+      1203,
+      77,
+      1275,
+      144
+    ],
+    "source_size": [
+      72,
+      67
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/features/04_profile.png",
+    "upscaled": "upscaled/board-01/features/04_profile.png",
+    "raw_sha256": "a84545b901c1882334488a7060fd31514b90c96281f32ab145611f50c07057b9",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "features",
+    "label": "eyelid",
+    "source": "originals/board-01.jpg",
+    "box": [
+      1114,
+      148,
+      1203,
+      197
+    ],
+    "source_size": [
+      89,
+      49
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/features/05_eyelid.png",
+    "upscaled": "upscaled/board-01/features/05_eyelid.png",
+    "raw_sha256": "85f1f36f3245e32737ee138dd94200a0b4a326e34ebb440afafa845c1d1eae09",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "features",
+    "label": "cheek",
+    "source": "originals/board-01.jpg",
+    "box": [
+      1203,
+      148,
+      1275,
+      197
+    ],
+    "source_size": [
+      72,
+      49
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/features/06_cheek.png",
+    "upscaled": "upscaled/board-01/features/06_cheek.png",
+    "raw_sha256": "815a3c55508945162e9a3300fd250bbb3a3abbb96bb6738a6f40b1c93802ea7e",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "expressions",
+    "label": "calm",
+    "source": "originals/board-01.jpg",
+    "box": [
+      796,
+      225,
+      875,
+      324
+    ],
+    "source_size": [
+      79,
+      99
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/expressions/01_calm.png",
+    "upscaled": "upscaled/board-01/expressions/01_calm.png",
+    "raw_sha256": "a8f45612882fb8e7ba4171aae0369a06839cdafd090ea8faf603ebef77cf08fe",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "expressions",
+    "label": "smile",
+    "source": "originals/board-01.jpg",
+    "box": [
+      875,
+      225,
+      955,
+      324
+    ],
+    "source_size": [
+      80,
+      99
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/expressions/02_smile.png",
+    "upscaled": "upscaled/board-01/expressions/02_smile.png",
+    "raw_sha256": "e7a0e9af3a2bca1a6be37b41b6411acf887e5578fb6fa771ff5dec232860327a",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "expressions",
+    "label": "sad",
+    "source": "originals/board-01.jpg",
+    "box": [
+      955,
+      225,
+      1035,
+      324
+    ],
+    "source_size": [
+      80,
+      99
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/expressions/03_sad.png",
+    "upscaled": "upscaled/board-01/expressions/03_sad.png",
+    "raw_sha256": "ede18c50e1bf3cebd4000c0bde7c46e6f9f01d0b39ee39532a18b9ff637c0d59",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "expressions",
+    "label": "surprised",
+    "source": "originals/board-01.jpg",
+    "box": [
+      1035,
+      225,
+      1113,
+      324
+    ],
+    "source_size": [
+      78,
+      99
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/expressions/04_surprised.png",
+    "upscaled": "upscaled/board-01/expressions/04_surprised.png",
+    "raw_sha256": "bcae68fe803a4996e737f27b86b7594a3be530296d7b3feef178ab0a2b257269",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "expressions",
+    "label": "angry",
+    "source": "originals/board-01.jpg",
+    "box": [
+      1113,
+      225,
+      1193,
+      324
+    ],
+    "source_size": [
+      80,
+      99
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/expressions/05_angry.png",
+    "upscaled": "upscaled/board-01/expressions/05_angry.png",
+    "raw_sha256": "3cd7bbe0d13813ecb86a7e17c9dc35185d5bab7570338c1d18cbb4f270535b2c",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "expressions",
+    "label": "shy",
+    "source": "originals/board-01.jpg",
+    "box": [
+      1193,
+      225,
+      1275,
+      324
+    ],
+    "source_size": [
+      82,
+      99
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/expressions/06_shy.png",
+    "upscaled": "upscaled/board-01/expressions/06_shy.png",
+    "raw_sha256": "82f82e5bffc0f03b05157faad36fbb01ea58e062543af6aec54c426c703ac187",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "hair",
+    "label": "front",
+    "source": "originals/board-01.jpg",
+    "box": [
+      7,
+      382,
+      120,
+      494
+    ],
+    "source_size": [
+      113,
+      112
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/hair/01_front.png",
+    "upscaled": "upscaled/board-01/hair/01_front.png",
+    "raw_sha256": "c399d285b74bf19db2fb35d26fa3c011d672b68987dae7b53485678510d16f19",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "hair",
+    "label": "side",
+    "source": "originals/board-01.jpg",
+    "box": [
+      120,
+      382,
+      234,
+      494
+    ],
+    "source_size": [
+      114,
+      112
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/hair/02_side.png",
+    "upscaled": "upscaled/board-01/hair/02_side.png",
+    "raw_sha256": "0a85a44494ba6acdf66f326b5fd5e756c2655039dc387c80f35c9895dfa1e6a8",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "hair",
+    "label": "back",
+    "source": "originals/board-01.jpg",
+    "box": [
+      234,
+      382,
+      344,
+      494
+    ],
+    "source_size": [
+      110,
+      112
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/hair/03_back.png",
+    "upscaled": "upscaled/board-01/hair/03_back.png",
+    "raw_sha256": "8d1f736e0c6a44d5cdb0f1fc666017cc764b5de33cd89b3067ca85cea84fe9e3",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "hair",
+    "label": "crown",
+    "source": "originals/board-01.jpg",
+    "box": [
+      344,
+      382,
+      454,
+      494
+    ],
+    "source_size": [
+      110,
+      112
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/hair/04_crown.png",
+    "upscaled": "upscaled/board-01/hair/04_crown.png",
+    "raw_sha256": "09b4a8ac3c8832e3dc5f5f4f768cc5c4bc3429728541baf832513aa522d46b64",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "hair",
+    "label": "hair_layers",
+    "source": "originals/board-01.jpg",
+    "box": [
+      454,
+      382,
+      515,
+      494
+    ],
+    "source_size": [
+      61,
+      112
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/hair/05_hair_layers.png",
+    "upscaled": "upscaled/board-01/hair/05_hair_layers.png",
+    "raw_sha256": "917bc8d4d5791e6b5520e5eb0ace8a31f9dc460e3a01ecb871757ff57e2b03f4",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "hair",
+    "label": "hair_strands",
+    "source": "originals/board-01.jpg",
+    "box": [
+      515,
+      382,
+      573,
+      494
+    ],
+    "source_size": [
+      58,
+      112
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/hair/06_hair_strands.png",
+    "upscaled": "upscaled/board-01/hair/06_hair_strands.png",
+    "raw_sha256": "42b9986e970978647d7952cb9103fe71ffc5f6de49ba896f802bd9dc7aa9cb1f",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "hair",
+    "label": "hair_ends",
+    "source": "originals/board-01.jpg",
+    "box": [
+      573,
+      382,
+      629,
+      494
+    ],
+    "source_size": [
+      56,
+      112
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/hair/07_hair_ends.png",
+    "upscaled": "upscaled/board-01/hair/07_hair_ends.png",
+    "raw_sha256": "7ecd93f5acaf138d1fd0ed08ad434667d170f103401cad091bfd1e2d84a0f3f3",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "hair",
+    "label": "hair_ornament",
+    "source": "originals/board-01.jpg",
+    "box": [
+      629,
+      382,
+      687,
+      494
+    ],
+    "source_size": [
+      58,
+      112
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/hair/08_hair_ornament.png",
+    "upscaled": "upscaled/board-01/hair/08_hair_ornament.png",
+    "raw_sha256": "4e0996a65eda7af25548cd8b8218f88a812f388e3f0fc2404a2933b673d69698",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "scalp",
+    "label": "scalp_regions",
+    "source": "originals/board-01.jpg",
+    "box": [
+      700,
+      382,
+      798,
+      493
+    ],
+    "source_size": [
+      98,
+      111
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/scalp/01_scalp_regions.png",
+    "upscaled": "upscaled/board-01/scalp/01_scalp_regions.png",
+    "raw_sha256": "78acdcc8bcd7bdc5ad3d3335eb7757d20d99922f34e3fa67c8f1dcd8492a6e5c",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "scalp",
+    "label": "topology",
+    "source": "originals/board-01.jpg",
+    "box": [
+      798,
+      382,
+      886,
+      493
+    ],
+    "source_size": [
+      88,
+      111
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/scalp/02_topology.png",
+    "upscaled": "upscaled/board-01/scalp/02_topology.png",
+    "raw_sha256": "c8682556863c55947d3597182b43ce2ec6acd9c02723e421ac6d8d8df5db1f42",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "scalp",
+    "label": "hairline",
+    "source": "originals/board-01.jpg",
+    "box": [
+      886,
+      382,
+      982,
+      493
+    ],
+    "source_size": [
+      96,
+      111
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/scalp/03_hairline.png",
+    "upscaled": "upscaled/board-01/scalp/03_hairline.png",
+    "raw_sha256": "f3c1581a43610cbfb3562941c28219c48d115e311a6c2b462dfb3c76c0717895",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "scalp",
+    "label": "fringe",
+    "source": "originals/board-01.jpg",
+    "box": [
+      982,
+      382,
+      1071,
+      493
+    ],
+    "source_size": [
+      89,
+      111
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/scalp/04_fringe.png",
+    "upscaled": "upscaled/board-01/scalp/04_fringe.png",
+    "raw_sha256": "bbe5fc92fddf4df61c24334397f298eaa9cbfe2757a976e9a243429528a2c468",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "scalp",
+    "label": "side_scalp",
+    "source": "originals/board-01.jpg",
+    "box": [
+      1071,
+      382,
+      1145,
+      493
+    ],
+    "source_size": [
+      74,
+      111
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/scalp/05_side_scalp.png",
+    "upscaled": "upscaled/board-01/scalp/05_side_scalp.png",
+    "raw_sha256": "36ba7b0344fd9ee32c125f2330751bdb2a6566c22c1581e680710b42189ab647",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "scalp",
+    "label": "back_scalp_a",
+    "source": "originals/board-01.jpg",
+    "box": [
+      1145,
+      382,
+      1205,
+      493
+    ],
+    "source_size": [
+      60,
+      111
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/scalp/06_back_scalp_a.png",
+    "upscaled": "upscaled/board-01/scalp/06_back_scalp_a.png",
+    "raw_sha256": "b1c78f9e6bc5465d59cc95f9a2daf89f783a28db273ab9f77ca2138606b1926c",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "scalp",
+    "label": "back_scalp_b",
+    "source": "originals/board-01.jpg",
+    "box": [
+      1205,
+      382,
+      1275,
+      493
+    ],
+    "source_size": [
+      70,
+      111
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/scalp/07_back_scalp_b.png",
+    "upscaled": "upscaled/board-01/scalp/07_back_scalp_b.png",
+    "raw_sha256": "326782bfecd2a494640a0963550b1d6b5c5285ad1e89ac0b931720e87545c75a",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "body",
+    "label": "skeleton_front",
+    "source": "originals/board-01.jpg",
+    "box": [
+      7,
+      530,
+      100,
+      656
+    ],
+    "source_size": [
+      93,
+      126
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/body/01_skeleton_front.png",
+    "upscaled": "upscaled/board-01/body/01_skeleton_front.png",
+    "raw_sha256": "c7056be6e2a59df80b43d32133e6d5d42f4843b960d021462a4c4fb8b6df06c7",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "body",
+    "label": "skeleton_side",
+    "source": "originals/board-01.jpg",
+    "box": [
+      100,
+      530,
+      165,
+      656
+    ],
+    "source_size": [
+      65,
+      126
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/body/02_skeleton_side.png",
+    "upscaled": "upscaled/board-01/body/02_skeleton_side.png",
+    "raw_sha256": "1be79387abd665c0d4b9e0f12714831d0602b0404ea4a9264567343ff53d97a4",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "body",
+    "label": "skeleton_back",
+    "source": "originals/board-01.jpg",
+    "box": [
+      165,
+      530,
+      236,
+      656
+    ],
+    "source_size": [
+      71,
+      126
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/body/03_skeleton_back.png",
+    "upscaled": "upscaled/board-01/body/03_skeleton_back.png",
+    "raw_sha256": "34e2234484b5add5dd7b450c39be8cf1aa5191eea9e62875a3b09741fb69d533",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "body",
+    "label": "skull",
+    "source": "originals/board-01.jpg",
+    "box": [
+      236,
+      530,
+      337,
+      656
+    ],
+    "source_size": [
+      101,
+      126
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/body/04_skull.png",
+    "upscaled": "upscaled/board-01/body/04_skull.png",
+    "raw_sha256": "9bc23fe2744a745b6cebd5602c3cffb65f6f5a8af912b7f3a629c9189aa7b910",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "body",
+    "label": "head_skeleton",
+    "source": "originals/board-01.jpg",
+    "box": [
+      337,
+      530,
+      404,
+      656
+    ],
+    "source_size": [
+      67,
+      126
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/body/05_head_skeleton.png",
+    "upscaled": "upscaled/board-01/body/05_head_skeleton.png",
+    "raw_sha256": "3b86c398e547062eca9afa90cfbd37bc0e95aa0a1c4a8db147caa0e9deed1a79",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "body",
+    "label": "shoulder_skeleton",
+    "source": "originals/board-01.jpg",
+    "box": [
+      404,
+      530,
+      478,
+      656
+    ],
+    "source_size": [
+      74,
+      126
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/body/06_shoulder_skeleton.png",
+    "upscaled": "upscaled/board-01/body/06_shoulder_skeleton.png",
+    "raw_sha256": "1840037f48dd268d3df8f470928ddd64b79ed57fab2cff7335969387c0e4db1c",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "body",
+    "label": "body_skeleton",
+    "source": "originals/board-01.jpg",
+    "box": [
+      478,
+      530,
+      550,
+      656
+    ],
+    "source_size": [
+      72,
+      126
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/body/07_body_skeleton.png",
+    "upscaled": "upscaled/board-01/body/07_body_skeleton.png",
+    "raw_sha256": "56c6c2014acc17c1dc6eec343705d79369aa3a5848d5e5c1838d7641d30e6126",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "body",
+    "label": "arm_skeleton",
+    "source": "originals/board-01.jpg",
+    "box": [
+      550,
+      530,
+      650,
+      600
+    ],
+    "source_size": [
+      100,
+      70
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/body/08_arm_skeleton.png",
+    "upscaled": "upscaled/board-01/body/08_arm_skeleton.png",
+    "raw_sha256": "4e8c199a584ab7458b4db11be3f19aaf7e87d60657c7f7b294999523bfd97c70",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "body",
+    "label": "hand_skeleton",
+    "source": "originals/board-01.jpg",
+    "box": [
+      550,
+      601,
+      597,
+      656
+    ],
+    "source_size": [
+      47,
+      55
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/body/09_hand_skeleton.png",
+    "upscaled": "upscaled/board-01/body/09_hand_skeleton.png",
+    "raw_sha256": "99c1d668b07a7651e0d2da9334194ea7084bbc59fb49f3149170908320da44f3",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "body",
+    "label": "foot_skeleton",
+    "source": "originals/board-01.jpg",
+    "box": [
+      597,
+      601,
+      650,
+      656
+    ],
+    "source_size": [
+      53,
+      55
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/body/10_foot_skeleton.png",
+    "upscaled": "upscaled/board-01/body/10_foot_skeleton.png",
+    "raw_sha256": "3f06d2e1e240dc6342df8a0aad2a7583dca99e278e48fbb863231c09c4778491",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "body",
+    "label": "proportions_front",
+    "source": "originals/board-01.jpg",
+    "box": [
+      665,
+      530,
+      720,
+      668
+    ],
+    "source_size": [
+      55,
+      138
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/body/11_proportions_front.png",
+    "upscaled": "upscaled/board-01/body/11_proportions_front.png",
+    "raw_sha256": "f9b8d202854359e0107cefae18fca48a9bc735dc00cf7d7c74561245c3393c1b",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "body",
+    "label": "proportions_45",
+    "source": "originals/board-01.jpg",
+    "box": [
+      720,
+      530,
+      773,
+      668
+    ],
+    "source_size": [
+      53,
+      138
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/body/12_proportions_45.png",
+    "upscaled": "upscaled/board-01/body/12_proportions_45.png",
+    "raw_sha256": "d12a7b87c7bfa3edd058a14ebd13294663cf92c9ceefb5b65ca95798501be6f7",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "body",
+    "label": "proportions_side",
+    "source": "originals/board-01.jpg",
+    "box": [
+      773,
+      530,
+      824,
+      668
+    ],
+    "source_size": [
+      51,
+      138
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/body/13_proportions_side.png",
+    "upscaled": "upscaled/board-01/body/13_proportions_side.png",
+    "raw_sha256": "a7e48a28583d663e86cd9688a8af0b3efb8cf8222521e7edfa1e6ba29738a7f1",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "body",
+    "label": "proportions_back",
+    "source": "originals/board-01.jpg",
+    "box": [
+      824,
+      530,
+      873,
+      668
+    ],
+    "source_size": [
+      49,
+      138
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/body/14_proportions_back.png",
+    "upscaled": "upscaled/board-01/body/14_proportions_back.png",
+    "raw_sha256": "a388919437342ecedd9c2735f01ba8015c7eff2d2799b01b6d3f3ac216fb3ac9",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "body",
+    "label": "proportions_variant",
+    "source": "originals/board-01.jpg",
+    "box": [
+      873,
+      530,
+      945,
+      668
+    ],
+    "source_size": [
+      72,
+      138
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/body/15_proportions_variant.png",
+    "upscaled": "upscaled/board-01/body/15_proportions_variant.png",
+    "raw_sha256": "686cccccdb45acd7d7e1030b409775d0c0bfde93c84fe151513c86fa6023100c",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "body",
+    "label": "neck",
+    "source": "originals/board-01.jpg",
+    "box": [
+      949,
+      530,
+      1010,
+      639
+    ],
+    "source_size": [
+      61,
+      109
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/body/16_neck.png",
+    "upscaled": "upscaled/board-01/body/16_neck.png",
+    "raw_sha256": "23c788be9edd614659adbb8ca12a504f97581ce6d6580312c951408c23c41d54",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "body",
+    "label": "back",
+    "source": "originals/board-01.jpg",
+    "box": [
+      1010,
+      530,
+      1072,
+      639
+    ],
+    "source_size": [
+      62,
+      109
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/body/17_back.png",
+    "upscaled": "upscaled/board-01/body/17_back.png",
+    "raw_sha256": "7f9bb56ecc020faae5e4068fb843b044da4dfa8a09dbe7eb3415849986db4fa6",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "body",
+    "label": "shoulder",
+    "source": "originals/board-01.jpg",
+    "box": [
+      1072,
+      530,
+      1131,
+      639
+    ],
+    "source_size": [
+      59,
+      109
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/body/18_shoulder.png",
+    "upscaled": "upscaled/board-01/body/18_shoulder.png",
+    "raw_sha256": "f2b45b529685d547534990159a7c57122be3723a00fa8349fb67b7f2cd62fe22",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "body",
+    "label": "waist",
+    "source": "originals/board-01.jpg",
+    "box": [
+      1131,
+      530,
+      1189,
+      639
+    ],
+    "source_size": [
+      58,
+      109
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/body/19_waist.png",
+    "upscaled": "upscaled/board-01/body/19_waist.png",
+    "raw_sha256": "d84a0a0eaea7bf2639e502ce36df26f39bf118cd71f83eb16211bd1c0b196aee",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "body",
+    "label": "hand",
+    "source": "originals/board-01.jpg",
+    "box": [
+      1189,
+      530,
+      1231,
+      639
+    ],
+    "source_size": [
+      42,
+      109
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/body/20_hand.png",
+    "upscaled": "upscaled/board-01/body/20_hand.png",
+    "raw_sha256": "19f25c967e46ab19517e74178fd2c0946ab73fd20626ea54267c4e7ea4e8470f",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "body",
+    "label": "foot",
+    "source": "originals/board-01.jpg",
+    "box": [
+      1231,
+      530,
+      1275,
+      639
+    ],
+    "source_size": [
+      44,
+      109
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/body/21_foot.png",
+    "upscaled": "upscaled/board-01/body/21_foot.png",
+    "raw_sha256": "cf52ca5b74253d91e2a9163c4fb2cabf88e43ba0c11b7fdb705de1b93126f2df",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "clothing",
+    "label": "complete",
+    "source": "originals/board-01.jpg",
+    "box": [
+      8,
+      702,
+      103,
+      827
+    ],
+    "source_size": [
+      95,
+      125
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/clothing/01_complete.png",
+    "upscaled": "upscaled/board-01/clothing/01_complete.png",
+    "raw_sha256": "fa553ac03d32dd4ee98b5ea0e5b087db54dbabc101357dd6481eec852084498a",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "clothing",
+    "label": "outer_layer",
+    "source": "originals/board-01.jpg",
+    "box": [
+      103,
+      702,
+      171,
+      827
+    ],
+    "source_size": [
+      68,
+      125
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/clothing/02_outer_layer.png",
+    "upscaled": "upscaled/board-01/clothing/02_outer_layer.png",
+    "raw_sha256": "c40330897aadc6f0e3427af361e528227d39534af347828a93902e76c33d9133",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "clothing",
+    "label": "inner_layer",
+    "source": "originals/board-01.jpg",
+    "box": [
+      171,
+      702,
+      236,
+      827
+    ],
+    "source_size": [
+      65,
+      125
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/clothing/03_inner_layer.png",
+    "upscaled": "upscaled/board-01/clothing/03_inner_layer.png",
+    "raw_sha256": "70df8134c793a4336461c970749aaff869d55558e9d4ddefe4b7e239288bca03",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "clothing",
+    "label": "side_structure",
+    "source": "originals/board-01.jpg",
+    "box": [
+      236,
+      702,
+      305,
+      827
+    ],
+    "source_size": [
+      69,
+      125
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/clothing/04_side_structure.png",
+    "upscaled": "upscaled/board-01/clothing/04_side_structure.png",
+    "raw_sha256": "9868089e3fee68dbc09fa91bc2611d540db47aba9b1da0939258b9842c88cb50",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "clothing",
+    "label": "back_structure",
+    "source": "originals/board-01.jpg",
+    "box": [
+      305,
+      702,
+      387,
+      827
+    ],
+    "source_size": [
+      82,
+      125
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/clothing/05_back_structure.png",
+    "upscaled": "upscaled/board-01/clothing/05_back_structure.png",
+    "raw_sha256": "3f719956ce6b6a4246ba1093f1c78c0354f8a4c74149c6c6509edcac9695a101",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "clothing",
+    "label": "waist_ornament",
+    "source": "originals/board-01.jpg",
+    "box": [
+      399,
+      702,
+      473,
+      765
+    ],
+    "source_size": [
+      74,
+      63
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/clothing/06_waist_ornament.png",
+    "upscaled": "upscaled/board-01/clothing/06_waist_ornament.png",
+    "raw_sha256": "8f5f840704ca9d6b41300cbb39de1afc46caa1c8a6498e7cf92d633af54aa5c9",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "clothing",
+    "label": "skirt_embroidery",
+    "source": "originals/board-01.jpg",
+    "box": [
+      473,
+      702,
+      548,
+      765
+    ],
+    "source_size": [
+      75,
+      63
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/clothing/07_skirt_embroidery.png",
+    "upscaled": "upscaled/board-01/clothing/07_skirt_embroidery.png",
+    "raw_sha256": "f2421e40760cccb4590883fb4baaee63995bdf7cd065d27c29071fdb90469c83",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "clothing",
+    "label": "skirt_material",
+    "source": "originals/board-01.jpg",
+    "box": [
+      548,
+      702,
+      622,
+      765
+    ],
+    "source_size": [
+      74,
+      63
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/clothing/08_skirt_material.png",
+    "upscaled": "upscaled/board-01/clothing/08_skirt_material.png",
+    "raw_sha256": "0013042589e11fdb686967851b8c5cf632341e2a38bd9b01b7f125abaa45605f",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "clothing",
+    "label": "fabric",
+    "source": "originals/board-01.jpg",
+    "box": [
+      622,
+      702,
+      695,
+      765
+    ],
+    "source_size": [
+      73,
+      63
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/clothing/09_fabric.png",
+    "upscaled": "upscaled/board-01/clothing/09_fabric.png",
+    "raw_sha256": "97736aeabae243b5b634881d50cc9a5b2b5ee771c8aaf71e106f964f883b92f6",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "clothing",
+    "label": "flower",
+    "source": "originals/board-01.jpg",
+    "box": [
+      695,
+      702,
+      767,
+      765
+    ],
+    "source_size": [
+      72,
+      63
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/clothing/10_flower.png",
+    "upscaled": "upscaled/board-01/clothing/10_flower.png",
+    "raw_sha256": "0a6aec7fa020c0eb4d3f6eba77f2e900c880f8d0f616289f645dcd91ebb6615d",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "clothing",
+    "label": "metal",
+    "source": "originals/board-01.jpg",
+    "box": [
+      767,
+      702,
+      846,
+      765
+    ],
+    "source_size": [
+      79,
+      63
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/clothing/11_metal.png",
+    "upscaled": "upscaled/board-01/clothing/11_metal.png",
+    "raw_sha256": "262aa4a81918e180593cd1afcbaa70908a2088f12811f629b9ddda7ea6c433b5",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "clothing",
+    "label": "waist_ornament_detail",
+    "source": "originals/board-01.jpg",
+    "box": [
+      399,
+      768,
+      473,
+      828
+    ],
+    "source_size": [
+      74,
+      60
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/clothing/12_waist_ornament_detail.png",
+    "upscaled": "upscaled/board-01/clothing/12_waist_ornament_detail.png",
+    "raw_sha256": "45b27ffe1e37e1201625036ec83ce0e0a0c6330133b1946fd7b5975011144d56",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "clothing",
+    "label": "skirt_embroidery_detail",
+    "source": "originals/board-01.jpg",
+    "box": [
+      473,
+      768,
+      548,
+      828
+    ],
+    "source_size": [
+      75,
+      60
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/clothing/13_skirt_embroidery_detail.png",
+    "upscaled": "upscaled/board-01/clothing/13_skirt_embroidery_detail.png",
+    "raw_sha256": "017d7d894d76216ca64c624fae14e59f4d0e370c9dc13741754df6a1d89a5bd9",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "clothing",
+    "label": "skirt_material_detail",
+    "source": "originals/board-01.jpg",
+    "box": [
+      548,
+      768,
+      622,
+      828
+    ],
+    "source_size": [
+      74,
+      60
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/clothing/14_skirt_material_detail.png",
+    "upscaled": "upscaled/board-01/clothing/14_skirt_material_detail.png",
+    "raw_sha256": "c1f90752db4873e6ae3e2c81a5bbb193d53bd84a9b1f40583eb0d352ab58c23c",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "clothing",
+    "label": "metal_layer",
+    "source": "originals/board-01.jpg",
+    "box": [
+      622,
+      768,
+      695,
+      828
+    ],
+    "source_size": [
+      73,
+      60
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/clothing/15_metal_layer.png",
+    "upscaled": "upscaled/board-01/clothing/15_metal_layer.png",
+    "raw_sha256": "ff8fface8772db59056f3573491eb9f2ec0701a18d3f16d40589ed91541f7dab",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "clothing",
+    "label": "gem",
+    "source": "originals/board-01.jpg",
+    "box": [
+      695,
+      768,
+      767,
+      828
+    ],
+    "source_size": [
+      72,
+      60
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/clothing/16_gem.png",
+    "upscaled": "upscaled/board-01/clothing/16_gem.png",
+    "raw_sha256": "4096ac8d143edfc8a97df165f5a16141ecb1e93e4cbf7147d45f1dd01a3a44f4",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "clothing",
+    "label": "fabric_fold",
+    "source": "originals/board-01.jpg",
+    "box": [
+      767,
+      768,
+      846,
+      828
+    ],
+    "source_size": [
+      79,
+      60
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/clothing/17_fabric_fold.png",
+    "upscaled": "upscaled/board-01/clothing/17_fabric_fold.png",
+    "raw_sha256": "0b1c6cc0995f858f05afb0afbc2357f48378c26df9c12d57d0553a2eff2b68db",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "accessories",
+    "label": "crown_front",
+    "source": "originals/board-01.jpg",
+    "box": [
+      858,
+      702,
+      930,
+      765
+    ],
+    "source_size": [
+      72,
+      63
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/accessories/01_crown_front.png",
+    "upscaled": "upscaled/board-01/accessories/01_crown_front.png",
+    "raw_sha256": "861da0aa8dc3ecc0cd666ffba3569d4faf1eacfea7d379e33667309a7e514a33",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "accessories",
+    "label": "crown_side",
+    "source": "originals/board-01.jpg",
+    "box": [
+      930,
+      702,
+      1000,
+      765
+    ],
+    "source_size": [
+      70,
+      63
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/accessories/02_crown_side.png",
+    "upscaled": "upscaled/board-01/accessories/02_crown_side.png",
+    "raw_sha256": "d3518461ac91e70eff66e5a0d036b68fb02a3cc5daa922fe00ca9f98a1728fef",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "accessories",
+    "label": "crown_back",
+    "source": "originals/board-01.jpg",
+    "box": [
+      1000,
+      702,
+      1063,
+      765
+    ],
+    "source_size": [
+      63,
+      63
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/accessories/03_crown_back.png",
+    "upscaled": "upscaled/board-01/accessories/03_crown_back.png",
+    "raw_sha256": "208df528eaeb409efe89c6937ee28daa87369e4cff51d6f705be607e4243e4a1",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "accessories",
+    "label": "earring",
+    "source": "originals/board-01.jpg",
+    "box": [
+      1063,
+      702,
+      1110,
+      765
+    ],
+    "source_size": [
+      47,
+      63
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/accessories/04_earring.png",
+    "upscaled": "upscaled/board-01/accessories/04_earring.png",
+    "raw_sha256": "c41093dcef19ea59126f968403cf61d8ac37898f58a8d25b6f935332cd944d9f",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "accessories",
+    "label": "necklace",
+    "source": "originals/board-01.jpg",
+    "box": [
+      1110,
+      702,
+      1162,
+      765
+    ],
+    "source_size": [
+      52,
+      63
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/accessories/05_necklace.png",
+    "upscaled": "upscaled/board-01/accessories/05_necklace.png",
+    "raw_sha256": "e440bd9fe3a62f579a09421df052b683ae54594d6b4089fe1e86ed932080497c",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "accessories",
+    "label": "hand",
+    "source": "originals/board-01.jpg",
+    "box": [
+      1162,
+      702,
+      1210,
+      765
+    ],
+    "source_size": [
+      48,
+      63
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/accessories/06_hand.png",
+    "upscaled": "upscaled/board-01/accessories/06_hand.png",
+    "raw_sha256": "b22032012b72fcbd4fe625fa0162d7042d8a4ec912fa340918ecfacbe595b45a",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "accessories",
+    "label": "foot",
+    "source": "originals/board-01.jpg",
+    "box": [
+      1210,
+      702,
+      1275,
+      765
+    ],
+    "source_size": [
+      65,
+      63
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/accessories/07_foot.png",
+    "upscaled": "upscaled/board-01/accessories/07_foot.png",
+    "raw_sha256": "42efabd178b18696faae3cdf33b639adfb8fca7cde36e17eefe3391a9ab24086",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "accessories",
+    "label": "waist",
+    "source": "originals/board-01.jpg",
+    "box": [
+      858,
+      768,
+      917,
+      828
+    ],
+    "source_size": [
+      59,
+      60
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/accessories/08_waist.png",
+    "upscaled": "upscaled/board-01/accessories/08_waist.png",
+    "raw_sha256": "7dca7497ac01700303ff2b57ec40f9fd6f8add3bf9dee51727d81cc68ab16f5e",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "accessories",
+    "label": "hairpin",
+    "source": "originals/board-01.jpg",
+    "box": [
+      917,
+      768,
+      974,
+      828
+    ],
+    "source_size": [
+      57,
+      60
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/accessories/09_hairpin.png",
+    "upscaled": "upscaled/board-01/accessories/09_hairpin.png",
+    "raw_sha256": "d5499644320f9ae1c0dd573dd69a531cd1f82a2d06057c5f0a0f39f00bdadfa8",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "accessories",
+    "label": "flower",
+    "source": "originals/board-01.jpg",
+    "box": [
+      974,
+      768,
+      1030,
+      828
+    ],
+    "source_size": [
+      56,
+      60
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/accessories/10_flower.png",
+    "upscaled": "upscaled/board-01/accessories/10_flower.png",
+    "raw_sha256": "735092fddb86fe01bc7ab1b6b7b610bc6c08a99fc51dae9f2afd4644d01bceec",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "accessories",
+    "label": "tassel",
+    "source": "originals/board-01.jpg",
+    "box": [
+      1030,
+      768,
+      1069,
+      828
+    ],
+    "source_size": [
+      39,
+      60
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/accessories/11_tassel.png",
+    "upscaled": "upscaled/board-01/accessories/11_tassel.png",
+    "raw_sha256": "30d0dd18a430c37bbbb61b6cd0675241ecf2b3be678bf001967af68167b5a8fe",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "accessories",
+    "label": "metal_setting",
+    "source": "originals/board-01.jpg",
+    "box": [
+      1069,
+      768,
+      1118,
+      828
+    ],
+    "source_size": [
+      49,
+      60
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/accessories/12_metal_setting.png",
+    "upscaled": "upscaled/board-01/accessories/12_metal_setting.png",
+    "raw_sha256": "adf5c6b545aea74386ed815475b7c6b73c0799c1f05eebb66e0a49af5621359f",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "accessories",
+    "label": "gem_setting",
+    "source": "originals/board-01.jpg",
+    "box": [
+      1118,
+      768,
+      1169,
+      828
+    ],
+    "source_size": [
+      51,
+      60
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/accessories/13_gem_setting.png",
+    "upscaled": "upscaled/board-01/accessories/13_gem_setting.png",
+    "raw_sha256": "d5ece254f2015d01112b56a69ee83d979ae3990539c42d4545913cbffe5c8353",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "accessories",
+    "label": "blue_gem",
+    "source": "originals/board-01.jpg",
+    "box": [
+      1169,
+      768,
+      1207,
+      828
+    ],
+    "source_size": [
+      38,
+      60
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/accessories/14_blue_gem.png",
+    "upscaled": "upscaled/board-01/accessories/14_blue_gem.png",
+    "raw_sha256": "63c0da4e91083f9362a3f60b281110be8fb737a538286d73a35ee0cde5e458ed",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 1,
+    "category": "accessories",
+    "label": "material",
+    "source": "originals/board-01.jpg",
+    "box": [
+      1207,
+      768,
+      1275,
+      828
+    ],
+    "source_size": [
+      68,
+      60
+    ],
+    "scale": 4,
+    "raw": "crops/board-01/accessories/15_material.png",
+    "upscaled": "upscaled/board-01/accessories/15_material.png",
+    "raw_sha256": "bac3107cce5e31137a7df3ba2850f493947e88ca0eef6fdbc1c87a7c8c969029",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "full_body",
+    "label": "front",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      116,
+      0,
+      300,
+      366
+    ],
+    "source_size": [
+      184,
+      366
+    ],
+    "scale": 2,
+    "raw": "crops/board-02/full_body/01_front.png",
+    "upscaled": "upscaled/board-02/full_body/01_front.png",
+    "raw_sha256": "5810895aa3814ab15a9f521cee53ee4beed64d4a708a44f41e449cea5fc97f2f",
+    "status": "needs_review",
+    "notes": "source silhouettes and ribbons overlap adjacent views"
+  },
+  {
+    "board": 2,
+    "category": "full_body",
+    "label": "angle45",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      300,
+      0,
+      441,
+      366
+    ],
+    "source_size": [
+      141,
+      366
+    ],
+    "scale": 2,
+    "raw": "crops/board-02/full_body/02_angle45.png",
+    "upscaled": "upscaled/board-02/full_body/02_angle45.png",
+    "raw_sha256": "56c29ca9e3613dac28893579ff1fd79aef9de9a456764c5e59f3bc5f069c903e",
+    "status": "needs_review",
+    "notes": "source silhouettes and ribbons overlap adjacent views"
+  },
+  {
+    "board": 2,
+    "category": "full_body",
+    "label": "side",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      441,
+      0,
+      560,
+      366
+    ],
+    "source_size": [
+      119,
+      366
+    ],
+    "scale": 2,
+    "raw": "crops/board-02/full_body/03_side.png",
+    "upscaled": "upscaled/board-02/full_body/03_side.png",
+    "raw_sha256": "b7c84c73a7cb65b433be79850877c727048fff67d4a7681e872795363a8e9f90",
+    "status": "needs_review",
+    "notes": "source silhouettes and ribbons overlap adjacent views"
+  },
+  {
+    "board": 2,
+    "category": "full_body",
+    "label": "back",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      560,
+      0,
+      724,
+      366
+    ],
+    "source_size": [
+      164,
+      366
+    ],
+    "scale": 2,
+    "raw": "crops/board-02/full_body/04_back.png",
+    "upscaled": "upscaled/board-02/full_body/04_back.png",
+    "raw_sha256": "76d95d55e08f68cad8c588ea57115cee984b76f09bccb053f8ae55847dc38a70",
+    "status": "needs_review",
+    "notes": "source silhouettes and ribbons overlap adjacent views"
+  },
+  {
+    "board": 2,
+    "category": "full_body",
+    "label": "motion",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      724,
+      0,
+      949,
+      366
+    ],
+    "source_size": [
+      225,
+      366
+    ],
+    "scale": 2,
+    "raw": "crops/board-02/full_body/05_motion.png",
+    "upscaled": "upscaled/board-02/full_body/05_motion.png",
+    "raw_sha256": "d6a290d21a8f14a439ef1a65872741f97196cd2ea5fb68848a172563d57aca0b",
+    "status": "needs_review",
+    "notes": "source silhouettes and ribbons overlap adjacent views"
+  },
+  {
+    "board": 2,
+    "category": "face",
+    "label": "main_portrait",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      950,
+      0,
+      1280,
+      221
+    ],
+    "source_size": [
+      330,
+      221
+    ],
+    "scale": 2,
+    "raw": "crops/board-02/face/01_main_portrait.png",
+    "upscaled": "upscaled/board-02/face/01_main_portrait.png",
+    "raw_sha256": "824dff9b068adef65352ef0ad0318f8431f01249747a47ca855ddab1e3f4254a",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "features",
+    "label": "eye_1",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      958,
+      232,
+      1037,
+      287
+    ],
+    "source_size": [
+      79,
+      55
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/features/01_eye_1.png",
+    "upscaled": "upscaled/board-02/features/01_eye_1.png",
+    "raw_sha256": "3c604a0cbc10fd2f58ad61f78bb4ab45342d39668354a7dd1b6b087b38e7a300",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "features",
+    "label": "eye_2",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      1037,
+      232,
+      1117,
+      287
+    ],
+    "source_size": [
+      80,
+      55
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/features/02_eye_2.png",
+    "upscaled": "upscaled/board-02/features/02_eye_2.png",
+    "raw_sha256": "24d2d2a7e59e7bf5b707016f291edf75afad9401e561475e2a93855f102d0723",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "features",
+    "label": "eye_3",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      1117,
+      232,
+      1196,
+      287
+    ],
+    "source_size": [
+      79,
+      55
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/features/03_eye_3.png",
+    "upscaled": "upscaled/board-02/features/03_eye_3.png",
+    "raw_sha256": "25846b3ae963a3b038f6b0c5f7088459a80cdfe1d4fd25fccf36b229167d9417",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "features",
+    "label": "eye_4",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      1196,
+      232,
+      1275,
+      287
+    ],
+    "source_size": [
+      79,
+      55
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/features/04_eye_4.png",
+    "upscaled": "upscaled/board-02/features/04_eye_4.png",
+    "raw_sha256": "b40d3ea64d57f7fc26d72159fd3511ad595dc14c6d4800fb9c8e9031c1157b9f",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "features",
+    "label": "mouth",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      958,
+      310,
+      1037,
+      379
+    ],
+    "source_size": [
+      79,
+      69
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/features/05_mouth.png",
+    "upscaled": "upscaled/board-02/features/05_mouth.png",
+    "raw_sha256": "adb338d3d9d5c3fe70233c41de807e0cdcfbf0a9ac9143c30f1b42d89d8ef19f",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "features",
+    "label": "closed_eye",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      1037,
+      310,
+      1117,
+      379
+    ],
+    "source_size": [
+      80,
+      69
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/features/06_closed_eye.png",
+    "upscaled": "upscaled/board-02/features/06_closed_eye.png",
+    "raw_sha256": "57a1a10b9ac8d65c073df10a611e508266c5b032b9016d7137692c94abed65a9",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "features",
+    "label": "iris",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      1117,
+      310,
+      1196,
+      379
+    ],
+    "source_size": [
+      79,
+      69
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/features/07_iris.png",
+    "upscaled": "upscaled/board-02/features/07_iris.png",
+    "raw_sha256": "a9675e01c13f538c20a563eff8e4e511a792a3f164b5cd5e3a340c59242881b5",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "features",
+    "label": "face_side",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      1196,
+      310,
+      1275,
+      379
+    ],
+    "source_size": [
+      79,
+      69
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/features/08_face_side.png",
+    "upscaled": "upscaled/board-02/features/08_face_side.png",
+    "raw_sha256": "6aacb8de5e0e2a8c4f4f89c77706cc186a4f70bb65778e227f97a4231b9035eb",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "expressions",
+    "label": "calm",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      10,
+      405,
+      106,
+      491
+    ],
+    "source_size": [
+      96,
+      86
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/expressions/01_calm.png",
+    "upscaled": "upscaled/board-02/expressions/01_calm.png",
+    "raw_sha256": "6d16bada72769b6caf28297c686d98f3b777559c994645cf2f37b3dbf75c5ad7",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "expressions",
+    "label": "smile",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      106,
+      405,
+      203,
+      491
+    ],
+    "source_size": [
+      97,
+      86
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/expressions/02_smile.png",
+    "upscaled": "upscaled/board-02/expressions/02_smile.png",
+    "raw_sha256": "ab4023c278a4b6e31097ee49b703a7bafd96887718c075d2bc175b7a3c48c056",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "expressions",
+    "label": "happy",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      203,
+      405,
+      301,
+      491
+    ],
+    "source_size": [
+      98,
+      86
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/expressions/03_happy.png",
+    "upscaled": "upscaled/board-02/expressions/03_happy.png",
+    "raw_sha256": "1a1d6bbdf2be1e623ca26e46fa2831716b359f180894c9f9992d58d79533311c",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "expressions",
+    "label": "surprised",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      301,
+      405,
+      400,
+      491
+    ],
+    "source_size": [
+      99,
+      86
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/expressions/04_surprised.png",
+    "upscaled": "upscaled/board-02/expressions/04_surprised.png",
+    "raw_sha256": "a6115d55965a1c6e5d4f7972bba43519aa73143ef8bc794996a504f22926f658",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "expressions",
+    "label": "angry",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      400,
+      405,
+      498,
+      491
+    ],
+    "source_size": [
+      98,
+      86
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/expressions/05_angry.png",
+    "upscaled": "upscaled/board-02/expressions/05_angry.png",
+    "raw_sha256": "8213fc25a6128f7d63abb9ab85e7e9cec7acf46fb9055b661e13901d840f77a9",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "expressions",
+    "label": "sad",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      498,
+      405,
+      595,
+      491
+    ],
+    "source_size": [
+      97,
+      86
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/expressions/06_sad.png",
+    "upscaled": "upscaled/board-02/expressions/06_sad.png",
+    "raw_sha256": "b16e6502bda29bc997d1892238130d23d9848b2b172c67e3c0912d5cef28f1f2",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "expressions",
+    "label": "cool",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      595,
+      405,
+      692,
+      491
+    ],
+    "source_size": [
+      97,
+      86
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/expressions/07_cool.png",
+    "upscaled": "upscaled/board-02/expressions/07_cool.png",
+    "raw_sha256": "0d91d43fa58f2c466dfe983d87810f0e80550d82cf21ba90a6f2c340afdaea8f",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "expressions",
+    "label": "focused_a",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      692,
+      405,
+      790,
+      491
+    ],
+    "source_size": [
+      98,
+      86
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/expressions/08_focused_a.png",
+    "upscaled": "upscaled/board-02/expressions/08_focused_a.png",
+    "raw_sha256": "43c91e8522a53dd88564e90d76c230eb8e8fd45b92ac5cfeb5b792a6807cfd90",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "expressions",
+    "label": "focused_b",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      790,
+      405,
+      887,
+      491
+    ],
+    "source_size": [
+      97,
+      86
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/expressions/09_focused_b.png",
+    "upscaled": "upscaled/board-02/expressions/09_focused_b.png",
+    "raw_sha256": "e9d41938d74dda0b24b23eda71e01e8b854dcf3b66516787ccdc73074d80fbd9",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "expressions",
+    "label": "shy",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      887,
+      405,
+      986,
+      491
+    ],
+    "source_size": [
+      99,
+      86
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/expressions/10_shy.png",
+    "upscaled": "upscaled/board-02/expressions/10_shy.png",
+    "raw_sha256": "d396fce3350d0e46301cda3d3fc80ce63dac3b6e9bddcf195100996fa4c7bc6a",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "expressions",
+    "label": "gentle",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      986,
+      405,
+      1083,
+      491
+    ],
+    "source_size": [
+      97,
+      86
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/expressions/11_gentle.png",
+    "upscaled": "upscaled/board-02/expressions/11_gentle.png",
+    "raw_sha256": "4528aef9e9fdbb8ec072a7a67ee221ab8e940c136ea9d485ef214d659515d1fd",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "expressions",
+    "label": "thoughtful",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      1083,
+      405,
+      1180,
+      491
+    ],
+    "source_size": [
+      97,
+      86
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/expressions/12_thoughtful.png",
+    "upscaled": "upscaled/board-02/expressions/12_thoughtful.png",
+    "raw_sha256": "82aca386a4cd493d6d7737e08ad3e705bb4a7ba1beae42ec04a6a3bc2fc0fe8d",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "expressions",
+    "label": "look_back",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      1180,
+      405,
+      1274,
+      491
+    ],
+    "source_size": [
+      94,
+      86
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/expressions/13_look_back.png",
+    "upscaled": "upscaled/board-02/expressions/13_look_back.png",
+    "raw_sha256": "4314657d06a6ec69b4cbaffa003e1efb16ca2c7c39cf305bc182252072d8d45a",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "hair",
+    "label": "front",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      10,
+      537,
+      91,
+      647
+    ],
+    "source_size": [
+      81,
+      110
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/hair/01_front.png",
+    "upscaled": "upscaled/board-02/hair/01_front.png",
+    "raw_sha256": "09521e823b7c35a3373838ab8f0c7857669eac1731fb06ab529640f9938d30b3",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "hair",
+    "label": "side",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      91,
+      537,
+      169,
+      647
+    ],
+    "source_size": [
+      78,
+      110
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/hair/02_side.png",
+    "upscaled": "upscaled/board-02/hair/02_side.png",
+    "raw_sha256": "a269a0aabae8a5ec18a6f8e3c3e60ac437da62c99c14b86163dfc8d8ee212b5e",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "hair",
+    "label": "back",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      169,
+      537,
+      253,
+      647
+    ],
+    "source_size": [
+      84,
+      110
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/hair/03_back.png",
+    "upscaled": "upscaled/board-02/hair/03_back.png",
+    "raw_sha256": "4fdf3b24ed6f0e2439dda9a9e1bdd26ac386090e717ca633f5c8d370666ffc38",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "hair",
+    "label": "angle45",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      253,
+      537,
+      334,
+      647
+    ],
+    "source_size": [
+      81,
+      110
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/hair/04_angle45.png",
+    "upscaled": "upscaled/board-02/hair/04_angle45.png",
+    "raw_sha256": "8999902cc1f033ce4e654e79e8a1f974c4f917a18bebf055c4e572b2e15feed2",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "hair",
+    "label": "look_down",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      334,
+      537,
+      424,
+      647
+    ],
+    "source_size": [
+      90,
+      110
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/hair/05_look_down.png",
+    "upscaled": "upscaled/board-02/hair/05_look_down.png",
+    "raw_sha256": "87760821243e3251bdaaa252313f8751b648935c9b3be7ca162a16d281f9a8b3",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "hair",
+    "label": "look_up",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      424,
+      537,
+      505,
+      647
+    ],
+    "source_size": [
+      81,
+      110
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/hair/06_look_up.png",
+    "upscaled": "upscaled/board-02/hair/06_look_up.png",
+    "raw_sha256": "5f1be743b5b15c5264a3e03a353cd7f682d15444392fe26cd377436023f20a1d",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "accessories",
+    "label": "hairpin_metal",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      514,
+      538,
+      602,
+      658
+    ],
+    "source_size": [
+      88,
+      120
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/accessories/01_hairpin_metal.png",
+    "upscaled": "upscaled/board-02/accessories/01_hairpin_metal.png",
+    "raw_sha256": "a2df72bc464100108fa9bd86a5d64a00c4276fedb1eef29cb194b902568c8131",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "accessories",
+    "label": "hairpin_flower",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      602,
+      538,
+      689,
+      658
+    ],
+    "source_size": [
+      87,
+      120
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/accessories/02_hairpin_flower.png",
+    "upscaled": "upscaled/board-02/accessories/02_hairpin_flower.png",
+    "raw_sha256": "6ee318c3b4d8770985bda745025d31d345eb993dcbc907d84430b20cc656f0cc",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "accessories",
+    "label": "earrings",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      689,
+      538,
+      797,
+      658
+    ],
+    "source_size": [
+      108,
+      120
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/accessories/03_earrings.png",
+    "upscaled": "upscaled/board-02/accessories/03_earrings.png",
+    "raw_sha256": "c4004ab31b626edf665468f92b0404a13d36460667f77188ae0cbf9c026ebd40",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "body",
+    "label": "neck",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      802,
+      538,
+      942,
+      658
+    ],
+    "source_size": [
+      140,
+      120
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/body/01_neck.png",
+    "upscaled": "upscaled/board-02/body/01_neck.png",
+    "raw_sha256": "d53330ccdff2e5d7ccd98128c378046a4116b842e49816de63c41b2d1482785a",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "body",
+    "label": "shoulder",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      942,
+      538,
+      1117,
+      658
+    ],
+    "source_size": [
+      175,
+      120
+    ],
+    "scale": 2,
+    "raw": "crops/board-02/body/02_shoulder.png",
+    "upscaled": "upscaled/board-02/body/02_shoulder.png",
+    "raw_sha256": "cd76d42ed8e54610acf319c290b084566e899099420770cf47af37428e299a81",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "body",
+    "label": "bodice",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      1117,
+      538,
+      1274,
+      658
+    ],
+    "source_size": [
+      157,
+      120
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/body/03_bodice.png",
+    "upscaled": "upscaled/board-02/body/03_bodice.png",
+    "raw_sha256": "d24ab4a6307aac00b9f2ec505c7d93ae0b4e32c68bfd24f8bf8497242d3e8c2d",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "clothing",
+    "label": "bodice",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      10,
+      695,
+      104,
+      817
+    ],
+    "source_size": [
+      94,
+      122
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/clothing/01_bodice.png",
+    "upscaled": "upscaled/board-02/clothing/01_bodice.png",
+    "raw_sha256": "130a31330e469d6ac64e3305fb6ad9596f9cbdadd2a0bb5ec58a09f69744e934",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "clothing",
+    "label": "waist",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      104,
+      695,
+      201,
+      817
+    ],
+    "source_size": [
+      97,
+      122
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/clothing/02_waist.png",
+    "upscaled": "upscaled/board-02/clothing/02_waist.png",
+    "raw_sha256": "505659defc8b00ff72f77cc8d33caeccbbb4e9d00acc674b59faa5b273af79d3",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "clothing",
+    "label": "skirt_layers",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      201,
+      695,
+      299,
+      817
+    ],
+    "source_size": [
+      98,
+      122
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/clothing/03_skirt_layers.png",
+    "upscaled": "upscaled/board-02/clothing/03_skirt_layers.png",
+    "raw_sha256": "b6fd843a3e194feee50452c5f24db2cefe41ab475469fd9dc6883083ffab4b23",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "clothing",
+    "label": "side_skirt",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      299,
+      695,
+      395,
+      817
+    ],
+    "source_size": [
+      96,
+      122
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/clothing/04_side_skirt.png",
+    "upscaled": "upscaled/board-02/clothing/04_side_skirt.png",
+    "raw_sha256": "322a01fa0b63d1cb5257598193eae875ea018c239665c025c91c1072a8422c65",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "clothing",
+    "label": "ribbon",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      395,
+      695,
+      488,
+      817
+    ],
+    "source_size": [
+      93,
+      122
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/clothing/05_ribbon.png",
+    "upscaled": "upscaled/board-02/clothing/05_ribbon.png",
+    "raw_sha256": "1aa83ed2a0fc31b4f6782639aa31d698505565c0c74f92abf4eed226c355fb40",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "clothing",
+    "label": "cuff",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      488,
+      695,
+      580,
+      817
+    ],
+    "source_size": [
+      92,
+      122
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/clothing/06_cuff.png",
+    "upscaled": "upscaled/board-02/clothing/06_cuff.png",
+    "raw_sha256": "163af5ce95d4c583aae2cf1de40ba033fd32f434233ee06e1f95f76214c8bc91",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "clothing",
+    "label": "hem_ornament",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      580,
+      695,
+      675,
+      817
+    ],
+    "source_size": [
+      95,
+      122
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/clothing/07_hem_ornament.png",
+    "upscaled": "upscaled/board-02/clothing/07_hem_ornament.png",
+    "raw_sha256": "3b92b9183b2be808d9ee0b58867e0fd7dd4133e1b1f5c9d81fd7adea991c73e0",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "clothing",
+    "label": "heel",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      675,
+      695,
+      774,
+      817
+    ],
+    "source_size": [
+      99,
+      122
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/clothing/08_heel.png",
+    "upscaled": "upscaled/board-02/clothing/08_heel.png",
+    "raw_sha256": "f0ce82b42f6722f27b6465e605e0792c1ff7e8bee5b814cb42bc4cefad301a8a",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "clothing",
+    "label": "back",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      774,
+      695,
+      903,
+      817
+    ],
+    "source_size": [
+      129,
+      122
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/clothing/09_back.png",
+    "upscaled": "upscaled/board-02/clothing/09_back.png",
+    "raw_sha256": "443eafe4123ae36c4a8233f78be5b8ced172df6817cc657ba467533f8a93e4b6",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "materials",
+    "label": "metal",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      912,
+      695,
+      982,
+      817
+    ],
+    "source_size": [
+      70,
+      122
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/materials/01_metal.png",
+    "upscaled": "upscaled/board-02/materials/01_metal.png",
+    "raw_sha256": "2575b3b08f8b6af2afdfa8288e1452740d2d349eb1a0aeeede91d24a6639b69d",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "materials",
+    "label": "cloth",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      982,
+      695,
+      1054,
+      817
+    ],
+    "source_size": [
+      72,
+      122
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/materials/02_cloth.png",
+    "upscaled": "upscaled/board-02/materials/02_cloth.png",
+    "raw_sha256": "0e9145c9f6e2cda606d4adc8f2cb02c3449c10aebc20b9d7ea86bf3045bf3a37",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "materials",
+    "label": "flower",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      1054,
+      695,
+      1127,
+      817
+    ],
+    "source_size": [
+      73,
+      122
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/materials/03_flower.png",
+    "upscaled": "upscaled/board-02/materials/03_flower.png",
+    "raw_sha256": "8b801137fe10b2c878e4fad90f1f11727d675434afca7f23cee5b8410cf27bcf",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "materials",
+    "label": "gem",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      1127,
+      695,
+      1200,
+      817
+    ],
+    "source_size": [
+      73,
+      122
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/materials/04_gem.png",
+    "upscaled": "upscaled/board-02/materials/04_gem.png",
+    "raw_sha256": "0b5e3fc8a438558d624d433f8b72fd92592ddf9ea7cb87566ab020afe1b9496f",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 2,
+    "category": "materials",
+    "label": "translucent",
+    "source": "originals/board-02-main.jpg",
+    "box": [
+      1200,
+      695,
+      1275,
+      817
+    ],
+    "source_size": [
+      75,
+      122
+    ],
+    "scale": 4,
+    "raw": "crops/board-02/materials/05_translucent.png",
+    "upscaled": "upscaled/board-02/materials/05_translucent.png",
+    "raw_sha256": "cbdb9f07a38d2b4a538163e0edbab365345eb5764669bf25c49508045afb951b",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 3,
+    "category": "face",
+    "label": "portrait",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      0,
+      0,
+      318,
+      484
+    ],
+    "source_size": [
+      318,
+      484
+    ],
+    "scale": 2,
+    "raw": "crops/board-03/face/01_portrait.png",
+    "upscaled": "upscaled/board-03/face/01_portrait.png",
+    "raw_sha256": "7a0f174df76c23858c473d0ff9b9f0b15b0bbb8b62c36f2b95548292136e57b7",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; not the selected main; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "full_body",
+    "label": "full_front",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      319,
+      0,
+      506,
+      384
+    ],
+    "source_size": [
+      187,
+      384
+    ],
+    "scale": 2,
+    "raw": "crops/board-03/full_body/01_full_front.png",
+    "upscaled": "upscaled/board-03/full_body/01_full_front.png",
+    "raw_sha256": "5d89d8ab2a4765cae2d06b3e3958fadd12302d11d69576eb2611f453cfef48a4",
+    "status": "needs_review",
+    "notes": "black-haired alternate; some views overlap; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "full_body",
+    "label": "full_angle",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      506,
+      0,
+      628,
+      384
+    ],
+    "source_size": [
+      122,
+      384
+    ],
+    "scale": 2,
+    "raw": "crops/board-03/full_body/02_full_angle.png",
+    "upscaled": "upscaled/board-03/full_body/02_full_angle.png",
+    "raw_sha256": "ba570364f5f0ffa15b0e7c09dc7db7b9ca873feae010bea379e6cf2c51faa6ec",
+    "status": "needs_review",
+    "notes": "black-haired alternate; some views overlap; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "full_body",
+    "label": "full_side",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      628,
+      0,
+      746,
+      384
+    ],
+    "source_size": [
+      118,
+      384
+    ],
+    "scale": 2,
+    "raw": "crops/board-03/full_body/03_full_side.png",
+    "upscaled": "upscaled/board-03/full_body/03_full_side.png",
+    "raw_sha256": "0861710c482f2d297127ddaa6974635a869105b25051dbe7dc5632d720bf6bc2",
+    "status": "needs_review",
+    "notes": "black-haired alternate; some views overlap; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "full_body",
+    "label": "full_back_a",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      746,
+      0,
+      865,
+      384
+    ],
+    "source_size": [
+      119,
+      384
+    ],
+    "scale": 2,
+    "raw": "crops/board-03/full_body/04_full_back_a.png",
+    "upscaled": "upscaled/board-03/full_body/04_full_back_a.png",
+    "raw_sha256": "8cad433b2203aa4195e4fcc3808ade897f365f274f2c17457af831789061cff0",
+    "status": "needs_review",
+    "notes": "black-haired alternate; some views overlap; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "full_body",
+    "label": "full_back_b",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      865,
+      0,
+      987,
+      384
+    ],
+    "source_size": [
+      122,
+      384
+    ],
+    "scale": 2,
+    "raw": "crops/board-03/full_body/05_full_back_b.png",
+    "upscaled": "upscaled/board-03/full_body/05_full_back_b.png",
+    "raw_sha256": "d8af100b6881dff99b7d27a42414275eb827424c48e8260cf9dadffa955e2c7a",
+    "status": "needs_review",
+    "notes": "black-haired alternate; some views overlap; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "hair",
+    "label": "hair_front",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      997,
+      0,
+      1090,
+      126
+    ],
+    "source_size": [
+      93,
+      126
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/hair/01_hair_front.png",
+    "upscaled": "upscaled/board-03/hair/01_hair_front.png",
+    "raw_sha256": "c64ee259ff5c0aa0ad603392e2cafae971f3c83cb8b7db857c5839757b9208ce",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "hair",
+    "label": "hair_side",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      1090,
+      0,
+      1182,
+      126
+    ],
+    "source_size": [
+      92,
+      126
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/hair/02_hair_side.png",
+    "upscaled": "upscaled/board-03/hair/02_hair_side.png",
+    "raw_sha256": "6726b618c5b5039cb79f15a8f24512a48e56da0361c5204c747d6ec542aba636",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "hair",
+    "label": "hair_back",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      1182,
+      0,
+      1276,
+      126
+    ],
+    "source_size": [
+      94,
+      126
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/hair/03_hair_back.png",
+    "upscaled": "upscaled/board-03/hair/03_hair_back.png",
+    "raw_sha256": "33268337f097e2e1c13b04d5e5a3e00c2129d8aacca161e8d5796de6480373f9",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "hair",
+    "label": "hair_side_detail",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      997,
+      130,
+      1090,
+      255
+    ],
+    "source_size": [
+      93,
+      125
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/hair/04_hair_side_detail.png",
+    "upscaled": "upscaled/board-03/hair/04_hair_side_detail.png",
+    "raw_sha256": "8f2d4361241edb089057d02022ea76903013245c29bad75bca9daf864787614e",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "hair",
+    "label": "hair_rear_detail",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      1090,
+      130,
+      1182,
+      255
+    ],
+    "source_size": [
+      92,
+      125
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/hair/05_hair_rear_detail.png",
+    "upscaled": "upscaled/board-03/hair/05_hair_rear_detail.png",
+    "raw_sha256": "3f709908c2a222b46c26b3654345b0622056a100f1b39a51d1be324acd81eee2",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "hair",
+    "label": "hair_profile",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      1182,
+      130,
+      1276,
+      255
+    ],
+    "source_size": [
+      94,
+      125
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/hair/06_hair_profile.png",
+    "upscaled": "upscaled/board-03/hair/06_hair_profile.png",
+    "raw_sha256": "bd41a1183135c118f5a36c28163dcfa42721d34257fa15945dc7e86c82865bba",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "hair",
+    "label": "hair_ornament_front",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      997,
+      260,
+      1090,
+      387
+    ],
+    "source_size": [
+      93,
+      127
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/hair/07_hair_ornament_front.png",
+    "upscaled": "upscaled/board-03/hair/07_hair_ornament_front.png",
+    "raw_sha256": "7dd58e95400f5e7743d538bde904e1da60fa4cb79ff2a9968e7a9e97ee5436a2",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "hair",
+    "label": "hair_ornament_back",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      1090,
+      260,
+      1182,
+      387
+    ],
+    "source_size": [
+      92,
+      127
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/hair/08_hair_ornament_back.png",
+    "upscaled": "upscaled/board-03/hair/08_hair_ornament_back.png",
+    "raw_sha256": "82b9d67e8a5abdba5ef047df88e9481346a2a8d8d8a2835b44016b5d0b225882",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "hair",
+    "label": "hair_ornament_back_close",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      1182,
+      260,
+      1276,
+      387
+    ],
+    "source_size": [
+      94,
+      127
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/hair/09_hair_ornament_back_close.png",
+    "upscaled": "upscaled/board-03/hair/09_hair_ornament_back_close.png",
+    "raw_sha256": "6376bc78626c75198eb0b9cc1cd034703fa835eb99f2d2fc9184a70b38e35420",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "clothing",
+    "label": "sleeve",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      530,
+      393,
+      629,
+      483
+    ],
+    "source_size": [
+      99,
+      90
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/clothing/01_sleeve.png",
+    "upscaled": "upscaled/board-03/clothing/01_sleeve.png",
+    "raw_sha256": "32e5f565b8ce86dae4cce688db26e60906a22bbcd01e810d3c8a1d190a32a61b",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "clothing",
+    "label": "chest",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      629,
+      393,
+      726,
+      483
+    ],
+    "source_size": [
+      97,
+      90
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/clothing/02_chest.png",
+    "upscaled": "upscaled/board-03/clothing/02_chest.png",
+    "raw_sha256": "4c76a80d914141a37c7418432caa935b0dbb423955feed72a89edf3c316596de",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "clothing",
+    "label": "waist",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      726,
+      393,
+      819,
+      483
+    ],
+    "source_size": [
+      93,
+      90
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/clothing/03_waist.png",
+    "upscaled": "upscaled/board-03/clothing/03_waist.png",
+    "raw_sha256": "47a29e79a3ddf7418673aff46250616026b3c7e5f20fc08b6799d9679868ea09",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "clothing",
+    "label": "skirt",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      819,
+      393,
+      913,
+      483
+    ],
+    "source_size": [
+      94,
+      90
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/clothing/04_skirt.png",
+    "upscaled": "upscaled/board-03/clothing/04_skirt.png",
+    "raw_sha256": "93041924995706015a3db4e520629110d4a3455becdf16414287a355cb90cd71",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "clothing",
+    "label": "ribbon",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      913,
+      393,
+      1004,
+      483
+    ],
+    "source_size": [
+      91,
+      90
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/clothing/05_ribbon.png",
+    "upscaled": "upscaled/board-03/clothing/05_ribbon.png",
+    "raw_sha256": "ea676c93df467e929a270089f111f2f22015ce420aa7cc59a150456bbbdf1f09",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "clothing",
+    "label": "back_fabric",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      1004,
+      393,
+      1099,
+      483
+    ],
+    "source_size": [
+      95,
+      90
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/clothing/06_back_fabric.png",
+    "upscaled": "upscaled/board-03/clothing/06_back_fabric.png",
+    "raw_sha256": "263062ca999e8335320ba2be727c7b2568d06f9a1cba9e669c52a29ce57d7a7d",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "clothing",
+    "label": "waist_gem",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      1099,
+      393,
+      1198,
+      483
+    ],
+    "source_size": [
+      99,
+      90
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/clothing/07_waist_gem.png",
+    "upscaled": "upscaled/board-03/clothing/07_waist_gem.png",
+    "raw_sha256": "fe565d036c9373d26278495a7f2efcac16d8c1de3988cc18f92bc9654a2406e5",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "clothing",
+    "label": "skirt_tail",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      1198,
+      393,
+      1276,
+      483
+    ],
+    "source_size": [
+      78,
+      90
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/clothing/08_skirt_tail.png",
+    "upscaled": "upscaled/board-03/clothing/08_skirt_tail.png",
+    "raw_sha256": "3e8f3a02ec03b3977ef1e24edab669a8b4e869416668cb4cced4e8bb48739e99",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "expressions",
+    "label": "expression_1",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      0,
+      486,
+      121,
+      624
+    ],
+    "source_size": [
+      121,
+      138
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/expressions/01_expression_1.png",
+    "upscaled": "upscaled/board-03/expressions/01_expression_1.png",
+    "raw_sha256": "5a2ad9cb4ff49146e67c8393592c7b4b5e3afca77434e0a39f1138732c21e1c4",
+    "status": "needs_review",
+    "notes": "some figures extend across original row boundaries; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "expressions",
+    "label": "expression_2",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      121,
+      486,
+      239,
+      624
+    ],
+    "source_size": [
+      118,
+      138
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/expressions/02_expression_2.png",
+    "upscaled": "upscaled/board-03/expressions/02_expression_2.png",
+    "raw_sha256": "317739183810ee1872ca17317d0f5e58eda154a4bb3f21774d6e91f02e3d7cf8",
+    "status": "needs_review",
+    "notes": "some figures extend across original row boundaries; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "expressions",
+    "label": "expression_3",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      239,
+      486,
+      359,
+      624
+    ],
+    "source_size": [
+      120,
+      138
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/expressions/03_expression_3.png",
+    "upscaled": "upscaled/board-03/expressions/03_expression_3.png",
+    "raw_sha256": "b6c3ec160f7373ac2a63b5c561d2376cc665edbcc6ba67e44de368def48f6015",
+    "status": "needs_review",
+    "notes": "some figures extend across original row boundaries; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "expressions",
+    "label": "expression_4",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      359,
+      486,
+      471,
+      624
+    ],
+    "source_size": [
+      112,
+      138
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/expressions/04_expression_4.png",
+    "upscaled": "upscaled/board-03/expressions/04_expression_4.png",
+    "raw_sha256": "bf09666849ec5412e58ee9e28976795b3f79125918c69f5d602ca14a05772f18",
+    "status": "needs_review",
+    "notes": "some figures extend across original row boundaries; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "expressions",
+    "label": "expression_5",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      471,
+      486,
+      587,
+      624
+    ],
+    "source_size": [
+      116,
+      138
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/expressions/05_expression_5.png",
+    "upscaled": "upscaled/board-03/expressions/05_expression_5.png",
+    "raw_sha256": "4abaa854879ee308cb018c2e2876c8fe0d2ad70651bd571db30ad3b25a202fb0",
+    "status": "needs_review",
+    "notes": "some figures extend across original row boundaries; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "expressions",
+    "label": "expression_6",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      587,
+      486,
+      704,
+      624
+    ],
+    "source_size": [
+      117,
+      138
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/expressions/06_expression_6.png",
+    "upscaled": "upscaled/board-03/expressions/06_expression_6.png",
+    "raw_sha256": "c923880af448cfbbfc6a3d02084c61fb8f8b1f61a334a604989f92281872779f",
+    "status": "needs_review",
+    "notes": "some figures extend across original row boundaries; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "accessories",
+    "label": "flower_hair",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      704,
+      486,
+      802,
+      624
+    ],
+    "source_size": [
+      98,
+      138
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/accessories/01_flower_hair.png",
+    "upscaled": "upscaled/board-03/accessories/01_flower_hair.png",
+    "raw_sha256": "02c2a9b774d198b3ba1fd10ab70de03e61568fd2bd673795fed29eee06d8cd9c",
+    "status": "needs_review",
+    "notes": "some figures extend across original row boundaries; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "clothing",
+    "label": "side_face",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      802,
+      486,
+      900,
+      624
+    ],
+    "source_size": [
+      98,
+      138
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/clothing/09_side_face.png",
+    "upscaled": "upscaled/board-03/clothing/09_side_face.png",
+    "raw_sha256": "2612f622be7c3757f4f0ed993e5cbab5b9367e558c5e7bddbb66785f96ad3151",
+    "status": "needs_review",
+    "notes": "some figures extend across original row boundaries; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "features",
+    "label": "eye_close",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      900,
+      486,
+      998,
+      543
+    ],
+    "source_size": [
+      98,
+      57
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/features/01_eye_close.png",
+    "upscaled": "upscaled/board-03/features/01_eye_close.png",
+    "raw_sha256": "bd0b40aca84acce371b1c0ad059d181d5114fde1e1be927c2ed632a80a1d832c",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "accessories",
+    "label": "flower_close",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      900,
+      544,
+      998,
+      624
+    ],
+    "source_size": [
+      98,
+      80
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/accessories/02_flower_close.png",
+    "upscaled": "upscaled/board-03/accessories/02_flower_close.png",
+    "raw_sha256": "3f63dd51a9d4437606ab457f946eeff8789b2326cd6d599c964dbc14a4c58670",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "clothing",
+    "label": "skirt_detail",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      1000,
+      486,
+      1110,
+      624
+    ],
+    "source_size": [
+      110,
+      138
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/clothing/10_skirt_detail.png",
+    "upscaled": "upscaled/board-03/clothing/10_skirt_detail.png",
+    "raw_sha256": "32c48a48504f57565291dbf3b8762ab843d5525dd73f0f4cf96fc8f9017dd322",
+    "status": "needs_review",
+    "notes": "some figures extend across original row boundaries; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "clothing",
+    "label": "legs",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      1110,
+      486,
+      1185,
+      624
+    ],
+    "source_size": [
+      75,
+      138
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/clothing/11_legs.png",
+    "upscaled": "upscaled/board-03/clothing/11_legs.png",
+    "raw_sha256": "0c8ca6afdf62758411ef8174a0f196a7fa0d14e05b255f7fe4a7edff56ef808f",
+    "status": "needs_review",
+    "notes": "some figures extend across original row boundaries; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "clothing",
+    "label": "shoes",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      1185,
+      486,
+      1277,
+      624
+    ],
+    "source_size": [
+      92,
+      138
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/clothing/12_shoes.png",
+    "upscaled": "upscaled/board-03/clothing/12_shoes.png",
+    "raw_sha256": "4c148c293c4e7be4d8b60fb6da438caf29ccad626f5adfb559e5b7dcd966ae29",
+    "status": "needs_review",
+    "notes": "some figures extend across original row boundaries; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "hair",
+    "label": "hair_detail_1",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      0,
+      625,
+      124,
+      712
+    ],
+    "source_size": [
+      124,
+      87
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/hair/10_hair_detail_1.png",
+    "upscaled": "upscaled/board-03/hair/10_hair_detail_1.png",
+    "raw_sha256": "3d7cafa67a4949c0afa707b658dae0251801de947e020a6d40a671f81ca939ce",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "hair",
+    "label": "hair_detail_2",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      124,
+      625,
+      239,
+      712
+    ],
+    "source_size": [
+      115,
+      87
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/hair/11_hair_detail_2.png",
+    "upscaled": "upscaled/board-03/hair/11_hair_detail_2.png",
+    "raw_sha256": "b4425bdea6217cbe1d735af75b24eb350f1f98f7e4c2314aeae11cb39df41431",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "hair",
+    "label": "hair_back",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      239,
+      625,
+      359,
+      712
+    ],
+    "source_size": [
+      120,
+      87
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/hair/12_hair_back.png",
+    "upscaled": "upscaled/board-03/hair/12_hair_back.png",
+    "raw_sha256": "afbbc83e82a2bfca73b5e916a0a995c87a57eefa2877a5a8f51494a2513f7141",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "hair",
+    "label": "hair_side",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      359,
+      625,
+      474,
+      712
+    ],
+    "source_size": [
+      115,
+      87
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/hair/13_hair_side.png",
+    "upscaled": "upscaled/board-03/hair/13_hair_side.png",
+    "raw_sha256": "85549d07b3fd204af864ef2f11cb5f3eb94e627a2dbcd8315f0169a2144fe272",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "clothing",
+    "label": "bodice",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      474,
+      625,
+      590,
+      712
+    ],
+    "source_size": [
+      116,
+      87
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/clothing/13_bodice.png",
+    "upscaled": "upscaled/board-03/clothing/13_bodice.png",
+    "raw_sha256": "c8910b118ef5cfdbc43277c50913ca539d11535ccc3b9ab2d41cc8d00f39b406",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "hair",
+    "label": "profile",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      590,
+      625,
+      702,
+      712
+    ],
+    "source_size": [
+      112,
+      87
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/hair/14_profile.png",
+    "upscaled": "upscaled/board-03/hair/14_profile.png",
+    "raw_sha256": "20f31ffc4abf013fa259b448cdd899a82eba1f4fd7dc9b17943583a00ff11394",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "hair",
+    "label": "hairpin",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      702,
+      625,
+      816,
+      712
+    ],
+    "source_size": [
+      114,
+      87
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/hair/15_hairpin.png",
+    "upscaled": "upscaled/board-03/hair/15_hairpin.png",
+    "raw_sha256": "8622e9e5ab71bfa19105198e4d33494f5c15ce7e24c22eff53153cb5aeaa9323",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "clothing",
+    "label": "shoulder",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      816,
+      625,
+      925,
+      712
+    ],
+    "source_size": [
+      109,
+      87
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/clothing/14_shoulder.png",
+    "upscaled": "upscaled/board-03/clothing/14_shoulder.png",
+    "raw_sha256": "9caa7829ebbb936a381cdd6dbb7493d6bc8f0592ed616efe38b6955ae2090243",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "accessories",
+    "label": "hand",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      925,
+      625,
+      1040,
+      712
+    ],
+    "source_size": [
+      115,
+      87
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/accessories/03_hand.png",
+    "upscaled": "upscaled/board-03/accessories/03_hand.png",
+    "raw_sha256": "237b30ab0ae4ef4e604ad15f1200051f22abfc6c219a6fddd1c62f223f47bd48",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "clothing",
+    "label": "leg",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      1040,
+      625,
+      1120,
+      712
+    ],
+    "source_size": [
+      80,
+      87
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/clothing/15_leg.png",
+    "upscaled": "upscaled/board-03/clothing/15_leg.png",
+    "raw_sha256": "ca20e138028a21d961f5a6d70f3bc04d5350d78063d0f686d742015f37c13ef9",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "clothing",
+    "label": "skirt",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      1120,
+      625,
+      1183,
+      712
+    ],
+    "source_size": [
+      63,
+      87
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/clothing/16_skirt.png",
+    "upscaled": "upscaled/board-03/clothing/16_skirt.png",
+    "raw_sha256": "63654ea2d89236626083eefad325898cae70d2e00b4e05f19b9d155b6577302b",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "accessories",
+    "label": "boots",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      1183,
+      625,
+      1277,
+      712
+    ],
+    "source_size": [
+      94,
+      87
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/accessories/04_boots.png",
+    "upscaled": "upscaled/board-03/accessories/04_boots.png",
+    "raw_sha256": "ee5d4d8ad7ba5f43c4fd48009dd9333f36027a7d1d44ace8d26c2d76a6df2b0d",
+    "status": "needs_review",
+    "notes": "black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "full_body",
+    "label": "body_pose_01",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      0,
+      714,
+      115,
+      851
+    ],
+    "source_size": [
+      115,
+      137
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/full_body/06_body_pose_01.png",
+    "upscaled": "upscaled/board-03/full_body/06_body_pose_01.png",
+    "raw_sha256": "11fe61948817490f01da3ca53c1db8c2ef4b89036c1322cb9e54da64bac379ec",
+    "status": "needs_review",
+    "notes": "source overlaps neighboring silhouettes; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "full_body",
+    "label": "body_pose_02",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      115,
+      714,
+      219,
+      851
+    ],
+    "source_size": [
+      104,
+      137
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/full_body/07_body_pose_02.png",
+    "upscaled": "upscaled/board-03/full_body/07_body_pose_02.png",
+    "raw_sha256": "741df1c34db6a271246a6b1e979b3d2c0f1ca6ca19964f0bc271b1269e66ad07",
+    "status": "needs_review",
+    "notes": "source overlaps neighboring silhouettes; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "full_body",
+    "label": "body_pose_03",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      219,
+      714,
+      322,
+      851
+    ],
+    "source_size": [
+      103,
+      137
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/full_body/08_body_pose_03.png",
+    "upscaled": "upscaled/board-03/full_body/08_body_pose_03.png",
+    "raw_sha256": "e3a303b744e0d9fc99a0ba4cf8f3cee526b7ceee61e0828188f7ccbbab5c0931",
+    "status": "needs_review",
+    "notes": "source overlaps neighboring silhouettes; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "full_body",
+    "label": "body_pose_04",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      322,
+      714,
+      423,
+      851
+    ],
+    "source_size": [
+      101,
+      137
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/full_body/09_body_pose_04.png",
+    "upscaled": "upscaled/board-03/full_body/09_body_pose_04.png",
+    "raw_sha256": "f961b20ec1e0f81bd92fa628a00fcf8822932f9981d45067902932a91f015514",
+    "status": "needs_review",
+    "notes": "source overlaps neighboring silhouettes; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "full_body",
+    "label": "body_pose_05",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      423,
+      714,
+      526,
+      851
+    ],
+    "source_size": [
+      103,
+      137
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/full_body/10_body_pose_05.png",
+    "upscaled": "upscaled/board-03/full_body/10_body_pose_05.png",
+    "raw_sha256": "055a318f059dee0608eb14af709ddb6703051b9e89ac68cfe20e6ae8c2e88824",
+    "status": "needs_review",
+    "notes": "source overlaps neighboring silhouettes; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "full_body",
+    "label": "body_pose_06",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      526,
+      714,
+      628,
+      851
+    ],
+    "source_size": [
+      102,
+      137
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/full_body/11_body_pose_06.png",
+    "upscaled": "upscaled/board-03/full_body/11_body_pose_06.png",
+    "raw_sha256": "db1e5ce20e1502c7743414f58594a94e1eb17a21d45e785a9e2a87ff8a3ae6b5",
+    "status": "needs_review",
+    "notes": "source overlaps neighboring silhouettes; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "full_body",
+    "label": "body_pose_07",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      628,
+      714,
+      733,
+      851
+    ],
+    "source_size": [
+      105,
+      137
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/full_body/12_body_pose_07.png",
+    "upscaled": "upscaled/board-03/full_body/12_body_pose_07.png",
+    "raw_sha256": "e05643e5fb67c8b0c9c54544326281a9d1487525fc0ae4145337b2330eba1152",
+    "status": "needs_review",
+    "notes": "source overlaps neighboring silhouettes; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "full_body",
+    "label": "body_pose_08",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      733,
+      714,
+      839,
+      851
+    ],
+    "source_size": [
+      106,
+      137
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/full_body/13_body_pose_08.png",
+    "upscaled": "upscaled/board-03/full_body/13_body_pose_08.png",
+    "raw_sha256": "fd7d7da45c118311497943d27ce7a1d5523a2497d03ebd72c7428d851fd236eb",
+    "status": "needs_review",
+    "notes": "source overlaps neighboring silhouettes; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "full_body",
+    "label": "body_pose_09",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      839,
+      714,
+      941,
+      851
+    ],
+    "source_size": [
+      102,
+      137
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/full_body/14_body_pose_09.png",
+    "upscaled": "upscaled/board-03/full_body/14_body_pose_09.png",
+    "raw_sha256": "b6f56b5e3b276f2ce3b562005274d476e806918d8de750107485f99363baed2c",
+    "status": "needs_review",
+    "notes": "source overlaps neighboring silhouettes; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "full_body",
+    "label": "body_pose_10",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      941,
+      714,
+      1045,
+      851
+    ],
+    "source_size": [
+      104,
+      137
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/full_body/15_body_pose_10.png",
+    "upscaled": "upscaled/board-03/full_body/15_body_pose_10.png",
+    "raw_sha256": "ea56037e418633ba68bc8095c986573ea5578526aedff7970a06b4ec44d3fc93",
+    "status": "needs_review",
+    "notes": "source overlaps neighboring silhouettes; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "full_body",
+    "label": "body_pose_11",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      1045,
+      714,
+      1152,
+      851
+    ],
+    "source_size": [
+      107,
+      137
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/full_body/16_body_pose_11.png",
+    "upscaled": "upscaled/board-03/full_body/16_body_pose_11.png",
+    "raw_sha256": "7de50706f2a1d83f04eea696cc9abb7cb24301c04833d3f338766f228ec2dbc4",
+    "status": "needs_review",
+    "notes": "source overlaps neighboring silhouettes; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 3,
+    "category": "full_body",
+    "label": "body_pose_12",
+    "source": "originals/board-03-blackhair-variant.jpg",
+    "box": [
+      1152,
+      714,
+      1277,
+      851
+    ],
+    "source_size": [
+      125,
+      137
+    ],
+    "scale": 4,
+    "raw": "crops/board-03/full_body/17_body_pose_12.png",
+    "upscaled": "upscaled/board-03/full_body/17_body_pose_12.png",
+    "raw_sha256": "d3375e0b41b84f69695fa9c7f6bb2f1e8872e5e298df2142ad56b33028f1749f",
+    "status": "needs_review",
+    "notes": "source overlaps neighboring silhouettes; black-haired alternate design; excluded from primary styling"
+  },
+  {
+    "board": 4,
+    "category": "full_body",
+    "label": "front",
+    "source": "originals/board-04.jpg",
+    "box": [
+      138,
+      0,
+      300,
+      365
+    ],
+    "source_size": [
+      162,
+      365
+    ],
+    "scale": 2,
+    "raw": "crops/board-04/full_body/01_front.png",
+    "upscaled": "upscaled/board-04/full_body/01_front.png",
+    "raw_sha256": "64af50bbb9debe8c2db385bbfd32b74f3ab7018b6f973bc9b2c1fe57a35b6c33",
+    "status": "needs_review",
+    "notes": "secondary silver-haired design; silhouette overlaps"
+  },
+  {
+    "board": 4,
+    "category": "full_body",
+    "label": "angle45",
+    "source": "originals/board-04.jpg",
+    "box": [
+      300,
+      0,
+      427,
+      365
+    ],
+    "source_size": [
+      127,
+      365
+    ],
+    "scale": 2,
+    "raw": "crops/board-04/full_body/02_angle45.png",
+    "upscaled": "upscaled/board-04/full_body/02_angle45.png",
+    "raw_sha256": "e6cbd1c0101e3569dcb8704527c33d6a89ff053288d2d97a3c7b39a83e1d33ff",
+    "status": "needs_review",
+    "notes": "secondary silver-haired design; silhouette overlaps"
+  },
+  {
+    "board": 4,
+    "category": "full_body",
+    "label": "side",
+    "source": "originals/board-04.jpg",
+    "box": [
+      427,
+      0,
+      531,
+      365
+    ],
+    "source_size": [
+      104,
+      365
+    ],
+    "scale": 2,
+    "raw": "crops/board-04/full_body/03_side.png",
+    "upscaled": "upscaled/board-04/full_body/03_side.png",
+    "raw_sha256": "8002fdf616b866bde2060bf0d8fffc082a6f8315a1eb15dde18a24b9d6ddb944",
+    "status": "needs_review",
+    "notes": "secondary silver-haired design; silhouette overlaps"
+  },
+  {
+    "board": 4,
+    "category": "full_body",
+    "label": "back",
+    "source": "originals/board-04.jpg",
+    "box": [
+      531,
+      0,
+      671,
+      365
+    ],
+    "source_size": [
+      140,
+      365
+    ],
+    "scale": 2,
+    "raw": "crops/board-04/full_body/04_back.png",
+    "upscaled": "upscaled/board-04/full_body/04_back.png",
+    "raw_sha256": "404e93e13d4357b8c7b79f2ae6d4ca2b68f43497e9cdff4f91aacbd7001d97fd",
+    "status": "needs_review",
+    "notes": "secondary silver-haired design; silhouette overlaps"
+  },
+  {
+    "board": 4,
+    "category": "full_body",
+    "label": "motion",
+    "source": "originals/board-04.jpg",
+    "box": [
+      671,
+      0,
+      909,
+      365
+    ],
+    "source_size": [
+      238,
+      365
+    ],
+    "scale": 2,
+    "raw": "crops/board-04/full_body/05_motion.png",
+    "upscaled": "upscaled/board-04/full_body/05_motion.png",
+    "raw_sha256": "f2afeeb2b762d178613ca6f76663696737eaa306e5450d61943a5449ef52f230",
+    "status": "needs_review",
+    "notes": "secondary silver-haired design; silhouette overlaps"
+  },
+  {
+    "board": 4,
+    "category": "face",
+    "label": "front",
+    "source": "originals/board-04.jpg",
+    "box": [
+      916,
+      25,
+      1044,
+      159
+    ],
+    "source_size": [
+      128,
+      134
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/face/01_front.png",
+    "upscaled": "upscaled/board-04/face/01_front.png",
+    "raw_sha256": "c81cbce2ec64266842bf167669a58a35e41dff604daff1caecc62c7cec8b5c87",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "face",
+    "label": "angle45",
+    "source": "originals/board-04.jpg",
+    "box": [
+      1044,
+      25,
+      1171,
+      159
+    ],
+    "source_size": [
+      127,
+      134
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/face/02_angle45.png",
+    "upscaled": "upscaled/board-04/face/02_angle45.png",
+    "raw_sha256": "e671accce0b2491c0216ff7cd3c7ab44ea5750101d62f14fa3b8e4691ed67c26",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "face",
+    "label": "profile",
+    "source": "originals/board-04.jpg",
+    "box": [
+      1171,
+      25,
+      1276,
+      159
+    ],
+    "source_size": [
+      105,
+      134
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/face/03_profile.png",
+    "upscaled": "upscaled/board-04/face/03_profile.png",
+    "raw_sha256": "afe0f301633e158ba8fc1d8ea67303d3fe325166cb08e14b5f0da232a05a1ef8",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "features",
+    "label": "iris",
+    "source": "originals/board-04.jpg",
+    "box": [
+      918,
+      198,
+      996,
+      250
+    ],
+    "source_size": [
+      78,
+      52
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/features/01_iris.png",
+    "upscaled": "upscaled/board-04/features/01_iris.png",
+    "raw_sha256": "d2fa852402fecb270ba9675c08e2c49747c84d343126678112b5b9854d899a56",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "features",
+    "label": "lashes",
+    "source": "originals/board-04.jpg",
+    "box": [
+      996,
+      198,
+      1076,
+      250
+    ],
+    "source_size": [
+      80,
+      52
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/features/02_lashes.png",
+    "upscaled": "upscaled/board-04/features/02_lashes.png",
+    "raw_sha256": "cc6b8cc445be3b96c3b2a9a92b0bcae01c32ed718dd57fdc3ecbc057f08eeb6e",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "features",
+    "label": "eye_makeup",
+    "source": "originals/board-04.jpg",
+    "box": [
+      1076,
+      198,
+      1155,
+      250
+    ],
+    "source_size": [
+      79,
+      52
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/features/03_eye_makeup.png",
+    "upscaled": "upscaled/board-04/features/03_eye_makeup.png",
+    "raw_sha256": "cc9239cfef1062606f8437fddc500591a8f8b3cf503cd49735aea7c5d85b974d",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "features",
+    "label": "nose",
+    "source": "originals/board-04.jpg",
+    "box": [
+      1155,
+      198,
+      1215,
+      250
+    ],
+    "source_size": [
+      60,
+      52
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/features/04_nose.png",
+    "upscaled": "upscaled/board-04/features/04_nose.png",
+    "raw_sha256": "7514155a573a4ccc17c9829de4b48ba451e7d51d6161426f1bad92d0bf30b873",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "features",
+    "label": "lips",
+    "source": "originals/board-04.jpg",
+    "box": [
+      1215,
+      198,
+      1276,
+      250
+    ],
+    "source_size": [
+      61,
+      52
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/features/05_lips.png",
+    "upscaled": "upscaled/board-04/features/05_lips.png",
+    "raw_sha256": "74a7f9ada5c64a1e9a07d1d4a85e6fdb91c4be091484cf5fc53a4b8f7e640cf7",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "face",
+    "label": "eye_close",
+    "source": "originals/board-04.jpg",
+    "box": [
+      916,
+      271,
+      1152,
+      367
+    ],
+    "source_size": [
+      236,
+      96
+    ],
+    "scale": 2,
+    "raw": "crops/board-04/face/04_eye_close.png",
+    "upscaled": "upscaled/board-04/face/04_eye_close.png",
+    "raw_sha256": "a96a1129dd466023c19c5a7f0c6bbde25d9c559ce3e2ee019ab3a27172218128",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "face",
+    "label": "face_lighting",
+    "source": "originals/board-04.jpg",
+    "box": [
+      1152,
+      271,
+      1276,
+      367
+    ],
+    "source_size": [
+      124,
+      96
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/face/05_face_lighting.png",
+    "upscaled": "upscaled/board-04/face/05_face_lighting.png",
+    "raw_sha256": "eddc52183de56b7d358615f6529fccfa98ee79e1fd9370ef0094e60a67078f59",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "expressions",
+    "label": "calm",
+    "source": "originals/board-04.jpg",
+    "box": [
+      7,
+      402,
+      77,
+      484
+    ],
+    "source_size": [
+      70,
+      82
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/expressions/01_calm.png",
+    "upscaled": "upscaled/board-04/expressions/01_calm.png",
+    "raw_sha256": "5466d128991944d20b13811cb444884ca8274094fad6af30c1cf489f87000061",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "expressions",
+    "label": "smile",
+    "source": "originals/board-04.jpg",
+    "box": [
+      77,
+      402,
+      147,
+      484
+    ],
+    "source_size": [
+      70,
+      82
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/expressions/02_smile.png",
+    "upscaled": "upscaled/board-04/expressions/02_smile.png",
+    "raw_sha256": "14384d61f464e2deda9c5dc000d754731490ab2af31fcd1b7e57a6fe72714438",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "expressions",
+    "label": "sad",
+    "source": "originals/board-04.jpg",
+    "box": [
+      147,
+      402,
+      217,
+      484
+    ],
+    "source_size": [
+      70,
+      82
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/expressions/03_sad.png",
+    "upscaled": "upscaled/board-04/expressions/03_sad.png",
+    "raw_sha256": "64ab20c427169d78f41229737317c477940386886bb3c01c811f1e320d6189a5",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "expressions",
+    "label": "surprised",
+    "source": "originals/board-04.jpg",
+    "box": [
+      217,
+      402,
+      285,
+      484
+    ],
+    "source_size": [
+      68,
+      82
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/expressions/04_surprised.png",
+    "upscaled": "upscaled/board-04/expressions/04_surprised.png",
+    "raw_sha256": "8932244d363c42f8cc08d224151af6dcc5412237a3ee9bd254a356e1f7b884be",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "expressions",
+    "label": "angry",
+    "source": "originals/board-04.jpg",
+    "box": [
+      285,
+      402,
+      356,
+      484
+    ],
+    "source_size": [
+      71,
+      82
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/expressions/05_angry.png",
+    "upscaled": "upscaled/board-04/expressions/05_angry.png",
+    "raw_sha256": "f91ccac9c2dc3b738d04ba713c5ac9800e26d87cb7d541d7d9cf62399b3876f3",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "expressions",
+    "label": "cool",
+    "source": "originals/board-04.jpg",
+    "box": [
+      356,
+      402,
+      427,
+      484
+    ],
+    "source_size": [
+      71,
+      82
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/expressions/06_cool.png",
+    "upscaled": "upscaled/board-04/expressions/06_cool.png",
+    "raw_sha256": "e567eeabf9495a67ad927ab1368ae644486f33bca244c0a3300dc1d0a9615848",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "expressions",
+    "label": "gentle",
+    "source": "originals/board-04.jpg",
+    "box": [
+      427,
+      402,
+      497,
+      484
+    ],
+    "source_size": [
+      70,
+      82
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/expressions/07_gentle.png",
+    "upscaled": "upscaled/board-04/expressions/07_gentle.png",
+    "raw_sha256": "469c5dd4b2fea66d35e3ec96cfe07de66251ea4cfcce971dabb9ee887a5dc81d",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "expressions",
+    "label": "focused",
+    "source": "originals/board-04.jpg",
+    "box": [
+      497,
+      402,
+      565,
+      484
+    ],
+    "source_size": [
+      68,
+      82
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/expressions/08_focused.png",
+    "upscaled": "upscaled/board-04/expressions/08_focused.png",
+    "raw_sha256": "1d9289f7032d304ee12303df957351662e12469cf573073ca43ecc819ac2961f",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "scalp",
+    "label": "parting",
+    "source": "originals/board-04.jpg",
+    "box": [
+      578,
+      403,
+      669,
+      483
+    ],
+    "source_size": [
+      91,
+      80
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/scalp/01_parting.png",
+    "upscaled": "upscaled/board-04/scalp/01_parting.png",
+    "raw_sha256": "26ff48c8ab164823cd3545cecca21ef5828f4ba00fc25768b0593c8869f86ca7",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "scalp",
+    "label": "scalp",
+    "source": "originals/board-04.jpg",
+    "box": [
+      669,
+      403,
+      750,
+      483
+    ],
+    "source_size": [
+      81,
+      80
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/scalp/02_scalp.png",
+    "upscaled": "upscaled/board-04/scalp/02_scalp.png",
+    "raw_sha256": "69b52609b37797afb8f6b13f7f1f10ad2547c89596cdaa4d0d27f6b608a3d791",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "scalp",
+    "label": "roots",
+    "source": "originals/board-04.jpg",
+    "box": [
+      750,
+      403,
+      825,
+      483
+    ],
+    "source_size": [
+      75,
+      80
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/scalp/03_roots.png",
+    "upscaled": "upscaled/board-04/scalp/03_roots.png",
+    "raw_sha256": "8d18b9937505a8ea91cf9eef0e9320c2bb409dd9f23305b37a40916cd73d3ea8",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "scalp",
+    "label": "layers",
+    "source": "originals/board-04.jpg",
+    "box": [
+      825,
+      403,
+      899,
+      483
+    ],
+    "source_size": [
+      74,
+      80
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/scalp/04_layers.png",
+    "upscaled": "upscaled/board-04/scalp/04_layers.png",
+    "raw_sha256": "74b5ba11a74f6abde4b98e2a95819e0348c0bee339064406ba091f496ece7d9e",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "scalp",
+    "label": "section",
+    "source": "originals/board-04.jpg",
+    "box": [
+      899,
+      403,
+      965,
+      483
+    ],
+    "source_size": [
+      66,
+      80
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/scalp/05_section.png",
+    "upscaled": "upscaled/board-04/scalp/05_section.png",
+    "raw_sha256": "ba56bcee31e915a424ef5aa9a9891580b93a477cdbcd313dda6a6984cdaf7e63",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "hair",
+    "label": "front",
+    "source": "originals/board-04.jpg",
+    "box": [
+      980,
+      403,
+      1054,
+      483
+    ],
+    "source_size": [
+      74,
+      80
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/hair/01_front.png",
+    "upscaled": "upscaled/board-04/hair/01_front.png",
+    "raw_sha256": "c7889c230f8edd5c5f8e9fba3c1b02458161297b230d05f67113003775d337f7",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "hair",
+    "label": "side",
+    "source": "originals/board-04.jpg",
+    "box": [
+      1054,
+      403,
+      1129,
+      483
+    ],
+    "source_size": [
+      75,
+      80
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/hair/02_side.png",
+    "upscaled": "upscaled/board-04/hair/02_side.png",
+    "raw_sha256": "a2787392b747c674f1d2db07ad884bbc04d6b3cd9512fa5055a1e88bba5200ec",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "hair",
+    "label": "back",
+    "source": "originals/board-04.jpg",
+    "box": [
+      1129,
+      403,
+      1200,
+      483
+    ],
+    "source_size": [
+      71,
+      80
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/hair/03_back.png",
+    "upscaled": "upscaled/board-04/hair/03_back.png",
+    "raw_sha256": "aa23a157cf559f5ab4f2d325944e60639fe4d079c397fce78c2bb09141ec1271",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "hair",
+    "label": "angle45",
+    "source": "originals/board-04.jpg",
+    "box": [
+      1200,
+      403,
+      1275,
+      483
+    ],
+    "source_size": [
+      75,
+      80
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/hair/04_angle45.png",
+    "upscaled": "upscaled/board-04/hair/04_angle45.png",
+    "raw_sha256": "e8f3364dffe7f99dc048f2f441fd7258659123220d1fd2a004b1962ae074ce72",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "body",
+    "label": "skeleton_front",
+    "source": "originals/board-04.jpg",
+    "box": [
+      7,
+      533,
+      75,
+      728
+    ],
+    "source_size": [
+      68,
+      195
+    ],
+    "scale": 2,
+    "raw": "crops/board-04/body/01_skeleton_front.png",
+    "upscaled": "upscaled/board-04/body/01_skeleton_front.png",
+    "raw_sha256": "37a3f180574cd4613434a0e48d48ac63b547987f92722f35fd467f73d640e1d4",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "body",
+    "label": "skeleton_side",
+    "source": "originals/board-04.jpg",
+    "box": [
+      75,
+      533,
+      127,
+      728
+    ],
+    "source_size": [
+      52,
+      195
+    ],
+    "scale": 2,
+    "raw": "crops/board-04/body/02_skeleton_side.png",
+    "upscaled": "upscaled/board-04/body/02_skeleton_side.png",
+    "raw_sha256": "dbe38486fb545eb9d160739e572a0667e21c6ac8f909c4767dfed8024987c11e",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "body",
+    "label": "skeleton_back",
+    "source": "originals/board-04.jpg",
+    "box": [
+      127,
+      533,
+      171,
+      728
+    ],
+    "source_size": [
+      44,
+      195
+    ],
+    "scale": 2,
+    "raw": "crops/board-04/body/03_skeleton_back.png",
+    "upscaled": "upscaled/board-04/body/03_skeleton_back.png",
+    "raw_sha256": "e586ccac8833fef409e6dcb1e385ee0d251013ed17d9bee5489a370b620dc432",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "body",
+    "label": "body_front",
+    "source": "originals/board-04.jpg",
+    "box": [
+      171,
+      533,
+      238,
+      728
+    ],
+    "source_size": [
+      67,
+      195
+    ],
+    "scale": 2,
+    "raw": "crops/board-04/body/04_body_front.png",
+    "upscaled": "upscaled/board-04/body/04_body_front.png",
+    "raw_sha256": "d0fd75a5db7c0a9123c344d5929c27c80872d180fb670d372504dbe38ad16a13",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "body",
+    "label": "body_back",
+    "source": "originals/board-04.jpg",
+    "box": [
+      238,
+      533,
+      300,
+      728
+    ],
+    "source_size": [
+      62,
+      195
+    ],
+    "scale": 2,
+    "raw": "crops/board-04/body/05_body_back.png",
+    "upscaled": "upscaled/board-04/body/05_body_back.png",
+    "raw_sha256": "5e1b205543c68b534e25bd74abe83f00b7ca6d779ee26c448a90a9d32abe2ab7",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "body",
+    "label": "joints",
+    "source": "originals/board-04.jpg",
+    "box": [
+      303,
+      534,
+      369,
+      609
+    ],
+    "source_size": [
+      66,
+      75
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/body/06_joints.png",
+    "upscaled": "upscaled/board-04/body/06_joints.png",
+    "raw_sha256": "24beccbbbdc751e99201c6c5d78f109069a659a1e9515f3f8006e82021169d77",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "body",
+    "label": "back",
+    "source": "originals/board-04.jpg",
+    "box": [
+      369,
+      534,
+      424,
+      609
+    ],
+    "source_size": [
+      55,
+      75
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/body/07_back.png",
+    "upscaled": "upscaled/board-04/body/07_back.png",
+    "raw_sha256": "f7ae49e56beaeec7fc8b588471b9f258ad12c4b3097124e1140d21b155710022",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "body",
+    "label": "arm",
+    "source": "originals/board-04.jpg",
+    "box": [
+      424,
+      534,
+      478,
+      609
+    ],
+    "source_size": [
+      54,
+      75
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/body/08_arm.png",
+    "upscaled": "upscaled/board-04/body/08_arm.png",
+    "raw_sha256": "148f7ad61ce70052db21e96c6ccd8cacd68793d789fdfd38c4d04e54819e9434",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "body",
+    "label": "waist",
+    "source": "originals/board-04.jpg",
+    "box": [
+      478,
+      534,
+      540,
+      609
+    ],
+    "source_size": [
+      62,
+      75
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/body/09_waist.png",
+    "upscaled": "upscaled/board-04/body/09_waist.png",
+    "raw_sha256": "ca8ec5d2a89378fc01399f8a49a9646645828fee661854cafcb6d9957ed81c3f",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "body",
+    "label": "shoulder",
+    "source": "originals/board-04.jpg",
+    "box": [
+      303,
+      650,
+      369,
+      723
+    ],
+    "source_size": [
+      66,
+      73
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/body/10_shoulder.png",
+    "upscaled": "upscaled/board-04/body/10_shoulder.png",
+    "raw_sha256": "ef4ab99d051cd76a60a1c06c91fd8611bd02a755d45a3c16927c9d549998a1c2",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "body",
+    "label": "pelvis",
+    "source": "originals/board-04.jpg",
+    "box": [
+      369,
+      650,
+      424,
+      723
+    ],
+    "source_size": [
+      55,
+      73
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/body/11_pelvis.png",
+    "upscaled": "upscaled/board-04/body/11_pelvis.png",
+    "raw_sha256": "a7fcb2a079c8b5abfdfb91a044a599409bebde508b7bc0198287f47f11c26eff",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "body",
+    "label": "knee",
+    "source": "originals/board-04.jpg",
+    "box": [
+      424,
+      650,
+      478,
+      723
+    ],
+    "source_size": [
+      54,
+      73
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/body/12_knee.png",
+    "upscaled": "upscaled/board-04/body/12_knee.png",
+    "raw_sha256": "5baad4ea0c0306f36a97fa670803a68cdeedba46218236271b7c08d12b079a52",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "body",
+    "label": "knee_side",
+    "source": "originals/board-04.jpg",
+    "box": [
+      478,
+      650,
+      540,
+      723
+    ],
+    "source_size": [
+      62,
+      73
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/body/13_knee_side.png",
+    "upscaled": "upscaled/board-04/body/13_knee_side.png",
+    "raw_sha256": "6d9f8aa719d89e4a414487b8ac4e6ee4500bd1b2e4d2f1d7ea84d5be2b1125fd",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "body",
+    "label": "hand",
+    "source": "originals/board-04.jpg",
+    "box": [
+      7,
+      750,
+      77,
+      823
+    ],
+    "source_size": [
+      70,
+      73
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/body/14_hand.png",
+    "upscaled": "upscaled/board-04/body/14_hand.png",
+    "raw_sha256": "c80541c77e5ec8bc44ba8e0d747d9bd650f3bb1dccda5ba6be1cfded83bf1ee3",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "body",
+    "label": "hand_bones",
+    "source": "originals/board-04.jpg",
+    "box": [
+      77,
+      750,
+      149,
+      823
+    ],
+    "source_size": [
+      72,
+      73
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/body/15_hand_bones.png",
+    "upscaled": "upscaled/board-04/body/15_hand_bones.png",
+    "raw_sha256": "845549c663562eea53b37168472f3911e49489c7bc0e5510d01d6ead4bb7a6c9",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "body",
+    "label": "foot",
+    "source": "originals/board-04.jpg",
+    "box": [
+      149,
+      750,
+      220,
+      823
+    ],
+    "source_size": [
+      71,
+      73
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/body/16_foot.png",
+    "upscaled": "upscaled/board-04/body/16_foot.png",
+    "raw_sha256": "cd73e5a9081c4875e80c6175b6b742dd07851c4fe14cf5d50de2c46fbb27bac1",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "body",
+    "label": "foot_detail",
+    "source": "originals/board-04.jpg",
+    "box": [
+      220,
+      750,
+      300,
+      823
+    ],
+    "source_size": [
+      80,
+      73
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/body/17_foot_detail.png",
+    "upscaled": "upscaled/board-04/body/17_foot_detail.png",
+    "raw_sha256": "f12ddcf9ed5621370e5b761fc56fc6edbc57d45ef2949f903d4d114a236d0b78",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "body",
+    "label": "knee",
+    "source": "originals/board-04.jpg",
+    "box": [
+      300,
+      750,
+      360,
+      823
+    ],
+    "source_size": [
+      60,
+      73
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/body/18_knee.png",
+    "upscaled": "upscaled/board-04/body/18_knee.png",
+    "raw_sha256": "a1b04b46184674a2bf4524d53e0e17bc5dfadae1f809352005f18608eba012fe",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "body",
+    "label": "shoulder_joint",
+    "source": "originals/board-04.jpg",
+    "box": [
+      360,
+      750,
+      422,
+      823
+    ],
+    "source_size": [
+      62,
+      73
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/body/19_shoulder_joint.png",
+    "upscaled": "upscaled/board-04/body/19_shoulder_joint.png",
+    "raw_sha256": "e84c95b1c6dda12f57b44534935c696e5900e5d4340c28bd317b10006986014f",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "body",
+    "label": "spine",
+    "source": "originals/board-04.jpg",
+    "box": [
+      422,
+      750,
+      480,
+      823
+    ],
+    "source_size": [
+      58,
+      73
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/body/20_spine.png",
+    "upscaled": "upscaled/board-04/body/20_spine.png",
+    "raw_sha256": "fa83998275cc7c803826a261eadc0e99c1476a1c8d9ed4a7cd6d2aaf80825050",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "body",
+    "label": "torso",
+    "source": "originals/board-04.jpg",
+    "box": [
+      480,
+      750,
+      540,
+      823
+    ],
+    "source_size": [
+      60,
+      73
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/body/21_torso.png",
+    "upscaled": "upscaled/board-04/body/21_torso.png",
+    "raw_sha256": "e0b3fda23efe38e8f46e214a23d8734f6ddab62980df30960ca7156ae38798a8",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "clothing",
+    "label": "overall",
+    "source": "originals/board-04.jpg",
+    "box": [
+      551,
+      533,
+      658,
+      687
+    ],
+    "source_size": [
+      107,
+      154
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/clothing/01_overall.png",
+    "upscaled": "upscaled/board-04/clothing/01_overall.png",
+    "raw_sha256": "657b980f7680d75bb46c8b816679181aa000cae1c4facee4183787a3f7a27ead",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "clothing",
+    "label": "inner_layer",
+    "source": "originals/board-04.jpg",
+    "box": [
+      658,
+      533,
+      718,
+      687
+    ],
+    "source_size": [
+      60,
+      154
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/clothing/02_inner_layer.png",
+    "upscaled": "upscaled/board-04/clothing/02_inner_layer.png",
+    "raw_sha256": "6bfc43f9fc6433a3d347838b32b65602d915511dc3354117df2ebdbbda8b9b7b",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "clothing",
+    "label": "skirt_structure",
+    "source": "originals/board-04.jpg",
+    "box": [
+      718,
+      533,
+      780,
+      687
+    ],
+    "source_size": [
+      62,
+      154
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/clothing/03_skirt_structure.png",
+    "upscaled": "upscaled/board-04/clothing/03_skirt_structure.png",
+    "raw_sha256": "ab5eee0f2417d90cbadfb895c3d6b95825ca911647372f559caf58268395bb92",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "clothing",
+    "label": "ribbon",
+    "source": "originals/board-04.jpg",
+    "box": [
+      780,
+      533,
+      849,
+      687
+    ],
+    "source_size": [
+      69,
+      154
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/clothing/04_ribbon.png",
+    "upscaled": "upscaled/board-04/clothing/04_ribbon.png",
+    "raw_sha256": "83840d8f3434b81973782313871e4b477b34a6120f5d7b0140d2c5e9d4142729",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "clothing",
+    "label": "metal_details",
+    "source": "originals/board-04.jpg",
+    "box": [
+      849,
+      533,
+      909,
+      687
+    ],
+    "source_size": [
+      60,
+      154
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/clothing/05_metal_details.png",
+    "upscaled": "upscaled/board-04/clothing/05_metal_details.png",
+    "raw_sha256": "3655aadbcbe8226c7753190c3a35f427d7482a385c75fbb8fe4ef16ca58f5b80",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "clothing",
+    "label": "back_layers",
+    "source": "originals/board-04.jpg",
+    "box": [
+      909,
+      533,
+      969,
+      687
+    ],
+    "source_size": [
+      60,
+      154
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/clothing/06_back_layers.png",
+    "upscaled": "upscaled/board-04/clothing/06_back_layers.png",
+    "raw_sha256": "51e12f5adca414c025a8e495afa242a9bccd14daeacb998f8b762fd943ca9de3",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "accessories",
+    "label": "hairpin",
+    "source": "originals/board-04.jpg",
+    "box": [
+      552,
+      720,
+      626,
+      823
+    ],
+    "source_size": [
+      74,
+      103
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/accessories/01_hairpin.png",
+    "upscaled": "upscaled/board-04/accessories/01_hairpin.png",
+    "raw_sha256": "0f7153d72e9da5d3e1ddc99f171ba1d921b80b591a6cc2564f675744d5793d8e",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "accessories",
+    "label": "earring",
+    "source": "originals/board-04.jpg",
+    "box": [
+      626,
+      720,
+      682,
+      823
+    ],
+    "source_size": [
+      56,
+      103
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/accessories/02_earring.png",
+    "upscaled": "upscaled/board-04/accessories/02_earring.png",
+    "raw_sha256": "88f10c4b8550cfc0903a165437bc9b591c6260726d146a547f0ab10e297d72c8",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "accessories",
+    "label": "necklace",
+    "source": "originals/board-04.jpg",
+    "box": [
+      682,
+      720,
+      744,
+      823
+    ],
+    "source_size": [
+      62,
+      103
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/accessories/03_necklace.png",
+    "upscaled": "upscaled/board-04/accessories/03_necklace.png",
+    "raw_sha256": "4aedd94cd3620c04765a696feb5be26b9be3f765d6ab3252ee3ac22b344553c3",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "accessories",
+    "label": "waist",
+    "source": "originals/board-04.jpg",
+    "box": [
+      744,
+      720,
+      800,
+      823
+    ],
+    "source_size": [
+      56,
+      103
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/accessories/04_waist.png",
+    "upscaled": "upscaled/board-04/accessories/04_waist.png",
+    "raw_sha256": "2e1b6aafdb0e9db1cbaac27c0a7175b9bdc1d01d8e32cc36ceb6aa3e27bbf032",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "accessories",
+    "label": "arm_ornament",
+    "source": "originals/board-04.jpg",
+    "box": [
+      800,
+      720,
+      856,
+      823
+    ],
+    "source_size": [
+      56,
+      103
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/accessories/05_arm_ornament.png",
+    "upscaled": "upscaled/board-04/accessories/05_arm_ornament.png",
+    "raw_sha256": "e02646eaf318330a38589bf7efca42a261b83a738a564d342089554b6f7bed3c",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "accessories",
+    "label": "ribbon",
+    "source": "originals/board-04.jpg",
+    "box": [
+      856,
+      720,
+      913,
+      823
+    ],
+    "source_size": [
+      57,
+      103
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/accessories/06_ribbon.png",
+    "upscaled": "upscaled/board-04/accessories/06_ribbon.png",
+    "raw_sha256": "26c0463d921b658fa1fc1417bff0d1cd653b0f18308b20e2e484cfded4745ba8",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "accessories",
+    "label": "shoe_ornament",
+    "source": "originals/board-04.jpg",
+    "box": [
+      913,
+      720,
+      969,
+      823
+    ],
+    "source_size": [
+      56,
+      103
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/accessories/07_shoe_ornament.png",
+    "upscaled": "upscaled/board-04/accessories/07_shoe_ornament.png",
+    "raw_sha256": "ecb351a5f16efa9dc9c5aae1fd2c478368f4f2f3368550e627de8fc8c8d75905",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "materials",
+    "label": "sheer_cloth",
+    "source": "originals/board-04.jpg",
+    "box": [
+      979,
+      534,
+      1040,
+      657
+    ],
+    "source_size": [
+      61,
+      123
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/materials/01_sheer_cloth.png",
+    "upscaled": "upscaled/board-04/materials/01_sheer_cloth.png",
+    "raw_sha256": "fa3b28a9abb4872de71ec4799ec7aba9510da070fef0f243c3cf2313efd9404b",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "materials",
+    "label": "metal",
+    "source": "originals/board-04.jpg",
+    "box": [
+      1040,
+      534,
+      1100,
+      657
+    ],
+    "source_size": [
+      60,
+      123
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/materials/02_metal.png",
+    "upscaled": "upscaled/board-04/materials/02_metal.png",
+    "raw_sha256": "d117f7a4f8bd04ca7dbc938ed8d8e72fc791a19bd8fead615050d720d9da93c8",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "materials",
+    "label": "gem",
+    "source": "originals/board-04.jpg",
+    "box": [
+      1100,
+      534,
+      1158,
+      657
+    ],
+    "source_size": [
+      58,
+      123
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/materials/03_gem.png",
+    "upscaled": "upscaled/board-04/materials/03_gem.png",
+    "raw_sha256": "16f91ac82172e4289edb3a03f30372bd328a9804799d5d8c275f13dbf969c33d",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "materials",
+    "label": "fabric_pattern",
+    "source": "originals/board-04.jpg",
+    "box": [
+      1158,
+      534,
+      1217,
+      657
+    ],
+    "source_size": [
+      59,
+      123
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/materials/04_fabric_pattern.png",
+    "upscaled": "upscaled/board-04/materials/04_fabric_pattern.png",
+    "raw_sha256": "59ac84b7a46b45492c11baf23a1cd37c4707aa4c06754f497a3a1aa10bdd025d",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "materials",
+    "label": "embroidery",
+    "source": "originals/board-04.jpg",
+    "box": [
+      1217,
+      534,
+      1275,
+      657
+    ],
+    "source_size": [
+      58,
+      123
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/materials/05_embroidery.png",
+    "upscaled": "upscaled/board-04/materials/05_embroidery.png",
+    "raw_sha256": "5268673b23aa037d1c02db31bee73040d6d391dce31032e1c2bd3d47c5130610",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "accessories",
+    "label": "shoe_front",
+    "source": "originals/board-04.jpg",
+    "box": [
+      979,
+      709,
+      1039,
+      823
+    ],
+    "source_size": [
+      60,
+      114
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/accessories/08_shoe_front.png",
+    "upscaled": "upscaled/board-04/accessories/08_shoe_front.png",
+    "raw_sha256": "dcd813264afc2a59c5583e4677f719e1f6d5e2189ac67d84517ecba62a6be878",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "accessories",
+    "label": "shoe_side",
+    "source": "originals/board-04.jpg",
+    "box": [
+      1039,
+      709,
+      1103,
+      823
+    ],
+    "source_size": [
+      64,
+      114
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/accessories/09_shoe_side.png",
+    "upscaled": "upscaled/board-04/accessories/09_shoe_side.png",
+    "raw_sha256": "64afd300bcb58bd97ddbcbe865c099829090ae552fc230517df7bcf64d3e8881",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "accessories",
+    "label": "shoe_detail",
+    "source": "originals/board-04.jpg",
+    "box": [
+      1103,
+      709,
+      1167,
+      823
+    ],
+    "source_size": [
+      64,
+      114
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/accessories/10_shoe_detail.png",
+    "upscaled": "upscaled/board-04/accessories/10_shoe_detail.png",
+    "raw_sha256": "af76f7e7e25b785dde93a1dead4c12fa5b9c4f448f77f6cd450912a1099e2409",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "accessories",
+    "label": "leg_ornament",
+    "source": "originals/board-04.jpg",
+    "box": [
+      1167,
+      709,
+      1225,
+      823
+    ],
+    "source_size": [
+      58,
+      114
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/accessories/11_leg_ornament.png",
+    "upscaled": "upscaled/board-04/accessories/11_leg_ornament.png",
+    "raw_sha256": "54d9fd6090dfec681cc05d2615668f86d379e09a504528299061965bea9473a6",
+    "status": "cropped",
+    "notes": ""
+  },
+  {
+    "board": 4,
+    "category": "accessories",
+    "label": "ankle_chain",
+    "source": "originals/board-04.jpg",
+    "box": [
+      1225,
+      709,
+      1275,
+      823
+    ],
+    "source_size": [
+      50,
+      114
+    ],
+    "scale": 4,
+    "raw": "crops/board-04/accessories/12_ankle_chain.png",
+    "upscaled": "upscaled/board-04/accessories/12_ankle_chain.png",
+    "raw_sha256": "a798f2d28b911059d8dcbb96e3609242cf395177528bcbcd61590233776d7c21",
+    "status": "cropped",
+    "notes": ""
+  }
+]

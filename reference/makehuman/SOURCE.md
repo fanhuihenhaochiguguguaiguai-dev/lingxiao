@@ -7,3 +7,5 @@
 - 本轮新增 `chin_*`、`cheek_*` 形变目标，同样来自 MakeHuman 官方 `makehuman/data/targets/chin` 与 `cheek` 目录，按 CC0 资产许可使用。
 
 - 鼻唇候选使用 `nose-width1-decr`、`nose-width2-decr`、`nose-flaring-decr`、`mouth-lowerlip-volume-decr` 和 `mouth-scale-vert-decr`，同样来自官方 `makehuman/data/targets/nose` 与 `mouth` 的 CC0 图形资产；该候选未应用于正式母版。
+
+- 清璃静态研究使用的 `asian-female-young.target` 与 `universal-female-young-averagemuscle-averageweight.target` 同样是 MakeHuman CC0 资产，与此目录现有 `base.obj` 配套；未使用校园角色的照片投影面部。

@@ -1,0 +1,1228 @@
+{
+  "status": "PASS_LOAD_ONLY_NOT_ART_ACCEPTANCE",
+  "blend": {
+    "meshes": 100,
+    "vertices": 26775,
+    "faces": 26242,
+    "nonmanifold_edges": 1932,
+    "degenerate_faces": 0,
+    "rigs": 0,
+    "actions": 0,
+    "materials": 10,
+    "objects": [
+      {
+        "name": "Qingli female base — CC0 study",
+        "vertices": 13380,
+        "faces": 13378,
+        "uv_layers": 1
+      },
+      {
+        "name": "Eyeball l",
+        "vertices": 266,
+        "faces": 288,
+        "uv_layers": 1
+      },
+      {
+        "name": "Iris l",
+        "vertices": 222,
+        "faces": 240,
+        "uv_layers": 1
+      },
+      {
+        "name": "Eyeball r",
+        "vertices": 266,
+        "faces": 288,
+        "uv_layers": 1
+      },
+      {
+        "name": "Iris r",
+        "vertices": 222,
+        "faces": 240,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fitted bodice shell",
+        "vertices": 1300,
+        "faces": 1220,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 01",
+        "vertices": 231,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 01 hem",
+        "vertices": 110,
+        "faces": 100,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 02",
+        "vertices": 231,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 02 hem",
+        "vertices": 110,
+        "faces": 100,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 03",
+        "vertices": 231,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 03 hem",
+        "vertices": 110,
+        "faces": 100,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 04",
+        "vertices": 231,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 04 hem",
+        "vertices": 110,
+        "faces": 100,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 05",
+        "vertices": 231,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 05 hem",
+        "vertices": 110,
+        "faces": 100,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 06",
+        "vertices": 231,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 06 hem",
+        "vertices": 110,
+        "faces": 100,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 07",
+        "vertices": 231,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 07 hem",
+        "vertices": 110,
+        "faces": 100,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 08",
+        "vertices": 231,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 08 hem",
+        "vertices": 110,
+        "faces": 100,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 09",
+        "vertices": 231,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 09 hem",
+        "vertices": 110,
+        "faces": 100,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 10",
+        "vertices": 231,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 10 hem",
+        "vertices": 110,
+        "faces": 100,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 11",
+        "vertices": 231,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 11 hem",
+        "vertices": 110,
+        "faces": 100,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 12",
+        "vertices": 231,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 12 hem",
+        "vertices": 110,
+        "faces": 100,
+        "uv_layers": 1
+      },
+      {
+        "name": "Front short layered apron",
+        "vertices": 231,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Front short layered apron hem",
+        "vertices": 110,
+        "faces": 100,
+        "uv_layers": 1
+      },
+      {
+        "name": "Shoulder ribbon -1 0",
+        "vertices": 40,
+        "faces": 30,
+        "uv_layers": 1
+      },
+      {
+        "name": "Shoulder ribbon -1 1",
+        "vertices": 40,
+        "faces": 30,
+        "uv_layers": 1
+      },
+      {
+        "name": "Shoulder ribbon -1 2",
+        "vertices": 40,
+        "faces": 30,
+        "uv_layers": 1
+      },
+      {
+        "name": "Shoulder ribbon 1 0",
+        "vertices": 40,
+        "faces": 30,
+        "uv_layers": 1
+      },
+      {
+        "name": "Shoulder ribbon 1 1",
+        "vertices": 40,
+        "faces": 30,
+        "uv_layers": 1
+      },
+      {
+        "name": "Shoulder ribbon 1 2",
+        "vertices": 40,
+        "faces": 30,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair cap",
+        "vertices": 610,
+        "faces": 640,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 00",
+        "vertices": 136,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 01",
+        "vertices": 136,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 02",
+        "vertices": 136,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 03",
+        "vertices": 136,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 04",
+        "vertices": 136,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 05",
+        "vertices": 136,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 06",
+        "vertices": 136,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 07",
+        "vertices": 136,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 08",
+        "vertices": 136,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 09",
+        "vertices": 136,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 10",
+        "vertices": 136,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 11",
+        "vertices": 136,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 12",
+        "vertices": 136,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 13",
+        "vertices": 136,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 14",
+        "vertices": 136,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 15",
+        "vertices": 136,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 16",
+        "vertices": 136,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Face framing lock -1 0",
+        "vertices": 40,
+        "faces": 32,
+        "uv_layers": 1
+      },
+      {
+        "name": "Face framing lock -1 1",
+        "vertices": 40,
+        "faces": 32,
+        "uv_layers": 1
+      },
+      {
+        "name": "Face framing lock -1 2",
+        "vertices": 40,
+        "faces": 32,
+        "uv_layers": 1
+      },
+      {
+        "name": "Face framing lock 1 0",
+        "vertices": 40,
+        "faces": 32,
+        "uv_layers": 1
+      },
+      {
+        "name": "Face framing lock 1 1",
+        "vertices": 40,
+        "faces": 32,
+        "uv_layers": 1
+      },
+      {
+        "name": "Face framing lock 1 2",
+        "vertices": 40,
+        "faces": 32,
+        "uv_layers": 1
+      },
+      {
+        "name": "Swept hairline -1 0",
+        "vertices": 40,
+        "faces": 32,
+        "uv_layers": 1
+      },
+      {
+        "name": "Swept hairline -1 1",
+        "vertices": 40,
+        "faces": 32,
+        "uv_layers": 1
+      },
+      {
+        "name": "Swept hairline -1 2",
+        "vertices": 40,
+        "faces": 32,
+        "uv_layers": 1
+      },
+      {
+        "name": "Swept hairline -1 3",
+        "vertices": 40,
+        "faces": 32,
+        "uv_layers": 1
+      },
+      {
+        "name": "Swept hairline 1 0",
+        "vertices": 40,
+        "faces": 32,
+        "uv_layers": 1
+      },
+      {
+        "name": "Swept hairline 1 1",
+        "vertices": 40,
+        "faces": 32,
+        "uv_layers": 1
+      },
+      {
+        "name": "Swept hairline 1 2",
+        "vertices": 40,
+        "faces": 32,
+        "uv_layers": 1
+      },
+      {
+        "name": "Swept hairline 1 3",
+        "vertices": 40,
+        "faces": 32,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower -1 petal 0",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower -1 petal 1",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower -1 petal 2",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower -1 petal 3",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower -1 petal 4",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower -1 petal 5",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower -1 blue core",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Crown arc -1",
+        "vertices": 30,
+        "faces": 20,
+        "uv_layers": 1
+      },
+      {
+        "name": "Earring -1",
+        "vertices": 20,
+        "faces": 10,
+        "uv_layers": 1
+      },
+      {
+        "name": "Earring gem -1",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower 1 petal 0",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower 1 petal 1",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower 1 petal 2",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower 1 petal 3",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower 1 petal 4",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower 1 petal 5",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower 1 blue core",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Crown arc 1",
+        "vertices": 30,
+        "faces": 20,
+        "uv_layers": 1
+      },
+      {
+        "name": "Earring 1",
+        "vertices": 20,
+        "faces": 10,
+        "uv_layers": 1
+      },
+      {
+        "name": "Earring gem 1",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Bodice flower petal 0",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Bodice flower petal 1",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Bodice flower petal 2",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Bodice flower petal 3",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Bodice flower petal 4",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Bodice flower petal 5",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Bodice flower blue core",
+        "vertices": 114,
+        "faces": 128,
+        "uv_layers": 1
+      },
+      {
+        "name": "Waist blue gem",
+        "vertices": 182,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Waist trim -1",
+        "vertices": 30,
+        "faces": 20,
+        "uv_layers": 1
+      },
+      {
+        "name": "Waist trim 1",
+        "vertices": 30,
+        "faces": 20,
+        "uv_layers": 1
+      }
+    ]
+  },
+  "glb": {
+    "meshes": 100,
+    "vertices": 28149,
+    "faces": 51468,
+    "nonmanifold_edges": 4688,
+    "degenerate_faces": 0,
+    "rigs": 0,
+    "actions": 0,
+    "materials": 10,
+    "objects": [
+      {
+        "name": "Qingli female base — CC0 study",
+        "vertices": 13380,
+        "faces": 26756,
+        "uv_layers": 1
+      },
+      {
+        "name": "Eyeball l",
+        "vertices": 323,
+        "faces": 528,
+        "uv_layers": 1
+      },
+      {
+        "name": "Iris l",
+        "vertices": 271,
+        "faces": 440,
+        "uv_layers": 1
+      },
+      {
+        "name": "Eyeball r",
+        "vertices": 323,
+        "faces": 528,
+        "uv_layers": 1
+      },
+      {
+        "name": "Iris r",
+        "vertices": 271,
+        "faces": 440,
+        "uv_layers": 1
+      },
+      {
+        "name": "Fitted bodice shell",
+        "vertices": 1300,
+        "faces": 2440,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 01",
+        "vertices": 231,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 01 hem",
+        "vertices": 121,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 02",
+        "vertices": 231,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 02 hem",
+        "vertices": 121,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 03",
+        "vertices": 231,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 03 hem",
+        "vertices": 121,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 04",
+        "vertices": 231,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 04 hem",
+        "vertices": 121,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 05",
+        "vertices": 231,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 05 hem",
+        "vertices": 121,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 06",
+        "vertices": 231,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 06 hem",
+        "vertices": 121,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 07",
+        "vertices": 231,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 07 hem",
+        "vertices": 121,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 08",
+        "vertices": 231,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 08 hem",
+        "vertices": 121,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 09",
+        "vertices": 231,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 09 hem",
+        "vertices": 121,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 10",
+        "vertices": 231,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 10 hem",
+        "vertices": 121,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 11",
+        "vertices": 231,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 11 hem",
+        "vertices": 121,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 12",
+        "vertices": 231,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Skirt panel 12 hem",
+        "vertices": 121,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Front short layered apron",
+        "vertices": 231,
+        "faces": 400,
+        "uv_layers": 1
+      },
+      {
+        "name": "Front short layered apron hem",
+        "vertices": 121,
+        "faces": 200,
+        "uv_layers": 1
+      },
+      {
+        "name": "Shoulder ribbon -1 0",
+        "vertices": 44,
+        "faces": 60,
+        "uv_layers": 1
+      },
+      {
+        "name": "Shoulder ribbon -1 1",
+        "vertices": 44,
+        "faces": 60,
+        "uv_layers": 1
+      },
+      {
+        "name": "Shoulder ribbon -1 2",
+        "vertices": 44,
+        "faces": 60,
+        "uv_layers": 1
+      },
+      {
+        "name": "Shoulder ribbon 1 0",
+        "vertices": 44,
+        "faces": 60,
+        "uv_layers": 1
+      },
+      {
+        "name": "Shoulder ribbon 1 1",
+        "vertices": 44,
+        "faces": 60,
+        "uv_layers": 1
+      },
+      {
+        "name": "Shoulder ribbon 1 2",
+        "vertices": 44,
+        "faces": 60,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair cap",
+        "vertices": 691,
+        "faces": 1216,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 00",
+        "vertices": 136,
+        "faces": 256,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 01",
+        "vertices": 136,
+        "faces": 256,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 02",
+        "vertices": 136,
+        "faces": 256,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 03",
+        "vertices": 136,
+        "faces": 256,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 04",
+        "vertices": 136,
+        "faces": 256,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 05",
+        "vertices": 136,
+        "faces": 256,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 06",
+        "vertices": 136,
+        "faces": 256,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 07",
+        "vertices": 136,
+        "faces": 256,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 08",
+        "vertices": 136,
+        "faces": 256,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 09",
+        "vertices": 136,
+        "faces": 256,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 10",
+        "vertices": 136,
+        "faces": 256,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 11",
+        "vertices": 136,
+        "faces": 256,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 12",
+        "vertices": 136,
+        "faces": 256,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 13",
+        "vertices": 136,
+        "faces": 256,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 14",
+        "vertices": 136,
+        "faces": 256,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 15",
+        "vertices": 136,
+        "faces": 256,
+        "uv_layers": 1
+      },
+      {
+        "name": "Back silver hair 16",
+        "vertices": 136,
+        "faces": 256,
+        "uv_layers": 1
+      },
+      {
+        "name": "Face framing lock -1 0",
+        "vertices": 40,
+        "faces": 64,
+        "uv_layers": 1
+      },
+      {
+        "name": "Face framing lock -1 1",
+        "vertices": 40,
+        "faces": 64,
+        "uv_layers": 1
+      },
+      {
+        "name": "Face framing lock -1 2",
+        "vertices": 40,
+        "faces": 64,
+        "uv_layers": 1
+      },
+      {
+        "name": "Face framing lock 1 0",
+        "vertices": 40,
+        "faces": 64,
+        "uv_layers": 1
+      },
+      {
+        "name": "Face framing lock 1 1",
+        "vertices": 40,
+        "faces": 64,
+        "uv_layers": 1
+      },
+      {
+        "name": "Face framing lock 1 2",
+        "vertices": 40,
+        "faces": 64,
+        "uv_layers": 1
+      },
+      {
+        "name": "Swept hairline -1 0",
+        "vertices": 40,
+        "faces": 64,
+        "uv_layers": 1
+      },
+      {
+        "name": "Swept hairline -1 1",
+        "vertices": 40,
+        "faces": 64,
+        "uv_layers": 1
+      },
+      {
+        "name": "Swept hairline -1 2",
+        "vertices": 40,
+        "faces": 64,
+        "uv_layers": 1
+      },
+      {
+        "name": "Swept hairline -1 3",
+        "vertices": 40,
+        "faces": 64,
+        "uv_layers": 1
+      },
+      {
+        "name": "Swept hairline 1 0",
+        "vertices": 40,
+        "faces": 64,
+        "uv_layers": 1
+      },
+      {
+        "name": "Swept hairline 1 1",
+        "vertices": 40,
+        "faces": 64,
+        "uv_layers": 1
+      },
+      {
+        "name": "Swept hairline 1 2",
+        "vertices": 40,
+        "faces": 64,
+        "uv_layers": 1
+      },
+      {
+        "name": "Swept hairline 1 3",
+        "vertices": 40,
+        "faces": 64,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower -1 petal 0",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower -1 petal 1",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower -1 petal 2",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower -1 petal 3",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower -1 petal 4",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower -1 petal 5",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower -1 blue core",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Crown arc -1",
+        "vertices": 33,
+        "faces": 40,
+        "uv_layers": 1
+      },
+      {
+        "name": "Earring -1",
+        "vertices": 22,
+        "faces": 20,
+        "uv_layers": 1
+      },
+      {
+        "name": "Earring gem -1",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower 1 petal 0",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower 1 petal 1",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower 1 petal 2",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower 1 petal 3",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower 1 petal 4",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower 1 petal 5",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Hair flower 1 blue core",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Crown arc 1",
+        "vertices": 33,
+        "faces": 40,
+        "uv_layers": 1
+      },
+      {
+        "name": "Earring 1",
+        "vertices": 22,
+        "faces": 20,
+        "uv_layers": 1
+      },
+      {
+        "name": "Earring gem 1",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Bodice flower petal 0",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Bodice flower petal 1",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Bodice flower petal 2",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Bodice flower petal 3",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Bodice flower petal 4",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Bodice flower petal 5",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Bodice flower blue core",
+        "vertices": 151,
+        "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "Waist blue gem",
+        "vertices": 229,
+        "faces": 360,
+        "uv_layers": 1
+      },
+      {
+        "name": "Waist trim -1",
+        "vertices": 33,
+        "faces": 40,
+        "uv_layers": 1
+      },
+      {
+        "name": "Waist trim 1",
+        "vertices": 33,
+        "faces": 40,
+        "uv_layers": 1
+      }
+    ]
+  },
+  "scope": "static editable study; no validated rig, animation, material bake or face controls"
+}
