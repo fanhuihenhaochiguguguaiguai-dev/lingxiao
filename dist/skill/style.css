@@ -11,3 +11,5 @@
 .skill-buttons button{touch-action:manipulation}
 
 .jump-button{position:absolute;right:max(28px,env(safe-area-inset-right));bottom:138px;width:48px;height:48px;border-radius:50%;background:#112d42a8;border:1px solid #b7cbd377;color:#d9e8ec;touch-action:manipulation;z-index:4}.clean .jump-button{display:none}
+
+.instance-count{position:absolute;bottom:100%;right:0;white-space:nowrap;font-size:10px;color:#b6cadb;padding-bottom:10px;pointer-events:none}.clean .instance-count{display:none}

@@ -8,7 +8,7 @@ export class CharacterMotion {
  blinkOverride:number|null=null;
  private phase=0; private clock=0; private run=0; private weight=0; private nextBlink=2.9; private blinkStart=-10;
  private springs=new Map<string,{x:number;v:number}>();
- readonly sample={gait:'idle',runBlend:0,contactErrors:[] as number[],blink:0,ikLegs:0};
+ readonly sample={castPose:'none',gait:'idle',runBlend:0,contactErrors:[] as number[],blink:0,ikLegs:0};
  constructor(private actor:THREE.Group,private feminine:boolean){
   actor.updateWorldMatrix(true,true);const aq=actor.getWorldQuaternion(new THREE.Quaternion()).invert();
   actor.traverse(o=>{if((o as THREE.Bone).isBone){const b=o as THREE.Bone;this.bones.set(b.name.replace(/\./g,''),b);this.rest.set(b.name,{q:b.quaternion.clone(),p:b.position.clone()})}});
@@ -55,6 +55,14 @@ export class CharacterMotion {
   if(this.clock>this.nextBlink){this.blinkStart=this.clock;this.nextBlink=this.clock+2.7+1.8*(.5+.5*Math.sin(this.clock*1.718))}
   const u=(this.clock-this.blinkStart)/.18;this.sample.blink=this.blinkOverride??(u>=0&&u<1?Math.sin(u*Math.PI):0);
   this.actor.traverse(o=>{const m=o as THREE.Mesh;const dict=m.morphTargetDictionary;if(dict&&m.morphTargetInfluences&&dict.Blink!==undefined)m.morphTargetInfluences[dict.Blink]=this.sample.blink});
-  if(casting&&this.feminine){const pulse=THREE.MathUtils.smoothstep(time,.05,.65)*(1-THREE.MathUtils.smoothstep(time,3.2,4.3));this.turn('upper_armR',-.55*pulse,0,-.24*pulse);this.turn('forearmR',-.48*pulse);this.turn('upper_armL',-.25*pulse,0,.28*pulse);this.turn('forearmL',-.3*pulse);this.turn('chest',-.035*pulse,.10*pulse)}
+  this.sample.castPose='none';
+  if(casting&&this.feminine){
+   const pulse=THREE.MathUtils.smoothstep(time,.04,.55)*(1-THREE.MathUtils.smoothstep(time,1.05,1.8));const tidal=skill===2;this.sample.castPose=tidal?'moon-tide-raise':'frost-feather-release';
+   const swing=Math.sin(cycle*Math.PI*2)*(.16+.25*this.run)*this.weight;
+   this.turn('upper_armR',-swing*(1-pulse)+(tidal?-.30:-.55)*pulse,0,-.24*pulse);this.turn('forearmR',(-.06-.20*this.run)*(1-pulse)+(tidal?-.42:-.48)*pulse);
+   this.turn('upper_armL',swing*(1-pulse)+(tidal?-.92:-.25)*pulse,0,(tidal?.20:.28)*pulse);this.turn('forearmL',(-.06-.20*this.run)*(1-pulse)+(tidal?-.72:-.30)*pulse);
+   this.turn('handL',-.12*pulse,(tidal?.18:0)*pulse,.10*pulse);this.turn('handR',-.10*pulse,0,-.06*pulse);this.turn('chest',-.035*pulse,(tidal?-.06:.10)*pulse);
+  }
+
  }
 }

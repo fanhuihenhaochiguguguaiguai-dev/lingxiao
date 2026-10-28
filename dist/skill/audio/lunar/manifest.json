@@ -1,0 +1,304 @@
+{
+  "sampleRate": 48000,
+  "variants": 3,
+  "styles": {
+    "1": "月华霜羽: bright granular feather and glass transients",
+    "2": "月影寒潮: low resonant lunar field and cold surf"
+  },
+  "files": [
+    {
+      "file": "lunar1-cast-0.ogg",
+      "samples": 55199,
+      "peak": 0.24473898112773895,
+      "rms": 0.03163386881351471,
+      "sha256": "f8d69a6dcfe9bfe517cc8ce37e4c0b061f67f74b1fb5ad7af7a1705468ab0e80"
+    },
+    {
+      "file": "lunar1-cast-1.ogg",
+      "samples": 55199,
+      "peak": 0.2243998795747757,
+      "rms": 0.030827635899186134,
+      "sha256": "fd6483e27ceedfa1cb79c7168281c89224641e63a8819b7cc412efab23fb7b6a"
+    },
+    {
+      "file": "lunar1-cast-2.ogg",
+      "samples": 55199,
+      "peak": 0.232798233628273,
+      "rms": 0.02928674779832363,
+      "sha256": "0043036d47baad7b446e0746fd901243a5eb0d449dcd4797cf045f398212f283"
+    },
+    {
+      "file": "lunar1-moon-0.ogg",
+      "samples": 91200,
+      "peak": 0.2775331735610962,
+      "rms": 0.024529432877898216,
+      "sha256": "6b6ac0a07b340723212f912c8af63019d8919f3b5c7c5a52af225b6ee2624ab4"
+    },
+    {
+      "file": "lunar1-moon-1.ogg",
+      "samples": 91200,
+      "peak": 0.2595212459564209,
+      "rms": 0.025969751179218292,
+      "sha256": "9dd88e59e69a7ac90eefc95dfcee6007b2fa69510e080211eec84254992f009e"
+    },
+    {
+      "file": "lunar1-moon-2.ogg",
+      "samples": 91200,
+      "peak": 0.2855541408061981,
+      "rms": 0.024654272943735123,
+      "sha256": "bad85ca5ab319515ecc1686ae59771ffa5f694cd422f2bc77c7fa3639cb68758"
+    },
+    {
+      "file": "lunar1-crystal-0.ogg",
+      "samples": 64800,
+      "peak": 0.3706566393375397,
+      "rms": 0.03571449965238571,
+      "sha256": "aec614a1379ca3370592dc3f840d9758145dc08083e578f1f21fa37afee19958"
+    },
+    {
+      "file": "lunar1-crystal-1.ogg",
+      "samples": 64800,
+      "peak": 0.3063487708568573,
+      "rms": 0.038566604256629944,
+      "sha256": "2e11640a5d10a3ae92da4c3fb844c29ce65c4040f4a82b786bd31facf64e9111"
+    },
+    {
+      "file": "lunar1-crystal-2.ogg",
+      "samples": 64800,
+      "peak": 0.3546094596385956,
+      "rms": 0.036382488906383514,
+      "sha256": "b853301dfdd7823c788280310b7ff38c2b7821f2350af76aa6a5941c5aa23cb1"
+    },
+    {
+      "file": "lunar1-burst-0.ogg",
+      "samples": 105600,
+      "peak": 0.3700564503669739,
+      "rms": 0.04151003435254097,
+      "sha256": "79819171cb648d64a33f6338e5cf9775024e26aaf143305b99305ddeb00c6203"
+    },
+    {
+      "file": "lunar1-burst-1.ogg",
+      "samples": 105600,
+      "peak": 0.41583052277565,
+      "rms": 0.039923086762428284,
+      "sha256": "1836d0671060768591a779a1986e973e09a72fa6bacb791ede58df5117418e63"
+    },
+    {
+      "file": "lunar1-burst-2.ogg",
+      "samples": 105600,
+      "peak": 0.3813607394695282,
+      "rms": 0.041648369282484055,
+      "sha256": "8fbc579aac7d8b439605575f432d9530e1fdd6f7639ba23491ea7c4e14982c93"
+    },
+    {
+      "file": "lunar1-field-0.ogg",
+      "samples": 172800,
+      "peak": 0.19021081924438477,
+      "rms": 0.025021689012646675,
+      "sha256": "d9b05bc0e2fe2b05499975ffc9d5c1206b2de19cb1023137799d1645d4f5e42d"
+    },
+    {
+      "file": "lunar1-field-1.ogg",
+      "samples": 172800,
+      "peak": 0.19492590427398682,
+      "rms": 0.02754349634051323,
+      "sha256": "7ed5d7f9fc41f3bcb29d6c8d3e7c6477e93e886e8cd890aca48905091d6ba6ad"
+    },
+    {
+      "file": "lunar1-field-2.ogg",
+      "samples": 172800,
+      "peak": 0.18872147798538208,
+      "rms": 0.026905328035354614,
+      "sha256": "c71c274070e41ae219026b035faafef2c1f85b6f60ab8f7df5441207b778c5bb"
+    },
+    {
+      "file": "lunar1-hit-0.ogg",
+      "samples": 45600,
+      "peak": 0.2776947319507599,
+      "rms": 0.03722972422838211,
+      "sha256": "79535c3378310f64c682eaa40e7eb14b4f7a9f0f0e3a2fbfb5afad58d6f74281"
+    },
+    {
+      "file": "lunar1-hit-1.ogg",
+      "samples": 45600,
+      "peak": 0.3977603018283844,
+      "rms": 0.04066726192831993,
+      "sha256": "a99ca338ad7e98de320a85b37bc078a08aea5a646251fa2654eda3d0046a69e0"
+    },
+    {
+      "file": "lunar1-hit-2.ogg",
+      "samples": 45600,
+      "peak": 0.39413386583328247,
+      "rms": 0.03884797543287277,
+      "sha256": "14e59461f99d5cabb7bec09cf13aa9145702ea988c615702bcb627d3f9a75150"
+    },
+    {
+      "file": "lunar1-dissolve-0.ogg",
+      "samples": 115200,
+      "peak": 0.1109345555305481,
+      "rms": 0.008739430457353592,
+      "sha256": "e8672ac85e95acb68465fdb5ab535f0d43a1f7c00ba59401265b5cb2a47d0f63"
+    },
+    {
+      "file": "lunar1-dissolve-1.ogg",
+      "samples": 115200,
+      "peak": 0.12734496593475342,
+      "rms": 0.010694843716919422,
+      "sha256": "5c07ecb3d75b598776b70d3afdec54e98f01d6f265e4e3f0f96fa98219cfd9e4"
+    },
+    {
+      "file": "lunar1-dissolve-2.ogg",
+      "samples": 115200,
+      "peak": 0.10672005265951157,
+      "rms": 0.0112967099994421,
+      "sha256": "d4ce3ed4e6eb73faaf3ef22b1cf1b043b011d562a24e4efa425c38534e59c5da"
+    },
+    {
+      "file": "lunar2-cast-0.ogg",
+      "samples": 55199,
+      "peak": 0.18688727915287018,
+      "rms": 0.03239716589450836,
+      "sha256": "8b1ba4ef962ce5745de18d12f5707ea637a5a0cc62edcce9e737e10146a6c7a2"
+    },
+    {
+      "file": "lunar2-cast-1.ogg",
+      "samples": 55199,
+      "peak": 0.27395933866500854,
+      "rms": 0.03543836995959282,
+      "sha256": "3c4e1db8e7aa050f09cf20b6e808feb6d15667e68e6e734a48c8cb397d21ba45"
+    },
+    {
+      "file": "lunar2-cast-2.ogg",
+      "samples": 55199,
+      "peak": 0.24300798773765564,
+      "rms": 0.03493848815560341,
+      "sha256": "1dbe4e471517e7d959ad9d9993a2a0aac3925bf76b77519d9cbe317a0bf04028"
+    },
+    {
+      "file": "lunar2-moon-0.ogg",
+      "samples": 91200,
+      "peak": 0.2958473563194275,
+      "rms": 0.028168294578790665,
+      "sha256": "24796a7c981f1903946e45279924304a547bab4330894cd62bc3dfe87268b3d5"
+    },
+    {
+      "file": "lunar2-moon-1.ogg",
+      "samples": 91200,
+      "peak": 0.28866392374038696,
+      "rms": 0.028607120737433434,
+      "sha256": "af5b821dbd82ab3e148d5d41fb4040ef620b6736766983bbbd574cd5f86fa122"
+    },
+    {
+      "file": "lunar2-moon-2.ogg",
+      "samples": 91200,
+      "peak": 0.22839374840259552,
+      "rms": 0.028487123548984528,
+      "sha256": "fd0aa5e4e186179ca23ebd1f2a9e21604c8c29b27dcee918c791d6aa803f915c"
+    },
+    {
+      "file": "lunar2-crystal-0.ogg",
+      "samples": 64800,
+      "peak": 0.265677809715271,
+      "rms": 0.03755902126431465,
+      "sha256": "e654d7683f8cb43d8c48e4beec119b7be4a676f416bb2ed8b0c75412a15de9a9"
+    },
+    {
+      "file": "lunar2-crystal-1.ogg",
+      "samples": 64800,
+      "peak": 0.2374829798936844,
+      "rms": 0.037558089941740036,
+      "sha256": "164c0237469c602520d7fef7797e5cf89bb0dacaf492096d95dd63c48077726e"
+    },
+    {
+      "file": "lunar2-crystal-2.ogg",
+      "samples": 64800,
+      "peak": 0.30090731382369995,
+      "rms": 0.03890364617109299,
+      "sha256": "b5c6d18c59395f0300f591fdbfcaa59a7c246b192d21aa1ed115f034be40b1ea"
+    },
+    {
+      "file": "lunar2-burst-0.ogg",
+      "samples": 105600,
+      "peak": 0.4027225971221924,
+      "rms": 0.04718693718314171,
+      "sha256": "7b367bb84e372f2d5784b06ab07c23f9d61a3e67687c1b81cfa5a913515f82f9"
+    },
+    {
+      "file": "lunar2-burst-1.ogg",
+      "samples": 105600,
+      "peak": 0.3744669258594513,
+      "rms": 0.04830601438879967,
+      "sha256": "061c1676a9350105eb334ecf022835c3f7093c802afc24ef74f4ef34edacfc66"
+    },
+    {
+      "file": "lunar2-burst-2.ogg",
+      "samples": 105600,
+      "peak": 0.4176841378211975,
+      "rms": 0.048640668392181396,
+      "sha256": "e1b7195777df5129a2af6ccd01d17c6c506c369d9c3f9a868f556d0d76f3fad6"
+    },
+    {
+      "file": "lunar2-field-0.ogg",
+      "samples": 172800,
+      "peak": 0.19229435920715332,
+      "rms": 0.026252184063196182,
+      "sha256": "64c458e942024d0bf6b4c2f3a9565afc71bd46d4e4bfea3c9b304038a3694d33"
+    },
+    {
+      "file": "lunar2-field-1.ogg",
+      "samples": 172800,
+      "peak": 0.21179845929145813,
+      "rms": 0.02767850086092949,
+      "sha256": "a12c8f76a7b9b5e4bdbd56259743efb36eab44534a78d705111a76d003e7daba"
+    },
+    {
+      "file": "lunar2-field-2.ogg",
+      "samples": 172800,
+      "peak": 0.23430390655994415,
+      "rms": 0.028384201228618622,
+      "sha256": "868c1171e438215b8980c81e7eb4589ff01db0ab9cddc935f99c720d423421b8"
+    },
+    {
+      "file": "lunar2-hit-0.ogg",
+      "samples": 45600,
+      "peak": 0.24217210710048676,
+      "rms": 0.035408277064561844,
+      "sha256": "654bb7426ed69a5ae4d80d10aa91200252400c1dc91d0b381a96558642add9ed"
+    },
+    {
+      "file": "lunar2-hit-1.ogg",
+      "samples": 45600,
+      "peak": 0.28438887000083923,
+      "rms": 0.03648046776652336,
+      "sha256": "b517a42dd58b0a999c2e5812d2716b914e7fd280af60a261026fb7a680c7ccc5"
+    },
+    {
+      "file": "lunar2-hit-2.ogg",
+      "samples": 45600,
+      "peak": 0.23621749877929688,
+      "rms": 0.03856854885816574,
+      "sha256": "90aae072db9aa49e75cdd00c5092cbcb81b9152dae09ac25a8930164b059e31e"
+    },
+    {
+      "file": "lunar2-dissolve-0.ogg",
+      "samples": 115200,
+      "peak": 0.10381685197353363,
+      "rms": 0.012362119741737843,
+      "sha256": "d05495f452c5c9a35cb0843db030a81617ba975b66b0180b2ad6cfc384dc74a7"
+    },
+    {
+      "file": "lunar2-dissolve-1.ogg",
+      "samples": 115200,
+      "peak": 0.13621306419372559,
+      "rms": 0.013696831651031971,
+      "sha256": "0349d2d5ae67d1e260615ecc4d464c6953d64427583f84cecad5e8be9b8ca316"
+    },
+    {
+      "file": "lunar2-dissolve-2.ogg",
+      "samples": 115200,
+      "peak": 0.10636495053768158,
+      "rms": 0.0127998236566782,
+      "sha256": "6aacc61ab7711d6fa539e8217bf4128d2c73aed21e03f8c6593991b9ba11d693"
+    }
+  ]
+}

@@ -1,0 +1,1050 @@
+{
+  "archiveSha256": "a9d79ff73027888e824915b82fa452eb0e3b7ffcab99f98e38e90ccef5a14b85",
+  "files": [
+    {
+      "path": "A_视觉总览/A_001_人物_角色正面面部与施法特写.webp",
+      "bytes": 40324,
+      "sha256": "7f1ec326bf08383e3383f31e0873037fde22bf5c6f1234810d11b90c45ffe910",
+      "dimensions": [
+        241,
+        294
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_002_技能流程_阶段1_施法展示.webp",
+      "bytes": 64578,
+      "sha256": "434a24202ecc4367e610392b2c414c86d140b89b0d4d0ed334ea4e8f6c058e93",
+      "dimensions": [
+        368,
+        400
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_003_技能流程_阶段2_施法展示.webp",
+      "bytes": 83692,
+      "sha256": "6af9508380214a56ff6f6aca4788dceda79fb8ffe5ac689748c4b5a4358b4bf9",
+      "dimensions": [
+        456,
+        400
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_004_技能流程_阶段3_施法展示.webp",
+      "bytes": 83900,
+      "sha256": "400756a0da91b9bf1cd860e27c1e7f665241048381214b029e0a1fdbe47046ac",
+      "dimensions": [
+        444,
+        400
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_005_技能流程_阶段4_施法展示.webp",
+      "bytes": 41834,
+      "sha256": "562bf7cf9188eba94ccc8f3cb70af4c84ab7a28feb70d64885c40ecc9b56bb6d",
+      "dimensions": [
+        303,
+        200
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_006_全景_月影寒潮_主画面全景.webp",
+      "bytes": 334242,
+      "sha256": "dd0631b608412e10f2e3c278ce00dff562e892a89044acd1a93b7d5c60655787",
+      "dimensions": [
+        1448,
+        357
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_007_动态_月轮与人物施法组合.webp",
+      "bytes": 139706,
+      "sha256": "6343237cabdf7e8ec91fe93d92e81eb5c52283a26436681e8866212194917048",
+      "dimensions": [
+        608,
+        353
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_008_动态_侧面霜羽与冰晶飞散.webp",
+      "bytes": 134840,
+      "sha256": "d44e38bfa3190f436835115c0deefdb3fffc6448c9043e7e228b792be1d28396",
+      "dimensions": [
+        588,
+        349
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_009_动态_领域右侧爆发效果.webp",
+      "bytes": 140576,
+      "sha256": "d4d648329d0195533c6ddffa90aacf735e1733a0fee7878568d07cb4e47ec452",
+      "dimensions": [
+        601,
+        359
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_010_多角度_全景效果.webp",
+      "bytes": 33638,
+      "sha256": "3e86eea443fe8d4f08ba1c7433f7823a9e5f728eb11285976c0b87f0a4daa120",
+      "dimensions": [
+        385,
+        128
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_011_多角度_俯视展示.webp",
+      "bytes": 27622,
+      "sha256": "c097f2128f7742995d15e02e5449a7c0046d4c96ed8e117a2f0cd0f14f3b9be3",
+      "dimensions": [
+        299,
+        129
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_012_多角度_侧面展示.webp",
+      "bytes": 29764,
+      "sha256": "793c5d8ff4e07fb6d6aa1fd7cd97efdd303a095f20ab438524c256001f1d330a",
+      "dimensions": [
+        341,
+        126
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_013_五官_角色面部特写.webp",
+      "bytes": 21454,
+      "sha256": "6a10ed709446e85c3345a1a2db5d7bbdf067020a07e2d82b7b1876e809373a59",
+      "dimensions": [
+        264,
+        234
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_014_五官_眼睛特写.webp",
+      "bytes": 7844,
+      "sha256": "6df58b5369fd53078310bac40b552390c6ef65c74277c6c07efd922c0fc95079",
+      "dimensions": [
+        146,
+        144
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_015_饰品_蓝色花形饰品.webp",
+      "bytes": 25406,
+      "sha256": "8bdb3ecc419242642b6ee5ad796e9eb5856f1f7125c732f6d7b10a3ae86baeee",
+      "dimensions": [
+        264,
+        236
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_016_特效细节_素材细节_01.webp",
+      "bytes": 13502,
+      "sha256": "b4f7c8fab8f275bc254f6c9053bf418f92e53a8b0ea0bb0224dd12c9119da93c",
+      "dimensions": [
+        160,
+        192
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_017_特效细节_素材细节_02.webp",
+      "bytes": 12910,
+      "sha256": "ef7c80b0c7e6502576687d7abe8beda5e03165b8077cbf48be23850dbc150efe",
+      "dimensions": [
+        142,
+        192
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_018_特效细节_素材细节_03.webp",
+      "bytes": 11394,
+      "sha256": "f46e73a75057119f7d98eddd9c06b64c103e38c2630326643a52a4db0c04ec36",
+      "dimensions": [
+        138,
+        192
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_019_特效细节_素材细节_04.webp",
+      "bytes": 11192,
+      "sha256": "c9fb0fa8c459a17ae0b0c382d054843130f9f041dba066661e38e1f94c2eb92f",
+      "dimensions": [
+        132,
+        192
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_020_特效细节_素材细节_05.webp",
+      "bytes": 10298,
+      "sha256": "b98ef50ef712aafa7af4e68cdc5e224c22eebd88b1222ea4504bf3107c201bb5",
+      "dimensions": [
+        136,
+        192
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_021_特效细节_素材细节_06.webp",
+      "bytes": 11460,
+      "sha256": "8ff50b087e29a956df46b846c74d158ed040cd1351fc76aec7fbfb9ba3c179f5",
+      "dimensions": [
+        138,
+        192
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_022_特效细节_素材细节_07.webp",
+      "bytes": 8926,
+      "sha256": "eaacd83ae28f3d43d58bd26cf8d6e65eafae49bbb75ed23b57472b11e7f1c8d5",
+      "dimensions": [
+        108,
+        192
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_023_技能构件_核心元素_01.webp",
+      "bytes": 7944,
+      "sha256": "88960762f210f17b42e1b8d3ea3d35125c30e36bf3792b5574caeb185da55e10",
+      "dimensions": [
+        116,
+        186
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_024_技能构件_核心元素_02.webp",
+      "bytes": 10496,
+      "sha256": "ecc14ed0ac840ab4954c6e8d9d4c04861c67045d7448135df2367c9accc757d6",
+      "dimensions": [
+        128,
+        186
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_025_技能构件_核心元素_03.webp",
+      "bytes": 9228,
+      "sha256": "20b6e08b006aa5842f1af302aaafa2c08ba7af3b81e17e7c8b942f67146aa3c9",
+      "dimensions": [
+        124,
+        186
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_026_技能构件_核心元素_04.webp",
+      "bytes": 10076,
+      "sha256": "f531859dc44dabfbf8590a53ef29ac3758e375f6b8f0406a16f10cf340ed8f84",
+      "dimensions": [
+        120,
+        186
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_027_技能构件_核心元素_05.webp",
+      "bytes": 9300,
+      "sha256": "aa5dd086b947147db776e0ed6df0aee920e2f1cfff316dc3d317ace385a27f97",
+      "dimensions": [
+        128,
+        186
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_028_技能构件_核心元素_06.webp",
+      "bytes": 10734,
+      "sha256": "0064fd00e307a4355f62ca1d3a418ac5d64457f9bea5fad4cce5f0618d2118ef",
+      "dimensions": [
+        124,
+        186
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_029_技能构件_核心元素_07.webp",
+      "bytes": 11774,
+      "sha256": "ec6add0022f52669b9f263e240cfec46f4a525f368bba2265a7e96d45d12b45e",
+      "dimensions": [
+        130,
+        186
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_030_范围表现_范围技能效果_01.webp",
+      "bytes": 23854,
+      "sha256": "61426620894b5598eaea73b4a056f8cd53cb3b6c3e611b3394702284e4beaad3",
+      "dimensions": [
+        260,
+        188
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_031_范围表现_范围技能效果_02.webp",
+      "bytes": 20440,
+      "sha256": "0db950e876c48fd4e92122771295b61e6d8ffaed136a75328525c542cef0682b",
+      "dimensions": [
+        248,
+        188
+      ]
+    },
+    {
+      "path": "A_视觉总览/A_032_范围表现_范围技能效果_03.webp",
+      "bytes": 23340,
+      "sha256": "eeef76fd3563a8725cc319a25c774e1eaee1bae366ed7c55e62af25311c6bd4a",
+      "dimensions": [
+        310,
+        188
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_001_人物_面部神韵与起手特写.webp",
+      "bytes": 34228,
+      "sha256": "fb4e5667e76f3782ea3c6480a093b60d685292a658781b6d3d5d55bf4785d73d",
+      "dimensions": [
+        202,
+        294
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_002_主效果_月轮寒潮人物与巨型法阵.webp",
+      "bytes": 134714,
+      "sha256": "3bb4c15cfc80d3ac6cc2f5030fbdcd840ad357f7daf984f2cfd9f1efe9a57f86",
+      "dimensions": [
+        681,
+        290
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_003_面部_面部表情_01.webp",
+      "bytes": 14064,
+      "sha256": "016ecdaa8f953995833ed79636e24c418048d8c126be04cbc0ed62a2cc1e53b6",
+      "dimensions": [
+        186,
+        254
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_004_面部_面部表情_02.webp",
+      "bytes": 16944,
+      "sha256": "b3d06e1e1fceb6dd6281ab51860215d5fd9a1de3a8b7cad43d8d3a450d87e454",
+      "dimensions": [
+        202,
+        254
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_005_面部_面部表情_03.webp",
+      "bytes": 18548,
+      "sha256": "0f1a678d922b113a10fed3c866fa5148cbebd9adbcc3784d980be67050550225",
+      "dimensions": [
+        206,
+        254
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_006_眼部_眼睛细节_01.webp",
+      "bytes": 7356,
+      "sha256": "483a18ecd4990e22e46af8de5ad9ebeb899692307cfaa8bb65d31bf0e61e9243",
+      "dimensions": [
+        152,
+        144
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_007_眼部_眼睛细节_02.webp",
+      "bytes": 5884,
+      "sha256": "2e1183f26411aaa267fecca86508a8f86100ee050a46bcf6c3a889a633ecbdee",
+      "dimensions": [
+        166,
+        144
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_008_眼部_眼睛细节_03.webp",
+      "bytes": 5212,
+      "sha256": "1e2f0ddbfd21d8fd30e0cc8104bf105782d5941ce193a57a54922ec5eebdfa7a",
+      "dimensions": [
+        142,
+        144
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_009_眼部_眼睛细节_04.webp",
+      "bytes": 4558,
+      "sha256": "937207d7cc510ecb382c6daf12f56317aece3ff24623088ac8f08636d3de0fab",
+      "dimensions": [
+        124,
+        144
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_010_施法动作_技能动作_01.webp",
+      "bytes": 22454,
+      "sha256": "6e39c26de30ea02a1bd860964bf25be2671c157cc414e208bf90c37b60e72f77",
+      "dimensions": [
+        322,
+        178
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_011_施法动作_技能动作_02.webp",
+      "bytes": 25804,
+      "sha256": "d2b9dc645e5c61717a5df88a19bccefd8bfb1d29c70b3e2598d6c28ba5f4ecca",
+      "dimensions": [
+        316,
+        178
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_012_施法动作_技能动作_03.webp",
+      "bytes": 23534,
+      "sha256": "3f6e350f78879f77b4a4672cdd70d2f3c6714487cb5443570232fdcd1a204e38",
+      "dimensions": [
+        288,
+        178
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_013_施法动作_技能动作_04.webp",
+      "bytes": 33954,
+      "sha256": "bb96eef5637c4774bed54426a559fc401ca6ca9c3f6622ff75095968c3016cd2",
+      "dimensions": [
+        388,
+        178
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_014_手势_施法手势_01.webp",
+      "bytes": 10728,
+      "sha256": "a15401295404a945f9e7db1fc702baa9bd99bdf5eadc5ad5a33d69537e7aec81",
+      "dimensions": [
+        140,
+        216
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_015_手势_施法手势_02.webp",
+      "bytes": 10646,
+      "sha256": "f3cff8087e7afda7c807bbabfd685ee7beda5e9c770f92fce8b8423045ccf1dd",
+      "dimensions": [
+        136,
+        216
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_016_手势_施法手势_03.webp",
+      "bytes": 12544,
+      "sha256": "fa8b89bc3a49140678807f62149efd3e4b3d6efb8ecd47c1381a7c1e312aa658",
+      "dimensions": [
+        174,
+        216
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_017_手势_施法手势_04.webp",
+      "bytes": 12104,
+      "sha256": "760851e2786c664e616808689d74285437e726df89d6d59c188f3319b0896897",
+      "dimensions": [
+        142,
+        216
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_018_服装动态_服饰与发丝互动_01.webp",
+      "bytes": 11972,
+      "sha256": "c5db5e06a8c19f3e5efb51b4dce24d0c0ad633cacd68e8efea2b732873002764",
+      "dimensions": [
+        144,
+        224
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_019_服装动态_服饰与发丝互动_02.webp",
+      "bytes": 14994,
+      "sha256": "5cb0bbbcb09073262ff434abb887891b7926ea80d58f0e9c50a5498fe965c1e9",
+      "dimensions": [
+        150,
+        224
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_020_服装动态_服饰与发丝互动_03.webp",
+      "bytes": 17482,
+      "sha256": "7b2282dd791d34875f1eae9c7ccc2089f93d9703622c061e959f3702b515309b",
+      "dimensions": [
+        172,
+        224
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_021_服装动态_服饰与发丝互动_04.webp",
+      "bytes": 21622,
+      "sha256": "f1264c1fe69195e0fd6dad7943f3bdb7c672b34799658d0711372e4fce4947c5",
+      "dimensions": [
+        218,
+        224
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_022_月影分身_月影分身角度_01.webp",
+      "bytes": 18166,
+      "sha256": "9f620ab2c7f215fef86bcb895692766c3debb625bc7fc7ae063a2d8c1b7396e5",
+      "dimensions": [
+        170,
+        230
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_023_月影分身_月影分身角度_02.webp",
+      "bytes": 12812,
+      "sha256": "074aba4a621dc1544704cd76dcfb73f1372dc2436f1ded79dc9bd1d98b6cfcdc",
+      "dimensions": [
+        128,
+        230
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_024_月影分身_月影分身角度_03.webp",
+      "bytes": 13062,
+      "sha256": "e8f8620f6c3075afea0162016585c69b8f779431a7a98f7ea4557dc99a8350f5",
+      "dimensions": [
+        132,
+        230
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_025_月影分身_月影分身角度_04.webp",
+      "bytes": 11278,
+      "sha256": "12a2e179008cd906b9f05e43d887fd23b9455d19f1e8ea1dcc895c8726b39e08",
+      "dimensions": [
+        118,
+        230
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_026_月影分身_月影分身角度_05.webp",
+      "bytes": 12232,
+      "sha256": "7d5c7e53408a68c9d8e82c9e2798f1ca9d8b72419509e17dad2d197af69bf55c",
+      "dimensions": [
+        126,
+        230
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_027_局部特写_头部发饰细节_01.webp",
+      "bytes": 7160,
+      "sha256": "2c2b159b8d46e38645f6637bfc2f1a63bf56eb351ec61777aca699838e061b89",
+      "dimensions": [
+        114,
+        174
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_028_局部特写_头部发饰细节_02.webp",
+      "bytes": 9374,
+      "sha256": "3e6f79f9d25e230d97b5c5e7126f7ba0ca6317b4a8166b88c34b37890a26b0d7",
+      "dimensions": [
+        116,
+        174
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_029_月轮_月轮构造_01.webp",
+      "bytes": 11126,
+      "sha256": "dc2615de9caee19ea750ef9a8ecbb21886afc76aeb152f05d1af01b11cc0adf2",
+      "dimensions": [
+        142,
+        220
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_030_月轮_月轮构造_02.webp",
+      "bytes": 12598,
+      "sha256": "b58fe1486536523f11662a711096439a821c4da09397c1ce5f41121a75d8c435",
+      "dimensions": [
+        124,
+        220
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_031_月轮_月轮构造_03.webp",
+      "bytes": 12384,
+      "sha256": "6536d0420e6d20721a6d80351ac5313ac4ad81e03c8b16336f37d1bd88dbadd2",
+      "dimensions": [
+        130,
+        220
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_032_月轮_月轮构造_04.webp",
+      "bytes": 11628,
+      "sha256": "a5069bbae7202600aa06494bec9f1e5a2c7bb16007b48034cf96152e7c7a0137",
+      "dimensions": [
+        132,
+        220
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_033_月轮_月轮构造_05.webp",
+      "bytes": 14964,
+      "sha256": "354c2246a455386566e12e9f3aebe0732a2f8ec940c0c131064a07231786efbe",
+      "dimensions": [
+        174,
+        220
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_034_法阵_立体法阵分层.webp",
+      "bytes": 23048,
+      "sha256": "cbbe815940b39bf1e8866b33e3bb5795acf58b6178a966a1566491b45c35e5bb",
+      "dimensions": [
+        270,
+        133
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_035_法阵花纹_法阵图案细节_01.webp",
+      "bytes": 11938,
+      "sha256": "92447cf92696a2635a68743d5896c789171280477498af74625dd18f158c5cef",
+      "dimensions": [
+        146,
+        216
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_036_法阵花纹_法阵图案细节_02.webp",
+      "bytes": 15104,
+      "sha256": "7d94659feb8ec819c9cdcf2f516326d951b339afb427e72e0ae22d7b8b9161c0",
+      "dimensions": [
+        130,
+        216
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_037_法阵花纹_法阵图案细节_03.webp",
+      "bytes": 12174,
+      "sha256": "601703453dc1ee7702683afc6acc0a04915887b644127376247586b7abe3da49",
+      "dimensions": [
+        110,
+        216
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_038_法阵花纹_法阵图案细节_04.webp",
+      "bytes": 11462,
+      "sha256": "c5ed037c5301ef366cb97624e0ac1e4ec00ab1ed7d1e6cc5fdbfff74569587c0",
+      "dimensions": [
+        106,
+        216
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_039_冰潮_冰潮阶段_01.webp",
+      "bytes": 15436,
+      "sha256": "8013fb46182c4a8b4ee1926d280c3bba5409308db06d03056472a57a83b7e32c",
+      "dimensions": [
+        200,
+        152
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_040_冰潮_冰潮阶段_02.webp",
+      "bytes": 14402,
+      "sha256": "68b3dff5070307dec766d210e5220b9af1d7df1dd72c72debdf6f9bc5fbd3ad9",
+      "dimensions": [
+        208,
+        152
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_041_冰潮_冰潮阶段_03.webp",
+      "bytes": 14462,
+      "sha256": "4b3cf390aadc8c07fc1d04ae2ba14d6ac9733e14e60ab4913f364c15eeb1c632",
+      "dimensions": [
+        218,
+        152
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_042_冰潮_冰潮阶段_04.webp",
+      "bytes": 15324,
+      "sha256": "3d0619876be833862697cb1facff813350b90afdfa92d3c8b4d12f1f3371145f",
+      "dimensions": [
+        226,
+        152
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_043_冰晶_冰晶生成阶段_01.webp",
+      "bytes": 9472,
+      "sha256": "699c3419ff2a744f34e08ce3b9f03046d7c4a4d9f9ce6b8de873b425f5e79da2",
+      "dimensions": [
+        132,
+        156
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_044_冰晶_冰晶生成阶段_02.webp",
+      "bytes": 9726,
+      "sha256": "3b5053da07ecf1e5d18774ee15384bc2bf9d139b8c358c1e59101e5940cb3935",
+      "dimensions": [
+        132,
+        156
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_045_冰晶_冰晶生成阶段_03.webp",
+      "bytes": 7128,
+      "sha256": "b073eda0886c2ede521e339b6d94024bc097019f197f0efda7d2af0e9ba0bffb",
+      "dimensions": [
+        132,
+        156
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_046_冰晶_冰晶生成阶段_04.webp",
+      "bytes": 8268,
+      "sha256": "1cd9eaa53874b590a6060f60a2e2c12cc366e643ddc35f7730150c2d2678966f",
+      "dimensions": [
+        142,
+        156
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_047_冰晶_冰晶生成阶段_05.webp",
+      "bytes": 7160,
+      "sha256": "f5bb1ab618026775b696d2f432d48261105a584dcb2121f8b3138cec2e44614c",
+      "dimensions": [
+        134,
+        156
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_048_霜羽与花瓣_霜羽花瓣特效_01.webp",
+      "bytes": 9206,
+      "sha256": "83c081ea875ba58039756734320a061c0c60b6ab789d71ea8aa8d73c29f40bfd",
+      "dimensions": [
+        146,
+        156
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_049_霜羽与花瓣_霜羽花瓣特效_02.webp",
+      "bytes": 10776,
+      "sha256": "b7d3783adc628b46ce53847a0ea63d0187d5a2cf4b7abe415ff3acaf1b6b91e9",
+      "dimensions": [
+        148,
+        156
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_050_霜羽与花瓣_霜羽花瓣特效_03.webp",
+      "bytes": 6874,
+      "sha256": "b8fb38b3a3fffef839c87911735dd8375e1336d372e688ea5fff417291f20ea9",
+      "dimensions": [
+        130,
+        156
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_051_霜羽与花瓣_霜羽花瓣特效_04.webp",
+      "bytes": 7782,
+      "sha256": "923c5d75ab5b7b588cc3a4dddc10730527da0953be3523fc2fa72f1b06909e00",
+      "dimensions": [
+        130,
+        156
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_052_粒子_粒子细节_01.webp",
+      "bytes": 8220,
+      "sha256": "389087b0f58b2df498fe494aea5a61479c9f756c1407d8216d22fbf2078fddbe",
+      "dimensions": [
+        134,
+        156
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_053_粒子_粒子细节_02.webp",
+      "bytes": 9530,
+      "sha256": "36dd8a911b6c46d646a4a0f465488930bf07fb86d5ef268f1c7968a5e64e2163",
+      "dimensions": [
+        132,
+        156
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_054_粒子_粒子细节_03.webp",
+      "bytes": 7560,
+      "sha256": "16cc1f67c0c0d26ef4c54fb6766674c082be5f26e0747c58067b77df35b9f319",
+      "dimensions": [
+        124,
+        156
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_055_粒子_粒子细节_04.webp",
+      "bytes": 5768,
+      "sha256": "b046d5653ea55df72ae88f0a782893d51a39ddb2c5baae89f86c4e591c8cec88",
+      "dimensions": [
+        128,
+        156
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_056_命中_技能命中爆发.webp",
+      "bytes": 22170,
+      "sha256": "404da8d997f01fb3df33fe21cf9e75cf804af946361ceeec3519e485049f4ba0",
+      "dimensions": [
+        308,
+        110
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_057_领域_持续冰霜领域.webp",
+      "bytes": 23048,
+      "sha256": "4a71c59b2764a5bd221c709ca2d6e0b12db4c5972c09c3a24b0f11ac696cca3c",
+      "dimensions": [
+        306,
+        110
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_058_视角_正面视角.webp",
+      "bytes": 24910,
+      "sha256": "e8e03ab442d121ebf03ae649319afc95df1d01fba2d976f1e665f255c0b510b8",
+      "dimensions": [
+        236,
+        214
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_059_视角_侧面视角.webp",
+      "bytes": 15968,
+      "sha256": "c9b2233893503c0b9b05fc7f109bbb56a959735ab0a7dd772f17d1d909e23070",
+      "dimensions": [
+        192,
+        214
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_060_视角_俯视视角.webp",
+      "bytes": 26796,
+      "sha256": "f4b9330b05bf3233169a7436c410208e06eb5bbc53b81579868fe0b1e2e598fc",
+      "dimensions": [
+        272,
+        214
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_061_战斗_敌群范围控制.webp",
+      "bytes": 27816,
+      "sha256": "6d55acfe1c84ef99810c9b61cfe1b7c5567ae3372a1d03cc4e4daae605d115b0",
+      "dimensions": [
+        396,
+        108
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_062_弹道_弹道与轨迹_01.webp",
+      "bytes": 11466,
+      "sha256": "f58f746ed2f810cd4b83b00ddc1ec002a8134cd4e4c9dfac3e4901a20b5c1ef6",
+      "dimensions": [
+        160,
+        154
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_063_弹道_弹道与轨迹_02.webp",
+      "bytes": 8718,
+      "sha256": "939235d686e099e0706c6842b8bc0af2cc916587a68482f44f2caac7ebb9e529",
+      "dimensions": [
+        136,
+        154
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_064_弹道_弹道与轨迹_03.webp",
+      "bytes": 8008,
+      "sha256": "1e390880a52a719697f95bc583599b12dfe61866858faac9c498c0535ae16b09",
+      "dimensions": [
+        144,
+        154
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_065_弹道_弹道与轨迹_04.webp",
+      "bytes": 6964,
+      "sha256": "46ad5bad06fb9a67e485de61cc0f76e19649340c82ef0939ed270a62b7178ba4",
+      "dimensions": [
+        154,
+        154
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_066_弹道_弹道与轨迹_05.webp",
+      "bytes": 5152,
+      "sha256": "e8352c5e62eae557b219852895587e56163eb564da1485242462fda06614c25a",
+      "dimensions": [
+        110,
+        154
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_067_材质_材质细节_01.webp",
+      "bytes": 7998,
+      "sha256": "4336d519d91f98f5514d58add960ea57eb869de4e30bab97318c3dac429310fd",
+      "dimensions": [
+        138,
+        156
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_068_材质_材质细节_02.webp",
+      "bytes": 8596,
+      "sha256": "5d2397523bf14bf4472c61569839edbf0be7a5e1248f2314a12aa239cc592327",
+      "dimensions": [
+        134,
+        156
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_069_材质_材质细节_03.webp",
+      "bytes": 7862,
+      "sha256": "d2673e3f864a95216d57665a817d7b917740106d20f57eb29c5d8cbeb9a4f481",
+      "dimensions": [
+        140,
+        156
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_070_材质_材质细节_04.webp",
+      "bytes": 6338,
+      "sha256": "9317644fe80ef0364360dacfabcf55f505ca49af6e55159718afb8694fb67ce4",
+      "dimensions": [
+        146,
+        156
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_071_材质_材质细节_05.webp",
+      "bytes": 9148,
+      "sha256": "d3fe8208341e1c3a9ebd4825abd2c5a2cbcf7e52b328b719c8b0eca105d2313f",
+      "dimensions": [
+        146,
+        156
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_072_材质_材质细节_06.webp",
+      "bytes": 7854,
+      "sha256": "abbe852666b734e72095baeaa90962d3ac3714fb930bd8aae3da88e13a0a8c7b",
+      "dimensions": [
+        124,
+        156
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_073_材质_材质细节_07.webp",
+      "bytes": 6012,
+      "sha256": "82dced8c2d535ace7c63913ca2618ef3cda0653af633bf090027d0093a10df55",
+      "dimensions": [
+        90,
+        156
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_074_材质_材质细节_08.webp",
+      "bytes": 6942,
+      "sha256": "aeda9f2d3151407403e3e3456bcd389e2c135c3b6d24a7ef7f3350b07a52d91d",
+      "dimensions": [
+        138,
+        156
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_075_图标_技能图标方案_01.webp",
+      "bytes": 9790,
+      "sha256": "338e99ab832d401c6a4ec10e9569093cfff8641ccaafc2b1069811cbec2a8627",
+      "dimensions": [
+        146,
+        158
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_076_图标_技能图标方案_02.webp",
+      "bytes": 9686,
+      "sha256": "674ca24e07558d997dab70a2a67c092d22a342ebfe3b50b4be2feaf14cefe64e",
+      "dimensions": [
+        132,
+        158
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_077_图标_技能图标方案_03.webp",
+      "bytes": 8250,
+      "sha256": "16e804fbfbbb007c73787943d262fa15c1d88dc5386faf9728f9a1b1c77c8c39",
+      "dimensions": [
+        146,
+        158
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_078_图标_技能图标方案_04.webp",
+      "bytes": 10036,
+      "sha256": "83f053b3293b3437737eb96732200db53bbea7f436d92b94339b904076cf14d7",
+      "dimensions": [
+        170,
+        158
+      ]
+    },
+    {
+      "path": "B_细节图鉴/B_079_图标_技能图标方案_05.webp",
+      "bytes": 9794,
+      "sha256": "bb1c6ec51d326e5fd863d0e8be3ff73a888019b57794b3300de473c173bfcfef",
+      "dimensions": [
+        186,
+        158
+      ]
+    },
+    {
+      "path": "原图参考/A_完整参考图.webp",
+      "bytes": 909916,
+      "sha256": "b307adb7f482dc657836c33d882ae4b097edfed616a12c0b07f14230d6f82a85",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "原图参考/B_完整参考图.webp",
+      "bytes": 837412,
+      "sha256": "ace2c3343f48fa5d7005d8f700aaf7b01febfb3ae5c724e74c349edbb8a97c1a",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "索引与预览/A_缩略图总览.jpg",
+      "bytes": 169215,
+      "sha256": "c5bc680c0be01fe29e525457e11cdac1e7b144c68846d92005f997ba3576987f",
+      "dimensions": [
+        1078,
+        730
+      ]
+    },
+    {
+      "path": "索引与预览/B_缩略图总览.jpg",
+      "bytes": 348949,
+      "sha256": "f1b1706e3009818e8dd05091986c19869b64159de1d64bebea1d3e7bc507dd06",
+      "dimensions": [
+        1078,
+        1752
+      ]
+    },
+    {
+      "path": "索引与预览/分类索引.csv",
+      "bytes": 16494,
+      "sha256": "088110c66264e776cea83bb3eeb21997c93c80d301e08bee043cbf06a30ef548"
+    },
+    {
+      "path": "索引与预览/说明.txt",
+      "bytes": 707,
+      "sha256": "97301388e6eb7f291cb2cdcf0f21e5a12bacda7f6604ac5941014dff1e3a885d"
+    }
+  ]
+}

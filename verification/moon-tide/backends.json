@@ -1,0 +1,50 @@
+{
+  "scope": "same 1100x700 camera, quality and 2.8s simulation time; software GPU only; draw counts are not phone frame-rate results",
+  "checks": {
+    "webgl2-unbatched": {
+      "renderer": "WebGL2",
+      "software": true,
+      "drawCalls": 838,
+      "triangles": 908933,
+      "quality": "high",
+      "tideSample": {
+        "radius": 3.15,
+        "height": 2.6,
+        "echoes": 3,
+        "crystals": 36,
+        "phase": "持续领域"
+      },
+      "instances": 10
+    },
+    "webgl2-batched": {
+      "renderer": "WebGL2",
+      "software": true,
+      "drawCalls": 348,
+      "triangles": 908933,
+      "quality": "high",
+      "tideSample": {
+        "radius": 3.15,
+        "height": 2.6,
+        "echoes": 3,
+        "crystals": 36,
+        "phase": "持续领域"
+      },
+      "instances": 10
+    },
+    "default-backend": {
+      "renderer": "WebGPU",
+      "software": true,
+      "drawCalls": 150,
+      "triangles": 184965,
+      "quality": "high",
+      "tideSample": {
+        "radius": 3.15,
+        "height": 2.6,
+        "echoes": 3,
+        "crystals": 36,
+        "phase": "持续领域"
+      },
+      "instances": 1
+    }
+  }
+}

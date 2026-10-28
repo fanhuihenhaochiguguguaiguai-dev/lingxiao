@@ -41,6 +41,7 @@ export class BindStar {
   this.chainLinks=new THREE.InstancedMesh(new THREE.TorusGeometry(.09,.018,5,10),goldMat,100);this.chainLinks.frustumCulled=false;this.layers.chains.add(this.chainLinks);
   this.particles=new THREE.InstancedMesh(new THREE.OctahedronGeometry(.045,0),lineMat,120);this.particles.frustumCulled=false;this.layers.particles.add(this.particles);
   this.stones=new THREE.InstancedMesh(new THREE.DodecahedronGeometry(.09,0),new THREE.MeshStandardMaterial({color:0x293c53,metalness:.15,roughness:.8}),24);this.stones.frustumCulled=false;this.layers.particles.add(this.stones);
+  const copies=new Map<THREE.Material,THREE.Material>();for(const layer of Object.values(this.layers))layer.traverse(o=>{const m=o as THREE.Mesh;if(m.isMesh){const clone=(mat:THREE.Material)=>{let c=copies.get(mat);if(!c){c=mat.clone();copies.set(mat,c)}return c};if(layer!==this.layers.dragon)m.material=Array.isArray(m.material)?m.material.map(clone):clone(m.material)}});
  }
  setQuality(q:'high'|'ultra'){this.quality=q;this.dragon.setQuality(q);this.chainLinks.count=q==='ultra'?100:70;this.particles.count=q==='ultra'?120:65;this.stones.count=q==='ultra'?24:12;}
  update(t:number,active:boolean,visibility:Record<Layer,boolean>){

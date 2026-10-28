@@ -1,0 +1,27 @@
+{
+  "scope": "Chromium CDP simulated two-finger landscape touch; no actual phone test",
+  "checks": [
+    {
+      "touches": 3,
+      "instances": 3,
+      "audioCastEvents": 3,
+      "movementDistance": 0.45331766892097675
+    },
+    {
+      "touches": 5,
+      "instances": 5,
+      "audioCastEvents": 5,
+      "movementDistance": 0.45331766892097675
+    },
+    {
+      "touches": 10,
+      "instances": 10,
+      "audioCastEvents": 10,
+      "movementDistance": 0.4533176689209768
+    },
+    {
+      "hybridTouchThenMouse": "two distinct inputs create two instances"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,71 @@
+{
+  "scope": "actual desktop software WebGL2 images; no artistic or phone approval",
+  "phases": {
+    "0.3": {
+      "radius": 0,
+      "height": 2.6,
+      "echoes": 3,
+      "crystals": 36,
+      "phase": "凝月"
+    },
+    "0.9": {
+      "radius": 0,
+      "height": 2.6,
+      "echoes": 3,
+      "crystals": 36,
+      "phase": "月影汇聚"
+    },
+    "1.8": {
+      "radius": 2.203343350864012,
+      "height": 2.6,
+      "echoes": 3,
+      "crystals": 36,
+      "phase": "寒潮爆发"
+    },
+    "3.5": {
+      "radius": 3.15,
+      "height": 2.6,
+      "echoes": 3,
+      "crystals": 36,
+      "phase": "持续领域"
+    },
+    "7.6": {
+      "radius": 3.15,
+      "height": 2.6,
+      "echoes": 3,
+      "crystals": 36,
+      "phase": "消散"
+    }
+  },
+  "continuousHitTicks": [
+    {
+      "instanceId": 2,
+      "character": "yueli",
+      "skill": 2,
+      "target": 0,
+      "time": 1.5833333333333326,
+      "tick": 0
+    },
+    {
+      "instanceId": 2,
+      "character": "yueli",
+      "skill": 2,
+      "target": 0,
+      "time": 2.5999999999999956,
+      "tick": 1
+    }
+  ],
+  "slowDisplacementOverHalfSecond": 0.284166666666656,
+  "tenFieldsIndependentHitIds": 10,
+  "tenFieldsHitRecords": 20,
+  "audioReturnedToZero": true,
+  "tenFieldsSample": {
+    "renderer": "WebGL2",
+    "software": true,
+    "fps": 0,
+    "drawCalls": 348,
+    "triangles": 908933,
+    "quality": "high"
+  },
+  "errors": []
+}
