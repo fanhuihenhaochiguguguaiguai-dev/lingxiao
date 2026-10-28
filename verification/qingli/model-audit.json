@@ -1,14 +1,34 @@
 {
   "status": "PASS_LOAD_ONLY_NOT_ART_ACCEPTANCE",
   "blend": {
-    "meshes": 132,
-    "vertices": 36835,
-    "faces": 36352,
-    "nonmanifold_edges": 2336,
+    "meshes": 113,
+    "vertices": 34524,
+    "faces": 33016,
+    "nonmanifold_edges": 4290,
     "degenerate_faces": 0,
     "rigs": 0,
     "actions": 0,
-    "materials": 11,
+    "materials": 12,
+    "textures": [
+      {
+        "material": "Silver hair CC0 candidate",
+        "image": "long01_silver_study.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "linked": true
+      },
+      {
+        "material": "Skin study",
+        "image": "young_asian_female_diffuse.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "linked": true
+      }
+    ],
     "objects": [
       {
         "name": "Qingli female base — CC0 study",
@@ -239,12 +259,6 @@
         "uv_layers": 1
       },
       {
-        "name": "Hair cap",
-        "vertices": 610,
-        "faces": 640,
-        "uv_layers": 1
-      },
-      {
         "name": "Hair flower -1 petal 0",
         "vertices": 114,
         "faces": 128,
@@ -422,120 +436,6 @@
         "name": "Waist trim 1",
         "vertices": 30,
         "faces": 20,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 00",
-        "vertices": 260,
-        "faces": 250,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 01",
-        "vertices": 260,
-        "faces": 250,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 02",
-        "vertices": 260,
-        "faces": 250,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 03",
-        "vertices": 260,
-        "faces": 250,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 04",
-        "vertices": 260,
-        "faces": 250,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 05",
-        "vertices": 260,
-        "faces": 250,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 06",
-        "vertices": 260,
-        "faces": 250,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 07",
-        "vertices": 260,
-        "faces": 250,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 08",
-        "vertices": 260,
-        "faces": 250,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 09",
-        "vertices": 260,
-        "faces": 250,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 10",
-        "vertices": 260,
-        "faces": 250,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 11",
-        "vertices": 260,
-        "faces": 250,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 12",
-        "vertices": 260,
-        "faces": 250,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 13",
-        "vertices": 260,
-        "faces": 250,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 14",
-        "vertices": 260,
-        "faces": 250,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 15",
-        "vertices": 260,
-        "faces": 250,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 16",
-        "vertices": 260,
-        "faces": 250,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 17",
-        "vertices": 260,
-        "faces": 250,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 18",
-        "vertices": 260,
-        "faces": 250,
         "uv_layers": 1
       },
       {
@@ -801,22 +701,48 @@
         "vertices": 114,
         "faces": 128,
         "uv_layers": 1
+      },
+      {
+        "name": "CC0 long hair base candidate",
+        "vertices": 3239,
+        "faces": 2054,
+        "uv_layers": 1
       }
     ]
   },
   "glb": {
-    "meshes": 132,
-    "vertices": 39049,
-    "faces": 71112,
-    "nonmanifold_edges": 6796,
+    "meshes": 113,
+    "vertices": 37867,
+    "faces": 64504,
+    "nonmanifold_edges": 10970,
     "degenerate_faces": 0,
     "rigs": 0,
     "actions": 0,
-    "materials": 11,
+    "materials": 12,
+    "textures": [
+      {
+        "material": "Silver hair CC0 candidate",
+        "image": "long01_silver_study",
+        "size": [
+          2048,
+          2048
+        ],
+        "linked": true
+      },
+      {
+        "material": "Skin study",
+        "image": "young_asian_female_diffuse",
+        "size": [
+          2048,
+          2048
+        ],
+        "linked": true
+      }
+    ],
     "objects": [
       {
         "name": "Qingli female base — CC0 study",
-        "vertices": 13380,
+        "vertices": 14517,
         "faces": 26756,
         "uv_layers": 1
       },
@@ -1043,12 +969,6 @@
         "uv_layers": 1
       },
       {
-        "name": "Hair cap",
-        "vertices": 691,
-        "faces": 1216,
-        "uv_layers": 1
-      },
-      {
         "name": "Hair flower -1 petal 0",
         "vertices": 151,
         "faces": 224,
@@ -1226,120 +1146,6 @@
         "name": "Waist trim 1",
         "vertices": 33,
         "faces": 40,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 00",
-        "vertices": 260,
-        "faces": 500,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 01",
-        "vertices": 260,
-        "faces": 500,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 02",
-        "vertices": 260,
-        "faces": 500,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 03",
-        "vertices": 260,
-        "faces": 500,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 04",
-        "vertices": 260,
-        "faces": 500,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 05",
-        "vertices": 260,
-        "faces": 500,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 06",
-        "vertices": 260,
-        "faces": 500,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 07",
-        "vertices": 260,
-        "faces": 500,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 08",
-        "vertices": 260,
-        "faces": 500,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 09",
-        "vertices": 260,
-        "faces": 500,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 10",
-        "vertices": 260,
-        "faces": 500,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 11",
-        "vertices": 260,
-        "faces": 500,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 12",
-        "vertices": 260,
-        "faces": 500,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 13",
-        "vertices": 260,
-        "faces": 500,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 14",
-        "vertices": 260,
-        "faces": 500,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 15",
-        "vertices": 260,
-        "faces": 500,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 16",
-        "vertices": 260,
-        "faces": 500,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 17",
-        "vertices": 260,
-        "faces": 500,
-        "uv_layers": 1
-      },
-      {
-        "name": "Layered back hair 18",
-        "vertices": 260,
-        "faces": 500,
         "uv_layers": 1
       },
       {
@@ -1604,6 +1410,12 @@
         "name": "Head ornament gem 1",
         "vertices": 151,
         "faces": 224,
+        "uv_layers": 1
+      },
+      {
+        "name": "CC0 long hair base candidate",
+        "vertices": 3312,
+        "faces": 4108,
         "uv_layers": 1
       }
     ]

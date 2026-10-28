@@ -4,20 +4,33 @@ Not a scan, production asset, retopology, rig, or art-approved character.
 from pathlib import Path
 from collections import defaultdict
 from mathutils import Vector, Matrix
-import bpy,math,random,sys
+import bpy,math,random,sys,os
 ROOT=Path(__file__).resolve().parents[1];SRC=ROOT/'reference/makehuman';OUT=Path('/tmp/qingli-study');OUT.mkdir(exist_ok=True)
 bpy.ops.wm.read_factory_settings(use_empty=True);bpy.context.preferences.filepaths.save_version=0;random.seed(32)
-vs=[];faces=[];groups=defaultdict(set);grp=''
+vs=[];uvs=[];faces=[];face_uvs=[];groups=defaultdict(set);grp=''
 for line in (SRC/'base.obj').read_text().splitlines():
  if line.startswith('v '):vs.append(Vector(map(float,line.split()[1:4])))
+ elif line.startswith('vt '):uvs.append(tuple(map(float,line.split()[1:3])))
  elif line.startswith('g '):grp=line[2:]
  elif line.startswith('f '):
-  f=[int(s.split('/')[0])-1 for s in line.split()[1:]];groups[grp].update(f)
-  if grp=='body':faces.append(f)
+  parts=[s.split('/') for s in line.split()[1:]];f=[int(p[0])-1 for p in parts];groups[grp].update(f)
+  if grp=='body':
+   faces.append(f);face_uvs.append([int(p[1])-1 for p in parts])
 for f in ['asian-female-young.target','universal-female-young-averagemuscle-averageweight.target']:
  for line in (SRC/f).read_text().splitlines():
   if line and not line.startswith('#'):
    i,*xyz=line.split();vs[int(i)]+=Vector(map(float,xyz))
+# The working study uses CC0 base-compatible facial deltas. Set the flag to 0
+# to regenerate the prior baseline for fixed-view comparison.
+if os.environ.get('QINGLI_FACE_EXPERIMENT','1')=='1':
+ for f,weight in [('l-eye-scale-incr.target',.55),('r-eye-scale-incr.target',.55),
+                  ('l-eye-height1-incr.target',.35),('r-eye-height1-incr.target',.35),
+                  ('head-oval.target',.25),('chin_chin-width-decr.target',.25),
+                  ('nose-width1-decr.target',.35),('nose-width2-decr.target',.30),
+                  ('mouth-lowerlip-volume-decr.target',.20)]:
+  for line in (SRC/f).read_text().splitlines():
+   if line and not line.startswith('#'):
+    i,*xyz=line.split();vs[int(i)]+=weight*Vector(map(float,xyz))
 bodyids=sorted(groups['body']);ground=min(vs[i].y for i in bodyids);sc=1.68/(max(vs[i].y for i in bodyids)-ground)
 def conv(v):return Vector((v.x*sc,-v.z*sc,(v.y-ground)*sc))
 coords=[conv(v) for v in vs];joints={g:conv(sum((vs[i] for i in ids),Vector())/len(ids)) for g,ids in groups.items() if g.startswith('joint-')}
@@ -46,6 +59,16 @@ def mesh(name,vertices,polygons,material):
  return o
 remap={v:i for i,v in enumerate(bodyids)};body=mesh('Qingli female base — CC0 study',[coords[i] for i in bodyids],[[remap[i] for i in f] for f in faces],skin)
 body['status']='STATIC STUDY — generic CC0 base; likeness, topology, skinning and expressions are not validated'
+if os.environ.get('QINGLI_SKIN_EXPERIMENT','1')=='1':
+ # Original per-corner CC0 UVs avoid the cylindrical study map's seams and
+ # distortion. This is a generic skin texture, not a likeness of the design.
+ uv=body.data.uv_layers.active
+ for polygon,indices in zip(body.data.polygons,face_uvs):
+  for loop_index,uv_index in zip(polygon.loop_indices,indices):uv.data[loop_index].uv=uvs[uv_index]
+ texture=skin.node_tree.nodes.new('ShaderNodeTexImage')
+ texture.image=bpy.data.images.load(str(SRC/'young_asian_female_diffuse.png'),check_existing=True)
+ texture.image.pack()
+ skin.node_tree.links.new(texture.outputs['Color'],skin.node_tree.nodes['Principled BSDF'].inputs['Base Color'])
 
 def sphere(name,loc,scale,material,segments=24,rings=12):
  bpy.ops.mesh.primitive_uv_sphere_add(segments=segments,ring_count=rings,location=loc);o=bpy.context.object;o.name=name;o.scale=scale;o.data.materials.append(material);bpy.ops.object.transform_apply(location=False,rotation=False,scale=True)
@@ -127,6 +150,8 @@ for s in (-1,1):line(f'Waist trim {s}',[(0,-.165,.87),(s*.05,-.15,.90),(s*.10,-.
 # Incremental geometry study. Kept separate so the reference baseline and the
 # changes can be inspected and reverted independently.
 exec(compile((ROOT/'tools/refine_qingli_study.py').read_text(), 'refine_qingli_study.py', 'exec'))
+if os.environ.get('QINGLI_HAIR_CC0_EXPERIMENT','1')=='1':
+ exec(compile((ROOT/'tools/candidate_qingli_cc0_hair.py').read_text(), 'candidate_qingli_cc0_hair.py', 'exec'))
 # Make all curves into exportable, editable geometry.
 bpy.ops.object.select_all(action='DESELECT')
 for o in bpy.context.scene.objects:
