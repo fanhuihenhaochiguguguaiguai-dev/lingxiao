@@ -1,0 +1,34 @@
+{
+  "scope": "desktop Chromium software WebGL2, not a real mobile device",
+  "tests": {
+    "yueli": {
+      "character": "yueli",
+      "clips": [],
+      "movement_before": [
+        0,
+        0,
+        0
+      ],
+      "movement_after": [
+        -0.016273726183920496,
+        0,
+        -0.047002217248116
+      ],
+      "camera_before": [
+        3.1146234073004124,
+        2.942290736382078,
+        3.541184805696855
+      ],
+      "camera_after": [
+        1.6313557730087096,
+        2.862484451477267,
+        4.210854299757594
+      ],
+      "skills_hidden": true
+    },
+    "switch_back_and_cache": "three first-character skill controls trigger; second model fetched once",
+    "landscape_touch_simulation": "touch taps open settings, choose and load Yueli in simulated landscape; real device not tested"
+  },
+  "errors": [],
+  "status": "PASS_DESKTOP_SOFTWARE_ONLY"
+}

@@ -1,0 +1,8 @@
+{
+  "renderer": "WebGPU",
+  "software": true,
+  "character": "yueli",
+  "frames": 6,
+  "errors": [],
+  "scope": "desktop browser; no real-device test"
+}
