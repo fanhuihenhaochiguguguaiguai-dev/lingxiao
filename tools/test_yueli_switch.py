@@ -27,13 +27,15 @@ with display() as env,sync_playwright() as p:
  page.locator('#open-characters').click();page.locator('[data-character="yueli"]').click()
  page.wait_for_function("window.__lingSkill.character==='yueli' && !window.__lingSkill.characterLoading",timeout=90000)
  s=page.evaluate('window.__lingSkill');assert s['clips']==[] and not s['hasWeaponBone'] and not s['playing']
- assert not page.locator('.skill-buttons').is_visible()
+ assert not page.locator('#cast').is_visible() and page.locator('#cast-yueli').is_visible()
  assert '静态工作稿' in page.locator('#phase').inner_text()
  page.wait_for_timeout(1200);page.screenshot(path=str(out/'yueli-initial.png'))
  camera_before=page.evaluate('window.__lingSkill.cameraPosition');page.mouse.move(500,350);page.mouse.down();page.mouse.move(620,350,steps=8);page.mouse.up();page.wait_for_timeout(600);camera_after=page.evaluate('window.__lingSkill.cameraPosition');assert sum(abs(a-b) for a,b in zip(camera_before,camera_after))>.05
- page.keyboard.press('1');page.wait_for_timeout(200);assert not page.evaluate('window.__lingSkill.playing')
+ page.keyboard.press('1');page.wait_for_function("window.__lingSkill.character==='yueli' && window.__lingSkill.playing && window.__lingSkill.moonVisible",timeout=30000)
+ assert not page.evaluate('window.__lingSkill.dragonVisible')
+ assert '无角色动画和音效' in page.locator('#skill-subtitle').inner_text()
  before=page.evaluate('window.__lingSkill.position');page.keyboard.down('w');page.wait_for_function('window.__lingSkill.speed>.2',timeout=30000);page.wait_for_timeout(300);page.keyboard.up('w');after=page.evaluate('window.__lingSkill.position');assert abs(after[0]-before[0])+abs(after[2]-before[2])>.02
- page.screenshot(path=str(out/'yueli-webgl.png'));result['tests']['yueli']={'character':s['character'],'clips':s['clips'],'movement_before':before,'movement_after':after,'camera_before':camera_before,'camera_after':camera_after,'skills_hidden':True}
+ page.screenshot(path=str(out/'yueli-webgl.png'));result['tests']['yueli']={'character':s['character'],'clips':s['clips'],'movement_before':before,'movement_after':after,'camera_before':camera_before,'camera_after':camera_after,'lingyuan_skills_hidden':True,'moon_effect_visible':True}
  page.locator('#panel-toggle').click();page.locator('#open-characters').click();page.locator('[data-character="lingyuan"]').click();page.wait_for_function("window.__lingSkill.character==='lingyuan' && !window.__lingSkill.characterLoading",timeout=30000)
  assert page.locator('.skill-buttons').is_visible();page.locator('#cast').click();page.wait_for_function('window.__lingSkill.skill===1 && window.__lingSkill.playing',timeout=30000)
  page.locator('#cast3').click();page.wait_for_function('window.__lingSkill.skill===3 && window.__lingSkill.playing',timeout=30000)

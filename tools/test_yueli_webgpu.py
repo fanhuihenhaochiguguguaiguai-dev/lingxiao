@@ -12,8 +12,10 @@ with display() as env,sync_playwright() as p:
  page.wait_for_function('window.__lingSkill && window.__lingSkill.ready',timeout=90000)
  page.locator('#panel-toggle').click();page.locator('#open-characters').click();page.locator('[data-character="yueli"]').click()
  page.wait_for_function("window.__lingSkill.character==='yueli' && !window.__lingSkill.characterLoading",timeout=90000)
+ page.locator('#cast-yueli').click()
+ page.wait_for_function('window.__lingSkill.moonVisible',timeout=60000)
  page.wait_for_function('window.__lingSkill.frames>5',timeout=30000)
  state=page.evaluate('window.__lingSkill');assert not errors and not state['errors'],(errors,state['errors'])
- result={'renderer':state['renderer'],'software':state['software'],'character':state['character'],'frames':state['frames'],'errors':errors,'scope':'desktop browser; no real-device test'}
+ result={'renderer':state['renderer'],'software':state['software'],'character':state['character'],'moonVisible':state['moonVisible'],'frames':state['frames'],'errors':errors,'scope':'desktop browser; no real-device test'}
  (out/'default-renderer.json').write_text(json.dumps(result,ensure_ascii=False,indent=2));print('PASS',json.dumps(result,ensure_ascii=False),flush=True)
  browser.close()

@@ -1,0 +1,41 @@
+{
+  "status": "PASS_DESKTOP_SOFTWARE_ONLY",
+  "scope": "Chromium software WebGL2 and simulated touch; no hardware phone or artistic acceptance",
+  "checks": {
+    "1_walk": {
+      "distance": 0.335,
+      "elapsed": 0.258,
+      "directionLocked": true
+    },
+    "1_fast": {
+      "distance": 2.477,
+      "elapsed": 0.287,
+      "directionLocked": true
+    },
+    "2_walk": {
+      "distance": 1.704,
+      "elapsed": 0.3,
+      "directionLocked": true
+    },
+    "2_fast": {
+      "distance": 2.899,
+      "elapsed": 0.292,
+      "directionLocked": true
+    },
+    "3_walk": {
+      "distance": 0.275,
+      "elapsed": 0.292,
+      "directionLocked": true
+    },
+    "3_fast": {
+      "distance": 0.584,
+      "elapsed": 0.3,
+      "directionLocked": true
+    },
+    "two_finger": {
+      "stageDistance": 0.032,
+      "casting": true
+    }
+  },
+  "errors": []
+}

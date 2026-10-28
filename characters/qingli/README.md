@@ -8,6 +8,6 @@
 
 当前另外包含独立瞳孔和虹膜边缘的眼部实验，以及沿人体表面拟合的内衬、衣袖和脚部覆盖层。它们仅提供静态轮廓和遮挡，裙摆、鞋靴、肩袖接缝及设计细节仍未达到参考图，尚无动态验证。
 
-`Qingli_static_study.blend` 和 `Qingli_static_study.glb` 可加载，但没有骨骼、蒙皮、行走／奔跑、眨眼、表情、衣发物理或技能。没有通过相似度、美术质量或拓扑验收；按用户后续要求，以明确标注的静态工作稿接入公开网站。正面、侧面、背面、45°和脸部真实渲染及技术检查在 `../../verification/qingli/`，网页运行检查见 `../../verification/yueli-web/`。工作稿的上衣、五官、发束、长裙及装饰均需要明显精修。
+`Qingli_static_study.blend` 和 `Qingli_static_study.glb` 可加载，但没有骨骼、蒙皮、行走／奔跑、眨眼、表情或衣发物理。网页现有月华霜羽三维特效试作，但没有角色施法动作、音效和判定，不能视为完整技能。没有通过相似度、美术质量或拓扑验收；按用户后续要求，以明确标注的静态工作稿接入公开网站。正面、侧面、背面、45°和脸部真实渲染及技术检查在 `../../verification/qingli/`，网页运行检查见 `../../verification/yueli-web/`。工作稿的上衣、五官、发束、长裙及装饰均需要明显精修。
 
 使用仓库内 Blender 和 MakeHuman 资产可通过 `blender -b -t 2 --python-exit-code 1 --python tools/build_qingli_study.py` 复现临时研究模型；结果会写入 `/tmp/qingli-study`。设置 `QINGLI_EYE_DETAIL_EXPERIMENT=0 QINGLI_ATTIRE_EXPERIMENT=0` 可复现本轮眼部及衣层实验前的形态。素材来源为 CC0，通用皮肤 UV 贴图贴在真实网格上，不含校园项目的摄影脸部投影。

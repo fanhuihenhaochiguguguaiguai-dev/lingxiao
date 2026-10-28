@@ -1,0 +1,31 @@
+{
+  "status": "PASS_RUNTIME_STRUCTURE_ONLY",
+  "scope": "desktop software WebGL2; no damage, skill sound, character rig, or artistic acceptance",
+  "samples": {
+    "0.5": {
+      "visible": true,
+      "crescentX": 0.15,
+      "lotusScale": 0,
+      "featherCount": 42
+    },
+    "1.7": {
+      "visible": true,
+      "crescentX": 1.665888916715363,
+      "lotusScale": 0,
+      "featherCount": 42
+    },
+    "2.8": {
+      "visible": true,
+      "crescentX": 3.05,
+      "lotusScale": 1,
+      "featherCount": 42
+    },
+    "4.4": {
+      "visible": false,
+      "crescentX": 3.05,
+      "lotusScale": 1,
+      "featherCount": 42
+    }
+  },
+  "errors": []
+}
