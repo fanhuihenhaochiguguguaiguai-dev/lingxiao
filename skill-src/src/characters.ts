@@ -7,7 +7,7 @@ export const LINGYUAN_HEAD_SAMPLE=new URLSearchParams(location.search).get('samp
 export type CharacterId = 'lingyuan' | 'yueli';
 export interface CharacterDefinition { name:string; url:string; hasSkills:boolean; status:string; motion:Readonly<MotionProfile> }
 export const characters:Record<CharacterId,CharacterDefinition> = {
-  lingyuan:{name:'凌渊',url:LINGYUAN_HEAD_SAMPLE?'../quality/lingyuan31-head.glb?rev=e49db92a2ccc':'../lingyuan-lod1.glb?rev=6cfb5b02d875',hasSkills:true,status:LINGYUAN_HEAD_SAMPLE?'头部候选 · 美术未验收':'三技能展示',motion:motionProfiles.lingyuan},
+  lingyuan:{name:'凌渊',url:LINGYUAN_HEAD_SAMPLE?'../quality/lingyuan31-head.glb?rev=56fd767e905f':'../lingyuan-lod1.glb?rev=6cfb5b02d875',hasSkills:true,status:LINGYUAN_HEAD_SAMPLE?'头部候选 · 美术未验收':'三技能展示',motion:motionProfiles.lingyuan},
   yueli:{name:'月璃',url:'../yueli-study.glb?rev='+YUELI_ASSET_REVISION,hasSkills:false,status:'绑定与动态工作稿 · 美术未验收',motion:motionProfiles.yueli},
 };
 

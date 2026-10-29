@@ -2,7 +2,9 @@
 
 ## 当前版本与经验索引
 
-最新有效网页是 [凌渊角色工作室](https://lingyuan-character-studio.earthyaspen11.chatgpt.site/skill/)（公开访问）。当前包含凌渊与月璃及六个技能。最新将已验证的龙形方法分别适配至缚星盘龙、苍穹巨龙和月璃冰龙，修正反向法线、俯冲龙身塌缩、转头突跳和爪部朝向；一技能已验证几何保持不变。仅采纳局部结构与运动改善，未认定整体精品通过。头部候选仍未替换正式人物脸部；头发 LOD 等合格修复保留。两个人物仍未通过最终原画还原；真机性能和专业听感仍未验证。下方是历次工作记录，旧状态以最新报告及其继承证据为准。
+最新有效网页是 [凌渊角色工作室](https://lingyuan-character-studio.earthyaspen11.chatgpt.site/skill/)（公开访问）。当前包含凌渊与月璃及六个技能。最新采纳四个受影响技能的闭合花瓣／霜羽、外向冰晶和独立星晶棱面；头像继续局部结构与烘焙候选，失败前发撤回。上一轮龙形、运动、法线、头发 LOD、实例及音频修复保留，一技能样板不变。仅采纳局部结构与运动改善，未认定整体精品通过。头部候选仍未替换正式人物脸部。两个人物仍未通过最终原画还原；真机性能和专业听感仍未验证。下方是历次工作记录，旧状态以最新报告及其继承证据为准。
+
+- V3.5：冰莲／霜羽闭合厚度、冰晶面向与棱面、未采纳头像发型实验及定向验收：[`verification/v35/README.md`](verification/v35/README.md)。人物和全部六技能的最终艺术验收仍未完成。
 
 - 项目决策、成功经验、失败原因与预防措施：[`docs/PROJECT_LESSONS.md`](docs/PROJECT_LESSONS.md)。
 - 人物制作经验与失败候选：[`docs/qingli-production-lessons.md`](docs/qingli-production-lessons.md)、[`docs/REFINEMENT_WORKFLOW.md`](docs/REFINEMENT_WORKFLOW.md)。

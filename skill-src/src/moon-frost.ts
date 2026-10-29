@@ -1,22 +1,6 @@
 import * as THREE from 'three/webgpu';
+import {frostFeather,lotusPetal} from './crystal-geometry';
 const TAU=Math.PI*2;
-function featherGeometry(){
- const positions:number[]=[],indices:number[]=[];const rows=18;
- for(let layer=0;layer<2;layer++)for(let i=0;i<=rows;i++){
-  const t=i/rows,width=Math.pow(Math.sin(Math.PI*t),.75)*.13*(1-.32*t),x=t*.68-.34;
-  for(const side of [-1,1])positions.push(x,width*side,.035*Math.sin(t*Math.PI)+(layer===0?-.008:.008));
- }
- const stride=(rows+1)*2;
- for(let l=0;l<2;l++)for(let i=0;i<rows;i++){const a=l*stride+i*2;indices.push(a,a+2,a+1,a+1,a+2,a+3)}
- for(let i=0;i<rows;i++)for(let side=0;side<2;side++){const a=i*2+side,b=a+2;indices.push(a,a+stride,b,b,a+stride,b+stride)}
- const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));g.setIndex(indices);g.computeVertexNormals();return g;
-}
-function petalGeometry(){
- const v:number[]=[],f:number[]=[];const rows=14,cols=8;
- for(let i=0;i<=rows;i++){const t=i/rows;for(let j=0;j<=cols;j++){const u=j/cols*2-1,width=Math.pow(Math.sin(Math.PI*t),.7)*.22;v.push(u*width,t*.62,.54*t*t+.065*u*u*Math.sin(Math.PI*t))}}
- for(let i=0;i<rows;i++)for(let j=0;j<cols;j++){const a=i*(cols+1)+j;f.push(a,a+1,a+cols+1,a+1,a+cols+2,a+cols+1)}
- const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(v,3));g.setIndex(f);g.computeVertexNormals();return g;
-}
 const ease=(a:number,b:number,t:number)=>{const x=THREE.MathUtils.clamp((t-a)/(b-a),0,1);return x*x*(3-2*x)};
 
 /** Parameterized crescent, volumetric feathers and curved crystal petals. Art study. */
@@ -43,11 +27,11 @@ export class MoonFrost {
   for(const r of [.45,.95,1.25]){const torus=new THREE.Mesh(new THREE.TorusGeometry(r,.012,6,72),r===.95?gold:glow);torus.rotation.x=Math.PI/2;this.ground.add(torus)}
   this.group.add(this.bloom);this.bloom.position.set(4.1,.20,0);
   for(let i=0;i<12;i++){
-   const petal=new THREE.Mesh(petalGeometry(),ice);const a=i*TAU/12;
+   const petal=new THREE.Mesh(lotusPetal('frost'),ice);const a=i*TAU/12;
    petal.position.set(Math.cos(a)*.30,.16,Math.sin(a)*.30);petal.scale.setScalar(i%2===0?1:.78);petal.rotation.y=-a+Math.PI/2;this.bloom.add(petal);
   }
   const core=new THREE.Mesh(new THREE.OctahedronGeometry(.22,0),glow);core.position.y=.24;this.bloom.add(core);
-  this.feathers=new THREE.InstancedMesh(featherGeometry(),ice,72);this.feathers.frustumCulled=false;this.group.add(this.feathers);
+  this.feathers=new THREE.InstancedMesh(frostFeather(),ice,72);this.feathers.frustumCulled=false;this.group.add(this.feathers);
  }
  setQuality(q:'high'|'ultra'){this.quality=q;this.feathers.count=q==='ultra'?72:42}
  sample(){return {crescentX:this.crescent.position.x,lotusScale:this.bloom.scale.x,featherCount:this.feathers.count}}

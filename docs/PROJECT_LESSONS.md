@@ -6,7 +6,7 @@
 
 - 公开工作室：<https://lingyuan-character-studio.earthyaspen11.chatgpt.site/skill/>。角色为凌渊、月璃；月璃的三技能包括「月华霜羽」「月影寒潮」「月陨天霜」。均为实时展示工作稿，不代表对战平衡或最终美术通过。
 - `dist/` 为网站及运行资源，`skill-src/` 为技能页面源码，`characters/qingli/` 为月璃可编辑 Blender 工作稿和 GLB，`reference/` 保存原图、分类裁图及素材来源，`tools/` 保存处理与测试脚本，`verification/` 保存实际截图和测试结果。
-- 最新 LOD 修复和未通过艺术验收的头部样板见 [`../verification/lingyuan31/README.md`](../verification/lingyuan31/README.md)；共性治理依据在 [`../verification/governance/README.md`](../verification/governance/README.md)；大招记录在 [`../verification/moonfall/README.md`](../verification/moonfall/README.md)。历史差异、已回退候选和旧结果见 Git 提交及对应 `verification/` 报告。
+- 最新局部闭合几何与头像候选续修见 [`../verification/v35/README.md`](../verification/v35/README.md)；LOD 修复和早期未通过艺术验收的头部样板见 [`../verification/lingyuan31/README.md`](../verification/lingyuan31/README.md)；共性治理依据在 [`../verification/governance/README.md`](../verification/governance/README.md)；大招记录在 [`../verification/moonfall/README.md`](../verification/moonfall/README.md)。历史差异、已回退候选和旧结果见 Git 提交及对应 `verification/` 报告。
 
 ## 如何分析和选择下一步
 
@@ -55,3 +55,11 @@
 V3.2 新增一技能龙体与根因记录见 [`dragon32/README.md`](../verification/dragon32/README.md)：鳞片与皮肤共用真实表面、完整历史的弧长求解、世界上方向约束、Blender／glTF 轴往返检查，以及不可变模板与动态缓冲分离。二技能数据与基线完全一致，没有批量套用新造型。新龙体仅局部结构采纳，原画级艺术和真机性能仍未通过。后续全部资源遵守仓库 [`AGENTS.md`](../AGENTS.md) 的继承与独立艺术边界。
 
 月璃脸型与眼神仍有通用底模感，后发、发饰、服饰剪裁、裙层及鞋靴尚需艺术重建；高质量表情、全身 IK、衣发碰撞与穿插尚未完成。月陨天霜的材质、霜雾和动态效果仍是实时近似，未达到电影级验收。真实安卓设备帧率、内存、触摸和音频延迟及专业试听均未完成。详见最新验收报告，不因网页公开或源码上传而改变验收状态。
+
+## V3.5：闭合曲面与失败发型
+
+- **表面看似立体仍可能没有体积。** 原冰莲是开曲面，端点宽度收零却继续生成四边格，产生退化三角形；霜羽两层使用相同绕序，共享边的面向互相冲突；月系晶体未封底且面朝内。`DoubleSide` 把问题隐藏到能渲染的程度，无法补回厚度和正确受光。先用焊接位置建立边关联，再检查开边／不一致面／退化面／有符号体积。新透镜截面花瓣、霜羽和棱柱晶体在实际 Blender、网页固定对照中采纳有限几何改善；原时序、数量、音频和粒子保持。范围见 [本轮记录](../verification/v35/README.md)。
+- **棱面需要独立法线。** 冰晶共享顶点直接光滑会变圆；只在晶体表面分离面法线，花瓣保留连续曲率，不把所有材质都改为扁平着色。不同星晶／冰晶保持各自宽高和肩部轮廓。
+- **贴合头皮不能自动得到好发型。** 第一版宽发束像尖片；第二版射线贴合的底层头皮仍有帽状观感，前发仍过于整齐。二者均未推广，默认保留原头发，失败复现仅由 `LING35_GROOM=experimental` 开启。不要因为 BVH 命中、曲面闭合或发束变多就宣称发型通过。
+- **局部脸部修整须重新烘焙。** 新候选保留 4514 顶点笼、UV 和现有形变，对局部眼眶、鼻唇及其附属结构协调处理，再用既有高低模管线烘焙。仍未接近原画神韵，不替换正式人物、不向月璃复制。技术验收与艺术验收继续独立。
+- **测试时钟不能混用。** QA 快进模拟时间不会快进 AudioContext；尚在播放的声尾不能立刻判作泄漏。分别等待技能逻辑回收与原生音频自然结束，不为满足错误断言去中断声音或改写已合格音频系统。

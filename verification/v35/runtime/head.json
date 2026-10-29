@@ -1,0 +1,60 @@
+{
+  "webgl2": {
+    "renderer": "WebGL2",
+    "software": true,
+    "drawCalls": 53,
+    "triangles": 60638,
+    "bones": 60,
+    "blinkTargets": [
+      {
+        "name": "Lingyuan_head_-_MakeHuman_CC0_base",
+        "key": "Blink",
+        "weight": 1
+      },
+      {
+        "name": "lingyuan_upper_lash",
+        "key": "Blink",
+        "weight": 1
+      },
+      {
+        "name": "lingyuan_upper_lash001",
+        "key": "Blink",
+        "weight": 1
+      }
+    ],
+    "walkSpeed": 1.4282564136103073,
+    "runSpeed": 2.496036838278516,
+    "jumpAndSwitchSmoke": true,
+    "artAccepted": false,
+    "errors": []
+  },
+  "webgpu": {
+    "renderer": "WebGPU",
+    "software": true,
+    "drawCalls": 53,
+    "triangles": 60638,
+    "bones": 60,
+    "blinkTargets": [
+      {
+        "name": "Lingyuan_head_-_MakeHuman_CC0_base",
+        "key": "Blink",
+        "weight": 1
+      },
+      {
+        "name": "lingyuan_upper_lash",
+        "key": "Blink",
+        "weight": 1
+      },
+      {
+        "name": "lingyuan_upper_lash001",
+        "key": "Blink",
+        "weight": 1
+      }
+    ],
+    "walkSpeed": 1.4282564136103073,
+    "runSpeed": 2.496036838278516,
+    "jumpAndSwitchSmoke": true,
+    "artAccepted": false,
+    "errors": []
+  }
+}

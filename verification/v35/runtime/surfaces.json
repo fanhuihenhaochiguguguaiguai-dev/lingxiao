@@ -1,0 +1,339 @@
+{
+  "scope": "desktop software Chromium; renderer counters, not heap/VRAM/mobile-FPS or long-run proof",
+  "backends": {
+    "webgl2": {
+      "renderer": "WebGL2",
+      "software": true,
+      "waves": {
+        "lingyuan-2": [
+          {
+            "active": {
+              "memory": {
+                "geometries": 434,
+                "textures": 11
+              },
+              "drawCalls": 921,
+              "triangles": 648950
+            },
+            "ended": {
+              "memory": {
+                "geometries": 146,
+                "textures": 11
+              },
+              "drawCalls": 73,
+              "triangles": 72806
+            },
+            "nativeAudioTailDrainWallMs": 7.4
+          },
+          {
+            "active": {
+              "memory": {
+                "geometries": 434,
+                "textures": 11
+              },
+              "drawCalls": 921,
+              "triangles": 648950
+            },
+            "ended": {
+              "memory": {
+                "geometries": 146,
+                "textures": 11
+              },
+              "drawCalls": 73,
+              "triangles": 72806
+            },
+            "nativeAudioTailDrainWallMs": 2.1
+          },
+          {
+            "active": {
+              "memory": {
+                "geometries": 434,
+                "textures": 11
+              },
+              "drawCalls": 921,
+              "triangles": 648950
+            },
+            "ended": {
+              "memory": {
+                "geometries": 146,
+                "textures": 11
+              },
+              "drawCalls": 73,
+              "triangles": 72806
+            },
+            "nativeAudioTailDrainWallMs": 23.4
+          }
+        ],
+        "yueli-1": [
+          {
+            "active": {
+              "memory": {
+                "geometries": 299,
+                "textures": 16
+              },
+              "drawCalls": 182,
+              "triangles": 358137
+            },
+            "ended": {
+              "memory": {
+                "geometries": 259,
+                "textures": 16
+              },
+              "drawCalls": 114,
+              "triangles": 156713
+            },
+            "nativeAudioTailDrainWallMs": 461.9
+          },
+          {
+            "active": {
+              "memory": {
+                "geometries": 299,
+                "textures": 16
+              },
+              "drawCalls": 182,
+              "triangles": 358137
+            },
+            "ended": {
+              "memory": {
+                "geometries": 259,
+                "textures": 16
+              },
+              "drawCalls": 114,
+              "triangles": 156713
+            },
+            "nativeAudioTailDrainWallMs": 934.1
+          },
+          {
+            "active": {
+              "memory": {
+                "geometries": 299,
+                "textures": 16
+              },
+              "drawCalls": 182,
+              "triangles": 358137
+            },
+            "ended": {
+              "memory": {
+                "geometries": 259,
+                "textures": 16
+              },
+              "drawCalls": 114,
+              "triangles": 156713
+            },
+            "nativeAudioTailDrainWallMs": 957.0
+          }
+        ],
+        "yueli-2": [
+          {
+            "active": {
+              "memory": {
+                "geometries": 277,
+                "textures": 16
+              },
+              "drawCalls": 334,
+              "triangles": 1181883
+            },
+            "ended": {
+              "memory": {
+                "geometries": 277,
+                "textures": 16
+              },
+              "drawCalls": 114,
+              "triangles": 156713
+            },
+            "nativeAudioTailDrainWallMs": 3.1
+          },
+          {
+            "active": {
+              "memory": {
+                "geometries": 277,
+                "textures": 16
+              },
+              "drawCalls": 334,
+              "triangles": 1181883
+            },
+            "ended": {
+              "memory": {
+                "geometries": 277,
+                "textures": 16
+              },
+              "drawCalls": 114,
+              "triangles": 156713
+            },
+            "nativeAudioTailDrainWallMs": 4.5
+          },
+          {
+            "active": {
+              "memory": {
+                "geometries": 277,
+                "textures": 16
+              },
+              "drawCalls": 334,
+              "triangles": 1181883
+            },
+            "ended": {
+              "memory": {
+                "geometries": 277,
+                "textures": 16
+              },
+              "drawCalls": 114,
+              "triangles": 156713
+            },
+            "nativeAudioTailDrainWallMs": 5.7
+          }
+        ],
+        "yueli-3": [
+          {
+            "active": {
+              "memory": {
+                "geometries": 301,
+                "textures": 18
+              },
+              "drawCalls": 304,
+              "triangles": 998733
+            },
+            "ended": {
+              "memory": {
+                "geometries": 293,
+                "textures": 18
+              },
+              "drawCalls": 114,
+              "triangles": 156713
+            },
+            "nativeAudioTailDrainWallMs": 2165.8
+          },
+          {
+            "active": {
+              "memory": {
+                "geometries": 301,
+                "textures": 18
+              },
+              "drawCalls": 304,
+              "triangles": 998733
+            },
+            "ended": {
+              "memory": {
+                "geometries": 293,
+                "textures": 18
+              },
+              "drawCalls": 114,
+              "triangles": 156713
+            },
+            "nativeAudioTailDrainWallMs": 2430.6
+          },
+          {
+            "active": {
+              "memory": {
+                "geometries": 301,
+                "textures": 18
+              },
+              "drawCalls": 304,
+              "triangles": 998733
+            },
+            "ended": {
+              "memory": {
+                "geometries": 293,
+                "textures": 18
+              },
+              "drawCalls": 114,
+              "triangles": 156713
+            },
+            "nativeAudioTailDrainWallMs": 7.2
+          }
+        ]
+      },
+      "errors": []
+    },
+    "webgpu": {
+      "renderer": "WebGPU",
+      "software": true,
+      "waves": {
+        "lingyuan-2": [
+          {
+            "active": {
+              "memory": {
+                "geometries": 434,
+                "textures": 11
+              },
+              "drawCalls": 921,
+              "triangles": 648950
+            },
+            "ended": {
+              "memory": {
+                "geometries": 146,
+                "textures": 11
+              },
+              "drawCalls": 73,
+              "triangles": 72806
+            },
+            "nativeAudioTailDrainWallMs": 2.3
+          }
+        ],
+        "yueli-1": [
+          {
+            "active": {
+              "memory": {
+                "geometries": 299,
+                "textures": 16
+              },
+              "drawCalls": 182,
+              "triangles": 358137
+            },
+            "ended": {
+              "memory": {
+                "geometries": 259,
+                "textures": 16
+              },
+              "drawCalls": 114,
+              "triangles": 156713
+            },
+            "nativeAudioTailDrainWallMs": 1957.6
+          }
+        ],
+        "yueli-2": [
+          {
+            "active": {
+              "memory": {
+                "geometries": 277,
+                "textures": 16
+              },
+              "drawCalls": 334,
+              "triangles": 1181883
+            },
+            "ended": {
+              "memory": {
+                "geometries": 277,
+                "textures": 16
+              },
+              "drawCalls": 114,
+              "triangles": 156713
+            },
+            "nativeAudioTailDrainWallMs": 3.1
+          }
+        ],
+        "yueli-3": [
+          {
+            "active": {
+              "memory": {
+                "geometries": 301,
+                "textures": 18
+              },
+              "drawCalls": 304,
+              "triangles": 998733
+            },
+            "ended": {
+              "memory": {
+                "geometries": 293,
+                "textures": 18
+              },
+              "drawCalls": 114,
+              "triangles": 156713
+            },
+            "nativeAudioTailDrainWallMs": 2.9
+          }
+        ]
+      },
+      "errors": []
+    }
+  }
+}

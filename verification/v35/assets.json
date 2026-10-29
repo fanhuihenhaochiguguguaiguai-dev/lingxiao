@@ -1,0 +1,101 @@
+{
+  "baseline": "3528f0a",
+  "unchanged": {
+    "dist/lingyuan-lod0.glb": "9e3c09f5f111a11efae134a155c16ba1959c3e65e45c279b0f56851be5bb71ed",
+    "dist/lingyuan-lod1.glb": "6cfb5b02d87598f804657274d89909adff247306a2b6cb62533ed16744abc33f",
+    "dist/lingyuan-lod2.glb": "ff50b260f5e2222c357998fcff5e1ea5bc35631d999d4f47cbfecabfd71beb2a",
+    "dist/yueli-study.glb": "98bbd76b5e6d0b6003364b90e1e44c7cb6f6f5bb24fd723ceb66fd1c7a7aba0e",
+    "skill-src/src/dragon.ts": "d12ecc3f5736f685291ff4c0f87f5216db74225ef6678818f455875d593be55b",
+    "skill-src/src/slash-dragon.ts": "88af239c34bded73e0751656b56b11e54661a60cc7b2d91fc4ff72ddc6444767",
+    "skill-src/src/star-vortex.ts": "3af725ecd44c99cd75497671bcb9d064b0bbf7ec81b5ce5e67fe2856e05ddc76",
+    "skill-src/src/ice-dragon.ts": "7515d961211564985be0c52a4312b05af1d4d43024164c73c0ee30d6fbce0533",
+    "skill-src/src/dragon-frames.ts": "ac27d1924dbbeb63ad55b1801c21591c9841fd9d76fb1b53746edcdbff0d4529",
+    "skill-src/src/skill-instances.ts": "dddd031aafd806a39aac0580ff4dce7cf6ecc3cc0ce505ac543810e1bdf3b72d",
+    "skill-src/src/instance-audio.ts": "c3658f45c07e18e78e10f8419dc4fa1d45b7a26404760a4f42fd3c7ae6c38f59",
+    "skill-src/src/skill-registry.ts": "ee853baae7caf51f49bf9c3f0da51454c858c5fcda5fe12581d183af6e3071c1",
+    "skill-src/src/character-motion.ts": "3bcfe01914e3b5beee325d04f12437c3fa82ca5d4fa257439d5b9fb14653df4b"
+  },
+  "candidate": {
+    "bones": 60,
+    "shapeKeys": [
+      "Chin narrower",
+      "Chin tapered",
+      "Cheeks refined",
+      "Blink"
+    ],
+    "weightedVertices": 48002,
+    "onlyHairLOD": 1,
+    "offlineHighExcluded": true,
+    "artAccepted": false
+  },
+  "surfaceCoordinateRoundTrip": [
+    {
+      "part": "frostPetal",
+      "triangles": 208,
+      "coordinatesRoundTrip": true
+    },
+    {
+      "part": "feather",
+      "triangles": 204,
+      "coordinatesRoundTrip": true
+    },
+    {
+      "part": "tidePetal",
+      "triangles": 208,
+      "coordinatesRoundTrip": true
+    },
+    {
+      "part": "lunarCrystal",
+      "triangles": 36,
+      "coordinatesRoundTrip": true
+    },
+    {
+      "part": "starCrystal",
+      "triangles": 36,
+      "coordinatesRoundTrip": true
+    }
+  ],
+  "fixedWebComparison": {
+    "binding": {
+      "drawCalls": [
+        156,
+        156
+      ],
+      "triangles": [
+        129342,
+        130406
+      ]
+    },
+    "frost": {
+      "drawCalls": [
+        117,
+        117
+      ],
+      "triangles": [
+        171385,
+        176425
+      ]
+    },
+    "tide": {
+      "drawCalls": [
+        136,
+        136
+      ],
+      "triangles": [
+        259150,
+        260302
+      ]
+    },
+    "moonfall": {
+      "drawCalls": [
+        133,
+        133
+      ],
+      "triangles": [
+        239651,
+        241379
+      ]
+    }
+  },
+  "phoneTested": false
+}

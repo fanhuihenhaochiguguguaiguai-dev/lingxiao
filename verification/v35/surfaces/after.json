@@ -1,0 +1,47 @@
+{
+  "frostPetal": {
+    "vertices": 106,
+    "triangles": 208,
+    "degenerate": 0,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 0,
+    "inconsistentEdges": 0,
+    "signedVolume": 0.003842709411217046
+  },
+  "feather": {
+    "vertices": 104,
+    "triangles": 204,
+    "degenerate": 0,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 0,
+    "inconsistentEdges": 0,
+    "signedVolume": 0.000911679735498424
+  },
+  "tidePetal": {
+    "vertices": 106,
+    "triangles": 208,
+    "degenerate": 0,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 0,
+    "inconsistentEdges": 0,
+    "signedVolume": 0.003277312629242727
+  },
+  "lunarCrystal": {
+    "vertices": 108,
+    "triangles": 36,
+    "degenerate": 0,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 0,
+    "inconsistentEdges": 0,
+    "signedVolume": 0.09316008109123464
+  },
+  "starCrystal": {
+    "vertices": 108,
+    "triangles": 36,
+    "degenerate": 0,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 0,
+    "inconsistentEdges": 0,
+    "signedVolume": 0.04885671631020821
+  }
+}

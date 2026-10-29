@@ -1,0 +1,15 @@
+{
+  "baseVertices": 4514,
+  "shapeKeys": [
+    "Basis",
+    "Chin narrower",
+    "Chin tapered",
+    "Cheeks refined",
+    "Blink"
+  ],
+  "maxCorrectionMeters": 0.0018885651700463067,
+  "groom": [],
+  "groomPromoted": false,
+  "originalHairPreserved": true,
+  "artAccepted": false
+}

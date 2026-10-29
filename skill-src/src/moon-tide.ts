@@ -1,16 +1,15 @@
 import * as THREE from 'three/webgpu';
 import { color, mix, positionLocal, sin, uniform, normalView } from 'three/tsl';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
+import {facetedCrystal,lotusPetal} from './crystal-geometry';
 const TAU=Math.PI*2,clamp=THREE.MathUtils.clamp;
 const ease=(a:number,b:number,t:number)=>{const v=clamp((t-a)/(b-a),0,1);return v*v*(3-2*v)};
 let echoGeometry:THREE.BufferGeometry|null=null;
 export function setMoonEcho(geometry:THREE.BufferGeometry){echoGeometry=geometry}
 function crescentGeometry(){const shape=new THREE.Shape();shape.absarc(0,0,1,.24,TAU-.24,false);shape.absarc(.32,0,.72,TAU-.42,.42,true);shape.closePath();return new THREE.ExtrudeGeometry(shape,{depth:.075,bevelEnabled:true,bevelSize:.015,bevelThickness:.014,bevelSegments:2,curveSegments:40,steps:1})}
-function crystalGeometry(){const pos:number[]=[],idx:number[]=[];for(const [r,y] of [[.08,0],[.21,.18],[.16,1],[0,1.42]])for(let k=0;k<6;k++){const a=k*TAU/6;pos.push(Math.cos(a)*r,y,Math.sin(a)*r)}for(let j=0;j<3;j++)for(let k=0;k<6;k++){const a=j*6+k,b=j*6+(k+1)%6;idx.push(a,b,a+6,b,b+6,a+6)}const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(pos,3));g.setIndex(idx);g.computeVertexNormals();return g}
-function petalGeometry(){const v:number[]=[],f:number[]=[];for(let i=0;i<=12;i++){const t=i/12;for(let j=0;j<=6;j++){const u=j/3-1;v.push(u*Math.sin(Math.PI*t)*.20,.54*t,.55*t*t+.055*u*u*Math.sin(Math.PI*t))}}for(let i=0;i<12;i++)for(let j=0;j<6;j++){const a=i*7+j;f.push(a,a+7,a+1,a+1,a+7,a+8)}const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(v,3));g.setIndex(f);g.computeVertexNormals();return g}
 function runeGeometry(){const list:THREE.BufferGeometry[]=[];for(let k=0;k<24;k++){const a=k*TAU/24;const points=[new THREE.Vector3(-.05,0,-.09),new THREE.Vector3(.045,.008,0),new THREE.Vector3(-.04,0,.08),new THREE.Vector3(.08,.015,.03)];const g=new THREE.TubeGeometry(new THREE.CatmullRomCurve3(points),9,.006,4,false);g.rotateY(-a).translate(Math.cos(a)*2.75,0,Math.sin(a)*2.75);list.push(g)}const result=mergeGeometries(list)!;for(const g of list)g.dispose();return result}
 function ornamentGeometry(){const parts:THREE.BufferGeometry[]=[];for(let k=0;k<12;k++){const angle=k*TAU/12,cx=Math.cos(angle)*2.75,cz=Math.sin(angle)*2.75;for(let petal=0;petal<6;petal++){const a=petal*TAU/6,points:THREE.Vector3[]=[];for(let q=0;q<=12;q++){const t=q/12,r=Math.sin(Math.PI*t)*.10,side=Math.sin(TAU*t)*.034;points.push(new THREE.Vector3(cx+Math.cos(a)*r-Math.sin(a)*side,.018+Math.sin(Math.PI*t)*.035,cz+Math.sin(a)*r+Math.cos(a)*side))}parts.push(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(points),12,.0025,3,false))}}const g=mergeGeometries(parts)!;parts.forEach(g=>g.dispose());return g}
-const assets={ornament:ornamentGeometry(),crescent:crescentGeometry(),crystal:crystalGeometry(),petal:petalGeometry(),runes:runeGeometry(),tiny:new THREE.OctahedronGeometry(.055),torus:new THREE.TorusGeometry(1,.009,5,72),mist:new THREE.SphereGeometry(1,12,7)};
+const assets={ornament:ornamentGeometry(),crescent:crescentGeometry(),crystal:facetedCrystal('lunar'),petal:lotusPetal('tide'),runes:runeGeometry(),tiny:new THREE.OctahedronGeometry(.055),torus:new THREE.TorusGeometry(1,.009,5,72),mist:new THREE.SphereGeometry(1,12,7)};
 
 const qaUnbatched=new URLSearchParams(location.search).get('qa-unbatched')==='1';
 const staticBatches=new Map<string,THREE.BufferGeometry[]>();

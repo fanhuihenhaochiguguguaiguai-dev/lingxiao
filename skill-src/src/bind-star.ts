@@ -1,6 +1,7 @@
 import * as THREE from 'three/webgpu';
 import { DragonEffect } from './dragon';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
+import {facetedCrystal} from './crystal-geometry';
 
 const TAU=Math.PI*2;
 const smooth=(a:number,b:number,t:number)=>{const x=THREE.MathUtils.clamp((t-a)/(b-a),0,1);return x*x*(3-2*x)};
@@ -34,7 +35,7 @@ export class BindStar {
    for(let i=0;i<n;i++){const a=i*TAU/n,r=radius*.91;const symbol=new THREE.Group();symbol.position.set(Math.cos(a)*r,.01,Math.sin(a)*r);symbol.rotation.y=-a;symbol.add(tube([new THREE.Vector3(-.05,0,-.07),new THREE.Vector3(0,0,.07),new THREE.Vector3(.05,0,-.07)],.006,k===1?goldMat:lineMat));g.add(symbol)}
    mergeStatic(g);
   }
-  const crystalGeo=new THREE.OctahedronGeometry(1,0);crystalGeo.scale(.18,.55,.16);crystalGeo.translate(0,.55,0);
+  const crystalGeo=facetedCrystal('star');
   for(let i=0;i<10;i++){const a=i*TAU/10;const g=new THREE.Group();g.position.set(Math.cos(a)*2.95,.03,Math.sin(a)*2.95);g.rotation.z=(i%2?-.12:.12);const main=new THREE.Mesh(crystalGeo,crystalMat);main.scale.set(1,1.15+(i%3)*.16,1);g.add(main);const small=new THREE.Mesh(crystalGeo,crystalMat);small.position.set(.22,0,.1);small.scale.set(.48,.55,.48);g.add(small);g.add(ring(.23,.012,goldMat));this.layers.crystals.add(g);this.crystals.push(g);
    const beam=new THREE.Mesh(new THREE.CylinderGeometry(.04,.15,1.9,12,1,true),beamMat);beam.position.set(Math.cos(a)*2.94,.95,Math.sin(a)*2.94);this.layers.beams.add(beam);this.beams.push(beam);
   }

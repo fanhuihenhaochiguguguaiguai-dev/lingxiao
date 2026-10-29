@@ -2,10 +2,10 @@
 Offline Multires source stays editable and is excluded from GLB export.
 """
 from pathlib import Path
-import bpy,math,json,numpy as np
+import bpy,math,json,os,numpy as np
 from mathutils import Vector
 from io_scene_gltf2.blender.com.material_helpers import create_settings_group
-R=Path(__file__).resolve().parents[1];work=Path('/tmp/lingyuan31-head');out=work/'bakes';out.mkdir(exist_ok=True)
+R=Path(__file__).resolve().parents[1];work=Path(os.environ.get('LINGYUAN_HEAD_WORK','/tmp/lingyuan31-head'));out=work/'bakes';out.mkdir(exist_ok=True)
 bpy.ops.wm.open_mainfile(filepath=str(work/'candidate.blend'));bpy.context.preferences.filepaths.save_version=0
 low=bpy.data.objects['Lingyuan head - MakeHuman CC0 base'];rig=bpy.data.objects['Lingyuan_Rig'];scene=bpy.context.scene
 scene.frame_set(0);visibility={o.name:(o.hide_render,o.hide_get()) for o in scene.objects}
