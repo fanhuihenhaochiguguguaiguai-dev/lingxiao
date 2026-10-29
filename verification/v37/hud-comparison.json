@@ -1,0 +1,60 @@
+{
+  "scope": "actual old/new browser render, same camera/pose/light/assets/viewport/DPR",
+  "baseline": "499215e",
+  "cases": {
+    "before": {
+      "cameraPosition": [
+        5.199999999999999,
+        4.1000000000000005,
+        5.799999999999999
+      ],
+      "cameraTarget": [
+        0.1,
+        1,
+        0
+      ],
+      "stagePosition": [
+        0,
+        0,
+        0
+      ],
+      "quality": "high",
+      "renderer": "WebGL2",
+      "software": true,
+      "drawCalls": 78,
+      "triangles": 73526,
+      "viewport": [
+        844,
+        390
+      ],
+      "DPR": 1
+    },
+    "after": {
+      "cameraPosition": [
+        5.199999999999999,
+        4.1000000000000005,
+        5.799999999999999
+      ],
+      "cameraTarget": [
+        0.1,
+        1,
+        0
+      ],
+      "stagePosition": [
+        0,
+        0,
+        0
+      ],
+      "quality": "high",
+      "renderer": "WebGL2",
+      "software": true,
+      "drawCalls": 78,
+      "triangles": 73526,
+      "viewport": [
+        844,
+        390
+      ],
+      "DPR": 1
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "scope": "pure continuous geometry tests, no rendering/device claims",
+  "checks": {
+    "fastProjectile": 0.03733332166666667,
+    "matchingVelocityMiss": true,
+    "targetCrossesField": true,
+    "sphereBoundary": [
+      -1.1102230246251565e-16,
+      0.01000000000000012
+    ],
+    "highAboveMiss": true,
+    "warningNoDamage": true,
+    "dissolveNoDamage": true,
+    "ringHoleMiss": true,
+    "ringFrontHit": true,
+    "zeroStepNoDamage": true,
+    "uprightHurtCapsule": true
+  }
+}

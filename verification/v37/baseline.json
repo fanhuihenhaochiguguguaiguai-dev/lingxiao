@@ -1,0 +1,93 @@
+{
+  "commit": "499215e059b97718f083c1b7f275e00d068bf97b",
+  "hudRects": [
+    {
+      "id": "joystick",
+      "rect": {
+        "x": 24,
+        "y": 276,
+        "width": 92,
+        "height": 92,
+        "top": 276,
+        "right": 116,
+        "bottom": 368,
+        "left": 24
+      }
+    },
+    {
+      "id": "basic-attack",
+      "rect": {
+        "x": 571,
+        "y": 311,
+        "width": 57,
+        "height": 57,
+        "top": 311,
+        "right": 628,
+        "bottom": 368,
+        "left": 571
+      }
+    },
+    {
+      "id": "jump",
+      "rect": {
+        "x": 768,
+        "y": 204,
+        "width": 48,
+        "height": 48,
+        "top": 204,
+        "right": 816,
+        "bottom": 252,
+        "left": 768
+      }
+    },
+    {
+      "id": "cast",
+      "rect": {
+        "x": 640,
+        "y": 317,
+        "width": 51,
+        "height": 51,
+        "top": 317,
+        "right": 691,
+        "bottom": 368,
+        "left": 640
+      }
+    },
+    {
+      "id": "cast2",
+      "rect": {
+        "x": 699,
+        "y": 317,
+        "width": 51,
+        "height": 51,
+        "top": 317,
+        "right": 750,
+        "bottom": 368,
+        "left": 699
+      }
+    },
+    {
+      "id": "cast3",
+      "rect": {
+        "x": 758,
+        "y": 307,
+        "width": 61,
+        "height": 61,
+        "top": 307,
+        "right": 819,
+        "bottom": 368,
+        "left": 758
+      }
+    }
+  ],
+  "lotusCoveredTarget": {
+    "position": [
+      4.1,
+      0.6,
+      1
+    ],
+    "events": [],
+    "lotusScale": 1
+  },
+  "scope": "software WebGL2 actual old webpage"
+}

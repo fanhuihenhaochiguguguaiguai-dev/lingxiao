@@ -1,0 +1,266 @@
+{
+  "scope": "uncut real browser play with native keyboard/mouse, natural animation clock; no QA freeze/advance/seek/position",
+  "wallSeconds": 46.36035907400219,
+  "renderedFrames": 78,
+  "practice": {
+    "mode": "practice",
+    "round": 1,
+    "clock": 2.1600000000000006,
+    "winner": null,
+    "units": [
+      {
+        "id": "player",
+        "team": 1,
+        "character": "lingyuan",
+        "hp": 1000,
+        "maxHp": 1000,
+        "alive": true,
+        "life": 1,
+        "position": {
+          "x": 2.6846263025831307,
+          "y": 0.85,
+          "z": 0.1724071937438706
+        },
+        "radius": 0.36,
+        "halfHeight": 0.49,
+        "hitFlash": 0,
+        "deadFor": 0,
+        "slow": 1
+      },
+      {
+        "id": "opponent",
+        "team": 2,
+        "character": "yueli",
+        "hp": 850,
+        "maxHp": 850,
+        "alive": true,
+        "life": 1,
+        "position": {
+          "x": 0,
+          "y": 0.8,
+          "z": 0
+        },
+        "radius": 0.36,
+        "halfHeight": 0.49,
+        "hitFlash": 0,
+        "deadFor": 0,
+        "slow": 1
+      },
+      {
+        "id": "target-0",
+        "team": 0,
+        "character": "target",
+        "hp": 2824,
+        "maxHp": 3000,
+        "alive": true,
+        "life": 1,
+        "position": {
+          "x": 4.1,
+          "y": 0.6,
+          "z": 0
+        },
+        "radius": 0.45,
+        "halfHeight": 0.2,
+        "hitFlash": 0.22,
+        "deadFor": 0,
+        "slow": 1
+      },
+      {
+        "id": "target-1",
+        "team": 0,
+        "character": "target",
+        "hp": 3000,
+        "maxHp": 3000,
+        "alive": true,
+        "life": 1,
+        "position": {
+          "x": -6,
+          "y": 0.6,
+          "z": 3
+        },
+        "radius": 0.45,
+        "halfHeight": 0.2,
+        "hitFlash": 0,
+        "deadFor": 0,
+        "slow": 1
+      },
+      {
+        "id": "target-2",
+        "team": 0,
+        "character": "target",
+        "hp": 3000,
+        "maxHp": 3000,
+        "alive": true,
+        "life": 1,
+        "position": {
+          "x": 2,
+          "y": 0.6,
+          "z": -7
+        },
+        "radius": 0.45,
+        "halfHeight": 0.2,
+        "hitFlash": 0,
+        "deadFor": 0,
+        "slow": 1
+      }
+    ],
+    "events": [
+      {
+        "round": 1,
+        "attack": "basic:1",
+        "source": "player",
+        "target": "target-0",
+        "targetLife": 1,
+        "kind": "lingyuan-basic",
+        "tick": 0,
+        "damage": 88,
+        "hp": 2912,
+        "killed": false,
+        "time": 1.4400000000000002,
+        "region": "weapon-sweep",
+        "contactAge": 0.23
+      },
+      {
+        "round": 1,
+        "attack": "basic:2",
+        "source": "player",
+        "target": "target-0",
+        "targetLife": 1,
+        "kind": "lingyuan-basic",
+        "tick": 0,
+        "damage": 88,
+        "hp": 2824,
+        "killed": false,
+        "time": 2.1600000000000006,
+        "region": "weapon-sweep",
+        "contactAge": 0.27163078195072704
+      }
+    ],
+    "ledgerSize": 2
+  },
+  "duel": {
+    "mode": "duel",
+    "round": 2,
+    "clock": 1.1199999999999999,
+    "winner": null,
+    "units": [
+      {
+        "id": "player",
+        "team": 1,
+        "character": "lingyuan",
+        "hp": 934,
+        "maxHp": 1000,
+        "alive": true,
+        "life": 2,
+        "position": {
+          "x": 0,
+          "y": 0.85,
+          "z": 0
+        },
+        "radius": 0.36,
+        "halfHeight": 0.49,
+        "hitFlash": 0,
+        "deadFor": 0,
+        "slow": 1
+      },
+      {
+        "id": "opponent",
+        "team": 2,
+        "character": "yueli",
+        "hp": 850,
+        "maxHp": 850,
+        "alive": true,
+        "life": 2,
+        "position": {
+          "x": 3.7695678488432494,
+          "y": 0.85,
+          "z": 0
+        },
+        "radius": 0.36,
+        "halfHeight": 0.49,
+        "hitFlash": 0,
+        "deadFor": 0,
+        "slow": 1
+      },
+      {
+        "id": "target-0",
+        "team": 0,
+        "character": "target",
+        "hp": 3000,
+        "maxHp": 3000,
+        "alive": true,
+        "life": 2,
+        "position": {
+          "x": 4.1,
+          "y": 0.6,
+          "z": 0
+        },
+        "radius": 0.45,
+        "halfHeight": 0.2,
+        "hitFlash": 0,
+        "deadFor": 0,
+        "slow": 1
+      },
+      {
+        "id": "target-1",
+        "team": 0,
+        "character": "target",
+        "hp": 3000,
+        "maxHp": 3000,
+        "alive": true,
+        "life": 2,
+        "position": {
+          "x": -6,
+          "y": 0.6,
+          "z": 3
+        },
+        "radius": 0.45,
+        "halfHeight": 0.2,
+        "hitFlash": 0,
+        "deadFor": 0,
+        "slow": 1
+      },
+      {
+        "id": "target-2",
+        "team": 0,
+        "character": "target",
+        "hp": 3000,
+        "maxHp": 3000,
+        "alive": true,
+        "life": 2,
+        "position": {
+          "x": 2,
+          "y": 0.6,
+          "z": -7
+        },
+        "radius": 0.45,
+        "halfHeight": 0.2,
+        "hitFlash": 0,
+        "deadFor": 0,
+        "slow": 1
+      }
+    ],
+    "events": [
+      {
+        "round": 2,
+        "attack": "basic:3",
+        "source": "opponent",
+        "target": "player",
+        "targetLife": 2,
+        "kind": "yueli-basic",
+        "tick": 0,
+        "damage": 66,
+        "hp": 934,
+        "killed": false,
+        "time": 0.7999999999999999,
+        "region": "ice-feather",
+        "contactAge": 0.7460172479183929
+      }
+    ],
+    "ledgerSize": 1
+  },
+  "software": true,
+  "audioCaptured": false,
+  "realPhoneTested": false,
+  "errors": []
+}

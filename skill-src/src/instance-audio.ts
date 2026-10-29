@@ -4,7 +4,7 @@ import { skillRegistry } from './skill-registry';
 export type CastKind='lingyuan-1'|'lingyuan-2'|'lingyuan-3'|'yueli-1'|'yueli-2'|'yueli-3';
 export type LunarPhase='cast'|'moon'|'crystal'|'burst'|'field'|'hit'|'dissolve'|'dragon';
 export type BasicKind='lingyuan-basic'|'yueli-basic';
-export interface AudioEvent {instanceId:number;kind:CastKind|BasicKind;phase:string;variant:number;pitch:number;gain:number;simulationTime:number;requestedAudioTime:number;startedAudioTime:number|null;file:string;status:'pending'|'playing'|'failed'}
+export interface AudioEvent {instanceId:number;kind:CastKind|BasicKind;phase:string;variant:number;pitch:number;gain:number;simulationTime:number;requestedAudioTime:number;startedAudioTime:number|null;file:string;status:'pending'|'playing'|'failed'|'cancelled'}
 const phases:LunarPhase[]=['cast','moon','crystal','burst','field','hit','dissolve'];
 export class InstanceAudio {
  readonly events:AudioEvent[]=[];readonly buffers=new Map<string,AudioBuffer>();ready=false;error='';
@@ -57,5 +57,6 @@ export class InstanceAudio {
   for(const [param,value] of [[l.positionX,p.x],[l.positionY,p.y],[l.positionZ,p.z],[l.forwardX,forward.x],[l.forwardY,forward.y],[l.forwardZ,forward.z],[l.upX,up.x],[l.upY,up.y],[l.upZ,up.z]] as [AudioParam,number][])param.value=value;
  }
  snapshot(){return {paused:this.paused,ready:this.ready,basicReady:this.basicReady,basicError:this.basicError,basicFailedFiles:[...this.failedBasic.keys()],loaded:this.buffers.size,failedFiles:[...this.failed.keys()],voices:this.sources.size,pending:this.pending.length,error:this.error,events:this.events}}
+ stopInstance(id:number){for(const [source,entry] of this.sources)if(entry.id===id){source.onended=null;try{source.stop()}catch{}source.disconnect();entry.gain.disconnect();entry.pan.disconnect();this.sources.delete(source)}for(let n=this.pending.length-1;n>=0;n--)if(this.pending[n].event.instanceId===id){this.pending[n].event.status='cancelled';this.pending.splice(n,1)}this.normalize()}
  stopAll(){for(const [s,entry] of this.sources){s.onended=null;try{s.stop()}catch{}s.disconnect();entry.gain.disconnect();entry.pan.disconnect()}this.sources.clear();for(const p of this.pending)p.event.status='failed';this.pending.length=0;this.normalize()}
 }

@@ -1,0 +1,606 @@
+{
+  "baseline": "499215e",
+  "assets": [
+    {
+      "path": "dist/Lingyuan_working.blend",
+      "sha256": "d40c594c0c915668a516230f508b1305f9dcf0225d96efbc8d358013e82c5030",
+      "unchanged": true
+    },
+    {
+      "path": "dist/inspection/back.png",
+      "sha256": "c9256ff42e2b87e31ced11ae9517a4c1a69cd66fe4013fd461aba01f0fb7a555",
+      "unchanged": true
+    },
+    {
+      "path": "dist/inspection/details/boots.png",
+      "sha256": "7e7cc26fe3726b5ccc1ec7ebd8063162d6d2b6e3acc2c1a2d2927e818a360afa",
+      "unchanged": true
+    },
+    {
+      "path": "dist/inspection/details/face.png",
+      "sha256": "13f3455f2a65b6c3474f0a550e6341dad7f0cb09ad88d0e90e0ed63fde7e76d7",
+      "unchanged": true
+    },
+    {
+      "path": "dist/inspection/details/hair.png",
+      "sha256": "981eb0320aa0de88b622e223b8775862ec7a50a26f424779f9067d69a17d9227",
+      "unchanged": true
+    },
+    {
+      "path": "dist/inspection/details/hand.png",
+      "sha256": "faf211f6848390df66a4c80499a30980910951b308455abccf20ea2a7cb4b1f9",
+      "unchanged": true
+    },
+    {
+      "path": "dist/inspection/details/robe.png",
+      "sha256": "0a55791f4e7b1759451e982fd2f01e1ed7a351ea078bf725ef5f02d363820551",
+      "unchanged": true
+    },
+    {
+      "path": "dist/inspection/details/shoulder.png",
+      "sha256": "119501e5afba0238f76f0053211f69b1b574ad55eb7d7cc4b9dc99c1a3864dab",
+      "unchanged": true
+    },
+    {
+      "path": "dist/inspection/details/waist.png",
+      "sha256": "577753b7fca5949deae97f47c84dc815446ca56d1d64af8f110af09277f8eea9",
+      "unchanged": true
+    },
+    {
+      "path": "dist/inspection/details/weapon.png",
+      "sha256": "4d899cd3ab76b026cb55d5e80684546f6b341863b182bab957214b9971b7a6e9",
+      "unchanged": true
+    },
+    {
+      "path": "dist/inspection/face-side.png",
+      "sha256": "6dc1d5f3ece0748b83485cb50f06671ce2ad0119526a2b490d8b57599bce0e03",
+      "unchanged": true
+    },
+    {
+      "path": "dist/inspection/face.png",
+      "sha256": "efcc097d41cb0fe7ecc1a63d876b55222b923985d9353d673ee008bc029ab08f",
+      "unchanged": true
+    },
+    {
+      "path": "dist/inspection/front.png",
+      "sha256": "8a15ef2ac5812453fa885c42dc0f4b44ead76ac30f0ce5c202b49d1b136aaae5",
+      "unchanged": true
+    },
+    {
+      "path": "dist/inspection/side.png",
+      "sha256": "257e2b6de855f6815feed88fbfc38f255fb110139820f331555e0ec9bc6afa96",
+      "unchanged": true
+    },
+    {
+      "path": "dist/lingyuan-lod0.glb",
+      "sha256": "9e3c09f5f111a11efae134a155c16ba1959c3e65e45c279b0f56851be5bb71ed",
+      "unchanged": true
+    },
+    {
+      "path": "dist/lingyuan-lod1.glb",
+      "sha256": "6cfb5b02d87598f804657274d89909adff247306a2b6cb62533ed16744abc33f",
+      "unchanged": true
+    },
+    {
+      "path": "dist/lingyuan-lod2.glb",
+      "sha256": "ff50b260f5e2222c357998fcff5e1ea5bc35631d999d4f47cbfecabfd71beb2a",
+      "unchanged": true
+    },
+    {
+      "path": "dist/quality/dragon-head-variants.glb",
+      "sha256": "d24d2a89422d2d779a88b62d526ec2d0f7a3252303fe0af362e70d7763c2dbf4",
+      "unchanged": true
+    },
+    {
+      "path": "dist/quality/dragon-slash32.glb",
+      "sha256": "eb06924ed37cff1bbc065a0fc9641219e579d56cd21671ce390334136e4efd95",
+      "unchanged": true
+    },
+    {
+      "path": "dist/quality/effect-surfaces.glb",
+      "sha256": "1a939b3e4357e528b580a449d8ac6f25193efad6d55fff65a425dee5672f2d95",
+      "unchanged": true
+    },
+    {
+      "path": "dist/quality/lingyuan-head-ao.png",
+      "sha256": "51bba317e7317866361c914987b7fa8a48e9dc240dc5e01b175949242c2e4376",
+      "unchanged": true
+    },
+    {
+      "path": "dist/quality/lingyuan-head-normal.png",
+      "sha256": "4848291e9a82884656021117d4ff8ae736621da413f1c8d8645f786119186dd5",
+      "unchanged": true
+    },
+    {
+      "path": "dist/quality/lingyuan31-head.glb",
+      "sha256": "56fd767e905f51290e0becb5df71b1f95be3ec8b76ec30e3a66dabcff37081b7",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/assets/lunar-surface-color.webp",
+      "sha256": "540773b2fdd9241bf65c720ac43ce33ebbd6dafe6bb57f8408e86ddf693fc0b7",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/assets/lunar-surface-normal.webp",
+      "sha256": "091147cc0413daf881b933ca303268a87b0482558c0e5697c3f0de2172d11d26",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/assets/yueli-moon-echo.glb",
+      "sha256": "72c100886faab170666d25f2533aa9a3b17e4e6f7163506c417c30b920494ea8",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/basic/basic-lunar-hit-0.ogg",
+      "sha256": "3f742d64de36b97418c737cfde43523ac36e7aa127ea97cb9eab3490b11ee675",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/basic/basic-lunar-hit-1.ogg",
+      "sha256": "9327da9857e6d982e4cced743cb74cebfcd3ee77500b39aa055d561e4fb9bcfe",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/basic/basic-lunar-hit-2.ogg",
+      "sha256": "64011270c6a791d7b71e477b7e3e1812d9c7959b154478b7e577d49674430262",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/basic/basic-lunar-release-0.ogg",
+      "sha256": "60455f4418d59b0ead4e546bd9a32e33500d563fa28b9ffb0517431712caed65",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/basic/basic-lunar-release-1.ogg",
+      "sha256": "134db91e70b0a29041462f415198d013c406cc148ed0d8bf720060ca2a1ed22c",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/basic/basic-lunar-release-2.ogg",
+      "sha256": "af156e3530a1e2d106baa4c97a29bb72a5d374fba18e8ec8c90032c5915ff2de",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/basic/basic-spear-hit-0.ogg",
+      "sha256": "61f0a219f5405fdde089e0dc47a96dd38fa80cc4e88210c06171110524ab608e",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/basic/basic-spear-hit-1.ogg",
+      "sha256": "395fe7e9c113a07aeee357e3f67ddf2b375fab0a4187f1e4280d3271e02b1e5a",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/basic/basic-spear-hit-2.ogg",
+      "sha256": "46b46d4ca5c016c991b2462dc53379970e1ef48ef76c0795e4cd7317000379da",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/basic/basic-spear-release-0.ogg",
+      "sha256": "c93012e94015822ed57f2d108924123a361234bdef4e21057092fecbf08a5a1d",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/basic/basic-spear-release-1.ogg",
+      "sha256": "d39eaa62ff40efc54f36431409e91a2783eca442e25a549156672f66dfa7095c",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/basic/basic-spear-release-2.ogg",
+      "sha256": "bb7d960a18bed7fcc9ce128dfb9742d50ba90016c7106e271ca5ad7be139e0f3",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/blade_01.ogg",
+      "sha256": "caf7a7cb9b25cda4bd487c1d12d18b74a34bb18c816fd67277cf3c8d7ef32a3a",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/blade_03.ogg",
+      "sha256": "2cd9e6926f4602a4350e703eeae4df520053e290f358ab692632d651ad368a7c",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/chain_02.ogg",
+      "sha256": "dd3b753e54fd4e6ed94c36231d1950fafd681ff4a93462cfa3980099a6454ecb",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/creature_roar_02.ogg",
+      "sha256": "4da0cf77a3506e1b573ec40e3688dc66400d1734853510db357fb3f843cde242",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar1-burst-0.ogg",
+      "sha256": "79819171cb648d64a33f6338e5cf9775024e26aaf143305b99305ddeb00c6203",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar1-burst-1.ogg",
+      "sha256": "1836d0671060768591a779a1986e973e09a72fa6bacb791ede58df5117418e63",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar1-burst-2.ogg",
+      "sha256": "8fbc579aac7d8b439605575f432d9530e1fdd6f7639ba23491ea7c4e14982c93",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar1-cast-0.ogg",
+      "sha256": "f8d69a6dcfe9bfe517cc8ce37e4c0b061f67f74b1fb5ad7af7a1705468ab0e80",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar1-cast-1.ogg",
+      "sha256": "fd6483e27ceedfa1cb79c7168281c89224641e63a8819b7cc412efab23fb7b6a",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar1-cast-2.ogg",
+      "sha256": "0043036d47baad7b446e0746fd901243a5eb0d449dcd4797cf045f398212f283",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar1-crystal-0.ogg",
+      "sha256": "aec614a1379ca3370592dc3f840d9758145dc08083e578f1f21fa37afee19958",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar1-crystal-1.ogg",
+      "sha256": "2e11640a5d10a3ae92da4c3fb844c29ce65c4040f4a82b786bd31facf64e9111",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar1-crystal-2.ogg",
+      "sha256": "b853301dfdd7823c788280310b7ff38c2b7821f2350af76aa6a5941c5aa23cb1",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar1-dissolve-0.ogg",
+      "sha256": "e8672ac85e95acb68465fdb5ab535f0d43a1f7c00ba59401265b5cb2a47d0f63",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar1-dissolve-1.ogg",
+      "sha256": "5c07ecb3d75b598776b70d3afdec54e98f01d6f265e4e3f0f96fa98219cfd9e4",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar1-dissolve-2.ogg",
+      "sha256": "d4ce3ed4e6eb73faaf3ef22b1cf1b043b011d562a24e4efa425c38534e59c5da",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar1-field-0.ogg",
+      "sha256": "d9b05bc0e2fe2b05499975ffc9d5c1206b2de19cb1023137799d1645d4f5e42d",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar1-field-1.ogg",
+      "sha256": "7ed5d7f9fc41f3bcb29d6c8d3e7c6477e93e886e8cd890aca48905091d6ba6ad",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar1-field-2.ogg",
+      "sha256": "c71c274070e41ae219026b035faafef2c1f85b6f60ab8f7df5441207b778c5bb",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar1-hit-0.ogg",
+      "sha256": "79535c3378310f64c682eaa40e7eb14b4f7a9f0f0e3a2fbfb5afad58d6f74281",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar1-hit-1.ogg",
+      "sha256": "a99ca338ad7e98de320a85b37bc078a08aea5a646251fa2654eda3d0046a69e0",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar1-hit-2.ogg",
+      "sha256": "14e59461f99d5cabb7bec09cf13aa9145702ea988c615702bcb627d3f9a75150",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar1-moon-0.ogg",
+      "sha256": "6b6ac0a07b340723212f912c8af63019d8919f3b5c7c5a52af225b6ee2624ab4",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar1-moon-1.ogg",
+      "sha256": "9dd88e59e69a7ac90eefc95dfcee6007b2fa69510e080211eec84254992f009e",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar1-moon-2.ogg",
+      "sha256": "bad85ca5ab319515ecc1686ae59771ffa5f694cd422f2bc77c7fa3639cb68758",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar2-burst-0.ogg",
+      "sha256": "7b367bb84e372f2d5784b06ab07c23f9d61a3e67687c1b81cfa5a913515f82f9",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar2-burst-1.ogg",
+      "sha256": "061c1676a9350105eb334ecf022835c3f7093c802afc24ef74f4ef34edacfc66",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar2-burst-2.ogg",
+      "sha256": "e1b7195777df5129a2af6ccd01d17c6c506c369d9c3f9a868f556d0d76f3fad6",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar2-cast-0.ogg",
+      "sha256": "8b1ba4ef962ce5745de18d12f5707ea637a5a0cc62edcce9e737e10146a6c7a2",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar2-cast-1.ogg",
+      "sha256": "3c4e1db8e7aa050f09cf20b6e808feb6d15667e68e6e734a48c8cb397d21ba45",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar2-cast-2.ogg",
+      "sha256": "1dbe4e471517e7d959ad9d9993a2a0aac3925bf76b77519d9cbe317a0bf04028",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar2-crystal-0.ogg",
+      "sha256": "e654d7683f8cb43d8c48e4beec119b7be4a676f416bb2ed8b0c75412a15de9a9",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar2-crystal-1.ogg",
+      "sha256": "164c0237469c602520d7fef7797e5cf89bb0dacaf492096d95dd63c48077726e",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar2-crystal-2.ogg",
+      "sha256": "b5c6d18c59395f0300f591fdbfcaa59a7c246b192d21aa1ed115f034be40b1ea",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar2-dissolve-0.ogg",
+      "sha256": "d05495f452c5c9a35cb0843db030a81617ba975b66b0180b2ad6cfc384dc74a7",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar2-dissolve-1.ogg",
+      "sha256": "0349d2d5ae67d1e260615ecc4d464c6953d64427583f84cecad5e8be9b8ca316",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar2-dissolve-2.ogg",
+      "sha256": "6aacc61ab7711d6fa539e8217bf4128d2c73aed21e03f8c6593991b9ba11d693",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar2-field-0.ogg",
+      "sha256": "64c458e942024d0bf6b4c2f3a9565afc71bd46d4e4bfea3c9b304038a3694d33",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar2-field-1.ogg",
+      "sha256": "a12c8f76a7b9b5e4bdbd56259743efb36eab44534a78d705111a76d003e7daba",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar2-field-2.ogg",
+      "sha256": "868c1171e438215b8980c81e7eb4589ff01db0ab9cddc935f99c720d423421b8",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar2-hit-0.ogg",
+      "sha256": "654bb7426ed69a5ae4d80d10aa91200252400c1dc91d0b381a96558642add9ed",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar2-hit-1.ogg",
+      "sha256": "b517a42dd58b0a999c2e5812d2716b914e7fd280af60a261026fb7a680c7ccc5",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar2-hit-2.ogg",
+      "sha256": "90aae072db9aa49e75cdd00c5092cbcb81b9152dae09ac25a8930164b059e31e",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar2-moon-0.ogg",
+      "sha256": "24796a7c981f1903946e45279924304a547bab4330894cd62bc3dfe87268b3d5",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar2-moon-1.ogg",
+      "sha256": "af5b821dbd82ab3e148d5d41fb4040ef620b6736766983bbbd574cd5f86fa122",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar2-moon-2.ogg",
+      "sha256": "fd0aa5e4e186179ca23ebd1f2a9e21604c8c29b27dcee918c791d6aa803f915c",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar3-burst-0.ogg",
+      "sha256": "dc21f6d01b70e608c559e7f6c5290ce955866d87de2bd0589bab4ff5803e6a15",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar3-burst-1.ogg",
+      "sha256": "b3dd14d7f6cffecb2c1f65b59d35646286faec643bfe94b02a8f3972abefd4c1",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar3-burst-2.ogg",
+      "sha256": "3464e85939fcc66fbd22f6171c3ed8e62cb95967d9a85fd1f654317fad9a7d69",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar3-cast-0.ogg",
+      "sha256": "db4e71fca753c395005c545be9b08bb1478642f4d5679884e045443dbe112940",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar3-cast-1.ogg",
+      "sha256": "e6247ce2c4bacca0ce2c16ae9a1d1d7bebc18f2e864ba1f69b5bbb372e8b083f",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar3-cast-2.ogg",
+      "sha256": "acccb5362ecd5b14a2870b8efd307915a0d452c34fed26720e12a4544c8a4700",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar3-crystal-0.ogg",
+      "sha256": "4a4a33424ba65c321da7bc1661a5764a3eb75abde76d5f1987374acda30f0cd8",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar3-crystal-1.ogg",
+      "sha256": "e4ee07f1e6896252dba117ddede2e18a645f6967dabcbec1b8f45534b6eada91",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar3-crystal-2.ogg",
+      "sha256": "d3d6219fd3bd9cd3ff286007e95a43b71c00d41b8e496407af9a23a709e1b3b3",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar3-dissolve-0.ogg",
+      "sha256": "3737a8f3c51dc449b8f5cd3869fc601d2308ba0f56992f7b9606cd2516cd5287",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar3-dissolve-1.ogg",
+      "sha256": "9f3560063a3ac1199d55158882ce59f5b4db8878f13802a00351297d36731c3c",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar3-dissolve-2.ogg",
+      "sha256": "3145d95585c4519aef8258f42f7e254b06cb19ea4fac1b04e4a7478691ba2f8b",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar3-dragon-0.ogg",
+      "sha256": "5cdfda91254ebbc976cf49458f5359162219ac9149ed95c8b421208d40f1adab",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar3-dragon-1.ogg",
+      "sha256": "41ff178fa75a55d2cce26152c9dc2a391f77473765a385cc4f44d8b8f244f24a",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar3-dragon-2.ogg",
+      "sha256": "c27fb4824f18b434a41d0a17c01176529d00d91c0d29afe0b73e053a70118386",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar3-field-0.ogg",
+      "sha256": "7d67e3df8a4b3db7ccaffc8665ea000072de9ac89f28fb77e6136b7f45b7f8df",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar3-field-1.ogg",
+      "sha256": "5f1761a364373ce9c3916928b781c297133b428688943afc981ef1213cd36d52",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar3-field-2.ogg",
+      "sha256": "d6ef3724bb0c6519e4e2d513606238001bd29e5f41fcf87eb074566afc293572",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar3-hit-0.ogg",
+      "sha256": "5a49015763a3b99067c9450f401ac856c7445b59ee5cfe811e5f0d6270052272",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar3-hit-1.ogg",
+      "sha256": "cfb4515e31eb5272a37b3a253433db583774d659616c5201f2ef3be7d3adb1ee",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar3-hit-2.ogg",
+      "sha256": "ce8899572b8d5c764e404c0999fcd8f97ea7cca24a30c419d27e9a38b50bf327",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar3-moon-0.ogg",
+      "sha256": "a8acdf03a1c492f799a4ccb843cbb907b521a26a1b902f1c1697c0998dcf7c81",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar3-moon-1.ogg",
+      "sha256": "1dffbe14353a007c9f02c8b97000840d83b6eeb1603ecc76ddb276b353b9c0dd",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/lunar/lunar3-moon-2.ogg",
+      "sha256": "cb26622c9c7dc26ea1123e42e58683de4afc16c762a62e87663bd3bdc43c72c9",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/magical_2.ogg",
+      "sha256": "84a70f63f3f21e5ba4a48285b760a663d422ad3feddba2f3cbadd94b76cdc52e",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/spell_01.ogg",
+      "sha256": "09821a53c418c5eeeac4fa25bada9d245e822fed302eeeae9ae4151522a45ae5",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/spell_02.ogg",
+      "sha256": "bf9c48b76921e56aa266172d969a2c08215d6ce0ffae7c3584f23fa05d3f8bd4",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/spell_fire_03.ogg",
+      "sha256": "2e4edee4ff8d7898198f1ab5213e086965e14a665cb947d53759505e28ddd3e4",
+      "unchanged": true
+    },
+    {
+      "path": "dist/skill/audio/stones_03.ogg",
+      "sha256": "b86d143d7ef4974c2b97fda9e5d1861482646eec754e15935eeb3680ea0d71da",
+      "unchanged": true
+    },
+    {
+      "path": "dist/textures/body_basecolor.png",
+      "sha256": "6602b8f05afd3c5b9399acf9e2c4add0bd7cf7890c00f984b547568ed0b8ef97",
+      "unchanged": true
+    },
+    {
+      "path": "dist/textures/body_normal.png",
+      "sha256": "f540636ac00f85131526b51914adecc63b580e35bdc5d9b5843f813ee15ec7b3",
+      "unchanged": true
+    },
+    {
+      "path": "dist/textures/body_orm.png",
+      "sha256": "c35ac47930078b10a03b8cf169fd92792703e45d4272d71319cbf42f66d68bd7",
+      "unchanged": true
+    },
+    {
+      "path": "dist/textures/young_male_diffuse.png",
+      "sha256": "f50016a5507fc687dc8df06599c8ea48de950cd185de33a71cafc1319ddab4d5",
+      "unchanged": true
+    },
+    {
+      "path": "dist/yueli-study.glb",
+      "sha256": "98bbd76b5e6d0b6003364b90e1e44c7cb6f6f5bb24fd723ceb66fd1c7a7aba0e",
+      "unchanged": true
+    }
+  ],
+  "effectsOnlyReadOnlyCombatGetters": [
+    "dragon.ts",
+    "slash-dragon.ts",
+    "bind-star.ts",
+    "star-vortex.ts",
+    "moon-frost.ts",
+    "moon-tide.ts",
+    "moonfall.ts",
+    "ice-dragon.ts"
+  ],
+  "meaning": "original visual geometry/shaders/textures/audio retained; procedural basic/foot/action changes are separately tested"
+}

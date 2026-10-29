@@ -34,6 +34,7 @@ export class MoonFrost {
   this.feathers=new THREE.InstancedMesh(frostFeather(),ice,72);this.feathers.frustumCulled=false;this.group.add(this.feathers);
  }
  setQuality(q:'high'|'ultra'){this.quality=q;this.feathers.count=q==='ultra'?72:42}
+ combatGeometry(){return {crescent:this.crescent,bloom:this.bloom,feathers:this.feathers}}
  sample(){return {crescentX:this.crescent.position.x,lotusScale:this.bloom.scale.x,featherCount:this.feathers.count}}
  update(t:number,active:boolean){
   this.group.visible=active&&t<4.4;if(!this.group.visible)return;

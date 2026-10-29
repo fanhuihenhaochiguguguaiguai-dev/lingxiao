@@ -1,0 +1,49 @@
+{
+  "scope": "desktop software WebGL2; fixed camera; CPU synthetic simulation cost is not frame time, GPU time or phone FPS",
+  "cases": {
+    "before": {
+      "drawCalls": 960,
+      "triangles": 672702,
+      "software": true,
+      "renderer": "WebGL2",
+      "instances": 10,
+      "quarterGameSecondCpuMs": 97.70000000298023,
+      "afterRelease": {
+        "paused": false,
+        "created": 10,
+        "allocations": 10,
+        "reused": 0,
+        "activeCount": 0,
+        "pooled": 2,
+        "recycled": 2,
+        "disposed": 8,
+        "clock": 10.500000000000101,
+        "active": [],
+        "history": []
+      }
+    },
+    "after": {
+      "drawCalls": 962,
+      "triangles": 674622,
+      "software": true,
+      "renderer": "WebGL2",
+      "instances": 10,
+      "quarterGameSecondCpuMs": 118.89999999850988,
+      "afterRelease": {
+        "paused": false,
+        "created": 10,
+        "allocations": 10,
+        "reused": 0,
+        "activeCount": 0,
+        "pooled": 2,
+        "recycled": 2,
+        "disposed": 8,
+        "clock": 10.500000000000101,
+        "active": [],
+        "history": []
+      }
+    }
+  },
+  "drawCallDelta": 2,
+  "triangleDelta": 1920
+}

@@ -34,6 +34,7 @@ export class IceDragon {
   for(let i=0;i<this.dorsal.count;i++){const u=.05+i/31,f=this.frame(u,t),r=this.radius(u)+.005;this.dummy.position.copy(f.p).addScaledVector(f.up,r*.85);this.dummy.quaternion.setFromUnitVectors(new V(0,1,0),f.up);this.dummy.scale.setScalar((1-u*.7)*phase);this.dummy.updateMatrix();this.dorsal.setMatrixAt(i,this.dummy.matrix)}this.dorsal.instanceMatrix.needsUpdate=true;
   for(let i=0;i<2;i++){const u=i?.64:.23,f=this.frame(u,t),r=this.radius(u)*ease(.7+u*.5,1.6+u*.5,t);this.dummy.position.copy(f.p);this.dummy.quaternion.setFromRotationMatrix(new THREE.Matrix4().makeBasis(f.tangent,f.up,f.side));this.dummy.scale.set(.9*appear,.9*appear,r/.16);this.dummy.updateMatrix();this.limbs.setMatrixAt(i,this.dummy.matrix)}this.limbs.instanceMatrix.needsUpdate=true;
  }
+ combatGeometry(){return {space:this.group,head:this.head,mesh:this.body,segments:this.segmentCount,sides:this.sides}}
  sample(){let length=0;for(let i=1;i<this.frames.frames.length;i++)length+=this.frames.frames[i].p.distanceTo(this.frames.frames[i-1].p);return {identity:'月霜 · 月弧角与冰羽鳃冠',bodyLength:length,visible:this.group.visible,head:this.head.position.toArray(),bodyY:this.positions.getY(29),scales:this.scales.count,limbs:this.limbs.count*2,limbPairs:this.limbs.count}}
  dispose(){this.scales.dispose();this.dorsal.dispose();this.limbs.dispose();this.body.geometry.dispose();for(const m of [this.skin,this.light,this.horn,this.dark,this.eye])m.dispose();this.group.clear()}
 }

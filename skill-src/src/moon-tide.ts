@@ -61,6 +61,7 @@ export class MoonTide {
   const v=new Float32Array(97*7*3),indices:number[]=[];for(let i=0;i<96;i++)for(let j=0;j<6;j++){const a=i*7+j,b=a+7;indices.push(a,b,a+1,b,b+1,a+1)}const geometry=new THREE.BufferGeometry();this.wavePositions=new THREE.BufferAttribute(v,3);this.wavePositions.setUsage(THREE.DynamicDrawUsage);geometry.setAttribute('position',this.wavePositions);geometry.setIndex(indices);this.wave=new THREE.Mesh(geometry,this.ice);this.wave.frustumCulled=false;this.group.add(this.wave);this.group.add(this.echoes);
  }
  setQuality(q:'high'|'ultra'){this.high=q==='ultra';this.motes.count=this.high?120:64;this.broken.count=this.high?60:32}
+ combatGeometry(){return {ground:this.ground,orbits:this.orbits,crystals:this.crystals,wave:this.wave}}
  sample(t:number){return {radius:3.15*ease(1.1,2.2,t),height:2.6,echoes:this.echoCount,crystals:this.crystals.count,phase:t<.5?'凝月':t<1.4?'月影汇聚':t<2.2?'寒潮爆发':t<7?'持续领域':'消散'}}
  update(t:number,active:boolean,seed=0){
   this.group.visible=active&&t<8.6;if(!this.group.visible)return;this.clock.value=t;

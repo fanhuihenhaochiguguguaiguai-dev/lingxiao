@@ -40,6 +40,7 @@ export class Moonfall {
   for(let i=0;i<3;i++){const u=ease(3.75+i*.20,4.65+i*.30,t),r=.1+u*5.1;this.dummy.position.set(1.5,.05+i*.035,0);this.dummy.rotation.set(Math.PI/2,0,t*.15);this.dummy.scale.setScalar(r);this.dummy.updateMatrix();this.shock.setMatrixAt(i,this.dummy.matrix);const intensity=t<3.75+i*.20?0:Math.sin(Math.PI*u)*fade;this.shock.setColorAt(i,new THREE.Color(intensity,intensity,intensity))}this.shock.instanceMatrix.needsUpdate=true;if(this.shock.instanceColor)this.shock.instanceColor.needsUpdate=true;
   for(let i=0;i<10;i++){const a=i*TAU/10+t*.05;this.dummy.position.set(1.5+Math.cos(a)*2.8,.14,Math.sin(a)*2.8);this.dummy.rotation.set(0,a,0);this.dummy.scale.set(.85,.11,.50);this.dummy.updateMatrix();this.mist.setMatrixAt(i,this.dummy.matrix)}this.mist.instanceMatrix.needsUpdate=true;
  }
+ combatGeometry(){return {dragon:this.dragon,crystals:this.crystals,rings:this.rings,shock:this.shock,lotus:this.lotus}}
  sample(){return {phase:this.lastTime<1?'九重凝月':this.lastTime<2.9?'冰龙降临':this.lastTime<4.4?'月陨天霜':this.lastTime<9.4?'九界归墟':'自然消散',rings:this.rings.count,dragonCount:this.group.visible&&this.dragon.group.visible?1:0,dragon:this.dragon.sample(),moonY:this.moon.position.y,radius:4.5,crystals:this.crystals.count}}
  dispose(){this.dragon.dispose();for(const m of [this.rings,this.runes,this.crescents,this.lotus,this.crystals,this.storm,this.beams,this.shock,this.mist])m.dispose();for(const mat of [this.moonMat,this.ice,this.gold,this.glow,this.fog])mat.dispose();this.group.clear()}
 }

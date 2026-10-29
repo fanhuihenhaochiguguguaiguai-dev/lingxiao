@@ -1,0 +1,307 @@
+{
+  "scope": "actual Chromium software WebGL2, staged QA input/clock; no real phone or final art claim",
+  "checks": {
+    "lingyuan-1": {
+      "regionAtProbe": {
+        "id": "dragon:body:20",
+        "shape": "capsule",
+        "a": {
+          "x": 3.0728727978867085,
+          "y": 1.2971732631480415,
+          "z": 0.4703932069961279
+        },
+        "b": {
+          "x": 3.01235514251678,
+          "y": 1.2804661754882862,
+          "z": 0.36961928173976627
+        },
+        "radius": 0.16297538191283573,
+        "start": 0.95,
+        "end": 3.65,
+        "active": true
+      },
+      "targetPosition": [
+        3.0728727978867085,
+        1.2971732631480415,
+        0.4703932069961279
+      ],
+      "events": [
+        {
+          "round": 2,
+          "attack": "skill:1",
+          "source": "player",
+          "target": "target-0",
+          "targetLife": 2,
+          "kind": "lingyuan-1",
+          "tick": 0,
+          "damage": 135,
+          "hp": 2865,
+          "killed": false,
+          "time": 2.1833333333333305,
+          "region": "dragon:body:15",
+          "contactAge": 2.1831410478812687
+        }
+      ],
+      "noOverlappingVolumeDoubleDamage": true,
+      "farOutsideMiss": true,
+      "warningNoDamage": true,
+      "dissolveNoDamage": true
+    },
+    "lingyuan-2": {
+      "regionAtProbe": {
+        "id": "binding-field",
+        "shape": "cylinder",
+        "a": {
+          "x": 0,
+          "y": 1.097,
+          "z": 0
+        },
+        "radius": 3.03,
+        "inner": null,
+        "height": 2.3,
+        "start": 1,
+        "end": 5.45,
+        "active": true
+      },
+      "targetPosition": [
+        0,
+        1.097,
+        2.8
+      ],
+      "events": [
+        {
+          "round": 6,
+          "attack": "skill:5",
+          "source": "player",
+          "target": "target-0",
+          "targetLife": 6,
+          "kind": "lingyuan-2",
+          "tick": 0,
+          "damage": 95,
+          "hp": 2905,
+          "killed": false,
+          "time": 4.133333333333324,
+          "region": "binding-crystal:2:0",
+          "contactAge": 4.133178460243084
+        }
+      ],
+      "noOverlappingVolumeDoubleDamage": true,
+      "farOutsideMiss": true,
+      "warningNoDamage": true,
+      "dissolveNoDamage": true
+    },
+    "lingyuan-3": {
+      "regionAtProbe": {
+        "id": "vortex-core",
+        "shape": "cylinder",
+        "a": {
+          "x": 0,
+          "y": 2.4,
+          "z": 0
+        },
+        "radius": 2.15,
+        "inner": null,
+        "height": 4.8,
+        "start": 1.7,
+        "end": 4.85,
+        "active": true
+      },
+      "targetPosition": [
+        0,
+        0.6,
+        0
+      ],
+      "events": [
+        {
+          "round": 10,
+          "attack": "skill:9",
+          "source": "player",
+          "target": "target-0",
+          "targetLife": 10,
+          "kind": "lingyuan-3",
+          "tick": 0,
+          "damage": 260,
+          "hp": 2740,
+          "killed": false,
+          "time": 2.2333333333333303,
+          "region": "vortex-core",
+          "contactAge": 2.232895600310447
+        }
+      ],
+      "noOverlappingVolumeDoubleDamage": true,
+      "farOutsideMiss": true,
+      "warningNoDamage": true,
+      "dissolveNoDamage": true
+    },
+    "yueli-1": {
+      "regionAtProbe": {
+        "id": "ice-lotus",
+        "shape": "cylinder",
+        "a": {
+          "x": 4.1,
+          "y": 0.6000000000000001,
+          "z": 0
+        },
+        "radius": 1.12,
+        "inner": null,
+        "height": 1.6,
+        "start": 2.12,
+        "end": 3.3,
+        "active": true
+      },
+      "targetPosition": [
+        4.1,
+        0.6,
+        1
+      ],
+      "events": [
+        {
+          "round": 14,
+          "attack": "skill:13",
+          "source": "player",
+          "target": "target-0",
+          "targetLife": 14,
+          "kind": "yueli-1",
+          "tick": 0,
+          "damage": 115,
+          "hp": 2885,
+          "killed": false,
+          "time": 2.833333333333328,
+          "region": "ice-lotus",
+          "contactAge": 2.8332133725241877
+        }
+      ],
+      "noOverlappingVolumeDoubleDamage": true,
+      "farOutsideMiss": true,
+      "warningNoDamage": true,
+      "dissolveNoDamage": true
+    },
+    "yueli-2": {
+      "regionAtProbe": {
+        "id": "tide-field",
+        "shape": "cylinder",
+        "a": {
+          "x": 2.4,
+          "y": 1.125,
+          "z": 0
+        },
+        "radius": 3.1,
+        "inner": null,
+        "height": 2.4,
+        "start": 1.45,
+        "end": 7,
+        "active": true
+      },
+      "targetPosition": [
+        2.4,
+        0.6,
+        0
+      ],
+      "events": [
+        {
+          "round": 18,
+          "attack": "skill:17",
+          "source": "player",
+          "target": "target-0",
+          "targetLife": 18,
+          "kind": "yueli-2",
+          "tick": 0,
+          "damage": 55,
+          "hp": 2945,
+          "killed": false,
+          "time": 3.0333333333333274,
+          "region": "crystal:8",
+          "contactAge": 3.0326955385621974
+        }
+      ],
+      "noOverlappingVolumeDoubleDamage": true,
+      "farOutsideMiss": true,
+      "warningNoDamage": true,
+      "dissolveNoDamage": true
+    },
+    "yueli-3": {
+      "regionAtProbe": {
+        "id": "moonfall-domain",
+        "shape": "cylinder",
+        "a": {
+          "x": 1.5,
+          "y": 1.7,
+          "z": 0
+        },
+        "radius": 3.95,
+        "inner": null,
+        "height": 3.7,
+        "start": 3.8,
+        "end": 9.4,
+        "active": true
+      },
+      "targetPosition": [
+        1.5,
+        0.6,
+        0
+      ],
+      "events": [
+        {
+          "round": 22,
+          "attack": "skill:21",
+          "source": "player",
+          "target": "target-0",
+          "targetLife": 22,
+          "kind": "yueli-3",
+          "tick": 0,
+          "damage": 100,
+          "hp": 2900,
+          "killed": false,
+          "time": 6.033333333333317,
+          "region": "moonfall-domain",
+          "contactAge": 6.032584575591552
+        }
+      ],
+      "noOverlappingVolumeDoubleDamage": true,
+      "farOutsideMiss": true,
+      "warningNoDamage": true,
+      "dissolveNoDamage": true
+    },
+    "lingyuan-basic": {
+      "events": [
+        {
+          "round": 26,
+          "attack": "basic:1",
+          "source": "player",
+          "target": "target-0",
+          "targetLife": 26,
+          "kind": "lingyuan-basic",
+          "tick": 0,
+          "damage": 88,
+          "hp": 2912,
+          "killed": false,
+          "time": 0.2333333333333333,
+          "region": "weapon-sweep",
+          "contactAge": 0.23
+        }
+      ],
+      "strikes": []
+    },
+    "yueli-basic": {
+      "events": [
+        {
+          "round": 27,
+          "attack": "basic:2",
+          "source": "player",
+          "target": "target-0",
+          "targetLife": 27,
+          "kind": "yueli-basic",
+          "tick": 0,
+          "damage": 66,
+          "hp": 2934,
+          "killed": false,
+          "time": 0.41666666666666663,
+          "region": "ice-feather",
+          "contactAge": 0.41529005318145784
+        }
+      ],
+      "strikes": []
+    }
+  },
+  "errors": []
+}

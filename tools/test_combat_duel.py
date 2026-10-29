@@ -1,13 +1,13 @@
 """P3/P4: real two-character combat, all six skills in both ownership directions."""
 from pathlib import Path
-import json
+import os,json
 from browser_display import display,ARGS
 from playwright.sync_api import sync_playwright
-R=Path(__file__).resolve().parents[1];out=R/'verification/combat';out.mkdir(parents=True,exist_ok=True);results={}
+R=Path(__file__).resolve().parents[1];out=R/os.environ.get('LINGYUAN_COMBAT_REPORT_DIR','verification/combat');out.mkdir(parents=True,exist_ok=True);results={}
 with display() as env,sync_playwright() as p:
  b=p.chromium.launch(headless=False,args=ARGS,env=env,executable_path='/usr/bin/chromium');page=b.new_page(viewport={'width':1100,'height':700});page.set_default_timeout(180000);errors=[];page.on('pageerror',lambda e:errors.append(str(e)));page.goto('http://127.0.0.1:8765/skill/?renderer=webgl2');page.wait_for_function('window.__lingSkill?.ready&&window.__lingSkill.instanceAudio?.ready&&window.__lingSkill.instanceAudio?.basicReady');page.evaluate('window.__lingQA.freeze(true)');page.locator('#combat-mode').click();page.wait_for_function('window.__lingQA.inspect().combat.mode==="duel"');page.evaluate('window.__combatQA.ai(false)')
  def state():return page.evaluate('window.__lingQA.inspect()')
- def reset():page.locator('#combat-reset').click();page.evaluate('window.__combatQA.ai(false);window.__combatQA.position("opponent",2.4,0)')
+ def reset():page.locator('#combat-reset').click();page.evaluate('window.__combatQA.ai(false);window.__combatQA.position("opponent",2.0,0)')
  def frame(name):
   f=state()['frames'];page.wait_for_function('f=>window.__lingSkill.frames>f',arg=f);page.screenshot(path=str(out/(name+'.png')))
  for character in ['lingyuan','yueli']:

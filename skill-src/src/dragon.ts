@@ -64,6 +64,7 @@ export class DragonEffect {
   this.group.visible=false;
  }
  hideSlashDecorations(){this.slashDecorations=false}
+ combatGeometry(){return {space:this.group,head:this.head,body:this.anatomy?.combatBody(),mesh:this.body,segments:this.segmentCount,sides:this.sides}}
  sample(){return this.anatomy?.sample()??(this.profile==='binding'?{identity:'缚星盘龙 · 镇守环行',limbs:4}:null)}
  private makeHead(){
   this.head.add(makeDragonHead({shell:this.headShell,light:this.core,gold:this.gold,dark:new THREE.MeshStandardMaterial({color:0x07152b,roughness:.6}),eye:this.orb},this.profile==='binding'?'binding':'legacy'));

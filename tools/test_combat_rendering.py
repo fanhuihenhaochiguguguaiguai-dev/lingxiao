@@ -1,11 +1,11 @@
 """Actual backend rendering/framing, fixed-angle cost and repeated mode reuse."""
 from pathlib import Path
-import json,subprocess
+import os,json,subprocess
 from urllib.parse import urlsplit
 from browser_display import display,ARGS
 from playwright.sync_api import sync_playwright
-R=Path(__file__).resolve().parents[1];out=R/'verification/combat';out.mkdir(parents=True,exist_ok=True);result={}
-old={p:subprocess.check_output(['git','show','5324e33:dist/skill/'+p],cwd=R) for p in ['index.html','app.js','style.css']}
+R=Path(__file__).resolve().parents[1];out=R/os.environ.get('LINGYUAN_COMBAT_REPORT_DIR','verification/combat');out.mkdir(parents=True,exist_ok=True);result={}
+old={p:subprocess.check_output(['git','show',os.environ.get('LINGYUAN_BASELINE','499215e')+':dist/skill/'+p],cwd=R) for p in ['index.html','app.js','style.css']}
 with display() as env,sync_playwright() as p:
  b=p.chromium.launch(headless=False,args=ARGS,env=env,executable_path='/usr/bin/chromium')
  for label,query in [('before','?renderer=webgl2'),('practice','?renderer=webgl2'),('duel-webgl2','?renderer=webgl2'),('duel-webgpu','')]:
@@ -38,7 +38,7 @@ with display() as env,sync_playwright() as p:
    row['spearSync']=samples
    page.evaluate('window.__lingQA.instanceSeek(.6)');seek=page.evaluate('window.__lingQA.inspect()');assert math.dist(seek['spearTipWorld'],seek['firstDragonWorld'])<.02;row['pausedSeekUsesCurrentPoseAnchor']=True
   if label=='duel-webgpu':
-   page.evaluate('window.__combatQA.position("opponent",2.4,0)');page.locator('#basic-attack').click();page.evaluate('window.__lingQA.advance(.6)');page.locator('#cast2').click();page.evaluate('window.__lingQA.advance(1.8)');frame();ss=page.evaluate('window.__lingQA.inspect()');assert any(e['kind']=='lingyuan-basic' for e in ss['combat']['events']) and any(e['kind']=='lingyuan-2' for e in ss['combat']['events']);page.screenshot(path=str(out/'webgpu-basic-and-skill-hit.png'));row['basicAndSkillSettleDamage']=True
+   page.evaluate('window.__combatQA.position("opponent",2.0,0)');page.locator('#basic-attack').click();page.evaluate('window.__lingQA.advance(.6)');page.locator('#cast2').click();page.evaluate('window.__lingQA.advance(1.8)');frame();ss=page.evaluate('window.__lingQA.inspect()');assert any(e['kind']=='lingyuan-basic' for e in ss['combat']['events']) and any(e['kind']=='lingyuan-2' for e in ss['combat']['events']);page.screenshot(path=str(out/'webgpu-basic-and-skill-hit.png'));row['basicAndSkillSettleDamage']=True
   assert not errors and not page.evaluate('window.__lingSkill.errors');row['errors']=errors;result[label]=row;print('PASS_RENDER',label,flush=True);page.close()
  b.close()
 (out/'rendering.json').write_text(json.dumps({'scope':'actual desktop software WebGPU/WebGL2; draw/allocation counts only, not phone FPS, heap/VRAM or long-term leak proof','cases':result},indent=2))

@@ -1,0 +1,928 @@
+{
+  "scope": "actual Chromium WebGL2; staged synthetic input and clock, not phone/performance/art acceptance",
+  "results": {
+    "lingyuan": {
+      "independentBones": true,
+      "cachedOpponentActors": 1,
+      "playerSkills": {
+        "1": {
+          "damage": 135,
+          "ticks": 1,
+          "events": [
+            {
+              "round": 3,
+              "attack": "skill:1",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 3,
+              "kind": "lingyuan-1",
+              "tick": 0,
+              "damage": 135,
+              "hp": 715,
+              "killed": false,
+              "time": 1.566666666666666,
+              "region": "dragon:head",
+              "contactAge": 1.5615136126453706
+            }
+          ]
+        },
+        "2": {
+          "damage": 95,
+          "ticks": 1,
+          "events": [
+            {
+              "round": 5,
+              "attack": "skill:3",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 5,
+              "kind": "lingyuan-2",
+              "tick": 0,
+              "damage": 95,
+              "hp": 755,
+              "killed": false,
+              "time": 1.0000000000000013,
+              "region": "dragon:body:20",
+              "contactAge": 1
+            }
+          ]
+        },
+        "3": {
+          "damage": 260,
+          "ticks": 1,
+          "events": [
+            {
+              "round": 7,
+              "attack": "skill:5",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 7,
+              "kind": "lingyuan-3",
+              "tick": 0,
+              "damage": 260,
+              "hp": 590,
+              "killed": false,
+              "time": 1.7166666666666655,
+              "region": "vortex-core",
+              "contactAge": 1.7
+            }
+          ]
+        }
+      },
+      "opponentSkills": {
+        "1": {
+          "damage": 115,
+          "ticks": 1
+        },
+        "2": {
+          "damage": 330,
+          "ticks": 6
+        },
+        "3": {
+          "damage": 700,
+          "ticks": 7
+        }
+      },
+      "playerVictoryAndPostDeathInputGate": true,
+      "aiChaseBasicSkillAndVictory": true,
+      "aiOutcome": {
+        "mode": "duel",
+        "round": 10,
+        "clock": 55.03333333333149,
+        "winner": "opponent",
+        "units": [
+          {
+            "id": "player",
+            "team": 1,
+            "character": "lingyuan",
+            "hp": 0,
+            "maxHp": 1000,
+            "alive": false,
+            "life": 10,
+            "position": {
+              "x": 0,
+              "y": 0.6,
+              "z": 0
+            },
+            "radius": 0.36,
+            "halfHeight": 0.49,
+            "hitFlash": 0,
+            "deadFor": 42.38333333333221,
+            "slow": 1
+          },
+          {
+            "id": "opponent",
+            "team": 2,
+            "character": "yueli",
+            "hp": 850,
+            "maxHp": 850,
+            "alive": true,
+            "life": 10,
+            "position": {
+              "x": 3.7424999999999944,
+              "y": 0.85,
+              "z": 0
+            },
+            "radius": 0.36,
+            "halfHeight": 0.49,
+            "hitFlash": 0,
+            "deadFor": 0,
+            "slow": 1
+          },
+          {
+            "id": "target-0",
+            "team": 0,
+            "character": "target",
+            "hp": 3000,
+            "maxHp": 3000,
+            "alive": true,
+            "life": 10,
+            "position": {
+              "x": 4.1,
+              "y": 0.6,
+              "z": 0
+            },
+            "radius": 0.45,
+            "halfHeight": 0.2,
+            "hitFlash": 0,
+            "deadFor": 0,
+            "slow": 1
+          },
+          {
+            "id": "target-1",
+            "team": 0,
+            "character": "target",
+            "hp": 3000,
+            "maxHp": 3000,
+            "alive": true,
+            "life": 10,
+            "position": {
+              "x": -6,
+              "y": 0.6,
+              "z": 3
+            },
+            "radius": 0.45,
+            "halfHeight": 0.2,
+            "hitFlash": 0,
+            "deadFor": 0,
+            "slow": 1
+          },
+          {
+            "id": "target-2",
+            "team": 0,
+            "character": "target",
+            "hp": 3000,
+            "maxHp": 3000,
+            "alive": true,
+            "life": 10,
+            "position": {
+              "x": 2,
+              "y": 0.6,
+              "z": -7
+            },
+            "radius": 0.45,
+            "halfHeight": 0.2,
+            "hitFlash": 0,
+            "deadFor": 0,
+            "slow": 1
+          }
+        ],
+        "events": [
+          {
+            "round": 10,
+            "attack": "basic:11",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-basic",
+            "tick": 0,
+            "damage": 66,
+            "hp": 934,
+            "killed": false,
+            "time": 0.7666666666666674,
+            "region": "ice-feather",
+            "contactAge": 0.7596532172274366
+          },
+          {
+            "round": 10,
+            "attack": "basic:12",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-basic",
+            "tick": 0,
+            "damage": 66,
+            "hp": 868,
+            "killed": false,
+            "time": 1.483333333333333,
+            "region": "ice-feather",
+            "contactAge": 0.6263648364842971
+          },
+          {
+            "round": 10,
+            "attack": "basic:13",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-basic",
+            "tick": 0,
+            "damage": 66,
+            "hp": 802,
+            "killed": false,
+            "time": 2.33333333333333,
+            "region": "ice-feather",
+            "contactAge": 0.6236116825592037
+          },
+          {
+            "round": 10,
+            "attack": "skill:7",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-1",
+            "tick": 0,
+            "damage": 115,
+            "hp": 687,
+            "killed": false,
+            "time": 4.083333333333324,
+            "region": "frost-feather:41",
+            "contactAge": 1.5795996889325161
+          },
+          {
+            "round": 10,
+            "attack": "basic:14",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-basic",
+            "tick": 0,
+            "damage": 66,
+            "hp": 621,
+            "killed": false,
+            "time": 4.949999999999988,
+            "region": "ice-feather",
+            "contactAge": 0.623632261262098
+          },
+          {
+            "round": 10,
+            "attack": "basic:15",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-basic",
+            "tick": 0,
+            "damage": 66,
+            "hp": 555,
+            "killed": false,
+            "time": 5.799999999999985,
+            "region": "ice-feather",
+            "contactAge": 0.6236094237561798
+          },
+          {
+            "round": 10,
+            "attack": "basic:16",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-basic",
+            "tick": 0,
+            "damage": 66,
+            "hp": 489,
+            "killed": false,
+            "time": 6.649999999999982,
+            "region": "ice-feather",
+            "contactAge": 0.6235993949372443
+          },
+          {
+            "round": 10,
+            "attack": "basic:17",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-basic",
+            "tick": 0,
+            "damage": 66,
+            "hp": 423,
+            "killed": false,
+            "time": 7.499999999999979,
+            "region": "ice-feather",
+            "contactAge": 0.6236213813696909
+          },
+          {
+            "round": 10,
+            "attack": "basic:18",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-basic",
+            "tick": 0,
+            "damage": 66,
+            "hp": 357,
+            "killed": false,
+            "time": 8.349999999999994,
+            "region": "ice-feather",
+            "contactAge": 0.6236332580038932
+          },
+          {
+            "round": 10,
+            "attack": "skill:8",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-2",
+            "tick": 0,
+            "damage": 55,
+            "hp": 302,
+            "killed": false,
+            "time": 9.966666666666741,
+            "region": "tide-field",
+            "contactAge": 1.45
+          },
+          {
+            "round": 10,
+            "attack": "basic:19",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-basic",
+            "tick": 0,
+            "damage": 66,
+            "hp": 236,
+            "killed": false,
+            "time": 10.950000000000124,
+            "region": "ice-feather",
+            "contactAge": 0.6236201275345873
+          },
+          {
+            "round": 10,
+            "attack": "skill:8",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-2",
+            "tick": 1,
+            "damage": 55,
+            "hp": 181,
+            "killed": false,
+            "time": 10.966666666666791,
+            "region": "tide-field",
+            "contactAge": 2.449999999999996
+          },
+          {
+            "round": 10,
+            "attack": "basic:20",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-basic",
+            "tick": 0,
+            "damage": 66,
+            "hp": 115,
+            "killed": false,
+            "time": 11.800000000000166,
+            "region": "ice-feather",
+            "contactAge": 0.6236335503600181
+          },
+          {
+            "round": 10,
+            "attack": "skill:8",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-2",
+            "tick": 2,
+            "damage": 55,
+            "hp": 60,
+            "killed": false,
+            "time": 11.96666666666684,
+            "region": "tide-field",
+            "contactAge": 3.4499999999999926
+          },
+          {
+            "round": 10,
+            "attack": "basic:21",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-basic",
+            "tick": 0,
+            "damage": 60,
+            "hp": 0,
+            "killed": true,
+            "time": 12.650000000000208,
+            "region": "ice-feather",
+            "contactAge": 0.6236134404720977
+          }
+        ],
+        "ledgerSize": 0
+      }
+    },
+    "yueli": {
+      "independentBones": true,
+      "cachedOpponentActors": 2,
+      "playerSkills": {
+        "1": {
+          "damage": 115,
+          "ticks": 1,
+          "events": [
+            {
+              "round": 13,
+              "attack": "skill:10",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 13,
+              "kind": "yueli-1",
+              "tick": 0,
+              "damage": 115,
+              "hp": 885,
+              "killed": false,
+              "time": 1.0833333333333344,
+              "region": "frost-feather:41",
+              "contactAge": 1.0735033548817854
+            }
+          ]
+        },
+        "2": {
+          "damage": 330,
+          "ticks": 6,
+          "events": [
+            {
+              "round": 15,
+              "attack": "skill:12",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 15,
+              "kind": "yueli-2",
+              "tick": 0,
+              "damage": 55,
+              "hp": 945,
+              "killed": false,
+              "time": 1.4666666666666663,
+              "region": "tide-field",
+              "contactAge": 1.45
+            },
+            {
+              "round": 15,
+              "attack": "skill:12",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 15,
+              "kind": "yueli-2",
+              "tick": 1,
+              "damage": 55,
+              "hp": 890,
+              "killed": false,
+              "time": 2.466666666666663,
+              "region": "tide-field",
+              "contactAge": 2.449999999999996
+            },
+            {
+              "round": 15,
+              "attack": "skill:12",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 15,
+              "kind": "yueli-2",
+              "tick": 2,
+              "damage": 55,
+              "hp": 835,
+              "killed": false,
+              "time": 3.4666666666666592,
+              "region": "tide-field",
+              "contactAge": 3.4499999999999926
+            },
+            {
+              "round": 15,
+              "attack": "skill:12",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 15,
+              "kind": "yueli-2",
+              "tick": 3,
+              "damage": 55,
+              "hp": 780,
+              "killed": false,
+              "time": 4.466666666666656,
+              "region": "tide-field",
+              "contactAge": 4.4499999999999895
+            },
+            {
+              "round": 15,
+              "attack": "skill:12",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 15,
+              "kind": "yueli-2",
+              "tick": 4,
+              "damage": 55,
+              "hp": 725,
+              "killed": false,
+              "time": 5.466666666666653,
+              "region": "tide-field",
+              "contactAge": 5.449999999999986
+            },
+            {
+              "round": 15,
+              "attack": "skill:12",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 15,
+              "kind": "yueli-2",
+              "tick": 5,
+              "damage": 55,
+              "hp": 670,
+              "killed": false,
+              "time": 6.466666666666649,
+              "region": "tide-field",
+              "contactAge": 6.449999999999982
+            }
+          ]
+        },
+        "3": {
+          "damage": 700,
+          "ticks": 7,
+          "events": [
+            {
+              "round": 17,
+              "attack": "skill:14",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 17,
+              "kind": "yueli-3",
+              "tick": 0,
+              "damage": 100,
+              "hp": 900,
+              "killed": false,
+              "time": 3.4166666666666594,
+              "region": "ice-dragon:head",
+              "contactAge": 3.4087917054163066
+            },
+            {
+              "round": 17,
+              "attack": "skill:14",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 17,
+              "kind": "yueli-3",
+              "tick": 1,
+              "damage": 100,
+              "hp": 800,
+              "killed": false,
+              "time": 3.6666666666666585,
+              "region": "ice-dragon:head",
+              "contactAge": 3.649999999999992
+            },
+            {
+              "round": 17,
+              "attack": "skill:14",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 17,
+              "kind": "yueli-3",
+              "tick": 2,
+              "damage": 100,
+              "hp": 700,
+              "killed": false,
+              "time": 4.666666666666655,
+              "region": "ice-dragon:body:1",
+              "contactAge": 4.649999999999989
+            },
+            {
+              "round": 17,
+              "attack": "skill:14",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 17,
+              "kind": "yueli-3",
+              "tick": 3,
+              "damage": 100,
+              "hp": 600,
+              "killed": false,
+              "time": 5.666666666666652,
+              "region": "ice-dragon:body:8",
+              "contactAge": 5.649999999999985
+            },
+            {
+              "round": 17,
+              "attack": "skill:14",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 17,
+              "kind": "yueli-3",
+              "tick": 4,
+              "damage": 100,
+              "hp": 500,
+              "killed": false,
+              "time": 6.666666666666648,
+              "region": "ice-dragon:body:15",
+              "contactAge": 6.649999999999982
+            },
+            {
+              "round": 17,
+              "attack": "skill:14",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 17,
+              "kind": "yueli-3",
+              "tick": 5,
+              "damage": 100,
+              "hp": 400,
+              "killed": false,
+              "time": 7.666666666666645,
+              "region": "ice-dragon:body:21",
+              "contactAge": 7.649999999999978
+            },
+            {
+              "round": 17,
+              "attack": "skill:14",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 17,
+              "kind": "yueli-3",
+              "tick": 6,
+              "damage": 100,
+              "hp": 300,
+              "killed": false,
+              "time": 8.666666666666677,
+              "region": "ice-dragon:body:28",
+              "contactAge": 8.65000000000001
+            }
+          ]
+        }
+      },
+      "opponentSkills": {
+        "1": {
+          "damage": 135,
+          "ticks": 1
+        },
+        "2": {
+          "damage": 95,
+          "ticks": 1
+        },
+        "3": {
+          "damage": 260,
+          "ticks": 1
+        }
+      },
+      "playerVictoryAndPostDeathInputGate": true,
+      "aiChaseBasicSkillAndVictory": true,
+      "aiOutcome": {
+        "mode": "duel",
+        "round": 20,
+        "clock": 55.03333333333149,
+        "winner": "opponent",
+        "units": [
+          {
+            "id": "player",
+            "team": 1,
+            "character": "yueli",
+            "hp": 0,
+            "maxHp": 850,
+            "alive": false,
+            "life": 21,
+            "position": {
+              "x": -0.6374999999999995,
+              "y": 0.6,
+              "z": -4.2568668091399527e-16
+            },
+            "radius": 0.36,
+            "halfHeight": 0.49,
+            "hitFlash": 0,
+            "deadFor": 42.81666666666552,
+            "slow": 1
+          },
+          {
+            "id": "opponent",
+            "team": 2,
+            "character": "lingyuan",
+            "hp": 1000,
+            "maxHp": 1000,
+            "alive": true,
+            "life": 20,
+            "position": {
+              "x": 0.12250000000000044,
+              "y": 0.85,
+              "z": 7.0123221072214995e-16
+            },
+            "radius": 0.36,
+            "halfHeight": 0.49,
+            "hitFlash": 0,
+            "deadFor": 0,
+            "slow": 1
+          },
+          {
+            "id": "target-0",
+            "team": 0,
+            "character": "target",
+            "hp": 3000,
+            "maxHp": 3000,
+            "alive": true,
+            "life": 20,
+            "position": {
+              "x": 4.1,
+              "y": 0.6,
+              "z": 0
+            },
+            "radius": 0.45,
+            "halfHeight": 0.2,
+            "hitFlash": 0,
+            "deadFor": 0,
+            "slow": 1
+          },
+          {
+            "id": "target-1",
+            "team": 0,
+            "character": "target",
+            "hp": 3000,
+            "maxHp": 3000,
+            "alive": true,
+            "life": 20,
+            "position": {
+              "x": -6,
+              "y": 0.6,
+              "z": 3
+            },
+            "radius": 0.45,
+            "halfHeight": 0.2,
+            "hitFlash": 0,
+            "deadFor": 0,
+            "slow": 1
+          },
+          {
+            "id": "target-2",
+            "team": 0,
+            "character": "target",
+            "hp": 3000,
+            "maxHp": 3000,
+            "alive": true,
+            "life": 20,
+            "position": {
+              "x": 2,
+              "y": 0.6,
+              "z": -7
+            },
+            "radius": 0.45,
+            "halfHeight": 0.2,
+            "hitFlash": 0,
+            "deadFor": 0,
+            "slow": 1
+          }
+        ],
+        "events": [
+          {
+            "round": 20,
+            "attack": "basic:40",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 21,
+            "kind": "lingyuan-basic",
+            "tick": 0,
+            "damage": 88,
+            "hp": 762,
+            "killed": false,
+            "time": 2.1499999999999972,
+            "region": "weapon-sweep",
+            "contactAge": 0.23
+          },
+          {
+            "round": 20,
+            "attack": "skill:16",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 21,
+            "kind": "lingyuan-1",
+            "tick": 0,
+            "damage": 135,
+            "hp": 627,
+            "killed": false,
+            "time": 4.0666666666666575,
+            "region": "dragon:head",
+            "contactAge": 1.556652624922288
+          },
+          {
+            "round": 20,
+            "attack": "basic:41",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 21,
+            "kind": "lingyuan-basic",
+            "tick": 0,
+            "damage": 88,
+            "hp": 539,
+            "killed": false,
+            "time": 6.049999999999984,
+            "region": "weapon-sweep",
+            "contactAge": 0.23
+          },
+          {
+            "round": 20,
+            "attack": "basic:42",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 21,
+            "kind": "lingyuan-basic",
+            "tick": 0,
+            "damage": 88,
+            "hp": 451,
+            "killed": false,
+            "time": 6.799999999999981,
+            "region": "weapon-sweep",
+            "contactAge": 0.24354843355648567
+          },
+          {
+            "round": 20,
+            "attack": "basic:43",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 21,
+            "kind": "lingyuan-basic",
+            "tick": 0,
+            "damage": 88,
+            "hp": 363,
+            "killed": false,
+            "time": 7.516666666666645,
+            "region": "weapon-sweep",
+            "contactAge": 0.23
+          },
+          {
+            "round": 20,
+            "attack": "basic:44",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 21,
+            "kind": "lingyuan-basic",
+            "tick": 0,
+            "damage": 88,
+            "hp": 275,
+            "killed": false,
+            "time": 8.24999999999999,
+            "region": "weapon-sweep",
+            "contactAge": 0.23
+          },
+          {
+            "round": 20,
+            "attack": "skill:17",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 21,
+            "kind": "lingyuan-2",
+            "tick": 0,
+            "damage": 95,
+            "hp": 180,
+            "killed": false,
+            "time": 9.500000000000052,
+            "region": "binding-field",
+            "contactAge": 1
+          },
+          {
+            "round": 20,
+            "attack": "basic:45",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 21,
+            "kind": "lingyuan-basic",
+            "tick": 0,
+            "damage": 88,
+            "hp": 92,
+            "killed": false,
+            "time": 10.750000000000114,
+            "region": "weapon-sweep",
+            "contactAge": 0.23
+          },
+          {
+            "round": 20,
+            "attack": "basic:46",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 21,
+            "kind": "lingyuan-basic",
+            "tick": 0,
+            "damage": 88,
+            "hp": 4,
+            "killed": false,
+            "time": 11.500000000000151,
+            "region": "weapon-sweep",
+            "contactAge": 0.2435484307796825
+          },
+          {
+            "round": 20,
+            "attack": "basic:47",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 21,
+            "kind": "lingyuan-basic",
+            "tick": 0,
+            "damage": 4,
+            "hp": 0,
+            "killed": true,
+            "time": 12.216666666666853,
+            "region": "weapon-sweep",
+            "contactAge": 0.23
+          }
+        ],
+        "ledgerSize": 0
+      }
+    }
+  },
+  "errors": []
+}

@@ -4,14 +4,14 @@ export type CombatMode='practice'|'duel';
 export interface Point3 {x:number;y:number;z:number}
 export interface CombatUnit {
  id:string;team:number;character:Fighter|'target';hp:number;maxHp:number;alive:boolean;life:number;
- position:Point3;radius:number;hitFlash:number;deadFor:number;slow:number;
+ position:Point3;radius:number;halfHeight:number;hitFlash:number;deadFor:number;slow:number;
  slows:Map<string,{until:number;factor:number}>;
 }
 export interface DamageToken {id:string;source:string;sourceLife:number;round:number;character:Fighter;kind:string;damage:number;expires:number}
-export interface DamageEvent {round:number;attack:string;source:string;target:string;targetLife:number;kind:string;tick:number;damage:number;hp:number;killed:boolean;time:number}
+export interface DamageEvent {round:number;attack:string;source:string;target:string;targetLife:number;kind:string;tick:number;damage:number;hp:number;killed:boolean;time:number;region?:string;contactAge?:number}
 export const fighterHealth:Record<Fighter,number>={lingyuan:1000,yueli:850};
 export const basicProfiles={
- lingyuan:{interval:.72,windup:.23,active:.16,recovery:.33,damage:88,range:2.7,speed:0},
+ lingyuan:{interval:.72,windup:.23,active:.16,recovery:.33,damage:88,range:2.1,speed:0},
  yueli:{interval:.84,windup:.28,active:.12,recovery:.44,damage:66,range:7,speed:8.5},
 } as const;
 export class CombatState {
@@ -19,7 +19,7 @@ export class CombatState {
  mode:CombatMode='practice';round=0;clock=0;winner:string|null=null;
  private ledger=new Map<string,number>();
  constructor(){this.add('player',1,'lingyuan');this.add('opponent',2,'yueli');for(let i=0;i<3;i++)this.add('target-'+i,0,'target');this.reset()}
- private add(id:string,team:number,character:CombatUnit['character']){const hp=character==='target'?3000:fighterHealth[character];this.units.set(id,{id,team,character,hp,maxHp:hp,alive:true,life:0,position:{x:0,y:.8,z:0},radius:character==='target'?.45:.36,hitFlash:0,deadFor:0,slow:1,slows:new Map()})}
+ private add(id:string,team:number,character:CombatUnit['character']){const hp=character==='target'?3000:fighterHealth[character];this.units.set(id,{id,team,character,hp,maxHp:hp,alive:true,life:0,position:{x:0,y:.8,z:0},radius:character==='target'?.45:.36,halfHeight:character==='target'?.20:.49,hitFlash:0,deadFor:0,slow:1,slows:new Map()})}
  unit(id:string){const unit=this.units.get(id);if(!unit)throw Error('Unknown combat unit: '+id);return unit}
  reset(mode=this.mode,character=this.unit('player').character as Fighter){
   this.mode=mode;this.round++;this.clock=0;this.winner=null;this.events.length=0;this.ledger.clear();

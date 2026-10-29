@@ -48,6 +48,7 @@ export class StarVortex {
   const shell=new THREE.MeshStandardMaterial({color:0x173f72,emissive:0x06244f,emissiveIntensity:.4,metalness:.45,roughness:.30,transparent:true}),light=new THREE.MeshStandardMaterial({color:0x8bc2dc,emissive:0x144675,emissiveIntensity:.45,metalness:.4,roughness:.26,transparent:true}),gold=this.gold.clone(),dark=new THREE.MeshStandardMaterial({color:0x07152b,roughness:.6,transparent:true}),eye=new THREE.MeshBasicMaterial({color:0xd4f5ff,transparent:true});gold.transparent=true;this.headMaterials.push(shell,light,gold,dark,eye);
   this.head.add(makeDragonHead({shell,light,gold,dark,eye},'sovereign'));
  }
+ combatGeometry(){return {space:this.dragon,head:this.head,mesh:this.body,segments:80,sides:10,ground:this.ground,shock:this.shock}}
  sample(){return {identity:'苍穹巨龙 · 帝冠与升腾螺旋',limbs:4,head:this.head.position.toArray()}}
  setQuality(q:'high'|'ultra'){this.particles.count=q==='ultra'?180:90;this.rocks.count=q==='ultra'?36:18;this.scales.count=q==='ultra'?144:96;this.flows.forEach((m,i)=>m.visible=q==='ultra'||i<(6))}
  update(t:number,active:boolean){

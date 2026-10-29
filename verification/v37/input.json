@@ -1,0 +1,895 @@
+{
+  "scope": "real Chromium DOM/CDP simulated multi-touch and layout; no Android hardware claims",
+  "checks": {
+    "layouts": [
+      {
+        "viewport": [
+          568,
+          320
+        ],
+        "DPR": 3,
+        "simulatedRightInset": 0,
+        "rects": [
+          {
+            "id": "identity",
+            "x": 15,
+            "y": 9,
+            "width": 136.09375,
+            "height": 30,
+            "top": 9,
+            "right": 151.09375,
+            "bottom": 39,
+            "left": 15
+          },
+          {
+            "id": "open-characters",
+            "x": 401,
+            "y": 9,
+            "width": 46,
+            "height": 40,
+            "top": 9,
+            "right": 447,
+            "bottom": 49,
+            "left": 401
+          },
+          {
+            "id": "panel-toggle",
+            "x": 454,
+            "y": 9,
+            "width": 46,
+            "height": 40,
+            "top": 9,
+            "right": 500,
+            "bottom": 49,
+            "left": 454
+          },
+          {
+            "id": "clean-mode",
+            "x": 507,
+            "y": 9,
+            "width": 46,
+            "height": 40,
+            "top": 9,
+            "right": 553,
+            "bottom": 49,
+            "left": 507
+          },
+          {
+            "id": "joystick",
+            "x": 24,
+            "y": 216,
+            "width": 92,
+            "height": 92,
+            "top": 216,
+            "right": 116,
+            "bottom": 308,
+            "left": 24
+          },
+          {
+            "id": "combat-mode",
+            "x": 15,
+            "y": 52,
+            "width": 57.125,
+            "height": 27,
+            "top": 52,
+            "right": 72.125,
+            "bottom": 79,
+            "left": 15
+          },
+          {
+            "id": "combat-reset",
+            "x": 77.125,
+            "y": 52,
+            "width": 38,
+            "height": 27,
+            "top": 52,
+            "right": 115.125,
+            "bottom": 79,
+            "left": 77.125
+          },
+          {
+            "id": "basic-attack",
+            "x": 488.40625,
+            "y": 246.40625,
+            "width": 61.59375,
+            "height": 61.59375,
+            "top": 246.40625,
+            "right": 550,
+            "bottom": 308,
+            "left": 488.40625
+          },
+          {
+            "id": "jump",
+            "x": 378,
+            "y": 205.53125,
+            "width": 40,
+            "height": 40,
+            "top": 205.53125,
+            "right": 418,
+            "bottom": 245.53125,
+            "left": 378
+          },
+          {
+            "id": "cast",
+            "x": 433.40625,
+            "y": 257.40625,
+            "width": 44,
+            "height": 44,
+            "top": 257.40625,
+            "right": 477.40625,
+            "bottom": 301.40625,
+            "left": 433.40625
+          },
+          {
+            "id": "cast2",
+            "x": 446.609375,
+            "y": 191.40625,
+            "width": 44,
+            "height": 44,
+            "top": 191.40625,
+            "right": 490.609375,
+            "bottom": 235.40625,
+            "left": 446.609375
+          },
+          {
+            "id": "cast3",
+            "x": 498.96875,
+            "y": 129.375,
+            "width": 51.03125,
+            "height": 51.03125,
+            "top": 129.375,
+            "right": 550,
+            "bottom": 180.40625,
+            "left": 498.96875
+          }
+        ]
+      },
+      {
+        "viewport": [
+          667,
+          375
+        ],
+        "DPR": 3,
+        "simulatedRightInset": 0,
+        "rects": [
+          {
+            "id": "identity",
+            "x": 15,
+            "y": 9,
+            "width": 136.09375,
+            "height": 30,
+            "top": 9,
+            "right": 151.09375,
+            "bottom": 39,
+            "left": 15
+          },
+          {
+            "id": "open-characters",
+            "x": 500,
+            "y": 9,
+            "width": 46,
+            "height": 40,
+            "top": 9,
+            "right": 546,
+            "bottom": 49,
+            "left": 500
+          },
+          {
+            "id": "panel-toggle",
+            "x": 553,
+            "y": 9,
+            "width": 46,
+            "height": 40,
+            "top": 9,
+            "right": 599,
+            "bottom": 49,
+            "left": 553
+          },
+          {
+            "id": "clean-mode",
+            "x": 606,
+            "y": 9,
+            "width": 46,
+            "height": 40,
+            "top": 9,
+            "right": 652,
+            "bottom": 49,
+            "left": 606
+          },
+          {
+            "id": "joystick",
+            "x": 24,
+            "y": 265,
+            "width": 92,
+            "height": 92,
+            "top": 265,
+            "right": 116,
+            "bottom": 357,
+            "left": 24
+          },
+          {
+            "id": "combat-mode",
+            "x": 15,
+            "y": 54,
+            "width": 57.125,
+            "height": 27,
+            "top": 54,
+            "right": 72.125,
+            "bottom": 81,
+            "left": 15
+          },
+          {
+            "id": "combat-reset",
+            "x": 77.125,
+            "y": 54,
+            "width": 38,
+            "height": 27,
+            "top": 54,
+            "right": 115.125,
+            "bottom": 81,
+            "left": 77.125
+          },
+          {
+            "id": "basic-attack",
+            "x": 581.8125,
+            "y": 289.8125,
+            "width": 67.1875,
+            "height": 67.1875,
+            "top": 289.8125,
+            "right": 649,
+            "bottom": 357,
+            "left": 581.8125
+          },
+          {
+            "id": "jump",
+            "x": 461,
+            "y": 244.84375,
+            "width": 44,
+            "height": 44,
+            "top": 244.84375,
+            "right": 505,
+            "bottom": 288.84375,
+            "left": 461
+          },
+          {
+            "id": "cast",
+            "x": 521.8125,
+            "y": 301.8125,
+            "width": 48,
+            "height": 48,
+            "top": 301.8125,
+            "right": 569.8125,
+            "bottom": 349.8125,
+            "left": 521.8125
+          },
+          {
+            "id": "cast2",
+            "x": 536.203125,
+            "y": 229.8125,
+            "width": 48,
+            "height": 48,
+            "top": 229.8125,
+            "right": 584.203125,
+            "bottom": 277.8125,
+            "left": 536.203125
+          },
+          {
+            "id": "cast3",
+            "x": 593.328125,
+            "y": 162.140625,
+            "width": 55.671875,
+            "height": 55.671875,
+            "top": 162.140625,
+            "right": 649,
+            "bottom": 217.8125,
+            "left": 593.328125
+          }
+        ]
+      },
+      {
+        "viewport": [
+          844,
+          390
+        ],
+        "DPR": 3,
+        "simulatedRightInset": 0,
+        "rects": [
+          {
+            "id": "identity",
+            "x": 15,
+            "y": 9,
+            "width": 136.09375,
+            "height": 30,
+            "top": 9,
+            "right": 151.09375,
+            "bottom": 39,
+            "left": 15
+          },
+          {
+            "id": "open-characters",
+            "x": 677,
+            "y": 9,
+            "width": 46,
+            "height": 40,
+            "top": 9,
+            "right": 723,
+            "bottom": 49,
+            "left": 677
+          },
+          {
+            "id": "panel-toggle",
+            "x": 730,
+            "y": 9,
+            "width": 46,
+            "height": 40,
+            "top": 9,
+            "right": 776,
+            "bottom": 49,
+            "left": 730
+          },
+          {
+            "id": "clean-mode",
+            "x": 783,
+            "y": 9,
+            "width": 46,
+            "height": 40,
+            "top": 9,
+            "right": 829,
+            "bottom": 49,
+            "left": 783
+          },
+          {
+            "id": "joystick",
+            "x": 24,
+            "y": 280,
+            "width": 92,
+            "height": 92,
+            "top": 280,
+            "right": 116,
+            "bottom": 372,
+            "left": 24
+          },
+          {
+            "id": "combat-mode",
+            "x": 15,
+            "y": 54,
+            "width": 57.125,
+            "height": 27,
+            "top": 54,
+            "right": 72.125,
+            "bottom": 81,
+            "left": 15
+          },
+          {
+            "id": "combat-reset",
+            "x": 77.125,
+            "y": 54,
+            "width": 38,
+            "height": 27,
+            "top": 54,
+            "right": 115.125,
+            "bottom": 81,
+            "left": 77.125
+          },
+          {
+            "id": "basic-attack",
+            "x": 757.75,
+            "y": 303.75,
+            "width": 68.25,
+            "height": 68.25,
+            "top": 303.75,
+            "right": 826,
+            "bottom": 372,
+            "left": 757.75
+          },
+          {
+            "id": "jump",
+            "x": 635.75,
+            "y": 258.78125,
+            "width": 44,
+            "height": 44,
+            "top": 258.78125,
+            "right": 679.75,
+            "bottom": 302.78125,
+            "left": 635.75
+          },
+          {
+            "id": "cast",
+            "x": 696.8125,
+            "y": 315.9375,
+            "width": 48.75,
+            "height": 48.75,
+            "top": 315.9375,
+            "right": 745.5625,
+            "bottom": 364.6875,
+            "left": 696.8125
+          },
+          {
+            "id": "cast2",
+            "x": 711.4375,
+            "y": 242.8125,
+            "width": 48.75,
+            "height": 48.75,
+            "top": 242.8125,
+            "right": 760.1875,
+            "bottom": 291.5625,
+            "left": 711.4375
+          },
+          {
+            "id": "cast3",
+            "x": 769.453125,
+            "y": 174.078125,
+            "width": 56.546875,
+            "height": 56.546875,
+            "top": 174.078125,
+            "right": 826,
+            "bottom": 230.625,
+            "left": 769.453125
+          }
+        ]
+      },
+      {
+        "viewport": [
+          915,
+          412
+        ],
+        "DPR": 3,
+        "simulatedRightInset": 44,
+        "rects": [
+          {
+            "id": "identity",
+            "x": 15,
+            "y": 9,
+            "width": 136.09375,
+            "height": 30,
+            "top": 9,
+            "right": 151.09375,
+            "bottom": 39,
+            "left": 15
+          },
+          {
+            "id": "open-characters",
+            "x": 748,
+            "y": 9,
+            "width": 46,
+            "height": 40,
+            "top": 9,
+            "right": 794,
+            "bottom": 49,
+            "left": 748
+          },
+          {
+            "id": "panel-toggle",
+            "x": 801,
+            "y": 9,
+            "width": 46,
+            "height": 40,
+            "top": 9,
+            "right": 847,
+            "bottom": 49,
+            "left": 801
+          },
+          {
+            "id": "clean-mode",
+            "x": 854,
+            "y": 9,
+            "width": 46,
+            "height": 40,
+            "top": 9,
+            "right": 900,
+            "bottom": 49,
+            "left": 854
+          },
+          {
+            "id": "joystick",
+            "x": 24,
+            "y": 276,
+            "width": 118,
+            "height": 118,
+            "top": 276,
+            "right": 142,
+            "bottom": 394,
+            "left": 24
+          },
+          {
+            "id": "combat-mode",
+            "x": 15,
+            "y": 54,
+            "width": 67.046875,
+            "height": 34,
+            "top": 54,
+            "right": 82.046875,
+            "bottom": 88,
+            "left": 15
+          },
+          {
+            "id": "combat-reset",
+            "x": 89.046875,
+            "y": 54,
+            "width": 46,
+            "height": 34,
+            "top": 54,
+            "right": 135.046875,
+            "bottom": 88,
+            "left": 89.046875
+          },
+          {
+            "id": "basic-attack",
+            "x": 798.90625,
+            "y": 321.90625,
+            "width": 72.09375,
+            "height": 72.09375,
+            "top": 321.90625,
+            "right": 871,
+            "bottom": 394,
+            "left": 798.90625
+          },
+          {
+            "id": "jump",
+            "x": 672.5,
+            "y": 276.875,
+            "width": 44,
+            "height": 44,
+            "top": 276.875,
+            "right": 716.5,
+            "bottom": 320.875,
+            "left": 672.5
+          },
+          {
+            "id": "cast",
+            "x": 734.53125,
+            "y": 334.78125,
+            "width": 51.5,
+            "height": 51.5,
+            "top": 334.78125,
+            "right": 786.03125,
+            "bottom": 386.28125,
+            "left": 734.53125
+          },
+          {
+            "id": "cast2",
+            "x": 749.984375,
+            "y": 257.53125,
+            "width": 51.5,
+            "height": 51.5,
+            "top": 257.53125,
+            "right": 801.484375,
+            "bottom": 309.03125,
+            "left": 749.984375
+          },
+          {
+            "id": "cast3",
+            "x": 811.265625,
+            "y": 184.921875,
+            "width": 59.734375,
+            "height": 59.734375,
+            "top": 184.921875,
+            "right": 871,
+            "bottom": 244.65625,
+            "left": 811.265625
+          }
+        ]
+      },
+      {
+        "viewport": [
+          1024,
+          600
+        ],
+        "DPR": 3,
+        "simulatedRightInset": 0,
+        "rects": [
+          {
+            "id": "identity",
+            "x": 15,
+            "y": 9,
+            "width": 136.09375,
+            "height": 30,
+            "top": 9,
+            "right": 151.09375,
+            "bottom": 39,
+            "left": 15
+          },
+          {
+            "id": "open-characters",
+            "x": 857,
+            "y": 9,
+            "width": 46,
+            "height": 40,
+            "top": 9,
+            "right": 903,
+            "bottom": 49,
+            "left": 857
+          },
+          {
+            "id": "panel-toggle",
+            "x": 910,
+            "y": 9,
+            "width": 46,
+            "height": 40,
+            "top": 9,
+            "right": 956,
+            "bottom": 49,
+            "left": 910
+          },
+          {
+            "id": "clean-mode",
+            "x": 963,
+            "y": 9,
+            "width": 46,
+            "height": 40,
+            "top": 9,
+            "right": 1009,
+            "bottom": 49,
+            "left": 963
+          },
+          {
+            "id": "joystick",
+            "x": 24,
+            "y": 464,
+            "width": 118,
+            "height": 118,
+            "top": 464,
+            "right": 142,
+            "bottom": 582,
+            "left": 24
+          },
+          {
+            "id": "combat-mode",
+            "x": 15,
+            "y": 54,
+            "width": 67.046875,
+            "height": 34,
+            "top": 54,
+            "right": 82.046875,
+            "bottom": 88,
+            "left": 15
+          },
+          {
+            "id": "combat-reset",
+            "x": 89.046875,
+            "y": 54,
+            "width": 46,
+            "height": 34,
+            "top": 54,
+            "right": 135.046875,
+            "bottom": 88,
+            "left": 89.046875
+          },
+          {
+            "id": "basic-attack",
+            "x": 913.609375,
+            "y": 489.609375,
+            "width": 92.390625,
+            "height": 92.390625,
+            "top": 489.609375,
+            "right": 1006,
+            "bottom": 582,
+            "left": 913.609375
+          },
+          {
+            "id": "jump",
+            "x": 764,
+            "y": 444.28125,
+            "width": 44,
+            "height": 44,
+            "top": 444.28125,
+            "right": 808,
+            "bottom": 488.28125,
+            "left": 764
+          },
+          {
+            "id": "cast",
+            "x": 831.109375,
+            "y": 506.109375,
+            "width": 66,
+            "height": 66,
+            "top": 506.109375,
+            "right": 897.109375,
+            "bottom": 572.109375,
+            "left": 831.109375
+          },
+          {
+            "id": "cast2",
+            "x": 850.90625,
+            "y": 407.109375,
+            "width": 66,
+            "height": 66,
+            "top": 407.109375,
+            "right": 916.90625,
+            "bottom": 473.109375,
+            "left": 850.90625
+          },
+          {
+            "id": "cast3",
+            "x": 929.453125,
+            "y": 314.0625,
+            "width": 76.546875,
+            "height": 76.546875,
+            "top": 314.0625,
+            "right": 1006,
+            "bottom": 390.609375,
+            "left": 929.453125
+          }
+        ]
+      },
+      {
+        "viewport": [
+          1200,
+          540
+        ],
+        "DPR": 3,
+        "simulatedRightInset": 32,
+        "rects": [
+          {
+            "id": "identity",
+            "x": 15,
+            "y": 9,
+            "width": 136.09375,
+            "height": 30,
+            "top": 9,
+            "right": 151.09375,
+            "bottom": 39,
+            "left": 15
+          },
+          {
+            "id": "open-characters",
+            "x": 1033,
+            "y": 9,
+            "width": 46,
+            "height": 40,
+            "top": 9,
+            "right": 1079,
+            "bottom": 49,
+            "left": 1033
+          },
+          {
+            "id": "panel-toggle",
+            "x": 1086,
+            "y": 9,
+            "width": 46,
+            "height": 40,
+            "top": 9,
+            "right": 1132,
+            "bottom": 49,
+            "left": 1086
+          },
+          {
+            "id": "clean-mode",
+            "x": 1139,
+            "y": 9,
+            "width": 46,
+            "height": 40,
+            "top": 9,
+            "right": 1185,
+            "bottom": 49,
+            "left": 1139
+          },
+          {
+            "id": "joystick",
+            "x": 24,
+            "y": 404,
+            "width": 118,
+            "height": 118,
+            "top": 404,
+            "right": 142,
+            "bottom": 522,
+            "left": 24
+          },
+          {
+            "id": "combat-mode",
+            "x": 15,
+            "y": 54,
+            "width": 67.046875,
+            "height": 34,
+            "top": 54,
+            "right": 82.046875,
+            "bottom": 88,
+            "left": 15
+          },
+          {
+            "id": "combat-reset",
+            "x": 89.046875,
+            "y": 54,
+            "width": 46,
+            "height": 34,
+            "top": 54,
+            "right": 135.046875,
+            "bottom": 88,
+            "left": 89.046875
+          },
+          {
+            "id": "basic-attack",
+            "x": 1075.609375,
+            "y": 429.609375,
+            "width": 92.390625,
+            "height": 92.390625,
+            "top": 429.609375,
+            "right": 1168,
+            "bottom": 522,
+            "left": 1075.609375
+          },
+          {
+            "id": "jump",
+            "x": 926,
+            "y": 384.28125,
+            "width": 44,
+            "height": 44,
+            "top": 384.28125,
+            "right": 970,
+            "bottom": 428.28125,
+            "left": 926
+          },
+          {
+            "id": "cast",
+            "x": 993.109375,
+            "y": 446.109375,
+            "width": 66,
+            "height": 66,
+            "top": 446.109375,
+            "right": 1059.109375,
+            "bottom": 512.109375,
+            "left": 993.109375
+          },
+          {
+            "id": "cast2",
+            "x": 1012.90625,
+            "y": 347.109375,
+            "width": 66,
+            "height": 66,
+            "top": 347.109375,
+            "right": 1078.90625,
+            "bottom": 413.109375,
+            "left": 1012.90625
+          },
+          {
+            "id": "cast3",
+            "x": 1091.453125,
+            "y": 254.0625,
+            "width": 76.546875,
+            "height": 76.546875,
+            "top": 254.0625,
+            "right": 1168,
+            "bottom": 330.609375,
+            "left": 1091.453125
+          }
+        ]
+      }
+    ],
+    "threeFingerMoveTwoSkills": {
+      "created": 2,
+      "noCastBeforeRelease": true,
+      "movementContinues": true,
+      "noSyntheticClickDuplicate": true,
+      "dragYaw": -2.9196733268739066,
+      "expectedWorldYaw": -2.9196733268739066
+    },
+    "touchBurst1": {
+      "created": 1,
+      "independent": true,
+      "allAgesZero": true
+    },
+    "touchBurst3": {
+      "created": 3,
+      "independent": true,
+      "allAgesZero": true
+    },
+    "touchBurst5": {
+      "created": 5,
+      "independent": true,
+      "allAgesZero": true
+    },
+    "touchBurst10": {
+      "created": 10,
+      "independent": true,
+      "allAgesZero": true
+    },
+    "cancelAndLifecycleOwnership": true,
+    "basicSkillBasicBlend": {
+      "bufferedBasicAt": 1.0833333333333344,
+      "skillVfxSurvives": true,
+      "cancelledWindupNoGhostDamage": true
+    },
+    "settingsPreserved": true
+  },
+  "errors": []
+}

@@ -1,0 +1,296 @@
+{
+  "scope": "actual Chromium software WebGL2 with staged input/clock; not phone latency",
+  "checks": {
+    "shortRecoveryInputBuffer": {
+      "windups": [
+        {
+          "id": "basic:1",
+          "source": "player",
+          "phase": "windup",
+          "time": 0
+        },
+        {
+          "id": "basic:2",
+          "source": "player",
+          "phase": "windup",
+          "time": 0.733333333333334
+        }
+      ]
+    },
+    "switchCancelsOldSourceAndAudio": {
+      "createdBefore": 3,
+      "activeAfter": 0,
+      "audioAfter": 0,
+      "noStaleDamage": true
+    },
+    "deathCancelsSourcesAndBlocksInput": {
+      "events": [
+        {
+          "round": 4,
+          "attack": "skill:7",
+          "source": "player",
+          "target": "opponent",
+          "targetLife": 4,
+          "kind": "yueli-3",
+          "tick": 0,
+          "damage": 100,
+          "hp": 900,
+          "killed": false,
+          "time": 3.4666666666666592,
+          "region": "ice-dragon:head",
+          "contactAge": 3.4664669974907265
+        },
+        {
+          "round": 4,
+          "attack": "skill:4",
+          "source": "player",
+          "target": "opponent",
+          "targetLife": 4,
+          "kind": "yueli-3",
+          "tick": 0,
+          "damage": 100,
+          "hp": 800,
+          "killed": false,
+          "time": 3.4666666666666592,
+          "region": "ice-dragon:head",
+          "contactAge": 3.4654110646563954
+        },
+        {
+          "round": 4,
+          "attack": "skill:14",
+          "source": "player",
+          "target": "opponent",
+          "targetLife": 4,
+          "kind": "yueli-3",
+          "tick": 0,
+          "damage": 100,
+          "hp": 700,
+          "killed": false,
+          "time": 3.483333333333326,
+          "region": "ice-dragon:head",
+          "contactAge": 3.4738666313894613
+        },
+        {
+          "round": 4,
+          "attack": "skill:13",
+          "source": "player",
+          "target": "opponent",
+          "targetLife": 4,
+          "kind": "yueli-3",
+          "tick": 0,
+          "damage": 100,
+          "hp": 600,
+          "killed": false,
+          "time": 3.483333333333326,
+          "region": "ice-dragon:head",
+          "contactAge": 3.4699558981460368
+        },
+        {
+          "round": 4,
+          "attack": "skill:11",
+          "source": "player",
+          "target": "opponent",
+          "targetLife": 4,
+          "kind": "yueli-3",
+          "tick": 0,
+          "damage": 100,
+          "hp": 500,
+          "killed": false,
+          "time": 3.483333333333326,
+          "region": "ice-dragon:head",
+          "contactAge": 3.477078122749809
+        },
+        {
+          "round": 4,
+          "attack": "skill:10",
+          "source": "player",
+          "target": "opponent",
+          "targetLife": 4,
+          "kind": "yueli-3",
+          "tick": 0,
+          "damage": 100,
+          "hp": 400,
+          "killed": false,
+          "time": 3.483333333333326,
+          "region": "ice-dragon:head",
+          "contactAge": 3.467970393496201
+        },
+        {
+          "round": 4,
+          "attack": "skill:8",
+          "source": "player",
+          "target": "opponent",
+          "targetLife": 4,
+          "kind": "yueli-3",
+          "tick": 0,
+          "damage": 100,
+          "hp": 300,
+          "killed": false,
+          "time": 3.483333333333326,
+          "region": "ice-dragon:head",
+          "contactAge": 3.4806829181123398
+        },
+        {
+          "round": 4,
+          "attack": "skill:5",
+          "source": "player",
+          "target": "opponent",
+          "targetLife": 4,
+          "kind": "yueli-3",
+          "tick": 0,
+          "damage": 100,
+          "hp": 200,
+          "killed": false,
+          "time": 3.4999999999999925,
+          "region": "ice-dragon:head",
+          "contactAge": 3.484561527406913
+        },
+        {
+          "round": 4,
+          "attack": "skill:15",
+          "source": "player",
+          "target": "opponent",
+          "targetLife": 4,
+          "kind": "yueli-3",
+          "tick": 0,
+          "damage": 100,
+          "hp": 100,
+          "killed": false,
+          "time": 3.516666666666659,
+          "region": "ice-dragon:head",
+          "contactAge": 3.5076650845801502
+        },
+        {
+          "round": 4,
+          "attack": "skill:12",
+          "source": "player",
+          "target": "opponent",
+          "targetLife": 4,
+          "kind": "yueli-3",
+          "tick": 0,
+          "damage": 100,
+          "hp": 0,
+          "killed": true,
+          "time": 3.516666666666659,
+          "region": "ice-dragon:head",
+          "contactAge": 3.5070411848138225
+        }
+      ],
+      "activeAfter": 0,
+      "audioVoices": 0
+    },
+    "resetImmediatelyEnablesControls": true,
+    "lateEntryDotMinimumInterval": {
+      "events": [
+        {
+          "round": 7,
+          "attack": "skill:17",
+          "source": "player",
+          "target": "target-0",
+          "targetLife": 7,
+          "kind": "yueli-2",
+          "tick": 0,
+          "damage": 55,
+          "hp": 2945,
+          "killed": false,
+          "time": 2.449999999999996,
+          "region": "tide-field",
+          "contactAge": 2.4333333333333296
+        },
+        {
+          "round": 7,
+          "attack": "skill:17",
+          "source": "player",
+          "target": "target-0",
+          "targetLife": 7,
+          "kind": "yueli-2",
+          "tick": 1,
+          "damage": 55,
+          "hp": 2890,
+          "killed": false,
+          "time": 3.4499999999999926,
+          "region": "tide-field",
+          "contactAge": 3.433333333333326
+        }
+      ]
+    },
+    "aiAvoidsRealField": {
+      "opponent": {
+        "character": "yueli",
+        "visible": true,
+        "ai": true,
+        "speed": 2.6354349192704256,
+        "position": [
+          3.0520446937925167,
+          0.85,
+          0
+        ],
+        "castSkill": 0,
+        "castAge": 1.866666666666665,
+        "basicCount": 0,
+        "skillCount": 0,
+        "avoiding": true,
+        "avoidanceCount": 1,
+        "cachedActors": 2,
+        "bones": [
+          "b87b562a-a58d-43a1-a56a-0863ae664af0",
+          "f0ce535a-d3d0-4ed1-8ab9-d5f255f53a0b",
+          "99f81e4e-383d-47b8-95c5-08ad3b5c289e",
+          "2b2f3106-c51b-4645-8454-80babcab9893",
+          "a6276735-aadf-4fc6-a901-54ac55c547bb",
+          "9c31ca21-5bd7-4bff-916f-930f606da942",
+          "8fb4d0a9-b966-4916-9d0e-f9d4d8dd8a19",
+          "05ac6289-8391-4f52-b534-f8cf1ba5993b",
+          "bade3dbe-0379-4680-b888-1a689bd27769",
+          "99356e23-5af6-4e6b-9674-ed9b37a1573d",
+          "ff6731de-8d2e-4045-9147-8c673133fce8",
+          "ff9ca902-a745-4676-877d-08f463f728c1",
+          "34929149-e178-4e36-9a7b-23c24b12817f",
+          "d44ff0ca-c2c7-4c11-bcfa-c2400a668bd0",
+          "be0385b1-099c-49fa-8fc8-722a09176537",
+          "37cdecf4-aa62-4f42-b194-6c32bcec233e",
+          "88b9c956-4a2f-42f6-a026-f9c3f5853577",
+          "4e160d44-042c-41d2-bb64-e0b262b277de",
+          "069a740d-6edc-4ae0-8c33-37cea28c2236",
+          "4d204b31-2688-4d88-8f66-c600d4390a64",
+          "2d415a1b-c8c7-4ba1-a827-30ef559b016a",
+          "9abe18d6-8942-4499-aa22-341554da3dc1",
+          "e687f5b8-0ce6-46de-a780-823aa3aeaf63",
+          "167e34cd-9345-433b-a801-1f699ab1c1ef",
+          "c610c251-4ff8-4e2f-8567-4d3a500323f2",
+          "78c0aa14-843b-43d0-ab27-df7e23d469f3",
+          "9c4a6d23-9902-4562-b6eb-7db41b036b1f",
+          "dfee20af-8f26-4b25-a67f-93c6463b0ad9",
+          "089db4ee-c7e7-40b1-9a19-4d35771a67af",
+          "c5dda46b-f251-4ff8-bc58-e87949a73677",
+          "8a62f434-2a1c-4963-99a0-5a6b2ec07715",
+          "e153ffd6-1f2d-475a-b26a-fc750217128c",
+          "9da099db-e5af-49cd-a99a-49832325a1b9",
+          "ab0deb2f-644e-4f04-b44c-78febdcb71cc",
+          "b84c912b-6cee-4f3f-bd16-3fb9b31b57b5",
+          "d632eb7b-2c7c-4904-bae3-ae235752a149"
+        ]
+      },
+      "events": [
+        {
+          "round": 9,
+          "attack": "skill:18",
+          "source": "player",
+          "target": "opponent",
+          "targetLife": 9,
+          "kind": "lingyuan-2",
+          "tick": 0,
+          "damage": 95,
+          "hp": 755,
+          "killed": false,
+          "time": 1.4166666666666665,
+          "region": "binding-field",
+          "contactAge": 1.4113715348957558
+        }
+      ]
+    },
+    "noPoseOrInputResidueAfterReset": true,
+    "backgroundCancelsAimWithoutStaleRelease": true
+  },
+  "errors": []
+}

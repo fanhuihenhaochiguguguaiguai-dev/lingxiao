@@ -1,0 +1,324 @@
+{
+  "scope": "desktop Chromium software WebGL2; exact synthetic DOM burst counts, not physical phone latency",
+  "checks": {
+    "lingyuan-1": {
+      "bursts": [
+        {
+          "requested": 1,
+          "created": 1,
+          "uniqueRoots": 1,
+          "immediateAgeZero": true,
+          "castAudioEvents": 1,
+          "synchronousBurstWallMs": 31.53
+        },
+        {
+          "requested": 3,
+          "created": 3,
+          "uniqueRoots": 3,
+          "immediateAgeZero": true,
+          "castAudioEvents": 3,
+          "synchronousBurstWallMs": 72.49
+        },
+        {
+          "requested": 5,
+          "created": 5,
+          "uniqueRoots": 5,
+          "immediateAgeZero": true,
+          "castAudioEvents": 5,
+          "synchronousBurstWallMs": 80.6
+        },
+        {
+          "requested": 10,
+          "created": 10,
+          "uniqueRoots": 10,
+          "immediateAgeZero": true,
+          "castAudioEvents": 10,
+          "synchronousBurstWallMs": 126.77
+        }
+      ],
+      "movingJumpCast": true,
+      "tenIndependentTargetHitsAndAudio": true,
+      "independentAnchorsAndClocks": true,
+      "cleanup": {
+        "paused": false,
+        "created": 20,
+        "allocations": 20,
+        "reused": 0,
+        "activeCount": 0,
+        "pooled": 2,
+        "recycled": 2,
+        "disposed": 18,
+        "clock": 14.393333333333628,
+        "active": [],
+        "history": []
+      },
+      "reuse": true
+    },
+    "lingyuan-2": {
+      "bursts": [
+        {
+          "requested": 1,
+          "created": 1,
+          "uniqueRoots": 1,
+          "immediateAgeZero": true,
+          "castAudioEvents": 1,
+          "synchronousBurstWallMs": 97.11
+        },
+        {
+          "requested": 3,
+          "created": 3,
+          "uniqueRoots": 3,
+          "immediateAgeZero": true,
+          "castAudioEvents": 3,
+          "synchronousBurstWallMs": 188.73
+        },
+        {
+          "requested": 5,
+          "created": 5,
+          "uniqueRoots": 5,
+          "immediateAgeZero": true,
+          "castAudioEvents": 5,
+          "synchronousBurstWallMs": 209.06
+        },
+        {
+          "requested": 10,
+          "created": 10,
+          "uniqueRoots": 10,
+          "immediateAgeZero": true,
+          "castAudioEvents": 10,
+          "synchronousBurstWallMs": 478.88
+        }
+      ],
+      "movingJumpCast": true,
+      "tenIndependentTargetHitsAndAudio": true,
+      "independentAnchorsAndClocks": true,
+      "cleanup": {
+        "paused": false,
+        "created": 41,
+        "allocations": 40,
+        "reused": 1,
+        "activeCount": 0,
+        "pooled": 3,
+        "recycled": 4,
+        "disposed": 37,
+        "clock": 28.626666666666324,
+        "active": [],
+        "history": []
+      },
+      "reuse": true
+    },
+    "lingyuan-3": {
+      "bursts": [
+        {
+          "requested": 1,
+          "created": 1,
+          "uniqueRoots": 1,
+          "immediateAgeZero": true,
+          "castAudioEvents": 1,
+          "synchronousBurstWallMs": 43.66
+        },
+        {
+          "requested": 3,
+          "created": 3,
+          "uniqueRoots": 3,
+          "immediateAgeZero": true,
+          "castAudioEvents": 3,
+          "synchronousBurstWallMs": 79.32
+        },
+        {
+          "requested": 5,
+          "created": 5,
+          "uniqueRoots": 5,
+          "immediateAgeZero": true,
+          "castAudioEvents": 5,
+          "synchronousBurstWallMs": 141.4
+        },
+        {
+          "requested": 10,
+          "created": 10,
+          "uniqueRoots": 10,
+          "immediateAgeZero": true,
+          "castAudioEvents": 10,
+          "synchronousBurstWallMs": 264.15
+        }
+      ],
+      "movingJumpCast": true,
+      "tenIndependentTargetHitsAndAudio": true,
+      "independentAnchorsAndClocks": true,
+      "cleanup": {
+        "paused": false,
+        "created": 62,
+        "allocations": 60,
+        "reused": 2,
+        "activeCount": 0,
+        "pooled": 4,
+        "recycled": 6,
+        "disposed": 56,
+        "clock": 42.85999999999885,
+        "active": [],
+        "history": []
+      },
+      "reuse": true
+    },
+    "yueli-1": {
+      "bursts": [
+        {
+          "requested": 1,
+          "created": 1,
+          "uniqueRoots": 1,
+          "immediateAgeZero": true,
+          "castAudioEvents": 1,
+          "synchronousBurstWallMs": 42.21
+        },
+        {
+          "requested": 3,
+          "created": 3,
+          "uniqueRoots": 3,
+          "immediateAgeZero": true,
+          "castAudioEvents": 3,
+          "synchronousBurstWallMs": 53.25
+        },
+        {
+          "requested": 5,
+          "created": 5,
+          "uniqueRoots": 5,
+          "immediateAgeZero": true,
+          "castAudioEvents": 5,
+          "synchronousBurstWallMs": 109.79
+        },
+        {
+          "requested": 10,
+          "created": 10,
+          "uniqueRoots": 10,
+          "immediateAgeZero": true,
+          "castAudioEvents": 10,
+          "synchronousBurstWallMs": 91.94
+        }
+      ],
+      "movingJumpCast": true,
+      "tenIndependentTargetHitsAndAudio": true,
+      "independentAnchorsAndClocks": true,
+      "cleanup": {
+        "paused": false,
+        "created": 83,
+        "allocations": 80,
+        "reused": 3,
+        "activeCount": 0,
+        "pooled": 5,
+        "recycled": 8,
+        "disposed": 75,
+        "clock": 57.09333333333137,
+        "active": [],
+        "history": []
+      },
+      "reuse": true
+    },
+    "yueli-2": {
+      "bursts": [
+        {
+          "requested": 1,
+          "created": 1,
+          "uniqueRoots": 1,
+          "immediateAgeZero": true,
+          "castAudioEvents": 1,
+          "synchronousBurstWallMs": 74.79
+        },
+        {
+          "requested": 3,
+          "created": 3,
+          "uniqueRoots": 3,
+          "immediateAgeZero": true,
+          "castAudioEvents": 3,
+          "synchronousBurstWallMs": 42.55
+        },
+        {
+          "requested": 5,
+          "created": 5,
+          "uniqueRoots": 5,
+          "immediateAgeZero": true,
+          "castAudioEvents": 5,
+          "synchronousBurstWallMs": 56.79
+        },
+        {
+          "requested": 10,
+          "created": 10,
+          "uniqueRoots": 10,
+          "immediateAgeZero": true,
+          "castAudioEvents": 10,
+          "synchronousBurstWallMs": 101.27
+        }
+      ],
+      "movingJumpCast": true,
+      "tenIndependentTargetHitsAndAudio": true,
+      "independentAnchorsAndClocks": true,
+      "cleanup": {
+        "paused": false,
+        "created": 104,
+        "allocations": 100,
+        "reused": 4,
+        "activeCount": 0,
+        "pooled": 6,
+        "recycled": 10,
+        "disposed": 94,
+        "clock": 71.3266666666639,
+        "active": [],
+        "history": []
+      },
+      "reuse": true
+    },
+    "yueli-3": {
+      "bursts": [
+        {
+          "requested": 1,
+          "created": 1,
+          "uniqueRoots": 1,
+          "immediateAgeZero": true,
+          "castAudioEvents": 1,
+          "synchronousBurstWallMs": 88.56
+        },
+        {
+          "requested": 3,
+          "created": 3,
+          "uniqueRoots": 3,
+          "immediateAgeZero": true,
+          "castAudioEvents": 3,
+          "synchronousBurstWallMs": 102.69
+        },
+        {
+          "requested": 5,
+          "created": 5,
+          "uniqueRoots": 5,
+          "immediateAgeZero": true,
+          "castAudioEvents": 5,
+          "synchronousBurstWallMs": 108.39
+        },
+        {
+          "requested": 10,
+          "created": 10,
+          "uniqueRoots": 10,
+          "immediateAgeZero": true,
+          "castAudioEvents": 10,
+          "synchronousBurstWallMs": 108.59
+        }
+      ],
+      "movingJumpCast": true,
+      "tenIndependentTargetHitsAndAudio": true,
+      "independentAnchorsAndClocks": true,
+      "cleanup": {
+        "paused": false,
+        "created": 125,
+        "allocations": 120,
+        "reused": 5,
+        "activeCount": 0,
+        "pooled": 7,
+        "recycled": 12,
+        "disposed": 113,
+        "clock": 85.55999999999642,
+        "active": [],
+        "history": []
+      },
+      "reuse": true
+    }
+  },
+  "errors": []
+}

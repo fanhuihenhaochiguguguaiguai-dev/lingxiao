@@ -44,6 +44,7 @@ export class BindStar {
   this.stones=new THREE.InstancedMesh(new THREE.DodecahedronGeometry(.09,0),new THREE.MeshStandardMaterial({color:0x293c53,metalness:.15,roughness:.8}),24);this.stones.frustumCulled=false;this.layers.particles.add(this.stones);
   const copies=new Map<THREE.Material,THREE.Material>();for(const layer of Object.values(this.layers))layer.traverse(o=>{const m=o as THREE.Mesh;if(m.isMesh){const clone=(mat:THREE.Material)=>{let c=copies.get(mat);if(!c){c=mat.clone();copies.set(mat,c)}return c};if(layer!==this.layers.dragon)m.material=Array.isArray(m.material)?m.material.map(clone):clone(m.material)}});
  }
+ combatGeometry(){return {dragon:this.dragon,circles:this.circles,crystals:this.crystals}}
  setQuality(q:'high'|'ultra'){this.quality=q;this.dragon.setQuality(q);this.chainLinks.count=q==='ultra'?100:70;this.particles.count=q==='ultra'?120:65;this.stones.count=q==='ultra'?24:12;}
  update(t:number,active:boolean,visibility:Record<Layer,boolean>){
   const envelope=smooth(.08,.6,t)*(1-smooth(5.45,6.25,t));const expand=smooth(.32,1.7,t);const bind=smooth(2.25,3.4,t)*(1-smooth(4.9,5.9,t));

@@ -152,6 +152,7 @@ export class SlashDragon {
   }
   for(const m of Object.values(this.materials))m.opacity=phase
  }
+ combatBody(){return Array.from({length:33},(_,i)=>({point:this.center(i/32),radius:Math.max(...radii(i/32))+.015}))}
  center(u:number){const x=THREE.MathUtils.clamp(u,0,1)*64,i=Math.min(63,Math.floor(x));return this.frames[i].p.clone().lerp(this.frames[i+1].p,x-i)}
  sample(){return {bodyLength:SLASH_LENGTH,limbs:4,scalePlates:285,ventralScutes:31,frames:this.frames.map(f=>({p:f.p.toArray(),x:f.x.toArray(),y:f.y.toArray(),z:f.z.toArray()}))}}
 }
