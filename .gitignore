@@ -5,3 +5,7 @@ skill-src/node_modules/
 
 android-app/build/
 *.apk
+
+# Python verification/build caches
+__pycache__/
+*.pyc

@@ -1,0 +1,111 @@
+{
+  "before": {
+    "earlyVisibilityInjected": true,
+    "earlyVisibilityErrors": [],
+    "ultimateHitsBeforeShock": 1,
+    "ultimateHitsAtEndOfShock": 1,
+    "firstUltimateHit": {
+      "instanceId": 1,
+      "character": "lingyuan",
+      "skill": 3,
+      "target": 0,
+      "time": 1.0000000000000013,
+      "tick": 0
+    }
+  },
+  "after": {
+    "earlyVisibilityInjected": true,
+    "earlyVisibilityErrors": [],
+    "ultimateHitsBeforeShock": 0,
+    "ultimateHitsAtEndOfShock": 1,
+    "firstUltimateHit": {
+      "scope": "training",
+      "instanceId": 1,
+      "character": "lingyuan",
+      "skill": 3,
+      "target": 0,
+      "time": 5.716666666666652,
+      "tick": 0,
+      "position": [
+        4.1,
+        0.6,
+        0
+      ]
+    }
+  },
+  "recovery": {
+    "unaffectedAudioBuffers": 65,
+    "unaffectedSkillAudioPlays": true,
+    "failedAudioRetryLoadsAll66": true,
+    "failedCharacterRetainsOldActorAndRetries": true,
+    "cache": {
+      "loaded": [
+        "lingyuan",
+        "yueli"
+      ],
+      "pending": []
+    }
+  },
+  "allocationWaves": {
+    "scope": "renderer.info allocation counters after drawing and recycling; not total GPU/heap proof",
+    "waves": [
+      {
+        "wave": 0,
+        "active": {
+          "memory": {
+            "geometries": 208,
+            "textures": 18
+          },
+          "drawCalls": 284,
+          "triangles": 988413
+        },
+        "ended": {
+          "memory": {
+            "geometries": 200,
+            "textures": 18
+          },
+          "drawCalls": 113,
+          "triangles": 156705
+        }
+      },
+      {
+        "wave": 1,
+        "active": {
+          "memory": {
+            "geometries": 208,
+            "textures": 18
+          },
+          "drawCalls": 284,
+          "triangles": 988413
+        },
+        "ended": {
+          "memory": {
+            "geometries": 200,
+            "textures": 18
+          },
+          "drawCalls": 113,
+          "triangles": 156705
+        }
+      },
+      {
+        "wave": 2,
+        "active": {
+          "memory": {
+            "geometries": 208,
+            "textures": 18
+          },
+          "drawCalls": 284,
+          "triangles": 988413
+        },
+        "ended": {
+          "memory": {
+            "geometries": 200,
+            "textures": 18
+          },
+          "drawCalls": 113,
+          "triangles": 156705
+        }
+      }
+    ]
+  }
+}

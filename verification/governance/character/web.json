@@ -1,0 +1,18 @@
+{
+  "scope": "desktop software WebGL2; geometry/render/control checks only; likeness not approved",
+  "bones": 36,
+  "blinkOverrideApplied": true,
+  "running": {
+    "castPose": "none",
+    "gait": "run",
+    "runBlend": 0.998338442726826,
+    "contactErrors": [
+      6.72116364505362e-07
+    ],
+    "blink": 0,
+    "ikLegs": 2
+  },
+  "characterSwitchRestoresState": true,
+  "dragonsAfterTenExpiredAndThreeRespawned": 3,
+  "errors": []
+}

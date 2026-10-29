@@ -1,0 +1,39 @@
+{
+  "baselineCommit": "a6f9570c6abf3fe8724c606709b39de6f460a697",
+  "files": {
+    "dist/skill/app.js": "d6fc1ab2e13f31cd9bc8a888f334ce644a7b226cc82f142e09ba5e8ebb3fb30e",
+    "dist/yueli-study.glb": "98bbd76b5e6d0b6003364b90e1e44c7cb6f6f5bb24fd723ceb66fd1c7a7aba0e",
+    "characters/qingli/Yueli_working.blend": "06d50b1f71adc1055d929ed7f24b81de412acc1ad88ae6c50a3495ef2398094a",
+    "dist/skill/assets/yueli-moon-echo.glb": "72c100886faab170666d25f2533aa9a3b17e4e6f7163506c417c30b920494ea8",
+    "skill-src/src/dragon-head.ts": "a3d6e86284860bc56723a2f9e52e6c2226416a4b5a6bd70329d3e3d94e38e78a",
+    "skill-src/src/main.ts": "c8403cb15f5eea9d36150ca360c0be144b2c326c4a1c3ed3d493cda481b7b3b0",
+    "skill-src/src/bind-star.ts": "2cc12a5ae78d592bc0f7b1872fe9fd0f79f3c6152f2418f10c0f2b0a9c5817f7",
+    "skill-src/src/energy-ribbons.ts": "035cf9e60ccf51cc746dcdf02c00094966aebabfb1f34cbb374c7a20f727ae50",
+    "skill-src/src/moonfall.ts": "513666f13870dbb45b89666de25a7a5cf9b5c3c9db4f28af6a34eab121aa77b7",
+    "skill-src/src/motion-profile.ts": "87c273cff86779db816d0d979b1852098ab0713727eb20806ca34bebbc7b5211",
+    "skill-src/src/dragon.ts": "7b4407305c763ab7e6d26a83c0e7232f8490257ac7d6557e1eeed1befe558007",
+    "skill-src/src/characters.ts": "907cc8f382c31bfb8e9133b87d555f832d8a82a7e56161f0e70e6eda2e190f89",
+    "skill-src/src/skill-registry.ts": "ee853baae7caf51f49bf9c3f0da51454c858c5fcda5fe12581d183af6e3071c1",
+    "skill-src/src/ice-dragon.ts": "6359a26e321ce554774755a0e8b935268f9ed6dbae7fd1d6bf23613abd9163c5",
+    "skill-src/src/moon-tide.ts": "10accc3581d5f0445c2f04233e96c4d4438ad649ea30361103b05d8869acf398",
+    "skill-src/src/star-vortex.ts": "51c78c7fd4b5ecde2a590899c9a0a5f5d0d96df8950740881257f1ed4e5cd5a4",
+    "skill-src/src/studio-world.ts": "29e0413d6f2a923a0a1ca1aa7fe2409ab6e74230df92df58f8265e160e473bab",
+    "skill-src/src/spear-anchor.ts": "edd2df80d3eba9140016d56926a6a38b83b22eef17740600f08946a534927fed",
+    "skill-src/src/skill-instances.ts": "dddd031aafd806a39aac0580ff4dce7cf6ecc3cc0ce505ac543810e1bdf3b72d",
+    "skill-src/src/moon-frost.ts": "fc593ab18d30cfa57b1992704ef6a3b04258f0464e09c5ce48058d5f863518d4",
+    "skill-src/src/skill-audio.ts": "41a22e4552ee88e01f93d3e6fc214fedee0bfdc05fe1d6afaf05a88c5ac9f568",
+    "skill-src/src/instance-audio.ts": "c3658f45c07e18e78e10f8419dc4fa1d45b7a26404760a4f42fd3c7ae6c38f59",
+    "skill-src/src/character-motion.ts": "3bcfe01914e3b5beee325d04f12437c3fa82ca5d4fa257439d5b9fb14653df4b"
+  },
+  "technicalReports": [
+    "instances.json",
+    "lifecycle.json",
+    "after-states.json",
+    "backends.json",
+    "touch.json",
+    "character/web.json",
+    "assets.json"
+  ],
+  "artisticAcceptance": "NOT_PASSED",
+  "realAndroidDevice": "NOT_TESTED"
+}

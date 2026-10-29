@@ -1,0 +1,9 @@
+{
+  "baselineCommit": "a6f9570c6abf3fe8724c606709b39de6f460a697",
+  "bodyPositionsUnchanged": true,
+  "faceUnchanged": true,
+  "runtimeMatchesMasterGLB": true,
+  "beforeGLBBytes": 10097480,
+  "afterGLBBytes": 10877708,
+  "runtimeGLBSha256": "98bbd76b5e6d0b6003364b90e1e44c7cb6f6f5bb24fd723ceb66fd1c7a7aba0e"
+}

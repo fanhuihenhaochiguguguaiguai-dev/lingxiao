@@ -1,0 +1,14 @@
+{
+  "addedHairVertices": 11408,
+  "locks": 32,
+  "hairDrawBatches": 1,
+  "staticSurfaceClearance": true,
+  "newBones": 0,
+  "faceChanged": false,
+  "clothSeamsRebuilt": 2,
+  "fabricThicknessMeters": [
+    0.003,
+    0.0018
+  ],
+  "dynamicCollisionAccepted": false
+}

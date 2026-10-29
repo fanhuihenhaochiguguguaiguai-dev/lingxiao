@@ -1,0 +1,39 @@
+{
+  "scope": "actual desktop software WebGL2 / WebGPU ten-instance render; includes intentional 90ms software throttle; no hardware phone performance acceptance",
+  "checks": {
+    "webgl2": {
+      "renderer": "WebGL2",
+      "software": true,
+      "drawCalls": 284,
+      "triangles": 988413,
+      "quality": "high",
+      "ultimateAssetsReady": true,
+      "iceDragons": 10,
+      "observedFrameIntervalMs": [
+        2341.5,
+        2794.699999988079,
+        2674,
+        2881.7000000178814,
+        2865.4000000059605
+      ],
+      "approxJSHeapBytes": 60750827
+    },
+    "default": {
+      "renderer": "WebGPU",
+      "software": true,
+      "drawCalls": 284,
+      "triangles": 988413,
+      "quality": "high",
+      "ultimateAssetsReady": true,
+      "iceDragons": 10,
+      "observedFrameIntervalMs": [
+        3509.300000011921,
+        3483.300000011921,
+        3199.699999988079,
+        3519.9000000059605,
+        3504.0999999940395
+      ],
+      "approxJSHeapBytes": 66257486
+    }
+  }
+}

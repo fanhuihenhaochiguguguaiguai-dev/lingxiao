@@ -9,3 +9,5 @@
 `../../verification/dual-quality/` 保存真实网页、固定灯光近景对照和检查。脸型、发型、衣甲、鞋靴与原画仍有明显差距；完整面部表情、服装碰撞与自然动作没有通过艺术验收。详细旧问题见 `../../docs/qingli-production-lessons.md` 和 `../../verification/qingli/REPORT.md`。CC0 基础资源来源保留在 `../../reference/makehuman/SOURCE.md`。
 
 最新验收记录为 `../../verification/moonfall/README.md`。人物造型仍以原始 board-04／board-01 为准，技能图不替代人物外观标准。一次性参考变形迁移脚本拒绝在已调整母稿上再次叠加；重现实验须显式指定 V21 的原始母稿。
+
+本轮共性治理的最新记录为 `../../verification/governance/README.md`：身体与脸部顶点保持不变，修整两件衣片的阶梯边界并增加后侧长发样板，继续使用原 36 骨架与蒙皮。静态避让不能代表衣发动态碰撞通过，原画神韵仍未达标。可用 Git 基线 `a6f9570` 回退或重现实验；禁止在已应用的母稿上重复叠加样板脚本。

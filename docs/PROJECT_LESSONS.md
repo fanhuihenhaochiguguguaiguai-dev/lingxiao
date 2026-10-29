@@ -6,7 +6,7 @@
 
 - 公开工作室：<https://lingyuan-character-studio.earthyaspen11.chatgpt.site/skill/>。角色为凌渊、月璃；月璃的三技能包括「月华霜羽」「月影寒潮」「月陨天霜」。均为实时展示工作稿，不代表对战平衡或最终美术通过。
 - `dist/` 为网站及运行资源，`skill-src/` 为技能页面源码，`characters/qingli/` 为月璃可编辑 Blender 工作稿和 GLB，`reference/` 保存原图、分类裁图及素材来源，`tools/` 保存处理与测试脚本，`verification/` 保存实际截图和测试结果。
-- 当前详细验收依据在 [`../verification/moonfall/README.md`](../verification/moonfall/README.md)；历史差异、已回退候选和旧结果见 Git 提交及对应 `verification/` 报告。
+- 当前详细验收依据在 [`../verification/governance/README.md`](../verification/governance/README.md)；上一轮大招记录在 [`../verification/moonfall/README.md`](../verification/moonfall/README.md)；历史差异、已回退候选和旧结果见 Git 提交及对应 `verification/` 报告。
 
 ## 如何分析和选择下一步
 

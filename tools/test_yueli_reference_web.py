@@ -2,10 +2,10 @@
 Screenshots are evidence for manual art review, not an automatic likeness pass.
 """
 from pathlib import Path
-import json
+import json,os
 from browser_display import display,ARGS
 from playwright.sync_api import sync_playwright
-R=Path(__file__).resolve().parents[1];out=R/'verification/moonfall/character';out.mkdir(parents=True,exist_ok=True)
+R=Path(__file__).resolve().parents[1];out=R/os.environ.get('LINGYUAN_REPORT_DIR','verification/moonfall/character');out.mkdir(parents=True,exist_ok=True)
 with display() as env,sync_playwright() as p:
  b=p.chromium.launch(headless=False,args=ARGS,env=env,executable_path='/usr/bin/chromium');page=b.new_page(viewport={'width':1100,'height':700});errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
  page.goto('http://127.0.0.1:8765/skill/?renderer=webgl2');page.wait_for_function('window.__lingSkill?.ready&&window.__lingSkill.ultimateAssetsReady',timeout=120000);page.evaluate('window.__lingQA.freeze(true)')
