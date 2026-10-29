@@ -1,5 +1,7 @@
 import * as THREE from 'three/webgpu';
 import { EnergyRibbons } from './energy-ribbons';
+import {DragonFrames} from './dragon-frames';
+import {dragonScale,dragonLimbPair} from './dragon-details';
 import { SlashDragon } from './slash-dragon';
 import { makeDragonHead,orientDragonHead } from './dragon-head';
 import { color, mix, positionLocal, sin, uniform } from 'three/tsl';
@@ -41,36 +43,46 @@ export class DragonEffect {
  private readonly dummy=new THREE.Object3D(); private readonly segmentCount=64; private readonly sides=10;
  private readonly tmp=new V(); private readonly axis=new V(1,0,0); private readonly dir=new V(); private readonly quat=new THREE.Quaternion();
  private readonly windBands:THREE.Mesh[]=[]; private readonly sweepArcs=new THREE.Group(); private quality:'high'|'ultra'='high';
- private readonly anatomy:SlashDragon|null;
- constructor(scene:THREE.Object3D,profile:'slash'|'binding'='slash'){
+ private readonly anatomy:SlashDragon|null;private readonly bindingFrames=new DragonFrames(64);private bindingLimbs:THREE.InstancedMesh|null=null;private slashDecorations=true;
+ constructor(scene:THREE.Object3D,private readonly profile:'slash'|'binding'='slash'){
   this.anatomy=profile==='slash'&&(typeof location==='undefined'||new URLSearchParams(location.search).get('dragon')!=='legacy')?new SlashDragon():null;
   const flow=sin(positionLocal.x.mul(11).add(positionLocal.y.mul(8)).sub(this.flowTime.mul(7))).mul(.5).add(.5);this.bodyMaterial.colorNode=mix(color(0x0b58ba),color(0x8ad9ff),flow.mul(.6));this.bodyMaterial.emissiveNode=mix(color(0x073578),color(0x348fe9),flow.mul(.6));
   this.group.name='3D Dragon skill';scene.add(this.group);
   const positions=new Float32Array((this.segmentCount+1)*(this.sides+1)*3),idx:number[]=[];
-  for(let i=0;i<this.segmentCount;i++)for(let j=0;j<this.sides;j++){const a=i*(this.sides+1)+j,b=a+this.sides+1;idx.push(a,b,a+1,b,b+1,a+1)}
+  for(let i=0;i<this.segmentCount;i++)for(let j=0;j<this.sides;j++){const a=i*(this.sides+1)+j,b=a+this.sides+1;if(profile==='binding')idx.push(a,a+1,b,b,a+1,b+1);else idx.push(a,b,a+1,b,b+1,a+1)}
   const geo=new THREE.BufferGeometry();this.positions=new THREE.BufferAttribute(positions,3);this.positions.setUsage(THREE.DynamicDrawUsage);geo.setAttribute('position',this.positions);geo.setIndex(idx);geo.computeVertexNormals();this.body=new THREE.Mesh(geo,this.bodyMaterial);this.body.frustumCulled=false;this.group.add(this.body);this.body.add(this.ribbons.mesh);
   if(this.anatomy){this.head.add(this.anatomy.head);this.group.add(this.anatomy.group);this.anatomy.group.add(this.ribbons.mesh)}else this.makeHead();this.group.add(this.head);
-  const scaleGeo=new THREE.OctahedronGeometry(.065,0);this.scales=new THREE.InstancedMesh(scaleGeo,this.core,72);this.scales.frustumCulled=false;this.group.add(this.scales);
+  const scaleGeo=profile==='binding'?dragonScale('binding'):new THREE.OctahedronGeometry(.065,0);this.scales=new THREE.InstancedMesh(scaleGeo,this.core,profile==='binding'?96:72);this.scales.frustumCulled=false;this.group.add(this.scales);
   this.dorsal=new THREE.InstancedMesh(new THREE.ConeGeometry(.065,.24,5),this.core,24);this.dorsal.frustumCulled=false;this.group.add(this.dorsal);
   const shardGeo=new THREE.OctahedronGeometry(.045,0);this.shards=new THREE.InstancedMesh(shardGeo,this.luminous,160);this.shards.frustumCulled=false;this.group.add(this.shards);
   for(let i=0;i<3;i++){const ring=mesh(this.group,new THREE.TorusGeometry(1,.008,6,100),i===1?this.dimBlue:this.luminous,0,.035+i*.025,0);ring.rotation.x=Math.PI/2;this.rings.push(ring)}
   for(let i=0;i<4;i++){const ribbon=mesh(this.group,new THREE.TorusGeometry(1,.012,5,70,Math.PI*1.5),i%2?this.luminous:this.dimBlue,0,.85,0);ribbon.rotation.set(Math.PI/2,.18*i,.5*i);this.windBands.push(ribbon)}
   // Irregular multi-layered arcs are actual curved 3D tubes, not flat image cards.
   for(let k=0;k<14;k++){const points:THREE.Vector3[]=[];const radius=1.04+(k%5)*.22;const start=k*.77;const span=1.9+(k%3)*.55;for(let i=0;i<=45;i++){const a=start+span*i/45,r=radius+.045*Math.sin(a*11+k);points.push(new V(r*Math.cos(a),.06+(k%4)*.035+.045*Math.sin(a*4+k),r*Math.sin(a)))}const arc=line(points,k%3===0?.008:.0045,k%3===0?this.luminous:this.dimBlue);this.sweepArcs.add(arc)}this.group.add(this.sweepArcs);
+  if(profile==='binding'){this.bindingLimbs=new THREE.InstancedMesh(dragonLimbPair('binding'),this.headShell,2);this.bindingLimbs.frustumCulled=false;this.group.add(this.bindingLimbs)}
   if(this.anatomy){this.body.visible=false;this.scales.visible=false;this.dorsal.visible=false}
   this.group.visible=false;
  }
- sample(){return this.anatomy?.sample()??null}
+ hideSlashDecorations(){this.slashDecorations=false}
+ sample(){return this.anatomy?.sample()??(this.profile==='binding'?{identity:'缚星盘龙 · 镇守环行',limbs:4}:null)}
  private makeHead(){
-  this.head.add(makeDragonHead({shell:this.headShell,light:this.core,gold:this.gold,dark:new THREE.MeshStandardMaterial({color:0x07152b,roughness:.6}),eye:this.orb}));
+  this.head.add(makeDragonHead({shell:this.headShell,light:this.core,gold:this.gold,dark:new THREE.MeshStandardMaterial({color:0x07152b,roughness:.6}),eye:this.orb},this.profile==='binding'?'binding':'legacy'));
  }
- setQuality(q:'high'|'ultra'){this.quality=q;this.shards.count=q==='ultra'?160:80;this.scales.count=q==='ultra'?72:48;}
+ setQuality(q:'high'|'ultra'){this.quality=q;this.shards.count=q==='ultra'?160:80;this.scales.count=this.profile==='binding'?(q==='ultra'?96:72):(q==='ultra'?72:48);}
  update(t:number,active:boolean,orbit?:{sample:(u:number)=>THREE.Vector3;phase:number}){
   const phase=orbit?orbit.phase:smooth(.05,.60,t)*(1-smooth(3.65,4.35,t));this.group.visible=active&&phase>.001;if(!this.group.visible)return;
   this.flowTime.value=t;this.headShell.opacity=.94*phase;this.bodyMaterial.opacity=.64*phase;this.core.opacity=.80*phase;this.luminous.opacity=.70*phase;this.dimBlue.opacity=.36*phase;
   const sample=(u:number)=>orbit?orbit.sample(Math.max(0,Math.min(1,u))):path(Math.max(0,t-u*.65)).add(new V(-u*.55,.15*Math.sin(t*7-u*7)*u,.20*Math.sin(t*5-u*8)*u));
   const headP=orbit?sample(0):path(t);this.head.position.copy(headP);if(orbit)this.dir.copy(sample(0)).sub(sample(.02));else this.dir.copy(path(Math.min(t+.025,3.2))).sub(path(Math.max(.0,t-.025)));if(this.dir.lengthSq()<.00001)this.dir.set(1,0,0);this.dir.normalize();if(this.anatomy){const tangentTime=Math.min(t,3.18);this.dir.copy(path(tangentTime+.015)).sub(path(Math.max(0,tangentTime-.015))).normalize().lerp(new V(1,0,0),1-smooth(.95,1.45,t)).normalize();}orientDragonHead(this.head,this.dir);this.head.scale.setScalar(1.16+.04*Math.sin(t*4));
   if(this.anatomy){this.anatomy.update(t,phase,headP,this.dir,path);this.ribbons.update(u=>this.anatomy!.center(u),t,phase)}else{
+  if(orbit&&this.profile==='binding'){
+   this.bindingFrames.update(orbit.sample);
+   const radius=(u:number)=>(.17*(1-u)+.016+.022*Math.exp(-Math.pow((u-.22)/.10,2))+.014*Math.exp(-Math.pow((u-.64)/.10,2)))*(1+.025*Math.sin(t*2.4-u*3));
+   for(let i=0;i<=this.segmentCount;i++){const u=i/this.segmentCount,f=this.bindingFrames.frames[i],r=radius(u);for(let j=0;j<=this.sides;j++){const a=j/this.sides*Math.PI*2,p=f.p.clone().addScaledVector(f.side,Math.cos(a)*r).addScaledVector(f.up,Math.sin(a)*r*.75);this.positions.setXYZ(i*(this.sides+1)+j,p.x,p.y,p.z)}}this.positions.needsUpdate=true;this.body.geometry.computeVertexNormals();this.ribbons.update(orbit.sample,t,phase);
+   for(let i=0;i<this.scales.count;i++){const row=i%24,band=Math.floor(i/24),u=.035+(row+(band%2)*.4)/26,f=this.bindingFrames.at(u),a=[-.95,.95,0,Math.PI][band],r=radius(u),normal=f.up.clone().multiplyScalar(Math.cos(a)/.75).addScaledVector(f.side,Math.sin(a)).normalize();this.dummy.position.copy(f.p).addScaledVector(f.up,Math.cos(a)*r*.75).addScaledVector(f.side,Math.sin(a)*r);this.dummy.quaternion.setFromRotationMatrix(new THREE.Matrix4().makeBasis(f.forward.clone().cross(normal).normalize(),f.forward,normal));this.dummy.scale.set(.78*(1-u*.5),.90*(1-u*.45),1);this.dummy.updateMatrix();this.scales.setMatrixAt(i,this.dummy.matrix)}this.scales.instanceMatrix.needsUpdate=true;
+   for(let i=0;i<24;i++){const u=.04+i/26,f=this.bindingFrames.at(u);this.dummy.position.copy(f.p).addScaledVector(f.up,radius(u)*.75);this.dummy.quaternion.setFromRotationMatrix(new THREE.Matrix4().makeBasis(f.forward,f.up,f.side));this.dummy.rotateZ(-.3);this.dummy.scale.set(.55,Math.max(.12,1-u),.55);this.dummy.updateMatrix();this.dorsal.setMatrixAt(i,this.dummy.matrix)}this.dorsal.instanceMatrix.needsUpdate=true;
+   for(let i=0;i<2;i++){const u=i?.64:.22,f=this.bindingFrames.at(u);this.dummy.position.copy(f.p);this.dummy.quaternion.setFromRotationMatrix(new THREE.Matrix4().makeBasis(f.forward,f.up,f.side));this.dummy.scale.set(1,.85,radius(u)/.17);this.dummy.updateMatrix();this.bindingLimbs!.setMatrixAt(i,this.dummy.matrix)}this.bindingLimbs!.instanceMatrix.needsUpdate=true;
+  }else{
   const center=new V(),next=new V(),tangent=new V(),normal=new V(),binormal=new V();
   for(let i=0;i<=this.segmentCount;i++){
    const u=i/this.segmentCount,lag=u*.65;if(orbit){center.copy(sample(u));next.copy(sample(u+.018))}else{center.copy(path(Math.max(0,t-lag))).add(new V(-u*.55,.15*Math.sin(t*7-u*7)*u,.20*Math.sin(t*5-u*8)*u));next.copy(path(Math.max(0,t-lag-.012))).add(new V(-(u+.006)*.55,.15*Math.sin(t*7-(u+.006)*7)*(u+.006),.20*Math.sin(t*5-(u+.006)*8)*(u+.006)))}
@@ -84,12 +96,13 @@ export class DragonEffect {
    const u=(i%36)/36,side=i<36?-1:1;const centerP=orbit?sample(u):path(Math.max(0,t-u*.65));this.dummy.position.copy(centerP).add(orbit?new V(0,.12,.12*side):new V(-u*.55,.13+(.2*(1-u))*side*.4,.14*side));this.dummy.rotation.set(0,u*4+t*2,side*.4);this.dummy.scale.set(.22,.34,.50);this.dummy.updateMatrix();this.scales.setMatrixAt(i,this.dummy.matrix);
   }this.scales.instanceMatrix.needsUpdate=true;
   }
+  }
   const maxShards=this.quality==='ultra'?160:80;this.shards.count=orbit?Math.ceil(maxShards*.55):t<1.5?Math.min(maxShards,28):maxShards;
   const burst=smooth(2.95,3.35,t);for(let i=0;i<this.shards.count;i++){
    const a=i*2.399+t*.9,r=(.30+(i%19)*.075)*(0.3+burst);this.dummy.position.set(headP.x+Math.cos(a)*r,Math.max(.06,headP.y+Math.sin(a*1.7)*r*.55),headP.z+Math.sin(a)*r);const sz=(.4+(i%5)*.14)*phase*(orbit?.65:1);this.dummy.scale.setScalar(sz);this.dummy.rotation.set(a,t*2,a*.4);this.dummy.updateMatrix();this.shards.setMatrixAt(i,this.dummy.matrix);
   }this.shards.instanceMatrix.needsUpdate=true;
-  const sweep=smooth(1.60,1.98,t)*(1-smooth(3.5,4.05,t));this.rings.forEach((m,i)=>{m.visible=sweep>.01;const size=(.55+i*.22+1.25*sweep);m.scale.set(size,size,size);m.position.x=1.25;m.rotation.z=t*(i%2?-.75:.55)});
-  this.sweepArcs.visible=sweep>.01;this.sweepArcs.position.set(1.25,0,0);this.sweepArcs.rotation.y=t*.55;this.sweepArcs.scale.setScalar(.45+.55*sweep);
-  this.windBands.forEach((m,i)=>{m.visible=t<3.8&&(!!orbit||t>=1.5);m.position.set(headP.x,.85+i*.10,headP.z);m.rotation.z=t*(i%2?1:-1)+i;const k=.5+i*.12;m.scale.set(k,k,k)});
+  const sweep=smooth(1.60,1.98,t)*(1-smooth(3.5,4.05,t));this.rings.forEach((m,i)=>{m.visible=this.slashDecorations&&sweep>.01;const size=(.55+i*.22+1.25*sweep);m.scale.set(size,size,size);m.position.x=1.25;m.rotation.z=t*(i%2?-.75:.55)});
+  this.sweepArcs.visible=this.slashDecorations&&sweep>.01;this.sweepArcs.position.set(1.25,0,0);this.sweepArcs.rotation.y=t*.55;this.sweepArcs.scale.setScalar(.45+.55*sweep);
+  this.windBands.forEach((m,i)=>{m.visible=this.slashDecorations&&t<3.8&&(!!orbit||t>=1.5);m.position.set(headP.x,.85+i*.10,headP.z);m.rotation.z=t*(i%2?1:-1)+i;const k=.5+i*.12;m.scale.set(k,k,k)});
  }
 }

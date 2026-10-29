@@ -22,8 +22,8 @@ export class BindStar {
  private circles:THREE.Group[]=[]; private crystals:THREE.Group[]=[]; private beams:THREE.Mesh[]=[];private chainLinks:THREE.InstancedMesh;private particles:THREE.InstancedMesh;private stones:THREE.InstancedMesh;private dummy=new THREE.Object3D();private quality:'high'|'ultra'='high';
  constructor(scene:THREE.Object3D){
   this.dragon=new DragonEffect(scene,'binding');this.dragon.group.name='Bind Star dragon';
-  // The first-skill dragon's sweep rings are detached from this instance only.
-  for(const child of [...this.dragon.group.children].slice(5))this.dragon.group.remove(child);
+  // Hide by semantic role; child-index removal would discard the new limb pairs.
+  this.dragon.hideSlashDecorations();
   this.layers={dragon:this.dragon.group,circle:new THREE.Group(),crystals:new THREE.Group(),beams:new THREE.Group(),chains:new THREE.Group(),particles:new THREE.Group()};
   for(const [name,g] of Object.entries(this.layers)){g.name='skill02 '+name;if(name!=='dragon')scene.add(g);g.visible=false;}
   for(let k=0;k<3;k++){

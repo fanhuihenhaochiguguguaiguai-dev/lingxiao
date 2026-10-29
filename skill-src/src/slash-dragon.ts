@@ -1,4 +1,5 @@
 import * as THREE from 'three/webgpu';
+import {loft,sweep} from './dragon-geometry';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 
 // Art profile for 破云·龙影斩 only. Curve transport is reusable; these anatomical
@@ -14,24 +15,6 @@ class Parts {
  finish(body:boolean){return roles.flatMap(role=>{const list=this.buckets.get(role);if(!list?.length)return [];const geometry=mergeGeometries(list)!;list.forEach(g=>g.dispose());return [{name:`slash ${body?'body':'head'} ${role}`,role,body,geometry}]})}
 }
 function indexed(pos:number[],idx:number[]){const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(pos,3));g.setIndex(idx);g.computeVertexNormals();return g}
-/** Closed cross-section loft; rows are [x, centerY, verticalRadius, sideRadius]. */
-function loft(rows:number[][],sides=20){
- const p:number[]=[],idx:number[]=[];
- for(const [x,y,ry,rz] of rows)for(let j=0;j<=sides;j++){const a=j/sides*TAU;p.push(x,y+ry*Math.cos(a),rz*Math.sin(a))}
- for(let i=0;i<rows.length-1;i++)for(let j=0;j<sides;j++){const a=i*(sides+1)+j,b=a+sides+1;idx.push(a,a+1,b,b,a+1,b+1)}
- for(const end of [0,rows.length-1]){const c=p.length/3,r=rows[end];p.push(r[0],r[1],0);for(let j=0;j<sides;j++){const a=end*(sides+1)+j;if(end===0)idx.push(c,a+1,a);else idx.push(c,a,a+1)}}
- return indexed(p,idx);
-}
-function sweep(points:number[][],r0:number,r1:number,steps=18,sides=8){
- const c=new THREE.CatmullRomCurve3(points.map(p=>new V(...p as [number,number,number]))),p:number[]=[],idx:number[]=[];
- const frames=c.computeFrenetFrames(steps,false);
- for(let i=0;i<=steps;i++){const u=i/steps,v=c.getPoint(u),r=r0*Math.pow(1-u,.85)+r1*u;
-  for(let j=0;j<=sides;j++){const a=j/sides*TAU,q=v.clone().addScaledVector(frames.normals[i],Math.cos(a)*r).addScaledVector(frames.binormals[i],Math.sin(a)*r);p.push(q.x,q.y,q.z)}
- }
- for(let i=0;i<steps;i++)for(let j=0;j<sides;j++){const a=i*(sides+1)+j,b=a+sides+1;idx.push(a,a+1,b,b,a+1,b+1)}
- for(const end of [0,steps]){const cidx=p.length/3,q=c.getPoint(end/steps);p.push(q.x,q.y,q.z);for(let j=0;j<sides;j++){const a=end*(sides+1)+j;if(end===0)idx.push(cidx,a+1,a);else idx.push(cidx,a,a+1)}}
- return indexed(p,idx);
-}
 function gem(at:THREE.Vector3,size:THREE.Vector3){const g=new THREE.SphereGeometry(1,12,8);g.scale(size.x,size.y,size.z);g.translate(at.x,at.y,at.z);return g}
 const stations=[[0,.145,.14],[.12,.18,.17],[.22,.215,.195],[.38,.16,.145],[.52,.19,.17],[.65,.12,.10],[.82,.06,.05],[1,.004,.004]];
 function radii(u:number){let k=0;while(k<stations.length-2&&u>stations[k+1][0])k++;const a=stations[k],b=stations[k+1],v=THREE.MathUtils.smoothstep(u,a[0],b[0]);return [THREE.MathUtils.lerp(a[1],b[1],v),THREE.MathUtils.lerp(a[2],b[2],v)]}

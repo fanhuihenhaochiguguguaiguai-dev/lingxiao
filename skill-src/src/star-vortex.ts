@@ -1,4 +1,6 @@
 import * as THREE from 'three/webgpu';
+import {DragonFrames} from './dragon-frames';
+import {dragonScale,dragonLimbPair} from './dragon-details';
 import {EnergyRibbons} from './energy-ribbons';
 import {makeDragonHead,orientDragonHead} from './dragon-head';
 import {color,mix,positionLocal,sin,uniform} from 'three/tsl';
@@ -10,6 +12,8 @@ function torus(r:number,thick:number,material:THREE.Material){const m=new THREE.
 export class StarVortex {
  readonly group=new THREE.Group(); readonly dragon=new THREE.Group();readonly head=new THREE.Group();
  private readonly rails:THREE.Group[]=[];private readonly flows:THREE.Mesh[]=[];private readonly dragonWisps:THREE.Mesh[]=[];private readonly flowTime=uniform(0);private readonly ground:THREE.Group;private readonly shock:THREE.Mesh[]=[];private readonly body:THREE.Mesh;private readonly positions:THREE.BufferAttribute;private readonly ribbons=new EnergyRibbons({color:0x89cfff,opacity:.12,width:.045,count:3,segments:64});private readonly scales:THREE.InstancedMesh;private readonly dorsal:THREE.InstancedMesh;private readonly particles:THREE.InstancedMesh;private readonly rocks:THREE.InstancedMesh;private readonly dummy=new THREE.Object3D();
+ private readonly bodyFrames=new DragonFrames(80);private readonly limbs:THREE.InstancedMesh;private readonly bodyMaterial:THREE.MeshStandardNodeMaterial;private readonly headMaterials:THREE.Material[]=[];
+ private readonly plateMaterial=new THREE.MeshStandardMaterial({color:0x548abf,metalness:.6,roughness:.28,emissive:0x12395e,emissiveIntensity:.28,transparent:true});
  private readonly gold=new THREE.MeshStandardMaterial({color:0xc4954d,metalness:.85,roughness:.3,emissive:0x9a5313,emissiveIntensity:.28});
  private readonly blue=new THREE.MeshStandardNodeMaterial({color:0x236ec7,metalness:.25,roughness:.3,emissive:0x1053a0,emissiveIntensity:.8,transparent:true,opacity:.62,depthWrite:false,side:THREE.DoubleSide});
  private readonly glow=new THREE.MeshBasicMaterial({color:0x9ce4ff,transparent:true,opacity:.57,blending:THREE.AdditiveBlending,depthWrite:false});
@@ -17,12 +21,13 @@ export class StarVortex {
  private readonly rockMat=new THREE.MeshStandardMaterial({color:0x41424b,metalness:.2,roughness:.85});
  constructor(scene:THREE.Object3D){
   const wave=sin(positionLocal.y.mul(7).sub(this.flowTime.mul(5))).mul(.5).add(.5);this.blue.colorNode=mix(color(0x1353aa),color(0x76cfff),wave.mul(.65));this.blue.emissiveNode=mix(color(0x063675),color(0x2285dc),wave.mul(.6));
+  this.bodyMaterial=this.blue.clone();this.bodyMaterial.side=THREE.FrontSide;this.bodyMaterial.depthWrite=true;
   this.group.name='星渊龙卷 · real 3D';scene.add(this.group);this.group.visible=false;this.group.add(this.dragon);
   const seg=80,sides=10,pos=new Float32Array((seg+1)*(sides+1)*3),index:number[]=[];
   for(let i=0;i<seg;i++)for(let j=0;j<sides;j++){const a=i*(sides+1)+j,b=a+sides+1;index.push(a,b,a+1,b,b+1,a+1)}
-  const geo=new THREE.BufferGeometry();this.positions=new THREE.BufferAttribute(pos,3);this.positions.setUsage(THREE.DynamicDrawUsage);geo.setAttribute('position',this.positions);geo.setIndex(index);this.body=new THREE.Mesh(geo,this.blue);this.body.frustumCulled=false;this.dragon.add(this.body);this.dragon.add(this.ribbons.mesh);this.makeHead();this.dragon.add(this.head);
-  this.dorsal=new THREE.InstancedMesh(new THREE.ConeGeometry(.07,.25,5),this.glow,28);this.dorsal.frustumCulled=false;this.dragon.add(this.dorsal);
-  this.scales=new THREE.InstancedMesh(new THREE.ConeGeometry(.075,.18,5),this.glow,120);this.scales.frustumCulled=false;this.dragon.add(this.scales);
+  const geo=new THREE.BufferGeometry();this.positions=new THREE.BufferAttribute(pos,3);this.positions.setUsage(THREE.DynamicDrawUsage);geo.setAttribute('position',this.positions);geo.setIndex(index);this.body=new THREE.Mesh(geo,this.bodyMaterial);this.body.frustumCulled=false;this.dragon.add(this.body);this.dragon.add(this.ribbons.mesh);this.makeHead();this.dragon.add(this.head);
+  this.dorsal=new THREE.InstancedMesh(new THREE.ConeGeometry(.07,.25,5),this.plateMaterial,28);this.dorsal.frustumCulled=false;this.dragon.add(this.dorsal);
+  this.scales=new THREE.InstancedMesh(dragonScale('sovereign'),this.plateMaterial,144);this.scales.frustumCulled=false;this.dragon.add(this.scales);this.limbs=new THREE.InstancedMesh(dragonLimbPair('sovereign'),this.bodyMaterial,2);this.limbs.frustumCulled=false;this.dragon.add(this.limbs);
   for(let k=0;k<3;k++){
    const g=new THREE.Group();g.position.y=.75+k*1.38;g.rotation.z=(k%2?-.11:.11);this.group.add(g);this.rails.push(g);const r=2.1+k*.43;
    for(const dr of [-.12,.12])g.add(torus(r+dr,.025,this.gold));g.add(torus(r,.008,this.goldGlow));
@@ -38,21 +43,25 @@ export class StarVortex {
   this.particles=new THREE.InstancedMesh(new THREE.OctahedronGeometry(.048,0),this.glow,180);this.particles.frustumCulled=false;this.group.add(this.particles);
   this.rocks=new THREE.InstancedMesh(new THREE.DodecahedronGeometry(.12,0),this.rockMat,36);this.rocks.frustumCulled=false;this.group.add(this.rocks);
  }
+ private radius(u:number){return .04+.24*u+.05*Math.exp(-Math.pow((u-.76)/.10,2))+.03*Math.exp(-Math.pow((u-.36)/.09,2))}
  private makeHead(){
-  this.head.add(makeDragonHead({shell:new THREE.MeshStandardMaterial({color:0x104682,emissive:0x06244f,emissiveIntensity:.48,metalness:.35,roughness:.32}),light:this.glow,gold:this.gold,dark:new THREE.MeshStandardMaterial({color:0x07152b,roughness:.6}),eye:new THREE.MeshBasicMaterial({color:0xe7faff})}));
+  const shell=new THREE.MeshStandardMaterial({color:0x173f72,emissive:0x06244f,emissiveIntensity:.4,metalness:.45,roughness:.30,transparent:true}),light=new THREE.MeshStandardMaterial({color:0x8bc2dc,emissive:0x144675,emissiveIntensity:.45,metalness:.4,roughness:.26,transparent:true}),gold=this.gold.clone(),dark=new THREE.MeshStandardMaterial({color:0x07152b,roughness:.6,transparent:true}),eye=new THREE.MeshBasicMaterial({color:0xd4f5ff,transparent:true});gold.transparent=true;this.headMaterials.push(shell,light,gold,dark,eye);
+  this.head.add(makeDragonHead({shell,light,gold,dark,eye},'sovereign'));
  }
- setQuality(q:'high'|'ultra'){this.particles.count=q==='ultra'?180:90;this.rocks.count=q==='ultra'?36:18;this.scales.count=q==='ultra'?120:70;this.flows.forEach((m,i)=>m.visible=q==='ultra'||i<(6))}
+ sample(){return {identity:'苍穹巨龙 · 帝冠与升腾螺旋',limbs:4,head:this.head.position.toArray()}}
+ setQuality(q:'high'|'ultra'){this.particles.count=q==='ultra'?180:90;this.rocks.count=q==='ultra'?36:18;this.scales.count=q==='ultra'?144:96;this.flows.forEach((m,i)=>m.visible=q==='ultra'||i<(6))}
  update(t:number,active:boolean){
   this.group.visible=active&&t<7.4;if(!this.group.visible)return;
   this.flowTime.value=t;const start=smooth(.02,.9,t),fade=1-smooth(6.1,7.35,t),grow=start*fade, dragonFade=smooth(.6,1.65,t)*(1-smooth(5.7,6.7,t));
   const compress=1-.54*smooth(4.4,4.9,t)*(1-smooth(4.95,5.25,t));this.dragon.visible=dragonFade>.005;
-  const seg=80,sides=10,center=new V(),next=new V(),tangent=new V(),normal=new V(),binormal=new V(),temp=new V();
+  const seg=80,sides=10;this.bodyFrames.update(u=>{const p=path(1-u,t);p.x*=compress;p.z*=compress;return p});this.bodyMaterial.opacity=.78*dragonFade;this.plateMaterial.opacity=.9*dragonFade;for(const m of this.headMaterials)m.opacity=dragonFade;
   for(let i=0;i<=seg;i++){
-   const u=i/seg;center.copy(path(u,t));center.x*=compress;center.z*=compress;next.copy(path(Math.min(1,u+.002),t));next.x*=compress;next.z*=compress;tangent.copy(next).sub(center).normalize();if(tangent.lengthSq()<.1)tangent.set(1,0,0);normal.crossVectors(tangent,new V(0,1,0)).normalize();if(normal.lengthSq()<.1)normal.set(0,0,1);binormal.crossVectors(tangent,normal).normalize();const r=(.04+.24*u)*dragonFade;
-   for(let j=0;j<=sides;j++){const a=j/sides*TAU;temp.copy(center).addScaledVector(normal,Math.cos(a)*r).addScaledVector(binormal,Math.sin(a)*r);this.positions.setXYZ(i*(sides+1)+j,temp.x,temp.y,temp.z)}
-  }this.positions.needsUpdate=true;this.body.geometry.computeVertexNormals();this.ribbons.update(u=>{const p=path(u,t);p.x*=compress;p.z*=compress;return p},t,dragonFade);const hp=path(1,t);hp.x*=compress;hp.z*=compress;this.head.position.copy(hp);this.head.scale.setScalar(1.45*dragonFade);const forward=path(.99,t);forward.x*=compress;forward.z*=compress;orientDragonHead(this.head,hp.clone().sub(forward));
-  for(let i=0;i<28;i++){const u=.05+i/30,p=path(u,t);this.dummy.position.set(p.x*compress,p.y+(.04+.24*u)*dragonFade,p.z*compress);this.dummy.rotation.set(0,0,-.35);this.dummy.scale.set(.65,dragonFade*(.4+.6*u),.65);this.dummy.updateMatrix();this.dorsal.setMatrixAt(i,this.dummy.matrix)}this.dorsal.instanceMatrix.needsUpdate=true;
-  for(let i=0;i<this.scales.count;i++){const u=i/this.scales.count,p=path(u,t);this.dummy.position.set(p.x*compress,p.y+.15,p.z*compress);this.dummy.rotation.set(0,t+u*8,.5);this.dummy.scale.set(.45,dragonFade*.8,.45);this.dummy.updateMatrix();this.scales.setMatrixAt(i,this.dummy.matrix)}this.scales.instanceMatrix.needsUpdate=true;
+   const u=i/seg,f=this.bodyFrames.frames[seg-i],r=this.radius(u);
+   for(let j=0;j<=sides;j++){const a=j/sides*TAU,p=f.p.clone().addScaledVector(f.side,Math.cos(a)*r).addScaledVector(f.up,Math.sin(a)*r);this.positions.setXYZ(i*(sides+1)+j,p.x,p.y,p.z)}
+  }this.positions.needsUpdate=true;this.body.geometry.computeVertexNormals();this.ribbons.update(u=>{const p=path(u,t);p.x*=compress;p.z*=compress;return p},t,dragonFade);const fHead=this.bodyFrames.frames[0];this.head.position.copy(fHead.p);this.head.scale.setScalar(1.45);orientDragonHead(this.head,fHead.forward);
+  for(let i=0;i<28;i++){const u=.05+i/30,f=this.bodyFrames.at(1-u);this.dummy.position.copy(f.p).addScaledVector(f.up,this.radius(u));this.dummy.quaternion.setFromRotationMatrix(new THREE.Matrix4().makeBasis(f.forward,f.up,f.side));this.dummy.rotateZ(-.35);this.dummy.scale.set(.65,.4+.6*u,.65);this.dummy.updateMatrix();this.dorsal.setMatrixAt(i,this.dummy.matrix)}this.dorsal.instanceMatrix.needsUpdate=true;
+  for(let i=0;i<this.scales.count;i++){const rows=this.scales.count===144?36:32,row=i%rows,band=Math.floor(i/rows),u=.025+row/(rows+2),f=this.bodyFrames.at(1-u),a=[-.92,.92,0,Math.PI][band],r=this.radius(u),normal=f.up.clone().multiplyScalar(Math.cos(a)).addScaledVector(f.side,Math.sin(a));this.dummy.position.copy(f.p).addScaledVector(normal,r);this.dummy.quaternion.setFromRotationMatrix(new THREE.Matrix4().makeBasis(f.forward.clone().cross(normal).normalize(),f.forward,normal));this.dummy.scale.set(.55+.4*u,.8+.25*u,1);this.dummy.updateMatrix();this.scales.setMatrixAt(i,this.dummy.matrix)}this.scales.instanceMatrix.needsUpdate=true;
+  for(let i=0;i<2;i++){const u=i?.36:.76,f=this.bodyFrames.at(1-u);this.dummy.position.copy(f.p);this.dummy.quaternion.setFromRotationMatrix(new THREE.Matrix4().makeBasis(f.forward,f.up,f.side));this.dummy.scale.set(1,1,this.radius(u)/.25);this.dummy.updateMatrix();this.limbs.setMatrixAt(i,this.dummy.matrix)}this.limbs.instanceMatrix.needsUpdate=true;
   this.dragonWisps.forEach((w,i)=>{w.rotation.y=-t*.68;w.scale.set(compress,dragonFade,compress);w.visible=dragonFade>.01&&(this.particles.count>90||i<5)});
   this.rails.forEach((g,i)=>{g.rotation.y=t*(i%2?-.7:.45);g.scale.setScalar((.1+.9*start)*fade);g.position.y=(.30+i*1.38)*smooth(.15,1.4,t)});
   this.ground.scale.setScalar((.12+.88*start)*fade);this.ground.rotation.y=t*.22;

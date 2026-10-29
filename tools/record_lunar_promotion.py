@@ -1,0 +1,11 @@
+"""Actual continuous playback; no QA time advance, generated frames or audio capture."""
+from pathlib import Path
+import json,time,os,shutil,playwright
+from browser_display import display,ARGS
+from playwright.sync_api import sync_playwright
+out=Path(__file__).resolve().parents[1]/'verification/promotion/runtime';out.mkdir(parents=True,exist_ok=True)
+meta=Path(playwright.__file__).parent/'driver/package/browsers.json';revision=next(x['revision'] for x in json.loads(meta.read_text())['browsers'] if x['name']=='ffmpeg');cache=Path(os.environ.get('PLAYWRIGHT_BROWSERS_PATH',str(Path.home()/'.cache/ms-playwright')))/('ffmpeg-'+revision)/'ffmpeg-linux'
+if not cache.exists() and shutil.which('ffmpeg'):cache.parent.mkdir(parents=True,exist_ok=True);cache.symlink_to(shutil.which('ffmpeg'))
+with display() as env,sync_playwright() as p:
+ b=p.chromium.launch(headless=False,args=ARGS,env=env,executable_path='/usr/bin/chromium');ctx=b.new_context(viewport={'width':1100,'height':700},record_video_dir=str(out),record_video_size={'width':1100,'height':700});page=ctx.new_page();page.set_default_timeout(240000);errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
+ page.goto('http://127.0.0.1:8765/skill/?renderer=webgl2');page.wait_for_function('window.__lingSkill?.ready&&window.__lingSkill.instanceAudio?.ready');page.locator('#open-characters').click();page.locator('[data-character=yueli]').click();page.wait_for_function('window.__lingSkill.character==="yueli"&&!window.__lingSkill.characterLoading');page.locator('#cast-yueli3').click();page.evaluate('window.__lingQA.view("angle")');start=time.monotonic();frames=page.evaluate('window.__lingSkill.frames');print('LUNAR_CONTINUOUS_STARTED',flush=True);page.wait_for_function('!window.__lingSkill.casting');elapsed=time.monotonic()-start;state=page.evaluate('window.__lingQA.inspect()');assert not errors and not state['errors'];video=page.video;ctx.close();Path(video.path()).replace(out/'lunar-continuous.webm');result={'scope':'uncut Chromium software WebGL2, actual playback speed; no phone performance or physical audio latency claim','wallSeconds':elapsed,'renderedFrames':state['frames']-frames,'audioCaptured':False,'errors':errors};b.close();(out/'video.json').write_text(json.dumps(result,indent=2));print('LUNAR_CONTINUOUS_SAVED',flush=True)

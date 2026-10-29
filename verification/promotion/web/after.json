@@ -1,0 +1,66 @@
+{
+  "binding": {
+    "cameraTarget": [
+      0,
+      0.9499999999999998,
+      0
+    ],
+    "cameraPosition": [
+      0.01000000000022845,
+      8.1,
+      0.010000000000228451
+    ],
+    "drawCalls": 160,
+    "triangles": 131662,
+    "renderer": "WebGL2",
+    "errors": []
+  },
+  "sovereign": {
+    "cameraTarget": [
+      0,
+      2.2,
+      0
+    ],
+    "cameraPosition": [
+      0.01000000000089607,
+      12,
+      0.010000000000896072
+    ],
+    "drawCalls": 119,
+    "triangles": 140030,
+    "renderer": "WebGL2",
+    "errors": []
+  },
+  "ice-orbit": {
+    "cameraTarget": [
+      1.5,
+      2.6,
+      0
+    ],
+    "cameraPosition": [
+      1.510000000000573,
+      17.5,
+      0.010000000000573179
+    ],
+    "drawCalls": 131,
+    "triangles": 238019,
+    "renderer": "WebGL2",
+    "errors": []
+  },
+  "ice-dive": {
+    "cameraTarget": [
+      1.5,
+      2.6,
+      0
+    ],
+    "cameraPosition": [
+      1.510000000000573,
+      17.5,
+      0.010000000000573179
+    ],
+    "drawCalls": 133,
+    "triangles": 239651,
+    "renderer": "WebGL2",
+    "errors": []
+  }
+}

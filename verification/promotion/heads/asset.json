@@ -1,0 +1,82 @@
+{
+  "scope": "static editable head geometry; runtime TSL materials/animation verified in browser separately",
+  "sha256": "d24d2a89422d2d779a88b62d526ec2d0f7a3252303fe0af362e70d7763c2dbf4",
+  "parts": [
+    {
+      "mesh": "binding shell",
+      "triangles": 336,
+      "runtimeCoordinatesRoundTrip": true
+    },
+    {
+      "mesh": "binding dark",
+      "triangles": 312,
+      "runtimeCoordinatesRoundTrip": true
+    },
+    {
+      "mesh": "binding eye",
+      "triangles": 336,
+      "runtimeCoordinatesRoundTrip": true
+    },
+    {
+      "mesh": "binding gold",
+      "triangles": 3920,
+      "runtimeCoordinatesRoundTrip": true
+    },
+    {
+      "mesh": "binding light",
+      "triangles": 4184,
+      "runtimeCoordinatesRoundTrip": true
+    },
+    {
+      "mesh": "sovereign shell",
+      "triangles": 336,
+      "runtimeCoordinatesRoundTrip": true
+    },
+    {
+      "mesh": "sovereign dark",
+      "triangles": 312,
+      "runtimeCoordinatesRoundTrip": true
+    },
+    {
+      "mesh": "sovereign eye",
+      "triangles": 336,
+      "runtimeCoordinatesRoundTrip": true
+    },
+    {
+      "mesh": "sovereign gold",
+      "triangles": 4336,
+      "runtimeCoordinatesRoundTrip": true
+    },
+    {
+      "mesh": "sovereign light",
+      "triangles": 4208,
+      "runtimeCoordinatesRoundTrip": true
+    },
+    {
+      "mesh": "lunar shell",
+      "triangles": 408,
+      "runtimeCoordinatesRoundTrip": true
+    },
+    {
+      "mesh": "lunar dark",
+      "triangles": 72,
+      "runtimeCoordinatesRoundTrip": true
+    },
+    {
+      "mesh": "lunar eye",
+      "triangles": 336,
+      "runtimeCoordinatesRoundTrip": true
+    },
+    {
+      "mesh": "lunar gold",
+      "triangles": 1176,
+      "runtimeCoordinatesRoundTrip": true
+    },
+    {
+      "mesh": "lunar light",
+      "triangles": 3600,
+      "runtimeCoordinatesRoundTrip": true
+    }
+  ],
+  "finalArtAccepted": false
+}

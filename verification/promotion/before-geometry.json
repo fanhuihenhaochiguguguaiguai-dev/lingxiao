@@ -1,0 +1,30 @@
+{
+  "binding": {
+    "length": 5.9226258130178,
+    "minOutwardNormalDot": 0.9128689115690295
+  },
+  "sovereign": {
+    "length": 20.448155654272206,
+    "minOutwardNormalDot": -0.9481720182958433
+  },
+  "ice-2.4": {
+    "length": 12.702462288126103,
+    "minOutwardNormalDot": 0.9620266946260823
+  },
+  "ice-3.7": {
+    "length": 8.172830722443193,
+    "minOutwardNormalDot": 0.9616983067234648
+  },
+  "ice-4.15": {
+    "length": 2.4460941657849875,
+    "minOutwardNormalDot": 0.3926155865192413
+  },
+  "ice-4.4": {
+    "length": 0.894096650298827,
+    "minOutwardNormalDot": -0.9722555981675891
+  },
+  "ice-5.2": {
+    "length": 6.56168697714029,
+    "minOutwardNormalDot": 0.907493344289385
+  }
+}
