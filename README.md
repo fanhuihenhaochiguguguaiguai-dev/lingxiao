@@ -2,11 +2,12 @@
 
 ## 当前版本与经验索引
 
-最新有效网页是 [凌渊角色工作室](https://lingyuan-character-studio.earthyaspen11.chatgpt.site/skill/)（公开访问）。当前代码包含凌渊与月璃、两人的三个技能，以及月璃「月陨天霜」可运行工作稿。本轮修复正式凌渊 GLB 同时显示三档头发的问题，并增加独立高低模／烘焙头部候选；候选尚未通过艺术验收，未替换正式脸部。两个人物仍未通过最终原画还原；真机性能和专业听感仍未验证。下方各段是历次工作记录，其中关于角色是否接入、技能数量及画质档位的描述可能反映旧版本，当前状态以 `verification/lingyuan31/README.md` 与其继承的治理报告为准。
+最新有效网页是 [凌渊角色工作室](https://lingyuan-character-studio.earthyaspen11.chatgpt.site/skill/)（公开访问）。当前代码包含凌渊与月璃、两人的三个技能，以及月璃「月陨天霜」可运行工作稿。最新增量补全凌渊一技能的实体鳞甲、四肢、尾部与稳定曲线变形；只采纳局部结构改善，未认定整体精品通过。上轮头部候选未通过艺术验收，仍未替换正式脸部；已修复的头发 LOD 保留。两个人物仍未通过最终原画还原；真机性能和专业听感仍未验证。下方是历次工作记录，其中关于接入、技能数量及画质档位可能反映旧版本，当前以最新报告及其继承证据为准。
 
 - 项目决策、成功经验、失败原因与预防措施：[`docs/PROJECT_LESSONS.md`](docs/PROJECT_LESSONS.md)。
 - 人物制作经验与失败候选：[`docs/qingli-production-lessons.md`](docs/qingli-production-lessons.md)、[`docs/REFINEMENT_WORKFLOW.md`](docs/REFINEMENT_WORKFLOW.md)。
-- 最新 LOD 根因修复、头部制作候选、真实前后对照与未完成内容：[`verification/lingyuan31/README.md`](verification/lingyuan31/README.md)。同一网站的[头部候选入口](https://lingyuan-character-studio.earthyaspen11.chatgpt.site/skill/?sample=lingyuan31-head)明确标注艺术未验收。
+- 最新一技能龙体、复用边界、真实画面／录像及剩余任务：[`verification/dragon32/README.md`](verification/dragon32/README.md)。后续开发继承约定见 [`AGENTS.md`](AGENTS.md)。
+- LOD 根因修复、头部候选：[`verification/lingyuan31/README.md`](verification/lingyuan31/README.md)。同一网站的[头部候选入口](https://lingyuan-character-studio.earthyaspen11.chatgpt.site/skill/?sample=lingyuan31-head)明确标注艺术未验收。
 - 已有共性治理、运行结果：[`verification/governance/README.md`](verification/governance/README.md)；大招验收见 [`verification/moonfall/README.md`](verification/moonfall/README.md)。
 - Git 历史保留了各阶段源码、资源及必要的回退点；部分生成脚本依赖外部工作区源资产，见下方来源说明。
 

@@ -1,0 +1,59 @@
+{
+  "scope": "desktop Chromium software WebGL2; exact synthetic DOM burst counts, not physical phone latency",
+  "checks": {
+    "lingyuan-1": {
+      "bursts": [
+        {
+          "requested": 1,
+          "created": 1,
+          "uniqueRoots": 1,
+          "immediateAgeZero": true,
+          "castAudioEvents": 1,
+          "synchronousBurstWallMs": 30.94
+        },
+        {
+          "requested": 3,
+          "created": 3,
+          "uniqueRoots": 3,
+          "immediateAgeZero": true,
+          "castAudioEvents": 3,
+          "synchronousBurstWallMs": 38.65
+        },
+        {
+          "requested": 5,
+          "created": 5,
+          "uniqueRoots": 5,
+          "immediateAgeZero": true,
+          "castAudioEvents": 5,
+          "synchronousBurstWallMs": 44.35
+        },
+        {
+          "requested": 10,
+          "created": 10,
+          "uniqueRoots": 10,
+          "immediateAgeZero": true,
+          "castAudioEvents": 10,
+          "synchronousBurstWallMs": 77.55
+        }
+      ],
+      "movingJumpCast": true,
+      "tenIndependentTargetHitsAndAudio": true,
+      "independentAnchorsAndClocks": true,
+      "cleanup": {
+        "paused": false,
+        "created": 20,
+        "allocations": 20,
+        "reused": 0,
+        "activeCount": 0,
+        "pooled": 2,
+        "recycled": 2,
+        "disposed": 18,
+        "clock": 14.313333333333624,
+        "active": [],
+        "history": []
+      },
+      "reuse": true
+    }
+  },
+  "errors": []
+}

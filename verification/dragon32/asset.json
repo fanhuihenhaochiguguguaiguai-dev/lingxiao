@@ -1,0 +1,54 @@
+{
+  "status": "PASS_STATIC_ASSET_ROUND_TRIP",
+  "sha256": "eb06924ed37cff1bbc065a0fc9641219e579d56cd21671ce390334136e4efd95",
+  "parts": [
+    {
+      "mesh": "slash head skin",
+      "triangles": 612,
+      "runtimeCoordinatesRoundTrip": true
+    },
+    {
+      "mesh": "slash head plate",
+      "triangles": 1888,
+      "runtimeCoordinatesRoundTrip": true
+    },
+    {
+      "mesh": "slash head gold",
+      "triangles": 3280,
+      "runtimeCoordinatesRoundTrip": true
+    },
+    {
+      "mesh": "slash head light",
+      "triangles": 4244,
+      "runtimeCoordinatesRoundTrip": true
+    },
+    {
+      "mesh": "slash head dark",
+      "triangles": 1104,
+      "runtimeCoordinatesRoundTrip": true
+    },
+    {
+      "mesh": "slash body skin",
+      "triangles": 7384,
+      "runtimeCoordinatesRoundTrip": true
+    },
+    {
+      "mesh": "slash body plate",
+      "triangles": 5912,
+      "runtimeCoordinatesRoundTrip": true
+    },
+    {
+      "mesh": "slash body gold",
+      "triangles": 284,
+      "runtimeCoordinatesRoundTrip": true
+    },
+    {
+      "mesh": "slash body light",
+      "triangles": 2416,
+      "runtimeCoordinatesRoundTrip": true
+    }
+  ],
+  "animations": "rest asset; curve animation is implemented in slash-dragon.ts, not a skeletal clip",
+  "artAccepted": false,
+  "realPhoneTested": false
+}

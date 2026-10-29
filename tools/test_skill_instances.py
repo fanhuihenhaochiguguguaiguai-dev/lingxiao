@@ -14,6 +14,8 @@ with display() as env,sync_playwright() as p:
   for skill in ([1,2,3] if character=='lingyuan' else [1,2,3]):
    button=('#cast' if skill==1 else '#cast'+str(skill)) if character=='lingyuan' else '#cast-yueli'+(str(skill) if skill>1 else '')
    kind=f'{character}-{skill}';checks=[]
+   selected=set(filter(None,os.environ.get('LINGYUAN_SKILL_FILTER','').split(',')))
+   if selected and kind not in selected:continue
    for count in [1,3,5,10]:
     page.evaluate('window.__lingQA.reset()');before=page.evaluate('window.__lingQA.inspect().instances.created');wall=time.monotonic()
     page.evaluate('([selector,count])=>{const button=document.querySelector(selector);for(let i=0;i<count;i++)button.click()}',[button,count]);state=page.evaluate('window.__lingQA.inspect()');active=state['instances']['active'];assert len(active)==count and state['instances']['created']-before==count,(kind,count,state['instances']);assert len({x['id'] for x in active})==count and len({x['rootUuid'] for x in active})==count

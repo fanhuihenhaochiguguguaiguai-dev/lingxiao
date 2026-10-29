@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "baseline": "d1e5726",
+  "sampleTimes": [
+    0.3,
+    1,
+    2.7,
+    3.8,
+    5.8
+  ],
+  "geometryNormalsInstancesOpacityAndHeadOrientationIdentical": true,
+  "artPromoted": false
+}

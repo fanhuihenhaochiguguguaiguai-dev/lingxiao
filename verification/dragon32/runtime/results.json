@@ -1,0 +1,101 @@
+{
+  "scope": "installed Chromium software graphics; synthetic burst inputs; no real phone, physical audio latency or professional listening acceptance",
+  "continuousPlayback": {
+    "file": "moving-cast.webm",
+    "wallSeconds": 25.66287738599931,
+    "renderedFrames": 56,
+    "actualKeyboardMovingCast": true,
+    "audioCaptured": false,
+    "errors": []
+  },
+  "webgl2": {
+    "renderer": "WebGL2",
+    "software": true,
+    "allocationWaves": [
+      {
+        "wave": 0,
+        "active": {
+          "memory": {
+            "geometries": 184,
+            "textures": 11
+          },
+          "drawCalls": 192,
+          "triangles": 352358
+        },
+        "ended": {
+          "memory": {
+            "geometries": 96,
+            "textures": 11
+          },
+          "drawCalls": 72,
+          "triangles": 72798
+        }
+      },
+      {
+        "wave": 1,
+        "active": {
+          "memory": {
+            "geometries": 184,
+            "textures": 11
+          },
+          "drawCalls": 192,
+          "triangles": 352358
+        },
+        "ended": {
+          "memory": {
+            "geometries": 96,
+            "textures": 11
+          },
+          "drawCalls": 72,
+          "triangles": 72798
+        }
+      },
+      {
+        "wave": 2,
+        "active": {
+          "memory": {
+            "geometries": 184,
+            "textures": 11
+          },
+          "drawCalls": 192,
+          "triangles": 352358
+        },
+        "ended": {
+          "memory": {
+            "geometries": 96,
+            "textures": 11
+          },
+          "drawCalls": 72,
+          "triangles": 72798
+        }
+      }
+    ],
+    "errors": []
+  },
+  "webgpu": {
+    "renderer": "WebGPU",
+    "software": true,
+    "allocationWaves": [
+      {
+        "wave": 0,
+        "active": {
+          "memory": {
+            "geometries": 184,
+            "textures": 11
+          },
+          "drawCalls": 192,
+          "triangles": 352358
+        },
+        "ended": {
+          "memory": {
+            "geometries": 96,
+            "textures": 11
+          },
+          "drawCalls": 72,
+          "triangles": 72798
+        }
+      }
+    ],
+    "errors": []
+  }
+}

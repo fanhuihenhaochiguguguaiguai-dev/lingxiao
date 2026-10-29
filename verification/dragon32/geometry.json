@@ -1,0 +1,123 @@
+{
+  "status": "PASS_GEOMETRY_AND_CURVE_ONLY",
+  "parts": [
+    {
+      "name": "slash head skin",
+      "vertices": 324,
+      "triangles": 612
+    },
+    {
+      "name": "slash head plate",
+      "vertices": 1137,
+      "triangles": 1888
+    },
+    {
+      "name": "slash head gold",
+      "vertices": 1888,
+      "triangles": 3280
+    },
+    {
+      "name": "slash head light",
+      "vertices": 2526,
+      "triangles": 4244
+    },
+    {
+      "name": "slash head dark",
+      "vertices": 756,
+      "triangles": 1104
+    },
+    {
+      "name": "slash body skin",
+      "vertices": 4075,
+      "triangles": 7384
+    },
+    {
+      "name": "slash body plate",
+      "vertices": 3642,
+      "triangles": 5912
+    },
+    {
+      "name": "slash body gold",
+      "vertices": 180,
+      "triangles": 284
+    },
+    {
+      "name": "slash body light",
+      "vertices": 1462,
+      "triangles": 2416
+    }
+  ],
+  "frameChecks": [
+    {
+      "time": 0.08,
+      "centerlineLength": 3.8,
+      "maxFrameError": 0,
+      "minUp": 1
+    },
+    {
+      "time": 0.35,
+      "centerlineLength": 3.8,
+      "maxFrameError": 0,
+      "minUp": 1
+    },
+    {
+      "time": 0.8,
+      "centerlineLength": 3.8,
+      "maxFrameError": 0,
+      "minUp": 1
+    },
+    {
+      "time": 1.1,
+      "centerlineLength": 3.7999999999999994,
+      "maxFrameError": 1.1102230246251565e-16,
+      "minUp": 0.9995812808475721
+    },
+    {
+      "time": 1.45,
+      "centerlineLength": 3.7918038278276867,
+      "maxFrameError": 2.220446049250313e-16,
+      "minUp": 0.8336659392672994
+    },
+    {
+      "time": 1.8,
+      "centerlineLength": 3.7757173518864175,
+      "maxFrameError": 2.220446049250313e-16,
+      "minUp": 0.8413799123107659
+    },
+    {
+      "time": 2.2,
+      "centerlineLength": 3.761260280669953,
+      "maxFrameError": 2.220446049250313e-16,
+      "minUp": 0.6644983604167046
+    },
+    {
+      "time": 2.6,
+      "centerlineLength": 3.799063832342231,
+      "maxFrameError": 2.220446049250313e-16,
+      "minUp": 0.968916284069998
+    },
+    {
+      "time": 3.15,
+      "centerlineLength": 3.7990139236897393,
+      "maxFrameError": 2.220446049250313e-16,
+      "minUp": 0.9691295945661841
+    },
+    {
+      "time": 3.8,
+      "centerlineLength": 3.7990428031096375,
+      "maxFrameError": 2.220446049250313e-16,
+      "minUp": 0.968916284069998
+    },
+    {
+      "time": 4.3,
+      "centerlineLength": 3.799042803109638,
+      "maxFrameError": 2.220446049250313e-16,
+      "minUp": 0.968916284069998
+    }
+  ],
+  "maxCenterlineStepAt120Hz": 0.10091045726567195,
+  "independentDynamicBuffers": true,
+  "bindingProfileUnchanged": true,
+  "artAccepted": false,
+  "phoneTested": false
+}
