@@ -1,0 +1,821 @@
+{
+  "scope": "actual Chromium WebGL2; staged synthetic input and clock, not phone/performance/art acceptance",
+  "results": {
+    "lingyuan": {
+      "independentBones": true,
+      "cachedOpponentActors": 1,
+      "playerSkills": {
+        "1": {
+          "damage": 135,
+          "ticks": 1,
+          "events": [
+            {
+              "round": 3,
+              "attack": "skill:1",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 3,
+              "kind": "lingyuan-1",
+              "tick": 0,
+              "damage": 135,
+              "hp": 715,
+              "killed": false,
+              "time": 1.5333333333333328
+            }
+          ]
+        },
+        "2": {
+          "damage": 95,
+          "ticks": 1,
+          "events": [
+            {
+              "round": 5,
+              "attack": "skill:3",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 5,
+              "kind": "lingyuan-2",
+              "tick": 0,
+              "damage": 95,
+              "hp": 755,
+              "killed": false,
+              "time": 1.0000000000000013
+            }
+          ]
+        },
+        "3": {
+          "damage": 260,
+          "ticks": 1,
+          "events": [
+            {
+              "round": 7,
+              "attack": "skill:5",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 7,
+              "kind": "lingyuan-3",
+              "tick": 0,
+              "damage": 260,
+              "hp": 590,
+              "killed": false,
+              "time": 5.33333333333332
+            }
+          ]
+        }
+      },
+      "opponentSkills": {
+        "1": {
+          "damage": 115,
+          "ticks": 1
+        },
+        "2": {
+          "damage": 330,
+          "ticks": 6
+        },
+        "3": {
+          "damage": 600,
+          "ticks": 6
+        }
+      },
+      "playerVictoryAndPostDeathInputGate": true,
+      "aiChaseBasicSkillAndVictory": true,
+      "aiOutcome": {
+        "mode": "duel",
+        "round": 10,
+        "clock": 55.03333333333149,
+        "winner": "opponent",
+        "units": [
+          {
+            "id": "player",
+            "team": 1,
+            "character": "lingyuan",
+            "hp": 0,
+            "maxHp": 1000,
+            "alive": false,
+            "life": 10,
+            "position": {
+              "x": 0,
+              "y": 0.6,
+              "z": 0
+            },
+            "radius": 0.36,
+            "hitFlash": 0,
+            "deadFor": 42.34999999999888,
+            "slow": 1
+          },
+          {
+            "id": "opponent",
+            "team": 2,
+            "character": "yueli",
+            "hp": 850,
+            "maxHp": 850,
+            "alive": true,
+            "life": 10,
+            "position": {
+              "x": 4.155,
+              "y": 0.85,
+              "z": 0
+            },
+            "radius": 0.36,
+            "hitFlash": 0,
+            "deadFor": 0,
+            "slow": 1
+          },
+          {
+            "id": "target-0",
+            "team": 0,
+            "character": "target",
+            "hp": 3000,
+            "maxHp": 3000,
+            "alive": true,
+            "life": 10,
+            "position": {
+              "x": 4.1,
+              "y": 0.6,
+              "z": 0
+            },
+            "radius": 0.45,
+            "hitFlash": 0,
+            "deadFor": 0,
+            "slow": 1
+          },
+          {
+            "id": "target-1",
+            "team": 0,
+            "character": "target",
+            "hp": 3000,
+            "maxHp": 3000,
+            "alive": true,
+            "life": 10,
+            "position": {
+              "x": -6,
+              "y": 0.6,
+              "z": 3
+            },
+            "radius": 0.45,
+            "hitFlash": 0,
+            "deadFor": 0,
+            "slow": 1
+          },
+          {
+            "id": "target-2",
+            "team": 0,
+            "character": "target",
+            "hp": 3000,
+            "maxHp": 3000,
+            "alive": true,
+            "life": 10,
+            "position": {
+              "x": 2,
+              "y": 0.6,
+              "z": -7
+            },
+            "radius": 0.45,
+            "hitFlash": 0,
+            "deadFor": 0,
+            "slow": 1
+          }
+        ],
+        "events": [
+          {
+            "round": 10,
+            "attack": "basic:11",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-basic",
+            "tick": 0,
+            "damage": 66,
+            "hp": 934,
+            "killed": false,
+            "time": 0.7500000000000007
+          },
+          {
+            "round": 10,
+            "attack": "basic:12",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-basic",
+            "tick": 0,
+            "damage": 66,
+            "hp": 868,
+            "killed": false,
+            "time": 1.5166666666666662
+          },
+          {
+            "round": 10,
+            "attack": "basic:13",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-basic",
+            "tick": 0,
+            "damage": 66,
+            "hp": 802,
+            "killed": false,
+            "time": 2.366666666666663
+          },
+          {
+            "round": 10,
+            "attack": "skill:7",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-1",
+            "tick": 0,
+            "damage": 115,
+            "hp": 687,
+            "killed": false,
+            "time": 4.24999999999999
+          },
+          {
+            "round": 10,
+            "attack": "basic:14",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-basic",
+            "tick": 0,
+            "damage": 66,
+            "hp": 621,
+            "killed": false,
+            "time": 4.983333333333321
+          },
+          {
+            "round": 10,
+            "attack": "basic:15",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-basic",
+            "tick": 0,
+            "damage": 66,
+            "hp": 555,
+            "killed": false,
+            "time": 5.833333333333318
+          },
+          {
+            "round": 10,
+            "attack": "basic:16",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-basic",
+            "tick": 0,
+            "damage": 66,
+            "hp": 489,
+            "killed": false,
+            "time": 6.683333333333315
+          },
+          {
+            "round": 10,
+            "attack": "basic:17",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-basic",
+            "tick": 0,
+            "damage": 66,
+            "hp": 423,
+            "killed": false,
+            "time": 7.533333333333312
+          },
+          {
+            "round": 10,
+            "attack": "basic:18",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-basic",
+            "tick": 0,
+            "damage": 66,
+            "hp": 357,
+            "killed": false,
+            "time": 8.38333333333333
+          },
+          {
+            "round": 10,
+            "attack": "skill:8",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-2",
+            "tick": 0,
+            "damage": 55,
+            "hp": 302,
+            "killed": false,
+            "time": 10.116666666666749
+          },
+          {
+            "round": 10,
+            "attack": "basic:19",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-basic",
+            "tick": 0,
+            "damage": 66,
+            "hp": 236,
+            "killed": false,
+            "time": 10.983333333333459
+          },
+          {
+            "round": 10,
+            "attack": "skill:8",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-2",
+            "tick": 1,
+            "damage": 55,
+            "hp": 181,
+            "killed": false,
+            "time": 11.133333333333466
+          },
+          {
+            "round": 10,
+            "attack": "basic:20",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-basic",
+            "tick": 0,
+            "damage": 66,
+            "hp": 115,
+            "killed": false,
+            "time": 11.833333333333501
+          },
+          {
+            "round": 10,
+            "attack": "skill:8",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-2",
+            "tick": 2,
+            "damage": 55,
+            "hp": 60,
+            "killed": false,
+            "time": 12.150000000000183
+          },
+          {
+            "round": 10,
+            "attack": "basic:21",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 10,
+            "kind": "yueli-basic",
+            "tick": 0,
+            "damage": 60,
+            "hp": 0,
+            "killed": true,
+            "time": 12.683333333333543
+          }
+        ],
+        "ledgerSize": 0
+      }
+    },
+    "yueli": {
+      "independentBones": true,
+      "cachedOpponentActors": 2,
+      "playerSkills": {
+        "1": {
+          "damage": 115,
+          "ticks": 1,
+          "events": [
+            {
+              "round": 13,
+              "attack": "skill:10",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 13,
+              "kind": "yueli-1",
+              "tick": 0,
+              "damage": 115,
+              "hp": 885,
+              "killed": false,
+              "time": 1.3666666666666667
+            }
+          ]
+        },
+        "2": {
+          "damage": 330,
+          "ticks": 6,
+          "events": [
+            {
+              "round": 15,
+              "attack": "skill:12",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 15,
+              "kind": "yueli-2",
+              "tick": 0,
+              "damage": 55,
+              "hp": 945,
+              "killed": false,
+              "time": 1.4666666666666663
+            },
+            {
+              "round": 15,
+              "attack": "skill:12",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 15,
+              "kind": "yueli-2",
+              "tick": 1,
+              "damage": 55,
+              "hp": 890,
+              "killed": false,
+              "time": 2.4833333333333294
+            },
+            {
+              "round": 15,
+              "attack": "skill:12",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 15,
+              "kind": "yueli-2",
+              "tick": 2,
+              "damage": 55,
+              "hp": 835,
+              "killed": false,
+              "time": 3.4999999999999925
+            },
+            {
+              "round": 15,
+              "attack": "skill:12",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 15,
+              "kind": "yueli-2",
+              "tick": 3,
+              "damage": 55,
+              "hp": 780,
+              "killed": false,
+              "time": 4.516666666666656
+            },
+            {
+              "round": 15,
+              "attack": "skill:12",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 15,
+              "kind": "yueli-2",
+              "tick": 4,
+              "damage": 55,
+              "hp": 725,
+              "killed": false,
+              "time": 5.533333333333319
+            },
+            {
+              "round": 15,
+              "attack": "skill:12",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 15,
+              "kind": "yueli-2",
+              "tick": 5,
+              "damage": 55,
+              "hp": 670,
+              "killed": false,
+              "time": 6.549999999999982
+            }
+          ]
+        },
+        "3": {
+          "damage": 600,
+          "ticks": 6,
+          "events": [
+            {
+              "round": 17,
+              "attack": "skill:14",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 17,
+              "kind": "yueli-3",
+              "tick": 0,
+              "damage": 100,
+              "hp": 900,
+              "killed": false,
+              "time": 3.816666666666658
+            },
+            {
+              "round": 17,
+              "attack": "skill:14",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 17,
+              "kind": "yueli-3",
+              "tick": 1,
+              "damage": 100,
+              "hp": 800,
+              "killed": false,
+              "time": 4.8333333333333215
+            },
+            {
+              "round": 17,
+              "attack": "skill:14",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 17,
+              "kind": "yueli-3",
+              "tick": 2,
+              "damage": 100,
+              "hp": 700,
+              "killed": false,
+              "time": 5.8499999999999845
+            },
+            {
+              "round": 17,
+              "attack": "skill:14",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 17,
+              "kind": "yueli-3",
+              "tick": 3,
+              "damage": 100,
+              "hp": 600,
+              "killed": false,
+              "time": 6.866666666666648
+            },
+            {
+              "round": 17,
+              "attack": "skill:14",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 17,
+              "kind": "yueli-3",
+              "tick": 4,
+              "damage": 100,
+              "hp": 500,
+              "killed": false,
+              "time": 7.883333333333311
+            },
+            {
+              "round": 17,
+              "attack": "skill:14",
+              "source": "player",
+              "target": "opponent",
+              "targetLife": 17,
+              "kind": "yueli-3",
+              "tick": 5,
+              "damage": 100,
+              "hp": 400,
+              "killed": false,
+              "time": 8.883333333333354
+            }
+          ]
+        }
+      },
+      "opponentSkills": {
+        "1": {
+          "damage": 135,
+          "ticks": 1
+        },
+        "2": {
+          "damage": 95,
+          "ticks": 1
+        },
+        "3": {
+          "damage": 260,
+          "ticks": 1
+        }
+      },
+      "playerVictoryAndPostDeathInputGate": true,
+      "aiChaseBasicSkillAndVictory": true,
+      "aiOutcome": {
+        "mode": "duel",
+        "round": 20,
+        "clock": 55.03333333333149,
+        "winner": "opponent",
+        "units": [
+          {
+            "id": "player",
+            "team": 1,
+            "character": "yueli",
+            "hp": 0,
+            "maxHp": 850,
+            "alive": false,
+            "life": 21,
+            "position": {
+              "x": -0.43125000000000036,
+              "y": 0.6,
+              "z": -2.421579847958142e-16
+            },
+            "radius": 0.36,
+            "hitFlash": 0,
+            "deadFor": 43.54999999999881,
+            "slow": 1
+          },
+          {
+            "id": "opponent",
+            "team": 2,
+            "character": "lingyuan",
+            "hp": 1000,
+            "maxHp": 1000,
+            "alive": true,
+            "life": 20,
+            "position": {
+              "x": 0.32874999999999965,
+              "y": 0.85,
+              "z": 5.177035146039693e-16
+            },
+            "radius": 0.36,
+            "hitFlash": 0,
+            "deadFor": 0,
+            "slow": 1
+          },
+          {
+            "id": "target-0",
+            "team": 0,
+            "character": "target",
+            "hp": 3000,
+            "maxHp": 3000,
+            "alive": true,
+            "life": 20,
+            "position": {
+              "x": 4.1,
+              "y": 0.6,
+              "z": 0
+            },
+            "radius": 0.45,
+            "hitFlash": 0,
+            "deadFor": 0,
+            "slow": 1
+          },
+          {
+            "id": "target-1",
+            "team": 0,
+            "character": "target",
+            "hp": 3000,
+            "maxHp": 3000,
+            "alive": true,
+            "life": 20,
+            "position": {
+              "x": -6,
+              "y": 0.6,
+              "z": 3
+            },
+            "radius": 0.45,
+            "hitFlash": 0,
+            "deadFor": 0,
+            "slow": 1
+          },
+          {
+            "id": "target-2",
+            "team": 0,
+            "character": "target",
+            "hp": 3000,
+            "maxHp": 3000,
+            "alive": true,
+            "life": 20,
+            "position": {
+              "x": 2,
+              "y": 0.6,
+              "z": -7
+            },
+            "radius": 0.45,
+            "hitFlash": 0,
+            "deadFor": 0,
+            "slow": 1
+          }
+        ],
+        "events": [
+          {
+            "round": 20,
+            "attack": "basic:40",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 21,
+            "kind": "lingyuan-basic",
+            "tick": 0,
+            "damage": 88,
+            "hp": 762,
+            "killed": false,
+            "time": 1.816666666666665
+          },
+          {
+            "round": 20,
+            "attack": "basic:41",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 21,
+            "kind": "lingyuan-basic",
+            "tick": 0,
+            "damage": 88,
+            "hp": 674,
+            "killed": false,
+            "time": 2.5166666666666626
+          },
+          {
+            "round": 20,
+            "attack": "skill:16",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 21,
+            "kind": "lingyuan-1",
+            "tick": 0,
+            "damage": 135,
+            "hp": 539,
+            "killed": false,
+            "time": 4.016666666666658
+          },
+          {
+            "round": 20,
+            "attack": "basic:42",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 21,
+            "kind": "lingyuan-basic",
+            "tick": 0,
+            "damage": 88,
+            "hp": 451,
+            "killed": false,
+            "time": 6.049999999999984
+          },
+          {
+            "round": 20,
+            "attack": "basic:43",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 21,
+            "kind": "lingyuan-basic",
+            "tick": 0,
+            "damage": 88,
+            "hp": 363,
+            "killed": false,
+            "time": 6.783333333333315
+          },
+          {
+            "round": 20,
+            "attack": "basic:44",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 21,
+            "kind": "lingyuan-basic",
+            "tick": 0,
+            "damage": 88,
+            "hp": 275,
+            "killed": false,
+            "time": 7.516666666666645
+          },
+          {
+            "round": 20,
+            "attack": "basic:45",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 21,
+            "kind": "lingyuan-basic",
+            "tick": 0,
+            "damage": 88,
+            "hp": 187,
+            "killed": false,
+            "time": 8.24999999999999
+          },
+          {
+            "round": 20,
+            "attack": "skill:17",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 21,
+            "kind": "lingyuan-2",
+            "tick": 0,
+            "damage": 95,
+            "hp": 92,
+            "killed": false,
+            "time": 9.500000000000052
+          },
+          {
+            "round": 20,
+            "attack": "basic:46",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 21,
+            "kind": "lingyuan-basic",
+            "tick": 0,
+            "damage": 88,
+            "hp": 4,
+            "killed": false,
+            "time": 10.750000000000114
+          },
+          {
+            "round": 20,
+            "attack": "basic:47",
+            "source": "opponent",
+            "target": "player",
+            "targetLife": 21,
+            "kind": "lingyuan-basic",
+            "tick": 0,
+            "damage": 4,
+            "hp": 0,
+            "killed": true,
+            "time": 11.483333333333483
+          }
+        ],
+        "ledgerSize": 0
+      }
+    }
+  },
+  "errors": []
+}

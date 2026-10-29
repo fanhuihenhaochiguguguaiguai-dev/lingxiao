@@ -1,0 +1,26 @@
+"""P3/P4: real two-character combat, all six skills in both ownership directions."""
+from pathlib import Path
+import json
+from browser_display import display,ARGS
+from playwright.sync_api import sync_playwright
+R=Path(__file__).resolve().parents[1];out=R/'verification/combat';out.mkdir(parents=True,exist_ok=True);results={}
+with display() as env,sync_playwright() as p:
+ b=p.chromium.launch(headless=False,args=ARGS,env=env,executable_path='/usr/bin/chromium');page=b.new_page(viewport={'width':1100,'height':700});page.set_default_timeout(180000);errors=[];page.on('pageerror',lambda e:errors.append(str(e)));page.goto('http://127.0.0.1:8765/skill/?renderer=webgl2');page.wait_for_function('window.__lingSkill?.ready&&window.__lingSkill.instanceAudio?.ready&&window.__lingSkill.instanceAudio?.basicReady');page.evaluate('window.__lingQA.freeze(true)');page.locator('#combat-mode').click();page.wait_for_function('window.__lingQA.inspect().combat.mode==="duel"');page.evaluate('window.__combatQA.ai(false)')
+ def state():return page.evaluate('window.__lingQA.inspect()')
+ def reset():page.locator('#combat-reset').click();page.evaluate('window.__combatQA.ai(false);window.__combatQA.position("opponent",2.4,0)')
+ def frame(name):
+  f=state()['frames'];page.wait_for_function('f=>window.__lingSkill.frames>f',arg=f);page.screenshot(path=str(out/(name+'.png')))
+ for character in ['lingyuan','yueli']:
+  if character=='yueli':
+   # Clone a character while its source is posed by an active ultimate.
+   page.locator('#cast3').click();page.evaluate('window.__lingQA.advance(1.2)');page.locator('#open-characters').click();page.locator('[data-character=yueli]').click();page.wait_for_function('window.__lingSkill.character==="yueli"&&!window.__lingSkill.characterLoading')
+  ids=page.evaluate('window.__combatQA.actorBoneIds()');oppo=state()['opponent'];assert oppo['visible'] and oppo['character']!=character and not set(ids)&set(oppo['bones']);row={'independentBones':True,'cachedOpponentActors':oppo['cachedActors'],'playerSkills':{},'opponentSkills':{}}
+  for slot in [1,2,3]:
+   reset();button=('#cast' if slot==1 else '#cast'+str(slot)) if character=='lingyuan' else '#cast-yueli'+('' if slot==1 else str(slot));page.locator(button).click();page.evaluate('window.__lingQA.advance(12.2)');s=state();events=[e for e in s['combat']['events'] if e['kind']==character+'-'+str(slot)];assert events and all(e['source']=='player' and e['target']=='opponent' for e in events), (character,slot,s['combat']);assert len({(e['attack'],e['target'],e['tick']) for e in events})==len(events);assert all(u['hp']==3000 for u in s['combat']['units'] if u['character']=='target');row['playerSkills'][str(slot)]={'damage':sum(e['damage'] for e in events),'ticks':len(events),'events':events}
+   reset();page.evaluate('s=>window.__combatQA.opponentCast(s)',slot);page.evaluate('window.__lingQA.advance(12.2)');s=state();events=[e for e in s['combat']['events'] if e['source']=='opponent'];assert events and all(e['target']=='player' for e in events),(character,slot,s['combat']);row['opponentSkills'][str(slot)]={'damage':sum(e['damage'] for e in events),'ticks':len(events)};print('PASS_SKILL_BOTH_SOURCES',character,slot,flush=True)
+  reset();page.evaluate('window.__lingQA.advance(1.8)');frame(character+'-duel-ready');count=10 if character=='lingyuan' else 16
+  page.evaluate('n=>{for(let i=0;i<n;i++){document.getElementById("basic-attack").click();window.__lingQA.advance(1.05)}}',count);win=state();assert win['combat']['winner']=='player',win['combat'];assert sum(e['killed'] for e in win['combat']['events'])==1;created=win['instances']['created'];page.evaluate('document.getElementById("basic-attack").click()');page.keyboard.press('1');page.evaluate('window.__lingQA.advance(.3)');assert state()['instances']['created']==created;frame(character+'-victory');row['playerVictoryAndPostDeathInputGate']=True
+  page.locator('#combat-reset').click();page.evaluate('window.__combatQA.ai(true)');start=state()['combat'];page.evaluate('window.__lingQA.advance(5)');early=state();assert early['opponent']['basicCount']>0 and early['opponent']['skillCount']>0 and next(u for u in early['combat']['units'] if u['id']=='player')['hp']<next(u for u in start['units'] if u['id']=='player')['hp'];assert early['opponent']['position'][0]<5.2;frame(character+'-ai-combat')
+  page.evaluate('window.__lingQA.advance(50)');lost=state();assert lost['combat']['winner']=='opponent' and not next(u for u in lost['combat']['units'] if u['id']=='player')['alive'],lost['combat'];assert sum(e['killed'] for e in lost['combat']['events'])==1;frame(character+'-defeat');row['aiChaseBasicSkillAndVictory']=True;row['aiOutcome']=lost['combat'];page.locator('#combat-reset').click();assert not state()['combat']['winner'] and all(u['hp']==u['maxHp'] for u in state()['combat']['units']);results[character]=row;print('PASS_DUEL',character,flush=True)
+ page.locator('#combat-mode').click();assert state()['combat']['mode']=='practice' and not state()['opponent']['visible'];assert not errors and not state()['errors'];b.close()
+(out/'duel.json').write_text(json.dumps({'scope':'actual Chromium WebGL2; staged synthetic input and clock, not phone/performance/art acceptance','results':results,'errors':errors},ensure_ascii=False,indent=2));print('PASS_P3_P4_DUEL_GATE',flush=True)

@@ -1,0 +1,48 @@
+{
+  "scope": "real Chromium WebGL2, synthetic input and simulated clock; not hardware latency or art acceptance",
+  "results": {
+    "lingyuan": {
+      "windupNoDamage": true,
+      "singleDamage": {
+        "round": 2,
+        "attack": "basic:1",
+        "source": "player",
+        "target": "target-0",
+        "targetLife": 2,
+        "kind": "lingyuan-basic",
+        "tick": 0,
+        "damage": 88,
+        "hp": 2912,
+        "killed": false,
+        "time": 0.31666666666666665
+      },
+      "rapidClicksRespectInterval": true,
+      "movingBasic": true,
+      "attacksToDestroy": 35,
+      "deathOnceAndNoOverkill": true,
+      "reset": true
+    },
+    "yueli": {
+      "windupNoDamage": true,
+      "singleDamage": {
+        "round": 5,
+        "attack": "basic:38",
+        "source": "player",
+        "target": "target-0",
+        "targetLife": 5,
+        "kind": "yueli-basic",
+        "tick": 0,
+        "damage": 66,
+        "hp": 2934,
+        "killed": false,
+        "time": 0.4666666666666666
+      },
+      "rapidClicksRespectInterval": true,
+      "movingBasic": true,
+      "attacksToDestroy": 46,
+      "deathOnceAndNoOverkill": true,
+      "reset": true
+    },
+    "errors": []
+  }
+}

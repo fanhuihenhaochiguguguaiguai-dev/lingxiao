@@ -1,0 +1,168 @@
+{
+  "baseline": "5324e33",
+  "preserved": [
+    {
+      "file": "dist/lingyuan-lod0.glb",
+      "unchanged": true,
+      "sha256": "9e3c09f5f111a11efae134a155c16ba1959c3e65e45c279b0f56851be5bb71ed"
+    },
+    {
+      "file": "dist/lingyuan-lod1.glb",
+      "unchanged": true,
+      "sha256": "6cfb5b02d87598f804657274d89909adff247306a2b6cb62533ed16744abc33f"
+    },
+    {
+      "file": "dist/lingyuan-lod2.glb",
+      "unchanged": true,
+      "sha256": "ff50b260f5e2222c357998fcff5e1ea5bc35631d999d4f47cbfecabfd71beb2a"
+    },
+    {
+      "file": "dist/yueli-study.glb",
+      "unchanged": true,
+      "sha256": "98bbd76b5e6d0b6003364b90e1e44c7cb6f6f5bb24fd723ceb66fd1c7a7aba0e"
+    },
+    {
+      "file": "dist/quality/lingyuan31-head.glb",
+      "unchanged": true,
+      "sha256": "56fd767e905f51290e0becb5df71b1f95be3ec8b76ec30e3a66dabcff37081b7"
+    },
+    {
+      "file": "dist/Lingyuan_working.blend",
+      "unchanged": true,
+      "sha256": "d40c594c0c915668a516230f508b1305f9dcf0225d96efbc8d358013e82c5030"
+    },
+    {
+      "file": "skill-src/src/dragon.ts",
+      "unchanged": true,
+      "sha256": "d12ecc3f5736f685291ff4c0f87f5216db74225ef6678818f455875d593be55b"
+    },
+    {
+      "file": "skill-src/src/slash-dragon.ts",
+      "unchanged": true,
+      "sha256": "88af239c34bded73e0751656b56b11e54661a60cc7b2d91fc4ff72ddc6444767"
+    },
+    {
+      "file": "skill-src/src/bind-star.ts",
+      "unchanged": true,
+      "sha256": "569aad9f2ff4c7a9fdf71aec855eb7088851d5a389764854daad94ff707c4956"
+    },
+    {
+      "file": "skill-src/src/star-vortex.ts",
+      "unchanged": true,
+      "sha256": "3af725ecd44c99cd75497671bcb9d064b0bbf7ec81b5ce5e67fe2856e05ddc76"
+    },
+    {
+      "file": "skill-src/src/moon-frost.ts",
+      "unchanged": true,
+      "sha256": "e5ca94dde8f61f70049506643362a46a08a6c69f13f5b0317d795fae0644167b"
+    },
+    {
+      "file": "skill-src/src/moon-tide.ts",
+      "unchanged": true,
+      "sha256": "23066214d2a9df0d01ed32e6a535a074395d4910f366cab5a5d5df48ff3c06f1"
+    },
+    {
+      "file": "skill-src/src/moonfall.ts",
+      "unchanged": true,
+      "sha256": "513666f13870dbb45b89666de25a7a5cf9b5c3c9db4f28af6a34eab121aa77b7"
+    },
+    {
+      "file": "skill-src/src/ice-dragon.ts",
+      "unchanged": true,
+      "sha256": "7515d961211564985be0c52a4312b05af1d4d43024164c73c0ee30d6fbce0533"
+    },
+    {
+      "file": "skill-src/src/crystal-geometry.ts",
+      "unchanged": true,
+      "sha256": "6831d7c4487b807d3a7e453b4acb672a1471c7a19035500859f12de26b330c00"
+    }
+  ],
+  "basicAudio": [
+    {
+      "file": "basic-lunar-hit-0.ogg",
+      "peak": 0.24107959866523743,
+      "rms": 0.03488210216164589,
+      "bytes": 12707,
+      "sha256": "3f742d64de36b97418c737cfde43523ac36e7aa127ea97cb9eab3490b11ee675"
+    },
+    {
+      "file": "basic-lunar-hit-1.ogg",
+      "peak": 0.33925747871398926,
+      "rms": 0.035746969282627106,
+      "bytes": 12191,
+      "sha256": "9327da9857e6d982e4cced743cb74cebfcd3ee77500b39aa055d561e4fb9bcfe"
+    },
+    {
+      "file": "basic-lunar-hit-2.ogg",
+      "peak": 0.25498998165130615,
+      "rms": 0.03681934252381325,
+      "bytes": 12376,
+      "sha256": "64011270c6a791d7b71e477b7e3e1812d9c7959b154478b7e577d49674430262"
+    },
+    {
+      "file": "basic-lunar-release-0.ogg",
+      "peak": 0.22264109551906586,
+      "rms": 0.03526827692985535,
+      "bytes": 10769,
+      "sha256": "60455f4418d59b0ead4e546bd9a32e33500d563fa28b9ffb0517431712caed65"
+    },
+    {
+      "file": "basic-lunar-release-1.ogg",
+      "peak": 0.20601031184196472,
+      "rms": 0.039960019290447235,
+      "bytes": 11216,
+      "sha256": "134db91e70b0a29041462f415198d013c406cc148ed0d8bf720060ca2a1ed22c"
+    },
+    {
+      "file": "basic-lunar-release-2.ogg",
+      "peak": 0.22242367267608643,
+      "rms": 0.036895256489515305,
+      "bytes": 10622,
+      "sha256": "af156e3530a1e2d106baa4c97a29bb72a5d374fba18e8ec8c90032c5915ff2de"
+    },
+    {
+      "file": "basic-spear-hit-0.ogg",
+      "peak": 0.5602247714996338,
+      "rms": 0.03806587681174278,
+      "bytes": 10073,
+      "sha256": "61f0a219f5405fdde089e0dc47a96dd38fa80cc4e88210c06171110524ab608e"
+    },
+    {
+      "file": "basic-spear-hit-1.ogg",
+      "peak": 0.5760661363601685,
+      "rms": 0.036782361567020416,
+      "bytes": 9980,
+      "sha256": "395fe7e9c113a07aeee357e3f67ddf2b375fab0a4187f1e4280d3271e02b1e5a"
+    },
+    {
+      "file": "basic-spear-hit-2.ogg",
+      "peak": 0.5382528305053711,
+      "rms": 0.036287806928157806,
+      "bytes": 9827,
+      "sha256": "46b46d4ca5c016c991b2462dc53379970e1ef48ef76c0795e4cd7317000379da"
+    },
+    {
+      "file": "basic-spear-release-0.ogg",
+      "peak": 0.5962434411048889,
+      "rms": 0.04629677161574364,
+      "bytes": 8804,
+      "sha256": "c93012e94015822ed57f2d108924123a361234bdef4e21057092fecbf08a5a1d"
+    },
+    {
+      "file": "basic-spear-release-1.ogg",
+      "peak": 0.5845550894737244,
+      "rms": 0.047417860478162766,
+      "bytes": 8160,
+      "sha256": "d39eaa62ff40efc54f36431409e91a2783eca442e25a549156672f66dfa7095c"
+    },
+    {
+      "file": "basic-spear-release-2.ogg",
+      "peak": 0.5726087093353271,
+      "rms": 0.0453399233520031,
+      "bytes": 8740,
+      "sha256": "bb7d960a18bed7fcc9ce128dfb9742d50ba90016c7106e271ca5ad7be139e0f3"
+    }
+  ],
+  "basicAudioBytes": 125465,
+  "scope": "resource identities and decoded levels; not professional listening or actual phone performance"
+}

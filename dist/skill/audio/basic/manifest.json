@@ -1,0 +1,127 @@
+{
+  "scope": "basic attacks; original lunar design and existing CC0 recordings, not commercial game audio",
+  "variants": 3,
+  "sampleRate": 48000,
+  "files": [
+    {
+      "file": "basic-spear-release-0.ogg",
+      "seconds": 0.32,
+      "peak": 0.6000000238418579,
+      "rms": 0.04818310588598251,
+      "sources": [
+        "dist/skill/audio/blade_01.ogg",
+        "dist/skill/audio/stones_03.ogg"
+      ]
+    },
+    {
+      "file": "basic-spear-release-1.ogg",
+      "seconds": 0.32,
+      "peak": 0.6000000238418579,
+      "rms": 0.048805151134729385,
+      "sources": [
+        "dist/skill/audio/blade_01.ogg",
+        "dist/skill/audio/stones_03.ogg"
+      ]
+    },
+    {
+      "file": "basic-spear-release-2.ogg",
+      "seconds": 0.32,
+      "peak": 0.6000000238418579,
+      "rms": 0.047296736389398575,
+      "sources": [
+        "dist/skill/audio/blade_01.ogg",
+        "dist/skill/audio/stones_03.ogg"
+      ]
+    },
+    {
+      "file": "basic-spear-hit-0.ogg",
+      "seconds": 0.44,
+      "peak": 0.6000000238418579,
+      "rms": 0.03965529426932335,
+      "sources": [
+        "dist/skill/audio/blade_03.ogg",
+        "dist/skill/audio/stones_03.ogg"
+      ]
+    },
+    {
+      "file": "basic-spear-hit-1.ogg",
+      "seconds": 0.44,
+      "peak": 0.6000000238418579,
+      "rms": 0.03848062828183174,
+      "sources": [
+        "dist/skill/audio/blade_03.ogg",
+        "dist/skill/audio/stones_03.ogg"
+      ]
+    },
+    {
+      "file": "basic-spear-hit-2.ogg",
+      "seconds": 0.44,
+      "peak": 0.6000000238418579,
+      "rms": 0.037884410470724106,
+      "sources": [
+        "dist/skill/audio/blade_03.ogg",
+        "dist/skill/audio/stones_03.ogg"
+      ]
+    },
+    {
+      "file": "basic-lunar-release-0.ogg",
+      "seconds": 0.42,
+      "peak": 0.22349031269550323,
+      "rms": 0.03580125421285629,
+      "sources": [
+        "dist/skill/audio/lunar/lunar1-crystal-0.ogg",
+        "dist/skill/audio/blade_01.ogg"
+      ]
+    },
+    {
+      "file": "basic-lunar-release-1.ogg",
+      "seconds": 0.42,
+      "peak": 0.23473916947841644,
+      "rms": 0.04048880189657211,
+      "sources": [
+        "dist/skill/audio/lunar/lunar1-crystal-1.ogg",
+        "dist/skill/audio/blade_01.ogg"
+      ]
+    },
+    {
+      "file": "basic-lunar-release-2.ogg",
+      "seconds": 0.42,
+      "peak": 0.24912896752357483,
+      "rms": 0.037326276302337646,
+      "sources": [
+        "dist/skill/audio/lunar/lunar1-crystal-2.ogg",
+        "dist/skill/audio/blade_01.ogg"
+      ]
+    },
+    {
+      "file": "basic-lunar-hit-0.ogg",
+      "seconds": 0.5,
+      "peak": 0.2506014406681061,
+      "rms": 0.03561440110206604,
+      "sources": [
+        "dist/skill/audio/lunar/lunar1-hit-0.ogg",
+        "dist/skill/audio/blade_01.ogg"
+      ]
+    },
+    {
+      "file": "basic-lunar-hit-1.ogg",
+      "seconds": 0.5,
+      "peak": 0.32359978556632996,
+      "rms": 0.036033954471349716,
+      "sources": [
+        "dist/skill/audio/lunar/lunar1-hit-1.ogg",
+        "dist/skill/audio/blade_01.ogg"
+      ]
+    },
+    {
+      "file": "basic-lunar-hit-2.ogg",
+      "seconds": 0.5,
+      "peak": 0.28111350536346436,
+      "rms": 0.03749435767531395,
+      "sources": [
+        "dist/skill/audio/lunar/lunar1-hit-2.ogg",
+        "dist/skill/audio/blade_01.ogg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "scope": "actual desktop software WebGPU/WebGL2; draw/allocation counts only, not phone FPS, heap/VRAM or long-term leak proof",
+  "cases": {
+    "before": {
+      "renderer": "WebGL2",
+      "software": true,
+      "drawCalls": 73,
+      "triangles": 72806,
+      "cameraPosition": [
+        5.664424186545339,
+        3.701291747750594,
+        5.6644241865453395
+      ],
+      "cameraTarget": [
+        0,
+        0.9499999999999998,
+        0
+      ],
+      "framing": null,
+      "errors": []
+    },
+    "practice": {
+      "renderer": "WebGL2",
+      "software": true,
+      "drawCalls": 78,
+      "triangles": 73526,
+      "cameraPosition": [
+        5.664424186545339,
+        3.701291747750594,
+        5.6644241865453395
+      ],
+      "cameraTarget": [
+        0,
+        0.9499999999999998,
+        0
+      ],
+      "framing": null,
+      "errors": []
+    },
+    "duel-webgl2": {
+      "renderer": "WebGL2",
+      "software": true,
+      "drawCalls": 174,
+      "triangles": 224478,
+      "cameraPosition": [
+        7.808946622336083,
+        4.310555319309765,
+        6.668364271168001
+      ],
+      "cameraTarget": [
+        1.1405823511680842,
+        1.0716355304567369,
+        0
+      ],
+      "framing": [
+        {
+          "id": "player",
+          "ndc": [
+            -0.11189259769656942,
+            0.011415404678146158,
+            0.9912989940097584
+          ]
+        },
+        {
+          "id": "opponent",
+          "ndc": [
+            0.5872091486719934,
+            -0.3671222995226378,
+            0.9869063808650619
+          ]
+        }
+      ],
+      "modeReuseWaves": [
+        {
+          "active": {
+            "memory": {
+              "geometries": 182,
+              "textures": 16
+            },
+            "drawCalls": 174,
+            "triangles": 224478
+          },
+          "practice": {
+            "memory": {
+              "geometries": 182,
+              "textures": 16
+            },
+            "drawCalls": 72,
+            "triangles": 72798
+          }
+        },
+        {
+          "active": {
+            "memory": {
+              "geometries": 182,
+              "textures": 16
+            },
+            "drawCalls": 174,
+            "triangles": 224478
+          },
+          "practice": {
+            "memory": {
+              "geometries": 182,
+              "textures": 16
+            },
+            "drawCalls": 72,
+            "triangles": 72798
+          }
+        },
+        {
+          "active": {
+            "memory": {
+              "geometries": 182,
+              "textures": 16
+            },
+            "drawCalls": 174,
+            "triangles": 224478
+          },
+          "practice": {
+            "memory": {
+              "geometries": 182,
+              "textures": 16
+            },
+            "drawCalls": 72,
+            "triangles": 72798
+          }
+        },
+        {
+          "active": {
+            "memory": {
+              "geometries": 182,
+              "textures": 16
+            },
+            "drawCalls": 174,
+            "triangles": 224478
+          },
+          "practice": {
+            "memory": {
+              "geometries": 182,
+              "textures": 16
+            },
+            "drawCalls": 72,
+            "triangles": 72798
+          }
+        }
+      ],
+      "spearSync": [
+        {
+          "requestedTime": 0.6,
+          "actualTime": 0.6000000000000002,
+          "distance": 0.0
+        },
+        {
+          "requestedTime": 1,
+          "actualTime": 1.016666666666668,
+          "distance": 0.0
+        },
+        {
+          "requestedTime": 1.3,
+          "actualTime": 1.3333333333333335,
+          "distance": 0.010478196155057825
+        }
+      ],
+      "pausedSeekUsesCurrentPoseAnchor": true,
+      "errors": []
+    },
+    "duel-webgpu": {
+      "renderer": "WebGPU",
+      "software": true,
+      "drawCalls": 174,
+      "triangles": 224478,
+      "cameraPosition": [
+        7.808946622336083,
+        4.310555319309765,
+        6.668364271168001
+      ],
+      "cameraTarget": [
+        1.1405823511680842,
+        1.0716355304567369,
+        0
+      ],
+      "framing": [
+        {
+          "id": "player",
+          "ndc": [
+            -0.11189259769656942,
+            0.011415404678146158,
+            0.9956494970048791
+          ]
+        },
+        {
+          "id": "opponent",
+          "ndc": [
+            0.5872091486719934,
+            -0.3671222995226378,
+            0.9934531904325309
+          ]
+        }
+      ],
+      "basicAndSkillSettleDamage": true,
+      "errors": []
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "duplicateDamageRejected": true,
+  "selfFriendlyUnknownRejected": true,
+  "staleRoundAndLifeRejected": true,
+  "deathOnceAndPostdeathInputBlocked": true,
+  "independentDotTicksAndSlowExpiry": true,
+  "expiredAttackCannotReplayAfterLedgerPrune": true
+}

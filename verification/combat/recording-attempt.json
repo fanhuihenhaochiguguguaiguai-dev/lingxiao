@@ -1,0 +1,4 @@
+{
+  "scope": "real live attempt, not simulated time",
+  "result": "Stationary bind-star field was left behind while player and AI continued moving; waiting for a hit timed out. This was a real miss, not forced into damage. Recorder changed to demonstrate an in-range basic attack. No collision or damage code changed for the recording."
+}

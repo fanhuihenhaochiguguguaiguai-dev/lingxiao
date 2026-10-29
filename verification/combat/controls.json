@@ -1,0 +1,21 @@
+{
+  "scope": "desktop Chromium simulated touch/visibility and injected asset failure; no true phone latency",
+  "checks": {
+    "twoFingerBasic": {
+      "oneWindupPerTouch": true,
+      "movementDistance": 0.7515799263331169
+    },
+    "cancelledWindupHasNoGhostDamage": true,
+    "skillToBufferedBasic": {
+      "windupAt": 2.033333333333331,
+      "oldSkillStillActive": true
+    },
+    "visibilityPauseAndAudioResume": true,
+    "partialBasicAudioRecovery": {
+      "damageContinues": true,
+      "otherVariantPlays": true,
+      "retryRecovers": true
+    }
+  },
+  "errors": []
+}
