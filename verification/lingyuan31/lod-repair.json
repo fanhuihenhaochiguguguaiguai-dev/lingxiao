@@ -1,0 +1,38 @@
+[
+  {
+    "lod": 0,
+    "removedSceneLinks": [
+      "Hair_Lod1",
+      "Hair_Lod2"
+    ],
+    "matchingHair": "Hair_Lod0",
+    "binaryDataIdentical": true,
+    "beforeSha256": "5400bd3f222baa1cac05adba10d23009a45c23228ad811746a2dd4dfc011dd05",
+    "afterSha256": "9e3c09f5f111a11efae134a155c16ba1959c3e65e45c279b0f56851be5bb71ed",
+    "unusedDefinitionsRetained": true
+  },
+  {
+    "lod": 1,
+    "removedSceneLinks": [
+      "Hair_Lod0",
+      "Hair_Lod2"
+    ],
+    "matchingHair": "Hair_Lod1",
+    "binaryDataIdentical": true,
+    "beforeSha256": "f65497ce21e5bbe6fc934af836fc529095606e63e6de4035916a48dcdc4f36e9",
+    "afterSha256": "6cfb5b02d87598f804657274d89909adff247306a2b6cb62533ed16744abc33f",
+    "unusedDefinitionsRetained": true
+  },
+  {
+    "lod": 2,
+    "removedSceneLinks": [
+      "Hair_Lod0",
+      "Hair_Lod1"
+    ],
+    "matchingHair": "Hair_Lod2",
+    "binaryDataIdentical": true,
+    "beforeSha256": "ac1828bf4ca4e0162cd271dcd70d6e62bb1ebd182f902862445b3fd924066813",
+    "afterSha256": "ff50b260f5e2222c357998fcff5e1ea5bc35631d999d4f47cbfecabfd71beb2a",
+    "unusedDefinitionsRetained": true
+  }
+]

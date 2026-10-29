@@ -3,7 +3,7 @@
   "lods": [
     {
       "lod": 0,
-      "triangles": 91994,
+      "triangles": 102970,
       "hair_vertices": 14352,
       "hair_primitives": 3,
       "animation_names": [
@@ -12,11 +12,14 @@
         "turn_right",
         "walk"
       ],
+      "activeHairNodes": [
+        "Hair_Lod0"
+      ],
       "validated": "PASS"
     },
     {
       "lod": 1,
-      "triangles": 56813,
+      "triangles": 67789,
       "hair_vertices": 6840,
       "hair_primitives": 3,
       "animation_names": [
@@ -25,11 +28,14 @@
         "turn_right",
         "walk"
       ],
+      "activeHairNodes": [
+        "Hair_Lod1"
+      ],
       "validated": "PASS"
     },
     {
       "lod": 2,
-      "triangles": 38949,
+      "triangles": 49925,
       "hair_vertices": 2310,
       "hair_primitives": 3,
       "animation_names": [
@@ -37,6 +43,9 @@
         "turn_left",
         "turn_right",
         "walk"
+      ],
+      "activeHairNodes": [
+        "Hair_Lod2"
       ],
       "validated": "PASS"
     }

@@ -1,0 +1,17 @@
+{
+  "sourceCageVertices": 4514,
+  "highBaseVertices": 71861,
+  "offlineMultiresLevels": 1,
+  "anatomicalDetailVertices": 6585,
+  "normalSize": [
+    2048,
+    2048
+  ],
+  "aoSize": [
+    1024,
+    1024
+  ],
+  "randomNoiseUsed": false,
+  "runtimeSubdivisionExported": false,
+  "artAccepted": false
+}

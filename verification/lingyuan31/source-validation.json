@@ -1,0 +1,18 @@
+{
+  "representativeCleanExport": {
+    "activeHair": [
+      "Hair_Lod1"
+    ],
+    "sha256": "dfb5696fd4f63dc3df0f51867ed9acdab1c3e35f2c1ce9a01e4e58f18a11d866",
+    "bytes": 7786316,
+    "scope": "fresh export from original Blender source with repaired exporter; not substituted for byte-preserving canonical fix"
+  },
+  "candidateSource": {
+    "file": "characters/lingyuan/Lingyuan_head_candidate.blend",
+    "sha256": "0687fbbd711026e3ee530e479d12fe3116e79c7ce1809af31c419eea9534fd8e",
+    "reopenedWith": "Blender 4.3.2",
+    "cageVertices": 4514,
+    "BlinkPreserved": true,
+    "offlineMultiresPresent": true
+  }
+}

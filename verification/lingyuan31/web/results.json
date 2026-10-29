@@ -1,0 +1,121 @@
+{
+  "scope": "same website, viewport, neutral pose, software renderers; not mobile or artistic acceptance",
+  "checks": {
+    "before": {
+      "renderer": "WebGL2",
+      "software": true,
+      "activeHairLODs": [
+        0,
+        1,
+        2
+      ],
+      "drawCalls": 59,
+      "triangles": 91094,
+      "cameraTarget": [
+        -0.0014924747935018273,
+        1.7626529587692472,
+        3.427813588530171e-15
+      ],
+      "bones": 60,
+      "errors": []
+    },
+    "repaired": {
+      "renderer": "WebGL2",
+      "software": true,
+      "activeHairLODs": [
+        1
+      ],
+      "drawCalls": 53,
+      "triangles": 60638,
+      "cameraTarget": [
+        -0.0014924747935018273,
+        1.7626529587692472,
+        3.427813588530171e-15
+      ],
+      "bones": 60,
+      "errors": []
+    },
+    "sample": {
+      "renderer": "WebGL2",
+      "software": true,
+      "activeHairLODs": [
+        1
+      ],
+      "drawCalls": 53,
+      "triangles": 60638,
+      "cameraTarget": [
+        -0.0013664780749749333,
+        1.762652958769247,
+        3.4278135885301704e-15
+      ],
+      "bones": 60,
+      "errors": [],
+      "closedBlinkMorphs": [
+        {
+          "name": "Lingyuan_head_-_MakeHuman_CC0_base",
+          "key": "Blink",
+          "weight": 1
+        },
+        {
+          "name": "lingyuan_upper_lash",
+          "key": "Blink",
+          "weight": 1
+        },
+        {
+          "name": "lingyuan_upper_lash001",
+          "key": "Blink",
+          "weight": 1
+        }
+      ],
+      "skillChecks": {
+        "1": {
+          "bursts": [
+            1,
+            3,
+            5,
+            10
+          ],
+          "runJumpCast": true,
+          "cleanup": true
+        },
+        "2": {
+          "bursts": [
+            1,
+            3,
+            5,
+            10
+          ],
+          "runJumpCast": true,
+          "cleanup": true
+        },
+        "3": {
+          "bursts": [
+            1,
+            3,
+            5,
+            10
+          ],
+          "runJumpCast": true,
+          "cleanup": true
+        }
+      },
+      "yueliSwitchAndCast": true
+    },
+    "sample-webgpu": {
+      "renderer": "WebGPU",
+      "software": true,
+      "activeHairLODs": [
+        1
+      ],
+      "drawCalls": 53,
+      "triangles": 60638,
+      "cameraTarget": [
+        -0.0013664780749749333,
+        1.762652958769247,
+        3.4278135885301704e-15
+      ],
+      "bones": 60,
+      "errors": []
+    }
+  }
+}

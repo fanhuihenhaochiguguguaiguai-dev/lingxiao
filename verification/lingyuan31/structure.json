@@ -1,0 +1,20 @@
+{
+  "source": "650edf1",
+  "references": [
+    "reference/1-1000069993.jpg",
+    "reference/detail/4-mmexport1793091788549.jpg"
+  ],
+  "baseVertexCount": 4514,
+  "existingKeys": [
+    "Basis",
+    "Chin narrower",
+    "Chin tapered",
+    "Cheeks refined",
+    "Blink"
+  ],
+  "mappedVertices": 3853,
+  "maxDisplacementMeters": 0.011376609361535278,
+  "eyeDiameterChanged": false,
+  "groom": [],
+  "artAccepted": false
+}

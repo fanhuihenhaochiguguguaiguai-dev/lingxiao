@@ -1,0 +1,67 @@
+{
+  "canonicalRepair": [
+    {
+      "lod": 0,
+      "activeHair": [
+        "Hair_Lod0"
+      ],
+      "binaryPayloadSkinsAnimationsUnchanged": true,
+      "sha256": "9e3c09f5f111a11efae134a155c16ba1959c3e65e45c279b0f56851be5bb71ed"
+    },
+    {
+      "lod": 1,
+      "activeHair": [
+        "Hair_Lod1"
+      ],
+      "binaryPayloadSkinsAnimationsUnchanged": true,
+      "sha256": "6cfb5b02d87598f804657274d89909adff247306a2b6cb62533ed16744abc33f"
+    },
+    {
+      "lod": 2,
+      "activeHair": [
+        "Hair_Lod2"
+      ],
+      "binaryPayloadSkinsAnimationsUnchanged": true,
+      "sha256": "ff50b260f5e2222c357998fcff5e1ea5bc35631d999d4f47cbfecabfd71beb2a"
+    }
+  ],
+  "sample": {
+    "sha256": "e49db92a2ccc0ceb1e76e8abc4e866811c7befe1415c8f39e667fa64810a861c",
+    "headTargetNames": [
+      "Chin narrower",
+      "Chin tapered",
+      "Cheeks refined",
+      "Blink"
+    ],
+    "headRuntimeVertices": 4711,
+    "offlineSourceExported": false,
+    "bakedImages": {
+      "normal": {
+        "size": [
+          2048,
+          2048
+        ],
+        "stddev": [
+          3.7505736474294826,
+          3.6394602267447533,
+          7.932441812623102
+        ],
+        "embedded": true
+      },
+      "ao": {
+        "size": [
+          1024,
+          1024
+        ],
+        "stddev": [
+          42.75263171787782,
+          42.75263171787782,
+          42.75263171787782
+        ],
+        "embedded": true
+      }
+    }
+  },
+  "artAccepted": false,
+  "realPhoneTested": false
+}

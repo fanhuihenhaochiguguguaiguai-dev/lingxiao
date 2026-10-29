@@ -14,5 +14,7 @@ def audit(file):
     w=struct.unpack_from('<4f',binary,offset+i*stride);weighted+=1
     if not all(math.isfinite(v) and v>=0 for v in w) or abs(sum(w)-1)>.001:errors.append('invalid weights '+mesh['name']);break
  return {'file':str(file.relative_to(R)),'skins':len(doc.get('skins',[])),'jointCount':max(len(s['joints']) for s in doc['skins']),'weightedVertices':weighted,'blinkMeshes':shapes,'errors':errors}
-results=[audit(R/'dist/lingyuan-lod1.glb'),audit(R/'dist/yueli-study.glb')];assert all(not r['errors'] for r in results),results
+results=[audit(R/'dist/lingyuan-lod1.glb'),audit(R/'dist/yueli-study.glb')];
+if os.environ.get('LUNAR_EXTRA_MODEL'):results.append(audit(R/os.environ['LUNAR_EXTRA_MODEL']))
+assert all(not r['errors'] for r in results),results
 (out/'assets.json').write_text(json.dumps({'results':results,'scope':'weights, hierarchy, blink presence only; not artistic/cloth acceptance'},ensure_ascii=False,indent=2));print(json.dumps(results,ensure_ascii=False))
